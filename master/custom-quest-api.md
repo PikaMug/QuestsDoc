@@ -10,7 +10,7 @@ Quests provides a simple API to create custom requirements, rewards, and objecti
 
 Building a Quests Requirement is very simple. To get started, create a Java class that extends the CustomRequirement class. After that, check out this example of a Custom Requirement where the player must have a particular name in order to take the Quest:
 
-```text
+```java
 package xyz.janedoe;
 
 import java.util.Map;
@@ -61,7 +61,7 @@ The data Map contains the data that the person who created the Quest gave to it.
 
 Building a Quests Reward is very simple. To get started, create a Java class that extends the CustomReward class. After that, check out this example of a Custom Reward where a player gets a GUI Inventory that pops up containing iron, gold and diamonds:
 
-```text
+```java
 package xyz.janedoe;
 
 import java.util.Map;
@@ -152,7 +152,7 @@ Inside giveReward\(\) is where you perform your logic to give the player whateve
 
 Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out this example of a Custom Objective where a player must gain a certain amount of experience to advance:
 
-```text
+```java
 package xyz.janedoe;
 
 import me.blackvein.quests.CustomObjective;
