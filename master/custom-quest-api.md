@@ -20,26 +20,26 @@ import me.blackvein.quests.CustomRequirement;
 public class NameRequirement extends CustomRequirement {
     // Construct the requirement
     public NameRequirement() {
-	this.setName("Name Requirement");
-	this.setAuthor("Jane Doe");
+  	    this.setName("Name Requirement");
+	      this.setAuthor("Jane Doe");
         this.addItem("NAME_TAG", 0); // Quests 4.0.0+ only
-	this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
-	this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
+	      this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
+	      this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
     }
     
     // Test whether a player has met the requirement
     @Override
     public boolean testRequirement(Player player, Map<String, Object> data) {
-	String caseSensitive = (String) data.get("Case-Sensitive");
+	      String caseSensitive = (String) data.get("Case-Sensitive");
 		
-	// Check whether the name must be case-sensitive
-	if (caseSensitive.equalsIgnoreCase("true")) {
-	    // Mark the requirement as satisfied if name matches
-	    return player.getName().contains((String)data.get("Name"));
-	} else {
-	    // Mark the requirement as satisfied if name matches, ignoring case
-	    return player.getName().toLowerCase().contains(((String)data.get("Name")).toLowerCase());
-	}
+	      // Check whether the name must be case-sensitive
+	      if (caseSensitive.equalsIgnoreCase("true")) {
+	          // Mark the requirement as satisfied if name matches
+	          return player.getName().contains((String)data.get("Name"));
+	      } else {
+	          // Mark the requirement as satisfied if name matches, ignoring case
+	          return player.getName().toLowerCase().contains(((String)data.get("Name")).toLowerCase());
+	      }
     }
 }
 ```
@@ -183,15 +183,15 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 
     // Catch the Bukkit event for a player gaining/losing exp
     @EventHandler
-    public void onPlayerExpChange(PlayerExpChangeEvent evt){
-    	// Make sure to evaluate for all of the player's current quests
-    	for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
-    	     // Check if the player gained exp, rather than lost
-    	     if (evt.getAmount() > 0) {
-    		// Add to the objective's progress, completing it if requirements were met
+    public void onPlayerExpChange(PlayerExpChangeEvent evt) {
+    	  // Make sure to evaluate for all of the player's current quests
+    	  for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
+    	      // Check if the player gained exp, rather than lost
+    	      if (evt.getAmount() > 0) {
+    		        // Add to the objective's progress, completing it if requirements were met
                 incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
             }
-    	}
+    	  }
     }
 }
 ```
