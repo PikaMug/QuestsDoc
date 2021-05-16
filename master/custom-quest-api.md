@@ -150,9 +150,13 @@ Inside giveReward\(\) is where you perform your logic to give the player whateve
 
 #### Objectives API
 
-Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out this example of a Custom Objective where a player must gain a certain amount of experience to advance:
+Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out these examples of a Custom Objective:
 
+{% tabs %}
+{% tab title="Example 1" %}
 ```java
+// Player must gain a certain amount of experience to advance
+
 package xyz.janedoe;
 
 import me.blackvein.quests.CustomObjective;
@@ -179,20 +183,117 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 
     // Catch the Bukkit event for a player gaining/losing exp
     @EventHandler
-    public void onPlayerExpChange(PlayerExpChangeEvent evt){
+    public void onPlayerExpChange(PlayerExpChangeEvent evt) {
+    	  // Make sure to evaluate for all of the player's current quests
+    	  for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
+    	      // Check if the player gained exp, rather than lost
+    	      if (evt.getAmount() > 0) {
+    		        // Add to the objective's progress, completing it if requirements were met
+                incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
+            }
+    	  }
+    }
+}
+```
+{% endtab %}
+
+{% tab title="Example 2" %}
+```java
+// Require the player to drop a certain number of a certain type of item.
+
+package xyz.janedoe;
+
+import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.Quest;
+import me.blackvein.quests.Quests;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.EntityType;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerDropItemEvent;
+import org.bukkit.inventory.ItemStack;
+
+public class DropItemObjective extends CustomObjective {
+    // Get the Quests plugin
+    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+
+    // Construct the objective
+    public DropItemObjective() {
+        this.setName("Drop Item Objective");
+        this.setAuthor("Jane Doe");
+        this.addItem("ANVIL", 0); // Quests 4.0.0+ only
+        this.setShowCount(true);
+        this.setCountPrompt("Enter the amount that the player must drop:");
+        this.setDisplay("Drop %Item Name%: %count%");
+        this.addStringPrompt("Item Name", "Enter the name of the item that the player must drop", "DIRT");
+    }
+
+    // Catch the Bukkit event for a player dropping an item
+    @EventHandler
+    public void onPlayerDropItem(PlayerDropItemEvent evt){
     	// Make sure to evaluate for all of the player's current quests
     	for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
-    	     // Check if the player gained exp, rather than lost
-    	     if (evt.getAmount() > 0) {
+    	    Map<String, Object> map = getDataForPlayer(evt.getPlayer(), this, quest);
+            ItemStack stack = evt.getItemDrop().getItemStack();
+            String userInput = (String) map.get("Item Name");
+            EntityType type = EntityType.fromName(userInput);
+            // Display error if user-specified item name is invalid
+            if (type == null) {
+            	Bukkit.getLogger().severe("Drop Item Objective has invalid item name: " + userInput);
+            	continue;
+            }
+            // Check if the item the player dropped is the one user specified
+            if (evt.getItemDrop().getItemStack().getType().equals(type)) {
     		// Add to the objective's progress, completing it if requirements were met
-                incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
+            	incrementObjective(evt.getPlayer(), this, stack.getAmount(), quest);
             }
     	}
     }
 }
 ```
+{% endtab %}
 
-Click for Example 2 - Require the player to drop a certain number of a certain type of item.Click for Example 3 - Allow player to break ANY block rather than a specific one.
+{% tab title="Example 3" %}
+```java
+// Allow player to break ANY block rather than a specific one
+
+package xyz.janedoe;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.block.BlockBreakEvent;
+
+import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.Quest;
+import me.blackvein.quests.Quests;
+
+public class AnyBreakBlockObjective extends CustomObjective {
+	private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
+	
+	public AnyBreakBlockObjective() {
+		setName("Break Blocks Objective");
+		setAuthor("Jane Doe");
+                this.addItem("DIRT", 0); // Quests 4.0.0+ only
+		setShowCount(true);
+		addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
+		setCountPrompt("Set the amount of blocks to break");
+		setDisplay("%Obj Name%: %count%");
+	}
+	
+	@EventHandler(priority = EventPriority.LOW)
+	public void onBlockBreak(BlockBreakEvent event) {
+		Player player = event.getPlayer();
+		for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
+			incrementObjective(player, this, 1, q);
+			return;
+		}
+	}
+}
+```
+{% endtab %}
+{% endtabs %}
 
 In the constructor of your class, you may use any of the following methods:
 
