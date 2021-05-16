@@ -42,7 +42,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ↳ [Download](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) \(requires Quests 3.6.0 or newer\)
 
-### Interactions
+### Interactions 💲
 
 ![Adds &quot;Start conversation&quot; and &quot;End conversation&quot; objectives.](../.gitbook/assets/976a91ee01f5c7d5c20de730115b3e93bf604244.png)
 
