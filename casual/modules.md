@@ -38,6 +38,14 @@ Adds "Finish dungeon", "Get reward item", "Get reward level", "Get reward money"
 
 * Quests 3.6.0 and above: [Click here](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/)
 
+### Interactions
+
+![](../.gitbook/assets/976a91ee01f5c7d5c20de730115b3e93bf604244.png)
+
+Adds "Start conversation" and "End conversation" objectives.
+
+* Quests 4.0.1 and above: [Click here](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
+
 ### Magic
 
 ![](https://camo.githubusercontent.com/d9ef4d8eb088489debd7f72e65cbf67f6a682f9c3d36e41a4b3a3747b635ab92/68747470733a2f2f692e696d6775722e636f6d2f453155344361522e706e67)
