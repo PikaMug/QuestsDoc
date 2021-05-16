@@ -45,12 +45,12 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 ![ Give experience rewards or require class.](https://camo.githubusercontent.com/a22173723e927d32f02f6a8d5f1ecb0ef4cd32c993700f34e6de00b64b5a3f4d/687474703a2f2f692e696d6775722e636f6d2f386a46634656592e706e67)
 
 {% tabs %}
-{% tab title="Minecraft 1.8 -  1.12" %}
-[Download](https://www.spigotmc.org/resources/heroes-legacy.305/) \(free\)
-{% endtab %}
-
 {% tab title="Minecraft 1.13 +" %}
 [Download](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94.24734/) \(premium\)
+{% endtab %}
+
+{% tab title="Minecraft 1.8 -  1.12" %}
+[Download](https://www.spigotmc.org/resources/heroes-legacy.305/) \(free\)
 {% endtab %}
 {% endtabs %}
 
@@ -75,12 +75,12 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 ![Loot chest rewards.](https://camo.githubusercontent.com/46d7f1ad0aa4beed0bbd5c2e36118a1fd357fbd033169239720959811b53db83/68747470733a2f2f692e696d6775722e636f6d2f794869504a46682e706e67)
 
 {% tabs %}
-{% tab title="Minecraft 1.7 - 1.12" %}
-[Download](http://codisimus.com/phatloots)
-{% endtab %}
-
 {% tab title="Minecraft 1.13+" %}
 [Download](https://www.spigotmc.org/resources/phatloots-loot-tables-conditions-block-loots-mob-drops-1-13-1-16.68925/)
+{% endtab %}
+
+{% tab title="Minecraft 1.7 - 1.12" %}
+[Download](http://codisimus.com/phatloots)
 {% endtab %}
 {% endtabs %}
 
