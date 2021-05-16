@@ -48,10 +48,10 @@ In the constructor of your class, you may use any of the following methods:
 
 | Method | Description |
 | :--- | :--- |
-| setName\(\) | Sets the name of the Custom Objective. |
-| setAuthor\(\) | Sets the author of the Custom Objective \(you!\). |
-| addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
-| addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Sets the name of the Custom Objective. |
+| setAuthor | Sets the author of the Custom Objective \(you!\). |
+| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
+| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside testRequirement\(\) is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
 
@@ -140,11 +140,11 @@ In the constructor of your class, you may use any of the following methods:
 
 | Method | Description |
 | :--- | :--- |
-| setName\(\) | Sets the name of the Custom Objective. |
-| setAuthor\(\) | Sets the author of the Custom Objective \(you!\). |
-| addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setRewardName\(\) | Sets the reward name \(text that will appear when the player completes the Quest\) of the Custom Reward. |
-| addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Sets the name of the Custom Objective. |
+| setAuthor | Sets the author of the Custom Objective \(you!\). |
+| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
+| setRewardName | Sets the reward name \(text that will appear when the player completes the Quest\) of the Custom Reward. |
+| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside giveReward\(\) is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
 
@@ -299,13 +299,13 @@ In the constructor of your class, you may use any of the following methods:
 
 | Method | Description |
 | :--- | :--- |
-| setName\(\) | Sets the name of the Custom Objective. |
-| setAuthor\(\) | Sets the author of the Custom Objective \(you!\). |
-| addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setShowCount\(\) | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with addStringPrompt\(\) unless disabled._ |
-| setCountPrompt\(\) | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number". |
-| setDisplay\(\) | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of setShowCount\(\), and addStringPrompt\(\) titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
-| addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Sets the name of the Custom Objective. |
+| setAuthor | Sets the author of the Custom Objective \(you!\). |
+| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
+| setShowCount | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with addStringPrompt\(\) unless disabled._ |
+| setCountPrompt | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number". |
+| setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of setShowCount\(\), and addStringPrompt\(\) titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
+| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use incrementObjective\(\) to advance the player. The first and the second argument of incrementObjective\(\) should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use incrementObjective\(\) - use an increment of 1 to signal that the objective has been completed.
 
