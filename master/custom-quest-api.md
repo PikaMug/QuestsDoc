@@ -53,7 +53,7 @@ In the constructor of your class, you may use any of the following methods:
 | addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
 | addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
-Inside testRequirement\(\) is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
+Inside \#testRequirement is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
 
 The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains the two values for 'Name' and 'Case-Sensitive'. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
 
@@ -146,7 +146,7 @@ In the constructor of your class, you may use any of the following methods:
 | setRewardName | Sets the reward name \(text that will appear when the player completes the Quest\) of the Custom Reward. |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
-Inside giveReward\(\) is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+Inside \#giveReward is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
 
 #### Objectives API
 
@@ -307,7 +307,7 @@ In the constructor of your class, you may use any of the following methods:
 | setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of setShowCount\(\), and addStringPrompt\(\) titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
-Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use incrementObjective\(\) to advance the player. The first and the second argument of incrementObjective\(\) should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use incrementObjective\(\) - use an increment of 1 to signal that the objective has been completed.
+Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use \#incrementObjective to advance the player. The first and the second argument of \#incrementObjective should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use \#incrementObjective - use an increment of 1 to signal that the objective has been completed.
 
 The `Map<String, Object>` contains the data that the quest editor provided. In this example, the data keys are the item names, whereas the values are the user's input for your prompt \(which _can_ be null\). Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
 
