@@ -150,7 +150,7 @@ Inside giveReward\(\) is where you perform your logic to give the player whateve
 
 #### Objectives API
 
-Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out this example of a Custom Objective where a player must gain a certain amount of experience to advance:
+Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out these examples of a Custom Objective:
 
 {% tabs %}
 {% tab title="Example 1" %}
