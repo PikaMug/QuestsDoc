@@ -302,9 +302,9 @@ In the constructor of your class, you may use any of the following methods:
 | setName | Sets the name of the Custom Objective. |
 | setAuthor | Sets the author of the Custom Objective \(you!\). |
 | addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setShowCount | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with addStringPrompt\(\) unless disabled._ |
+| setShowCount | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with \#addStringPrompt unless disabled._ |
 | setCountPrompt | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number". |
-| setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of setShowCount\(\), and addStringPrompt\(\) titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
+| setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of \#setShowCount, and \#addStringPrompt titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use \#incrementObjective to advance the player. The first and the second argument of \#incrementObjective should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use \#incrementObjective - use an increment of 1 to signal that the objective has been completed.
