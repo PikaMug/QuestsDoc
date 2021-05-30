@@ -41,7 +41,7 @@ Behold the magic of Quests! There are so many different objectives to choose fro
 Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants \(for example, a value of '3' would equate to Podzol rather than Dirt\).
 
 {% hint style="info" %}
-**Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature cannot be disabled.
+**Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../beginner/options.md).
 {% endhint %}
 
 Enter all the appropriate prompt numbers for 'Done' until you're back at the ask/finish message screen. You're nearly finished! Enter '13' and then '1' to save your quest! You should be greeted with this message:
