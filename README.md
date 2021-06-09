@@ -1,5 +1,7 @@
 # Casa
 
+\(Anuncio\) _**¡Obtén un 25% de descuento en QuestsGUI en**_ [_**Lectern**_](https://lectern.browsit.org/resources/)_**!**_
+
 **Quests** is the easy-to-use, open-source server plugin for immersing visitors in challenges made by you! Players can take on multiple quests simultaneously, completing them for stellar rewards and unlockables. From placing blocks on mountain tops to slaying a hundred Skeletons on Halloween, the combinations are only limited by your imagination!
 
 {% tabs %}
