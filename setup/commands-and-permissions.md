@@ -46,6 +46,7 @@ Administrator commands, which should only be granted to those you trust not to m
 | /questadmin remove \[player\] \[quest\] | quests.admin.remove | Remove a completed quest from a player |
 | /questadmin reload | quests.admin.reload | Safely reload the plugin |
 | N/A | quests.admin.drop | Ability to drop the Quests Journal |
+| N/A | quests.admin.trial | Limited access to editors, disabled by default |
 | /quests editor | quests.editor.editor | Ability to open Quests Editor |
 | N/A | quests.editor.create | Ability to create new quests |
 | N/A | quests.editor.edit | Ability to edit existing quests |
