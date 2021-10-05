@@ -4,6 +4,12 @@
 **Alert:** This information is intended for developers. Learn how to use Java first!
 {% endhint %}
 
+### Add to your project
+
+If you're using Maven or another project management tool, add the latest version of Quests using [Jitpack](https://jitpack.io/#PikaMug/Quests).
+
+### Learn the interface
+
 Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 3.6.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.Click here for legacy information
 
 #### Requirements API
