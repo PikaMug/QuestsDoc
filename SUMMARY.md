@@ -33,4 +33,5 @@
 
 * [Bukkit Event API](master/bukkit-event-api.md)
 * [Custom Quest API](master/custom-quest-api.md)
+* [Plugin Compilation](master/plugin-compilation.md)
 
