@@ -60,7 +60,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 ↳ [Téléchargement](https://www.spigotmc.org/resources/official-mcmmo-classic.2445/)
 
 {% hint style="info" %}
-**Note:** Pour mcMMO Overhaul premium, utilisez plutôt [ce module](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules#mcmmo-overhaul) instead.
+**Note:** Pour mcMMO Overhaul premium, utilisez plutôt [ce module](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules#mcmmo-overhaul).
 {% endhint %}
 
 ### Parties 🌟
