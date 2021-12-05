@@ -1,8 +1,8 @@
 # Rewards
 
-Once you've familiarized yourself with the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
+Une fois que vous vous êtes familiarisé avec l'[Éditeur de quêtes](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), vous vous posez peut-être des questions sur l'outil de selection "Modifier les récompenses". Ce sous-menu contient les prix/récompenses que votre joueur recevra à la fin de la quête :
 
 ![](https://camo.githubusercontent.com/9375c4c850ba785ef9437ea6fd43277fa87994f01f7af71cbc0280cc5a616b96/68747470733a2f2f692e696d6775722e636f6d2f78656e766358762e706e67)
 
-Note that the free mcMMO Classic is different than the paid mcMMO Overhaul, which is not natively supported. To use Quests with mcMMO Overhaul, you'll need [the module](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules#mcmmo-overhaul) which loads under custom rewards.
+Notez que _mcMMO Classic gratuit_ est différent du _mcMMO Overhaul payant_, dont ce dernier n'est pas pris en charge nativement. Pour utiliser les quêtes avec mcMMO Overhaul, vous aurez besoin de ce [module](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules#mcmmo-overhaul) qui se charge sous les récompenses personnalisées .
 
