@@ -1,79 +1,78 @@
-# Commands & Permissions
+# Commandes & Permissions
 
-The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding\_Permissions).
+Les 3 commandes principales sont: **/quests**, **/quest**, et **/questadmin**. Les deux premières sont utilisables par tous les joueurs par défaut, cependant la dernière est réservé pour les opérateurs du serveur. Pour changer ceci, comme donner la permission **/questadmin** aux administrateurs non-op,  vous devrez le configurer avec ces [permissions](https://bukkit.gamepedia.com/Understanding\_Permissions).
 
-### Player Commands
+### Commandes de joueurs
 
-Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](https://github.com/PikaMug/Quests/wiki/Translations), but permissions will remain the same.
+Vous trouverez ci-dessous un tableau décrivant chaque commande et son autorisation associée. Notez que les sous-commandes (list, take, quit, ...) peuvent êtres changées si vous [changez la langue du plugin](https://github.com/PikaMug/Quests/wiki/Translations), mais les permissions restent les mêmes.
 
-| Command               | Permission       | Description                    |
-| --------------------- | ---------------- | ------------------------------ |
-| /quests               | quests.quests    | Display plugin help            |
-| /quests list \[page]  | quests.list      | List available quests          |
-| /quests take \[quest] | quests.take      | Accept a quest via command     |
-| /quests quit \[quest] | quests.quit      | Quit a current quest           |
-| /quests stats         | quests.stats     | View quest statistics          |
-| /quests top \[number] | quests.top       | View plugin leaderboards       |
-| /quests info          | quests.info      | View plugin information        |
-| /quests journal       | quests.journal   | Toggle the Quest Journal       |
-| N/A                   | quests.compass   | Track quests using a Compass   |
-|                       |                  |                                |
-| /quest                | quests.quest     | View current quest objectives  |
-| /quest \[quest]       | quests.questinfo | View information about a quest |
-
-{% hint style="info" %}
-**Pro-tip:** By default, you can also use **/qs** and **/q** in place of **/quests** and **/quest**, respectively!
-{% endhint %}
-
-### Administrator Commands
-
-Administrator commands, which should only be granted to those you trust not to misuse them, are outlined below.
-
-| Command                                          | Permission               | Description                                    |
-| ------------------------------------------------ | ------------------------ | ---------------------------------------------- |
-| /questadmin                                      | quests.admin             | Display administrator help                     |
-| /questadmin stats \[player]                      | quests.admin.stats       | View quest statistics of a player              |
-| /questadmin give \[player] \[quest]              | quests.admin.give        | Force a player to take a quest                 |
-| /questadmin quit \[player] \[quest]              | quests.admin.quit        | Force a player to quit a quest                 |
-| /questadmin points \[player] \[amount]           | quests.admin.points      | Set a player's Quest Points                    |
-| /questadmin takepoints \[player] \[amount]       | quests.admin.takepoints  | Take away a player's Quest Points              |
-| /questadmin givepoints \[player] \[amount]       | quests.admin.givepoints  | Add to a player's Quest Points                 |
-| /questadmin pointsall \[player] \[amount]        | quests.admin.pointsall   | Set ALL players' Quest Points                  |
-| /questadmin finish \[player] \[quest]            | quests.admin.finish      | Force a player to complete a quest             |
-| /questadmin nextstage \[player] \[quest]         | quests.admin.nextstage   | Force a player to complete current stage       |
-| /questadmin setstage \[player] \[quest] \[stage] | quests.admin.setstage    | Set the current stage for a player             |
-| /questadmin reset \[player]                      | quests.admin.reset       | Clear all Quests data of a player              |
-| /questadmin remove \[player] \[quest]            | quests.admin.remove      | Remove a completed quest from a player         |
-| /questadmin reload                               | quests.admin.reload      | Safely reload the plugin                       |
-| N/A                                              | quests.admin.drop        | Ability to drop the Quests Journal             |
-| N/A                                              | quests.admin.update      | View plugin update notices                     |
-| N/A                                              | quests.mode.trial        | Limited access to editors, disabled by default |
-| /quests editor                                   | quests.editor.editor     | Ability to open Quests Editor                  |
-| N/A                                              | quests.editor.create     | Ability to create new quests                   |
-| N/A                                              | quests.editor.edit       | Ability to edit existing quests                |
-| N/A                                              | quests.editor.delete     | Ability to delete existing quests              |
-| /quests actions                                  | quests.actions.editor    | Ability to open Action Editor                  |
-| N/A                                              | quests.actions.create    | Ability to create new actions                  |
-| N/A                                              | quests.actions.edit      | Ability to edit existing actions               |
-| N/A                                              | quests.actions.delete    | Ability to delete existing actions             |
-| /quests conditions                               | quests.conditions.editor | Ability to open Condition Editor               |
-| N/A                                              | quests.conditions.create | Ability to create new conditions               |
-| N/A                                              | quests.conditions.edit   | Ability to edit existing conditions            |
-| N/A                                              | quests.conditions.delete | Ability to delete existing conditions          |
+| Commandes             | Permissions      | Description                            |
+| --------------------- | ---------------- | -------------------------------------- |
+| /quests               | quests.quests    | Affiche l'aide du plugin               |
+| /quests list \[page]  | quests.list      | Liste des quêtes disponibles           |
+| /quests take \[quest] | quests.take      | Prendre une quête avec les commandes   |
+| /quests quit \[quest] | quests.quit      | Quitter une quête active               |
+| /quests stats         | quests.stats     | Voir les statistiques des quêtes       |
+| /quests top \[nombre] | quests.top       | Voir le classement                     |
+| /quests info          | quests.info      | Voir les informations du plugin        |
+| /quests journal       | quests.journal   | Obtenir/retirer le journal de quête    |
+| N/A                   | quests.compass   | Chercher les quêtes avec une boussole  |
+|                       |                  |                                        |
+| /quest                | quests.quest     | Voir les objectifs des quêtes actives  |
+| /quest \[quest]       | quests.questinfo | Voir les information sur une quête     |
 
 {% hint style="info" %}
-**Pro-tip:** Use _quests.admin.\*_, _quests.editor.\*_, _quests.actions.\*_ and _quests.conditions.\*_ to encompass all admin and editor permissions, respectively! By default, you can also use **/qa** instead of **/questadmin**!
+**Astuce de pro:** Par défault, vous pouvez aussi utiliser **/qs** et **/q** au lieu de **/quests** et **/quest**, respectivement!
 {% endhint %}
 
-### Legacy Commands
+### Commandes administrateurs
 
-The following commands have either been removed from or altered within Quests:
+Les commandes d'administrateurs, qui doivent être accordées qu'à ceux en qui vous avez confiance, et pour ne pas qu'ils en abusent, sont décrites ci-dessous.
 
-| Command                         | Permission             | Description                                                    |
-| ------------------------------- | ---------------------- | -------------------------------------------------------------- |
-| /questadmin togglegui \[npc id] | quests.admin.togglegui | Toggle GUI Quest Display on an NPC _(Removed in Quests 3.8.0)_ |
+| Commandes                                        | Permissions              | Description                                         |
+| ------------------------------------------------ | ------------------------ | --------------------------------------------------- |
+| /questadmin                                      | quests.admin             | Affiche l'aide administrateur                       |
+| /questadmin stats \[joueur]                      | quests.admin.stats       | Affiche les stats d'un joueur                       |
+| /questadmin give \[joueur] \[quête]              | quests.admin.give        | Force un joueur à prendre une quête (ignore les prérequis)                 |
+| /questadmin quit \[joueur] \[quête]              | quests.admin.quit        | Force un joueur à quitter une quête                 |
+| /questadmin points \[joueur] \[quête]            | quests.admin.points      | Définis un nombre de point de quête à un joueur     |
+| /questadmin takepoints \[joueur] \[quantité]     | quests.admin.takepoints  | Retire des points de quête d'un joueur              |
+| /questadmin givepoints \[joueur] \[quantité]     | quests.admin.givepoints  | Ajoute des points de quête à un joueur              |
+| /questadmin pointsall \[joueur] \[quantité]      | quests.admin.pointsall   | Définis un nombre de point de quête à tous les joueurs              |
+| /questadmin finish \[joueur] \[quête]            | quests.admin.finish      | Force un joueur à terminer une quête (ignore les objectifs)             |
+| /questadmin nextstage \[joueur] \[quête]         | quests.admin.nextstage   | Force un joueur à terminer l'étape actuelle          |
+| /questadmin setstage \[joueur] \[quête] \[étape] | quests.admin.setstage    | Impose une étape pour un joueur                      |
+| /questadmin reset \[joueur]                      | quests.admin.reset       | Supprime tout les données de quête d'un joueur       |
+| /questadmin remove \[joueur] \[quête]            | quests.admin.remove      | Supprime une quête terminé d'un joueur               |
+| /questadmin reload                               | quests.admin.reload      | Recharge sans risque le plugin                       |
+| N/A                                              | quests.admin.drop        | Donne la possibilité de drop son journal de quête    |
+| N/A                                              | quests.admin.update      | Voir les information de mise à jour du plugin                    |
+| N/A                                              | quests.mode.trial        | Accès limitée aux éditeurs, désactivé par défaut      |
+| /quests editor                                   | quests.editor.editor     | Permission d'ouvrir l'éditeur de quête               |
+| N/A                                              | quests.editor.create     | Permission de crée de nouvelles quêtes               |
+| N/A                                              | quests.editor.edit       | Permission d'éditer les quêtes éxistantes            |
+| N/A                                              | quests.editor.delete     | Permission de supprimer des quêtes                   |
+| /quests actions                                  | quests.actions.editor    | Permission d'ouvrir l'éditeur d'actions              |
+| N/A                                              | quests.actions.create    | Permission de crée de nouvelles actions              |
+| N/A                                              | quests.actions.edit      | Permission d'éditer les actions existantes           |
+| N/A                                              | quests.actions.delete    | Permission de supprimer des actions                  |
+| /quests conditions                               | quests.conditions.editor | Permission d'ouvrir l'éditeur de conditions          |
+| N/A                                              | quests.conditions.create | Permission de crée de nouvelles conditions           |
+| N/A                                              | quests.conditions.edit   | Permission d'éditer les conditions existantes            |
+| N/A                                              | quests.conditions.delete | Permission de supprimer des conditions               |
 
-### Legacy Permissions
+{% hint style="info" %}
+**Astuce de pro:** Pour englober respectivement toutes les autorisations d'administrateur et d'éditeur vous pouvez utiliser _quests.admin.\*_, _quests.editor.\*_, _quests.actions.\*_ et _quests.conditions.\*_ ! Par défaut, vous pouvez utilisé **/qa** en remplacement de **/questadmin**!
+{% endhint %}
 
-Those using Quests 3.4.7 or older must instead use the "Old" permissions for the Events Editor, [as shown here](https://pastebin.com/tcYBebK5). Anyone using Quests 3.4.8 to 3.6.9 should use the "New" permission from that same link.
+### Anciennes Commandes
 
+Les commandes suivantes ont été retirée ou modifié pour Quests
+
+| Commandes                          | Permission             | Description                                                    |
+| ---------------------------------- | ---------------------- | -------------------------------------------------------------- |
+| /questadmin togglegui \[Id du npc] | quests.admin.togglegui | Ouvrir l'interface graphique (GUI) d'un pnj _(Retiré pour Quests 3.8.0 et ultérieur)_ |
+
+### Anciennes Permissions
+
+Si vous utilisez Quests 3.4.7 ou inférieur, vous devrez utiliser les anciennes permissions pour l'éditeur d'évenements [disponible ici](https://pastebin.com/tcYBebK5). Pour les versions 3.4.8 à 3.6.9 utilisez les "nouvelles" permissions du lien fournis ci dessus.

@@ -1,66 +1,68 @@
 # Configuration
 
-When Quests is first run, configuration files will be created in the /plugins/Quests directory. If this is your first time using Quests, just make sure the settings in **config.yml** are to your liking. Don't worry about any of the other files or folders for the time being.
+Lors de la première éxecution de Quests, les fichiers de configuration sont automatiquement crées et sont localisé à l'adresse suivante /plugins/Quests. Si vous utilisez Quests pour la première fois, assurez-vous que les paramètres du fichier **config.yml** correspondent à vos attentes. Concernant les autres fichiers, ne vous en occupez pas tout de suite.
 
 {% hint style="info" %}
-**Pro-tip:** Opening a .yml file that contains non-English characters on an English computer may not display those characters correctly. In the case of Windows, this is because Windows in English uses the ANSI character set, while the preferred format is UTF-8. Unfortunately, Windows makes this difficult to change, so we recommend an editing program that supports UTF-8. [Notepad++](https://notepad-plus-plus.org/) is a free and popular choice.
+**Conseil de pro:** Ouvrir un fichier .yml contenant des caractères non anglais sur un ordinateur anglais peut ne pas les affichés correctement. Pour le cas de windows, cela se produit car la langue anglaise utilise un jeu de caractère ANSI, tandis que le format préféré est UTF-8. Cela est difficile à modifier sur Windows, c'est pourquoi il est recommandé d'utiliser un programme qui supporte le format UTF-8, comme [Notepad++](https://notepad-plus-plus.org/) qui est très populaire et gratuit.
 {% endhint %}
 
 ### config.yml
 
-This file contains all settings relating to how Quests should perform once loaded. As such, changes made to this file must be configured and saved _before_ the server is started.
+Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes une fois qu'elle sont chargées. C'est pour cela qu'il doit être configuré _avant_ le démarrage du serveur.
 
-> [Click here to view the default config.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/config.yml)
+> [Ciquez ici pour voir la version par défaut config.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/config.yml)
 
-| Key | Data Type | Description |
+| Clé | Type de données | Description |
 | :--- | :--- | :--- |
-| accept-timeout | number | How long \(in seconds\) a player should be able to accept/deny a quest before the prompt cancels automatically. |
-| allow-command-questing | true/false | Whether or not players are allowed to accept and manage quests via command \(e.g. /quests take SomeQuest\). |
-| allow-command-quests-with-npcs | true/false | Whether players can accept/manage NPC quests via command \(e.g. /quests take SomeQuest\). |
-| allow-pranks | true/false | Whether or not to permit clicking Portals with the Quests Journal. |
-| allow-quitting | true/false | Whether or not to permit quitting of taken quests |
-| ask-confirmation | true/false | Whether or not players must type Yes/No to accept/deny a quest. |
-| console-logging | number | 0 = disabled, 1 = track editing, 2 = and start/quit quests, 3 = and rewards, 4 = and debug information. |
-| disable-command-feedback | true/false | Whether or not to disable Minecraft's sendCommandFeedback gamerule at startup. |
-| generate-files-on-join | true/false | Either generate a player data file when that player first joins the server or only when they first use Quests. |
-| ignore-locked-quests | true/false | Ignore locked quests when checking if a player has a quest. |
-| kill-delay | number | How long \(in seconds\) a player should have to wait after they kill a player for a quest before they can kill that player again. |
-| language | string | Which file from the /lang/ folder will be used. For example, a value of "FR-fr" will result in "/lang/FR-fr/strings.yml" being loaded. |
-| max-quests | number | Maximum number of quests a given player can have at any time. |
-| npc-effects.enabled | true/false | Whether to enable particle effects. Note that the client must have particles enabled. |
-| npc-effects.new-quest | string | The particle effect to be played for a new quest \(ex. note, enchant, crit, spell, portal\). |
-| npc-effects.redo-quest | string | The particle effect to be played for a repeatable quest \(ex. note, enchant, crit, spell, portal\). |
-| show-requirements | true/false | Allow players to see requirements in /quest \[quest\] |
-| show-titles | true/false | Display titles to players when accepting/completing quests. |
-| strict-player-movement | number | Seconds between advanced player movement tracking. |
-| storage-data.address | string | The IP address for optional storage |
-| storage-data.database | string | The table name for optional storage |
-| storage-data.username | string | The login username for optional storage |
-| storage-data.password | string | The login password for optional storage |
-| storage-data.pool-settings.max-pool-size | number | Advanced HikariCP setting |
-| storage-data.pool-settings.min-idle | number | Advanced HikariCP setting |
-| storage-data.pool-settings.max-lifetime | number | Advanced HikariCP setting |
-| storage-data.pool-settings.connection-timeout | number | Advanced HikariCP setting |
-| storage-method.player-data | string | yaml = file storage, mysql = remote storage, custom = developer storage |
-| top-limit | number | Maximum number of quests that can be displayed by /quests top \[number\] |
-| translate-names | true/false | Translate item name to client's game language. |
-| translate-subcommands | true/false | Translate subcommands to server's plugin language. |
+| accept-timeout | Nombre | Combien \(en secondes\) de temps un joueur peut accepter ou refuser une quête avant que la console annule automatiquent |
+| allow-command-questing | true/false | Permettre ou non aux joueurs d'accepter ou gérer une quête avec les commandes\(e.g. /quests take SomeQuest\). |
+| allow-command-quests-with-npcs | true/false | Permettre ou non aux joueurs d'accepter les quête par les PNJ \(e.g. /quests take SomeQuest\). |
+| allow-pranks | true/false | Permettre ou non de cliquez sur un portail avec le journal de quête |
+| allow-quitting | true/false | Permettre ou non de quitter les quêtes acceptés |
+| ask-confirmation | true/false | Si les joueurs doivent ou non taper Oui/Non pour accepter/refuser une quête. |
+| console-logging | Nombre | 0 = désactivé, 1 = édition de l'histoire, 2 = et démarrage/arêt des quêtes, 3 = et récompense, 4 = et les informations de débuggage. |
+| disable-command-feedback | true/false | Désactiver ou non la règle de jeu sendCommandFeedback de Minecraft au démarrage. |
+| generate-files-on-join | true/false | Défnir quand générer un fichier de données de joueur, soit lorsque ce joueur rejoint le serveur pour la première fois ou uniquement lorsqu'il utilise les quêtes pour la première fois. |
+| ignore-locked-quests | true/false | Ignorer les quêtes verrouillées lors de la vérification si un joueur a une quête. |
+| kill-delay | number | Combien \(en secondes\) de temps un joueur doit attendre après avoir tué un joueur pour une quête avant de pouvoir tuer à nouveau ce joueur. |
+| language | string | Quel fichier du dossier /lang/ sera utilisé. Par exemple, une valeur de "FR-fr" entraînera le chargement de "/lang/FR-fr/strings.yml". |
+| max-quests | nombre | Nombre maximum de quête que le joueur peut avoir en même temps. |
+| npc-effects.enabled | true/false |Activer ou non les effets de particules. Notez que le client (joueur) doit avoir des particules activées. |
+| npc-effects.new-quest | string | L'effet de particule à jouer pour une nouvelle quête \(ex. note, enchantement, critique, sort,...\). |
+| npc-effects.redo-quest | string | L'effet de particule à jouer pour une quête répétable \(ex. note, enchantement, critique, sort,...\). |
+| show-requirements | true/false | Permettre aux joueurs de voir les exigences dans /quest \[quête\] |
+| show-titles | true/false | Afficher les titres aux joueurs lors de l'acceptation/l'achèvement des quêtes. |
+| strict-player-movement | nombre | Secondes entre le suivi avancé des mouvements des joueurs. |
+| storage-data.address | string | L'adresse IP pour le stockage facultatif |
+| storage-data.database | string | Le nom de la table pour le stockage facultatif |
+| storage-data.username | string | Le mot de passe de connexion pour le stockage facultatif |
+| storage-data.password | string | Le mot de passe de connexion pour le stockage facultatif |
+| storage-data.pool-settings.max-pool-size | nombre | Paramètre HikariCP avancé |
+| storage-data.pool-settings.min-idle | nombre | Paramètre HikariCP avancé |
+| storage-data.pool-settings.max-lifetime | nombre | Paramètre HikariCP avancé |
+| storage-data.pool-settings.connection-timeout | nombre | Paramètre HikariCP avancé |
+| storage-method.player-data | string | yaml = stockage de fichiers, mysql = stockage à distance, custom = stockage développeur|
+| top-limit | nombre | Nombre maximum de quêtes pouvant être affichées par /quests top \[nombre\] |
+| translate-names | true/false | Traduisez le nom de l'élément dans la langue du jeu du client. |
+| translate-subcommands | true/false | Traduire les sous-commandes dans la langue du plugin du serveur. |
 
-### actions.yml
+### Actions.yml
 
-This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a Quest. This is best accomplished with the _/quests actions_ command.
+Ce fichier contient des actions personnalisées qui exécutent certaines tâches et effets. À l'exception des exemples inclus, les actions sont créées avant d'être utilisées dans une quête. Ceci est mieux accompli avec la commande _/quests actions_.
 
-> [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/actions.yml)
+> [Cliquez ici pour voir le fichier par défaut actions.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/actions.yml)
 
-### conditions.yml
+### Conditions.yml
 
-This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a Quest. This is best accomplished with the _/quests conditions_ command.
+Ce fichier contient des conditions personnalisées qui sont vérifiées pendant le jeu. À l'exception des exemples inclus, les conditions sont créées avant l'utilisation dans une quête. Ceci est mieux accompli avec la commande _/quests conditions_.
 
-> [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/conditions.yml)
+> [Cliquez ici pour voir le fichier par défaut conditions.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/conditions.yml)
 
 ### quests.yml
 
-This file consists of every single quest available. Although this file can be edited manually, it is recommended to use the _/quests editor_ command. Regardless, changes will not appear on the server until a _/questadmin reload_ is input.
+Ce fichier comprend toutes les quêtes disponibles. Bien que ce fichier puisse être édité manuellement, il est recommandé d'utiliser la commande _/quests editor_. Quoi qu'il en soit, les modifications n'apparaîtront pas sur le serveur tant qu'un _/questadmin reload_ n'aura pas été effectué.
 
-> [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/quests.yml)
+> [Cliquez ici pour voir le fichier par défaut quests.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/quests.yml)
+
+
 

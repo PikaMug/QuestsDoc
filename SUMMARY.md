@@ -1,36 +1,36 @@
-# Table of contents
+# Table des matières
 
-* [Domicile](README.md)
+* [Acceuil](README.md)
 
-## Setup
+## Configuration
 
-* [Commands & Permissions](setup/commands-and-permissions.md)
+* [Commandes & Permissions](setup/commands-and-permissions.md)
 * [Configuration](setup/configuration.md)
-* [Quests Editor](setup/quests-editor.md)
+* [Editeur de quête](setup/quests-editor.md)
 
-## Beginner
+## Débutant
 
-* [Dependencies](beginner/dependencies.md)
+* [Dépendances](beginner/dependencies.md)
 * [Options](beginner/options.md)
-* [Planner](beginner/planner.md)
-* [Requirements](beginner/requirements.md)
-* [Rewards](beginner/rewards.md)
+* [Planificateur](beginner/planner.md)
+* [Prérequis](beginner/requirements.md)
+* [Récompenses](beginner/rewards.md)
 
-## Casual
+## Intermédiaire
 
-* [Action Editor](casual/action-editor.md)
-* [Bridge Plugins](casual/bridge-plugins.md)
+* [Editeur d'actions](casual/action-editor.md)
+* [Plugins de liaisons](casual/bridge-plugins.md)
 * [Modules](casual/modules.md)
-* [Translations](casual/translations.md)
+* [Traductions](casual/translations.md)
 
 ## Expert
 
-* [Condition Editor](expert/condition-editor.md)
-* [Storage](expert/storage.md)
-* [Doc Contributions](expert/doc-contributions.md)
+* [Editeur de conditions](expert/condition-editor.md)
+* [Stockage](expert/storage.md)
+* [contributions](expert/doc-contributions.md)
 
-## Master
+## Maître
 
-* [Bukkit Event API](master-1/bukkit-event-api.md)
-* [Custom Quest API](master-1/custom-quest-api.md)
-* [Plugin Compilation](master-1/plugin-compilation.md)
+* [Evenements Bukkit API](master-1/bukkit-event-api.md)
+* [Quêtes customisées API](master-1/custom-quest-api.md)
+* [Compilation du plugin](master-1/plugin-compilation.md)
