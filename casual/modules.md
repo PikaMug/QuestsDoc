@@ -70,7 +70,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds &quot;Skill&quot; reward and requirement.](https://camo.githubusercontent.com/8f19026fc09827670ad5f270b6865286c135f18de8400bd3de55402fd49a165f/68747470733a2f2f692e696d6775722e636f6d2f655575427247522e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/mcmmo-overhaul-quests-module.69548/) \(requires Quests 2.1.0 or newer\)
+↳ [Download](https://www.spigotmc.org/resources/mcmmo-overhaul-quests-module.92962/) \(requires Quests 4.0.0 or newer\)
 
 {% hint style="info" %}
 **Note:** For the older mcMMO Classic, use [this dependency](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#mcmmo-classic) instead.

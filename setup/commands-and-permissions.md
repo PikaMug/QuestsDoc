@@ -73,6 +73,6 @@ Les commandes suivantes ont été retirée ou modifié pour Quests
 | ---------------------------------- | ---------------------- | -------------------------------------------------------------- |
 | /questadmin togglegui \[Id du npc] | quests.admin.togglegui | Ouvrir l'interface graphique (GUI) d'un pnj _(Retiré pour Quests 3.8.0 et ultérieur)_ |
 
-### Anciennes commande
+### Anciennes Permissions
 
 Si vous utilisez Quests 3.4.7 ou inférieur, vous devrez utiliser les anciennes permissions pour l'éditeur d'évenements [disponible ici](https://pastebin.com/tcYBebK5). Pour les versions 3.4.8 à 3.6.9 utilisez les "nouvelles" permissions du lien fournis ci dessus.

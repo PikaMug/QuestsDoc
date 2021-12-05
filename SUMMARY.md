@@ -34,4 +34,3 @@
 * [Evenements Bukkit API](master-1/bukkit-event-api.md)
 * [Quêtes customisées API](master-1/custom-quest-api.md)
 * [Compilation du plugin](master-1/plugin-compilation.md)
-
