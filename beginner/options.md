@@ -6,22 +6,22 @@ Once you've familiarized yourself with the [Quests Editor](https://github.com/Pi
 
 ### General
 
-| \# | - | Choice | Data Type | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | - | Allow commands during quest | true/false | Whether players may use commands after taking quest |
-| 2 | - | Allow quitting during quest | true/false | Whether players may quit quest after accepting it |
-| 3 | - | Ignore blocks broken with Silk Touch | true/false | Weather break-block objectives count Silk Touch |
+| \# | Choice | Data Type | Description |
+| :--- | :--- | :--- | :--- |
+| 1 | Allow commands during quest | true/false | Whether players may use commands after taking quest |
+| 2 | Allow quitting during quest | true/false | Whether players may quit quest after accepting it |
+| 3 | Ignore blocks broken with Silk Touch | true/false | Weather break-block objectives count Silk Touch |
 
 ### Multiplayer
 
-| \# | - | Choice | Data Type | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | - | Use DungeonsXL plugin | true/false | Toggle integration with [DungeonsXL](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#dungeonsxl) |
-| 2 | - | Use Parties plugin | true/false | Toggle integration with [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-) |
-| 3 | - | Level of progress sharing | number | How quest progress is distributed, see below |
-| 4 | - | Share with the same quest only | true/false | Whether players must have same quest to share progress |
-| 5 | - | Maximum radial distance | number | Distance between players for shared progress to count |
-| 6 | - | Include offline players | true/false | Whether to count shared progress for offline friends |
+| \# | Choice | Data Type | Description |
+| :--- | :--- | :--- | :--- |
+| 1 | Use DungeonsXL plugin | true/false | Toggle integration with [DungeonsXL](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#dungeonsxl) |
+| 2 | Use Parties plugin | true/false | Toggle integration with [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-) |
+| 3 | Level of progress sharing | number | How quest progress is distributed, see below |
+| 4 | Share with the same quest only | true/false | Whether players must have same quest to share progress |
+| 5 | Maximum radial distance | number | Distance between players for shared progress to count |
+| 6 | Include offline players | true/false | Whether to count shared progress for offline friends |
 
 For level of progress sharing, the different values perform as follows:
 
