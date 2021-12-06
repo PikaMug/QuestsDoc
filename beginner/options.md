@@ -14,7 +14,7 @@ Une fois que vous vous êtes familiarisé avec l' [éditeur de quête](https://g
 
 ### Multiplayer
 
-| \# | - | Choix | Type de donnés | Description  |
+| \# | Choix | Type de donnés | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | Utiliser le plugin DungeonsXL | true/false | Basculer l'intégration avec [DungeonsXL](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#dungeonsxl) |
 | 2 | Utiliser le plugin Parties | true/false | Basculer l'intégration avec [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-) |
@@ -23,10 +23,9 @@ Une fois que vous vous êtes familiarisé avec l' [éditeur de quête](https://g
 | 5 | Rayon de distance maximum | nombre | Distance maximal entre les joueurs pour que le partage de progression compte |
 | 6 | Inclus les joueurs hors-ligne | true/false | Si le partage comprend les joueurs hors ligne|
 
-Pour le niveau de partage des progrès, les différentes valeurs fonctionnent comme décrites ci dessous :
+Pour le niveau de partage des progrès, les différentes valeurs fonctionnent comme décrites ci dessous:
 
 1. Tout \(default\): Partager constament la progression. Si un joueur casse un bloc, tous les joueurs cassent un bloc.
 2. Objectifs: Si un joueur complète un objectifs (casser 50 blocs de terres), tous les membres termineront l'objectif.
 3. Etapes: Si un joueur finis une étape, tous les membres passeront à la suivante.
 4. Quêtes: similaire à la fonctionnalité des anciennes versions. Tous les membres la finissent quand l'un termine complètement une quête.
-
