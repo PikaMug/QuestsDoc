@@ -4,7 +4,7 @@
 **Warning:** This information is intended for advanced users. Proceed with caution!
 {% endhint %}
 
-As of Quests 4.0.0-rc.3, you may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml). The available choices are described below.
+As of Quests 4.0.0-rc.3, you may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml). The available choices are described below. If you should wish to change your storage method without losing data, first use [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
 
 ### YAML
 
