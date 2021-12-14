@@ -73,7 +73,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 ↳ [Download](https://www.spigotmc.org/resources/92962/) \(requires Quests 4.0.0 or newer\)
 
 {% hint style="info" %}
-**Note:** For the older mcMMO Classic, use [this dependency](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#mcmmo-classic) instead.
+**Note:** For the older mcMMO Classic, use [this dependency](https://pikamug.gitbook.io/quests/v/spanish-espanol/beginner/dependencies#mcmmo-classic) instead.
 {% endhint %}
 
 ### MobArena
