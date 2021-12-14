@@ -82,7 +82,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ↳ [Download](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) \(requires Quests 3.6.0 or newer\)
 
-### MythicMobs 🌟
+### MythicMobs 🌟💲
 
 ![Adds &quot;Kill MythicMobs&quot; objective, plus other features depending on version.](https://camo.githubusercontent.com/aebb3e692cec287e8baddc103a16e47bfb986dd861678a461e799e7cf240ebfc/68747470733a2f2f692e696d6775722e636f6d2f7a6c776f31304c2e706e67)
 
