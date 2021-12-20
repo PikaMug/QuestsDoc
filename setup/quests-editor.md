@@ -1,6 +1,6 @@
-# Editeur de quêtes
+# Editeur de quête
 
-Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu \(actuellement inaccessible depuis la console). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
+Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (actuellement inaccessible depuis la console). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
 
 ![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
 
@@ -38,15 +38,14 @@ Vive la magie des quêtes ! Il y a tellement d'objectifs différents que les pos
 
 ![](https://camo.githubusercontent.com/e30adfdd454a751bb6ac89e116223d44731c9ecb7939bbe0438de6ecbb2da2c4/68747470733a2f2f692e696d6775722e636f6d2f393267764744492e706e67)
 
-Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La terre est un défi facile, par exemple le joueur dois en casser 5. Si vous utiliser une version _supérieur_ à la 1.13, vous pouvez aussi définir une durabilité pour utiliser des variants \(Par exemple, la valeur '3' correspond à du pozdol plutôt qu'a de la terre\).
+Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La terre est un défi facile, par exemple le joueur dois en casser 5. Si vous utiliser une version _supérieur_ à la 1.13, vous pouvez aussi définir une durabilité pour utiliser des variants (Par exemple, la valeur '3' correspond à du pozdol plutôt qu'a de la terre).
 
 {% hint style="info" %}
-**Conseil de pro:** Les joueurs peuvent casser des blocs sans affecter la quête en utilisant une pioche avec l'enchantement toucher de soie, cette option peut être désactivé dans  [Options](../beginner/options.md).
+**Conseil de pro:** Les joueurs peuvent casser des blocs sans affecter la quête en utilisant une pioche avec l'enchantement toucher de soie, cette option peut être désactivé dans [Options](../beginner/options.md).
 {% endhint %}
- 
-Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez  '13' puis '1' pour enregistrer votre quête ! Vous devriez recevoir ce message :
+
+Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez  '13' puis '1' pour enregistrer votre quête ! Vous devriez recevoir ce message :
 
 ![](https://camo.githubusercontent.com/34cf772e5a8bed2117fbf064bf3c42c0f0b4ef34f7e0d1cb0539054367db9e6f/68747470733a2f2f692e696d6775722e636f6d2f4b5373635232582e706e67)
 
-Bon travail! vous avez terminé la création d'une quête. Pour pouvoir la tester faites **/questadmin reload** ou redémarrez le serveur \(Ne  _pas_ utiliser /reload\) puis **/quests take \[votre nom de quête\]**. Une fois que vous en aurez fait quelques autres, vous pouvez partager vos séries de quêtes les plus intéressantes ou en trouver d'autres sur [Notre Discord](https://discordapp.com/invite/d56CQ6e) (Discord en anglais). Bon jeu!
-
+Bon travail! vous avez terminé la création d'une quête. Pour pouvoir la tester faites **/questadmin reload** ou redémarrez le serveur (Ne _pas_ utiliser /reload) puis **/quests take \[votre nom de quête]**. Une fois que vous en aurez fait quelques autres, vous pouvez partager vos séries de quêtes les plus intéressantes ou en trouver d'autres sur [Notre Discord](https://discordapp.com/invite/d56CQ6e) (Discord en anglais). Bon jeu!
