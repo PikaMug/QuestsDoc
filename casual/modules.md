@@ -114,7 +114,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ↳ [Download](https://www.spigotmc.org/resources/npcdestinations-create-living-npcs.13863/) \(requires Quests 3.9.5 or newer\)
 
-### Screaming BedWars
+### Screaming BedWars 💲
 
 ![Adds &quot;Start arena&quot;, &quot;Open shop&quot;, &quot;Buy item&quot;, &quot;Buy upgrade&quot;, &quot;Destroy bed&quot;, &quot;Kill player&quot;, and &quot;End arena&quot; objectives.](https://www.spigotmc.org/data/resource_icons/63/63714.jpg)
 
