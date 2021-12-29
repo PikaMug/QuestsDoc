@@ -91,7 +91,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 [Download](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
 {% endtab %}
 
-{% tab title="Quests 3.6.0+" %}
+{% tab title="3.6.0 - 4.0.6" %}
 [Download](https://mc.hackerzlair.org/jenkins/job/MythicMobsQuests/)
 {% endtab %}
 
