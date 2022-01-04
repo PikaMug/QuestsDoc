@@ -6,4 +6,4 @@
 
 {% embed url="https://www.youtube.com/watch?v=k5HR_vYX2Rw" %}
 
-This documentation strives to be relevant for Quests 4.0.0 and newer. For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+This documentation strives to be relevant for Quests 4.0.0 and newer, but feel free to [contribute](https://github.com/PikaMug/QuestsDoc). For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
