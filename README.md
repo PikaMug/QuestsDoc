@@ -2,7 +2,7 @@
 
 (Anuncio) _**¡Obtén un 25% de descuento en QuestsGUI en**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
 
-**Quests** is the easy-to-use, open-source server plugin for immersing visitors in challenges made by you! Players can take on multiple quests simultaneously, completing them for stellar rewards and unlockables. From placing blocks on mountain tops to slaying a hundred Skeletons on Halloween, the combinations are only limited by your imagination!
+**Quests** es el complemento de servidor de código abierto y fácil de usar para sumergir a los visitantes en los desafíos que usted ha planteado. Los jugadores pueden realizar múltiples misiones simultáneamente, completándolas para obtener recompensas estelares y desbloqueables. Desde colocar bloques en las cimas de las montañas hasta matar un centenar de esqueletos en Halloween, ¡las combinaciones solo están limitadas por tu imaginación!
 
 {% tabs %}
 {% tab title="Parte 1" %}
@@ -14,4 +14,4 @@
 {% endtab %}
 {% endtabs %}
 
-This documentation strives to be relevant for Quests 4.0.0 and newer. For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+Esta documentación se esfuerza por ser relevante para Quests 4.0.0 y versiones posteriores, pero no dude en [contribuir](https://github.com/PikaMug/QuestsDoc/tree/spanish-espanol). Para obtener ayuda para actualizar desde versiones anteriores de Quests, consulte la [documentación heredada](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
