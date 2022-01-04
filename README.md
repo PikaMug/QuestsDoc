@@ -6,4 +6,4 @@
 
 {% embed url="https://www.youtube.com/watch?v=AJVMFyGsV5A" %}
 
-Cette documentation s'efforce d'être pertinente pour Quests 4.0.0 et versions ultérieures. Pour une aide sur les anciennes versions de quests, consultez l'[ancienne documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+Cette documentation s'efforce d'être pertinente pour Quests 4.0.0 et versions ultérieures, mais n'hésitez pas à [contribuer](https://github.com/PikaMug/QuestsDoc/tree/french-francais). Pour une aide sur les anciennes versions de quests, consultez l'[ancienne documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
