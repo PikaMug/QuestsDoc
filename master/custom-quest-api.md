@@ -168,6 +168,7 @@ package xyz.janedoe;
 import me.blackvein.quests.CustomObjective;
 import me.blackvein.quests.Quest;
 import me.blackvein.quests.Quests;
+
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -190,14 +191,14 @@ public class ExperienceObjective extends CustomObjective implements Listener {
     // Catch the Bukkit event for a player gaining/losing exp
     @EventHandler
     public void onPlayerExpChange(PlayerExpChangeEvent evt) {
-    	  // Make sure to evaluate for all of the player's current quests
-    	  for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
-    	      // Check if the player gained exp, rather than lost
-    	      if (evt.getAmount() > 0) {
-    		        // Add to the objective's progress, completing it if requirements were met
+        // Make sure to evaluate for all of the player's current quests
+        for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
+            // Check if the player gained exp, rather than lost
+            if (evt.getAmount() > 0) {
+                // Add to the objective's progress, completing it if requirements were met
                 incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
             }
-    	  }
+        }
     }
 }
 ```
@@ -240,6 +241,9 @@ public class DropItemObjective extends CustomObjective {
     	// Make sure to evaluate for all of the player's current quests
     	for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
     	    Map<String, Object> map = getDataForPlayer(evt.getPlayer(), this, quest);
+	    if (map == null) {
+	        continue;
+            }
             ItemStack stack = evt.getItemDrop().getItemStack();
             String userInput = (String) map.get("Item Name");
             EntityType type = EntityType.fromName(userInput);
@@ -265,37 +269,38 @@ public class DropItemObjective extends CustomObjective {
 
 package xyz.janedoe;
 
+import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.Quest;
+import me.blackvein.quests.Quests;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.block.BlockBreakEvent;
 
-import me.blackvein.quests.CustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
-
 public class AnyBreakBlockObjective extends CustomObjective {
-	private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
-	
-	public AnyBreakBlockObjective() {
-		setName("Break Blocks Objective");
-		setAuthor("Jane Doe");
-                this.addItem("DIRT", 0); // Quests 4.0.0+ only
-		setShowCount(true);
-		addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
-		setCountPrompt("Set the amount of blocks to break");
-		setDisplay("%Obj Name%: %count%");
-	}
-	
-	@EventHandler(priority = EventPriority.LOW)
-	public void onBlockBreak(BlockBreakEvent event) {
-		Player player = event.getPlayer();
-		for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
-			incrementObjective(player, this, 1, q);
-			return;
-		}
-	}
+    // Get the Quests plugin
+    private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    
+    public AnyBreakBlockObjective() {
+        setName("Break Blocks Objective");
+        setAuthor("Jane Doe");
+        addItem("DIRT", 0); // Quests 4.0.0+ only
+        setShowCount(true);
+        addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
+        setCountPrompt("Set the amount of blocks to break");
+        setDisplay("%Obj Name%: %count%");
+    }
+    
+    @EventHandler(priority = EventPriority.LOW)
+    public void onBlockBreak(BlockBreakEvent event) {
+        Player player = event.getPlayer();
+        for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
+            incrementObjective(player, this, 1, q);
+            return;
+        }
+    }
 }
 ```
 {% endtab %}
