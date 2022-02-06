@@ -18,7 +18,6 @@ This file contains all settings relating to how Quests should perform once loade
 | allow-command-questing | true/false | Whether or not players are allowed to accept and manage quests via command \(e.g. /quests take SomeQuest\). |
 | allow-command-quests-with-npcs | true/false | Whether players can accept/manage NPC quests via command \(e.g. /quests take SomeQuest\). |
 | allow-pranks | true/false | Whether or not to permit clicking Portals with the Quests Journal. |
-| allow-quitting | true/false | Whether or not to permit quitting of taken quests |
 | confirm-accept | true/false | Whether or not players must confirm taking of a quest. |
 | confirm-abandon | true/false | Whether or not players must confirm quitting of a quest. |
 | console-logging | number | 0 = disabled, 1 = track editing, 2 = and start/quit quests, 3 = and rewards, 4 = and debug information. |
