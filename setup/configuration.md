@@ -20,6 +20,7 @@ This file contains all settings relating to how Quests should perform once loade
 | allow-pranks | true/false | Whether or not to permit clicking Portals with the Quests Journal. |
 | confirm-accept | true/false | Whether or not players must confirm taking of a quest. |
 | confirm-abandon | true/false | Whether or not players must confirm quitting of a quest. |
+| condition-interval | number | How long \(in seconds\) between condition notifications \(min. 3, max. 180\). |
 | console-logging | number | 0 = disabled, 1 = track editing, 2 = and start/quit quests, 3 = and rewards, 4 = and debug information. |
 | disable-command-feedback | true/false | Whether or not to disable Minecraft's sendCommandFeedback gamerule at startup. |
 | generate-files-on-join | true/false | Either generate a player data file when that player first joins the server or only when they first use Quests. |
