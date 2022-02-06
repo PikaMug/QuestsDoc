@@ -17,9 +17,11 @@ Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes u
 | accept-timeout                                | Nombre          | Combien (en secondes) de temps un joueur peut accepter ou refuser une quête avant que la console annule automatiquent                                                                   |
 | allow-command-questing                        | true/false      | Permettre ou non aux joueurs d'accepter ou gérer une quête avec les commandes(e.g. /quests take SomeQuest).                                                                             |
 | allow-command-quests-with-npcs                | true/false      | Permettre ou non aux joueurs d'accepter les quête par les PNJ (e.g. /quests take SomeQuest).                                                                                            |
-| allow-pranks                                  | true/false      | Permettre ou non de cliquez sur un portail avec le journal de quête                                                                                                                     |
-| allow-quitting                                | true/false      | Permettre ou non de quitter les quêtes acceptés                                                                                                                                         |
-| ask-confirmation                              | true/false      | Si les joueurs doivent ou non taper Oui/Non pour accepter/refuser une quête.                                                                                                            |
+| allow-pranks                                  | true/false      | Permettre ou non de cliquez sur un portail avec le journal de quête.                                                                                                                     |
+| confirm-accept                                | true/false      | Si les joueurs doivent ou non confirmer la prise d'une quête.
+ |
+| confirm-abandon                               | true/false      | Si les joueurs doivent ou non confirmer l'abandon d'une quête.
+ |
 | console-logging                               | Nombre          | 0 = désactivé, 1 = édition de l'histoire, 2 = et démarrage/arêt des quêtes, 3 = et récompense, 4 = et les informations de débuggage.                                                    |
 | disable-command-feedback                      | true/false      | Désactiver ou non la règle de jeu sendCommandFeedback de Minecraft au démarrage.                                                                                                        |
 | generate-files-on-join                        | true/false      | Défnir quand générer un fichier de données de joueur, soit lorsque ce joueur rejoint le serveur pour la première fois ou uniquement lorsqu'il utilise les quêtes pour la première fois. |
