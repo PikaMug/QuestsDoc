@@ -39,7 +39,7 @@ To solidify, here are some tips to follow when editing a language file:
 * Do **NOT** change anything inside angle brackets &lt;&gt;. You're welcome to move it around or delete it entirely, but it cannot be translated.
 * It is not possible to change the /quests, /quest and /questadmin commands via the language files.
 
-If you are ever unsure about whether or not your edits are correct, or you receive errors on startup, try using an online YAML parser to check your language file. One such parser can be found [here](http://yaml-online-parser.appspot.com/).
+If you are ever unsure about whether your edits are correct, or you receive errors on startup, try using an online YAML parser to check your language file. One such parser can be found [here](http://yaml-online-parser.appspot.com/).
 
 ### Formatting
 
