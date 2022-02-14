@@ -38,7 +38,7 @@ Les commandes d'administrateurs, qui doivent être accordées qu'à ceux en qui 
 | /questadmin points \[joueur] \[quête]            | quests.admin.points      | Définis un nombre de point de quête à un joueur     |
 | /questadmin takepoints \[joueur] \[quantité]     | quests.admin.takepoints  | Retire des points de quête d'un joueur              |
 | /questadmin givepoints \[joueur] \[quantité]     | quests.admin.givepoints  | Ajoute des points de quête à un joueur              |
-| /questadmin pointsall \[joueur] \[quantité]      | quests.admin.pointsall   | Définis un nombre de point de quête à tous les joueurs              |
+| /questadmin pointsall \[quantité]                | quests.admin.pointsall   | Définis un nombre de point de quête à tous les joueurs              |
 | /questadmin finish \[joueur] \[quête]            | quests.admin.finish      | Force un joueur à terminer une quête (ignore les objectifs)             |
 | /questadmin nextstage \[joueur] \[quête]         | quests.admin.nextstage   | Force un joueur à terminer l'étape actuelle          |
 | /questadmin setstage \[joueur] \[quête] \[étape] | quests.admin.setstage    | Impose une étape pour un joueur                      |
