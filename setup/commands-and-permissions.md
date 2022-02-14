@@ -38,7 +38,7 @@ Administrator commands, which should only be granted to those you trust not to m
 | /questadmin points \[player] \[amount]           | quests.admin.points      | Set a player's Quest Points                    |
 | /questadmin takepoints \[player] \[amount]       | quests.admin.takepoints  | Take away a player's Quest Points              |
 | /questadmin givepoints \[player] \[amount]       | quests.admin.givepoints  | Add to a player's Quest Points                 |
-| /questadmin pointsall \[player] \[amount]        | quests.admin.pointsall   | Set ALL players' Quest Points                  |
+| /questadmin pointsall \[amount]                  | quests.admin.pointsall   | Set ALL players' Quest Points                  |
 | /questadmin finish \[player] \[quest]            | quests.admin.finish      | Force a player to complete a quest             |
 | /questadmin nextstage \[player] \[quest]         | quests.admin.nextstage   | Force a player to complete current stage       |
 | /questadmin setstage \[player] \[quest] \[stage] | quests.admin.setstage    | Set the current stage for a player             |
