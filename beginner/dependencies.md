@@ -1,8 +1,9 @@
-# Dépendences
+# Dépendances
 
-Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](https://www.spigotmc.org/).Vous trouverez ci-dessous une liste de tous les plugins pouvant être utilisés, ainsi qu'une description de la manière dont ils sont liés. Notez que chaque plugin est entièrement facultatif et n'est en aucun cas requis pour utiliser les quêtes.
-| Légende: |  |
-| :--- | :--- |
+Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](https://www.spigotmc.org).Vous trouverez ci-dessous une liste de tous les plugins pouvant être utilisés, ainsi qu'une description de la manière dont ils sont liés. Notez que chaque plugin est entièrement facultatif et n'est en aucun cas requis pour utiliser les quêtes.
+
+| Légende:                                     |                                                      |
+| -------------------------------------------- | ---------------------------------------------------- |
 | 🌟 = Recommandé pour une expérience optimale | 💲 = Peut nécessiter l'achat d'une ressource premium |
 
 ### Citizens 🌟
@@ -29,7 +30,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### DungeonsXL
 
-![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](https://camo.githubusercontent.com/cfd1e48fc1291450f2e995a3ed9e4c9a76940bf5b31635b39b5c749a524b77ce/68747470733a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
+![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](../.gitbook/assets/DungeonsXL.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
@@ -37,7 +38,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ![Version 2.3.6 ou supérieure pour les guides fléchés.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
 
-↳ [Téléchargement](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) \(Prérequis:  [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-)\)
+↳ [Téléchargement](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) (Prérequis: [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-))
 
 ### Heroes 💲
 
@@ -45,11 +46,11 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 {% tabs %}
 {% tab title="Minecraft 1.8 -  1.12" %}
-[Téléchargement](https://www.spigotmc.org/resources/heroes-legacy.305/) \(Gratuit\)
+[Téléchargement](https://www.spigotmc.org/resources/heroes-legacy.305/) (Gratuit)
 {% endtab %}
 
 {% tab title="Minecraft 1.13 +" %}
-[Téléchargement](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94.24734/) \(Payant\)
+[Téléchargement](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94.24734/) (Payant)
 {% endtab %}
 {% endtabs %}
 
@@ -93,7 +94,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ![Récompenses et prérequis économiques en jeu](https://camo.githubusercontent.com/713822b836312741b9b531a55774bfc57291c0f62296d70943118ee493b1df0a/68747470733a2f2f6d656469612e666f72676563646e2e6e65742f6174746163686d656e74732f3133342f3336312f7661756c742e706e67)
 
-↳ [Téléchargement](https://www.spigotmc.org/resources/vault.34315/) \(Prérequis: Utilisez un plugin économique comme [Fé](https://www.spigotmc.org/resources/fe.723/)\)
+↳ [Téléchargement](https://www.spigotmc.org/resources/vault.34315/) (Prérequis: Utilisez un plugin économique comme [Fé](https://www.spigotmc.org/resources/fe.723/))
 
 ### WorldGuard
 
