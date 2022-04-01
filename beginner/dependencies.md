@@ -1,9 +1,9 @@
 # Dependencies
 
-Quests can link with many other plugins available on [Spigot](https://www.spigotmc.org/). Below is a list of every plugin that can be used, along with a description of how it links. Note that each plugin is entirely optional and are in no way required to use Quests.
+Quests can link with many other plugins available on [Spigot](https://www.spigotmc.org). Below is a list of every plugin that can be used, along with a description of how it links. Note that each plugin is entirely optional and are in no way required to use Quests.
 
-| Labels: |  |
-| :--- | :--- |
+| Labels:                                      |                                               |
+| -------------------------------------------- | --------------------------------------------- |
 | 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
 
 ### Citizens 🌟
@@ -30,7 +30,7 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ### DungeonsXL
 
-![Create and join groups to complete quests en masse.](https://camo.githubusercontent.com/cfd1e48fc1291450f2e995a3ed9e4c9a76940bf5b31635b39b5c749a524b77ce/68747470733a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
+![Create and join groups to complete quests en masse.](../.gitbook/assets/DungeonsXL.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
@@ -38,19 +38,19 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ![Version 2.3.6 or higher for arrow guides.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) \(requires [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-)\)
+↳ [Download](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) (requires [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-))
 
 ### Heroes 💲
 
-![ Give experience rewards or require class.](https://camo.githubusercontent.com/a22173723e927d32f02f6a8d5f1ecb0ef4cd32c993700f34e6de00b64b5a3f4d/687474703a2f2f692e696d6775722e636f6d2f386a46634656592e706e67)
+![Give experience rewards or require class.](https://camo.githubusercontent.com/a22173723e927d32f02f6a8d5f1ecb0ef4cd32c993700f34e6de00b64b5a3f4d/687474703a2f2f692e696d6775722e636f6d2f386a46634656592e706e67)
 
 {% tabs %}
 {% tab title="Minecraft 1.8 -  1.12" %}
-[Download](https://www.spigotmc.org/resources/heroes-legacy.305/) \(free\)
+[Download](https://www.spigotmc.org/resources/heroes-legacy.305/) (free)
 {% endtab %}
 
 {% tab title="Minecraft 1.13 +" %}
-[Download](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94.24734/) \(premium\)
+[Download](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94.24734/) (premium)
 {% endtab %}
 {% endtabs %}
 
@@ -94,11 +94,10 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ![Reward or require in-game currency.](https://camo.githubusercontent.com/713822b836312741b9b531a55774bfc57291c0f62296d70943118ee493b1df0a/68747470733a2f2f6d656469612e666f72676563646e2e6e65742f6174746163686d656e74732f3133342f3336312f7661756c742e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/vault.34315/) \(requires an economy plugin like [Fé](https://www.spigotmc.org/resources/fe.723/)\)
+↳ [Download](https://www.spigotmc.org/resources/vault.34315/) (requires an economy plugin like [Fé](https://www.spigotmc.org/resources/fe.723/))
 
 ### WorldGuard
 
 ![Set regions for use with Quests.](https://camo.githubusercontent.com/55a494e4c5676605026ac22ae2c59e3097e9987e58196f04686418b51342a917/68747470733a2f2f692e696d6775722e636f6d2f53426b6b7a454e2e706e67)
 
 ↳ [Download](https://dev.bukkit.org/projects/worldguard/files)
-
