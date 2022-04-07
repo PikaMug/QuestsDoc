@@ -10,7 +10,7 @@ Lors de la première éxecution de Quests, les fichiers de configuration sont au
 
 Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes une fois qu'elle sont chargées. C'est pour cela qu'il doit être configuré _avant_ le démarrage du serveur.
 
-> [Ciquez ici pour voir la version par défaut config.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/config.yml)
+> [Ciquez ici pour voir la version par défaut config.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/config.yml)
 
 | Clé                                           | Type de données | Description                                                                                                                                                                             |
 | --------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -55,16 +55,16 @@ Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes u
 
 Ce fichier contient des actions personnalisées qui exécutent certaines tâches et effets. À l'exception des exemples inclus, les actions sont créées avant d'être utilisées dans une quête. Ceci est mieux accompli avec la commande _/quests actions_.
 
-> [Cliquez ici pour voir le fichier par défaut actions.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/actions.yml)
+> [Cliquez ici pour voir le fichier par défaut actions.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
 
 Ce fichier contient des conditions personnalisées qui sont vérifiées pendant le jeu. À l'exception des exemples inclus, les conditions sont créées avant l'utilisation dans une quête. Ceci est mieux accompli avec la commande _/quests conditions_.
 
-> [Cliquez ici pour voir le fichier par défaut conditions.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/conditions.yml)
+> [Cliquez ici pour voir le fichier par défaut conditions.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
 ### quests.yml
 
 Ce fichier comprend toutes les quêtes disponibles. Bien que ce fichier puisse être édité manuellement, il est recommandé d'utiliser la commande _/quests editor_. Quoi qu'il en soit, les modifications n'apparaîtront pas sur le serveur tant qu'un _/questadmin reload_ n'aura pas été effectué.
 
-> [Cliquez ici pour voir le fichier par défaut quests.yml](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/quests.yml)
+> [Cliquez ici pour voir le fichier par défaut quests.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
