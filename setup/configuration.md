@@ -10,7 +10,7 @@ When Quests is first run, configuration files will be created in the /plugins/Qu
 
 This file contains all settings relating to how Quests should perform once loaded. As such, changes made to this file must be configured and saved _before_ the server is started.
 
-> [Click here to view the default config.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/config.yml)
+> [Click here to view the default config.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/config.yml)
 
 | Key | Data Type | Description |
 | :--- | :--- | :--- |
@@ -55,17 +55,17 @@ This file contains all settings relating to how Quests should perform once loade
 
 This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a Quest. This is best accomplished with the _/quests actions_ command.
 
-> [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/actions.yml)
+> [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
 
 This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a Quest. This is best accomplished with the _/quests conditions_ command.
 
-> [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/conditions.yml)
+> [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
 ### quests.yml
 
 This file consists of every single quest available. Although this file can be edited manually, it is recommended to use the _/quests editor_ command. Regardless, changes will not appear on the server until a _/questadmin reload_ is input.
 
-> [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/master/main/src/main/resources/quests.yml)
+> [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
 
