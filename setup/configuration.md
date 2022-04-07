@@ -18,12 +18,14 @@ This file contains all settings relating to how Quests should perform once loade
 | allow-command-questing | true/false | Whether players are allowed to accept and manage quests via command \(e.g. /quests take SomeQuest\). |
 | allow-command-quests-with-npcs | true/false | Whether players can accept/manage NPC quests via command \(e.g. /quests take SomeQuest\). |
 | allow-pranks | true/false | Whether to permit clicking Portals with the Quests Journal. |
+| clickable-prompts | true/false | Click most prompt selections in chat. |
 | condition-interval | number | How long \(in seconds\) between condition notifications \(min. 3, max. 180\). |
 | confirm-accept | true/false | Whether players must confirm taking of a quest. |
 | confirm-abandon | true/false | Whether players must confirm quitting of a quest. |
 | console-logging | number | 0 = disabled, 1 = track editing, 2 = and start/quit quests, 3 = and rewards, 4 = and debug information. |
 | disable-command-feedback | true/false | Whether to disable Minecraft's sendCommandFeedback gamerule at startup. |
 | generate-files-on-join | true/false | Either generate a player data file when that player first joins the server or only when they first use Quests. |
+| give-journal-item | true/false | Quest Journal exists as item in player inventory. |
 | ignore-locked-quests | true/false | Ignore locked quests when checking if a player has a quest. |
 | kill-delay | number | How long \(in seconds\) a player should have to wait after they kill a player for a quest before they can kill that player again. |
 | language | string | Which file from the /lang/ folder will be used. For example, a value of "FR-fr" will result in "/lang/FR-fr/strings.yml" being loaded. |
@@ -34,18 +36,20 @@ This file contains all settings relating to how Quests should perform once loade
 | show-requirements | true/false | Allow players to see requirements in /quest \[quest\] |
 | show-titles | true/false | Display titles to players when accepting/completing quests. |
 | strict-player-movement | number | Seconds between advanced player movement tracking. |
-| storage-data.address | string | The IP address for optional storage |
-| storage-data.database | string | The table name for optional storage |
-| storage-data.username | string | The login username for optional storage |
-| storage-data.password | string | The login password for optional storage |
-| storage-data.pool-settings.max-pool-size | number | Advanced HikariCP setting |
-| storage-data.pool-settings.min-idle | number | Advanced HikariCP setting |
-| storage-data.pool-settings.max-lifetime | number | Advanced HikariCP setting |
-| storage-data.pool-settings.connection-timeout | number | Advanced HikariCP setting |
+| storage-data.address | string | The IP address for optional storage. |
+| storage-data.database | string | The table name for optional storage. |
+| storage-data.username | string | The login username for optional storage. |
+| storage-data.password | string | The login password for optional storage. |
+| storage-data.pool-settings.max-pool-size | number | Advanced HikariCP setting. |
+| storage-data.pool-settings.min-idle | number | Advanced HikariCP setting. |
+| storage-data.pool-settings.max-lifetime | number | Advanced HikariCP setting. |
+| storage-data.pool-settings.connection-timeout | number | Advanced HikariCP setting. |
 | storage-method.player-data | string | yaml = file storage, mysql = remote storage, custom = developer storage |
 | top-limit | number | Maximum number of quests that can be displayed by /quests top \[number\] |
-| translate-names | true/false | Translate item name to client's game language. |
+| translate-names | true/false | Translate item/mob name to client's game language. |
 | translate-subcommands | true/false | Translate subcommands to server's plugin language. |
+| trial-save | true/false | Allow saving while in Trial Mode. |
+| update-check | true/false | Whether to permit checking for plugin updates. |
 
 ### actions.yml
 
