@@ -18,6 +18,12 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
 
+### BedWars1058 - Open Source 💲
+
+![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
+
+↳ [Download](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
+
 ### CustomMobs
 
 ![Adds a "Kill CustomMobs" objective.](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
@@ -116,7 +122,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### Screaming BedWars 💲
 
-![Adds &quot;Start arena&quot;, &quot;Open shop&quot;, &quot;Buy item&quot;, &quot;Buy upgrade&quot;, &quot;Destroy bed&quot;, &quot;Kill player&quot;, and &quot;End arena&quot; objectives.](https://www.spigotmc.org/data/resource_icons/63/63714.jpg)
+![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
 
 ↳ [Download](https://www.spigotmc.org/resources/screaming-bedwars-module.98380/)
 
