@@ -1,4 +1,4 @@
-# Bridge Plugins
+# Plugins de liaisons
 
 {% hint style="info" %}
 **Notice:** This information is intended for intermediate users. Read carefully!
@@ -27,6 +27,12 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 ![Guides players to objectives with huge arrows using GPS.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
 
 ↳ [Download](https://www.spigotmc.org/resources/gps-quests.67835/)
+
+### QuestsBar 💲
+
+![Display a boss bar with text for objective progress within Quests.](https://i.imgur.com/9jVAdn9.png)
+
+↳ [Download](https://www.spigotmc.org/resources/questsbar.100634/)
 
 ### QuestsGUI 🌟💲
 
