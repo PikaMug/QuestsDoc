@@ -12,17 +12,17 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 | -------------------------------------------- | --------------------------------------------- |
 | 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
 
-### Boss 💲
-
-![](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
-
-↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
-
 ### BedWars1058 - Open Source 💲 <a href="#bedwars1058-open-source" id="bedwars1058-open-source"></a>
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
 
 ↳ [Download](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
+
+### Boss 💲
+
+![](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
+
+↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
 
 ### CustomMobs
 
