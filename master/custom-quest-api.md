@@ -10,7 +10,7 @@ If you're using Maven or another project management tool, add the latest version
 
 ### Learn the interface
 
-Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 3.6.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.Click here for legacy information
+Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 4.0.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.Click here for legacy information
 
 #### Requirements API
 
@@ -26,11 +26,12 @@ import me.blackvein.quests.CustomRequirement;
 public class NameRequirement extends CustomRequirement {
     // Construct the requirement
     public NameRequirement() {
-	this.setName("Name Requirement");
-	this.setAuthor("Jane Doe");
-        this.addItem("NAME_TAG", 0); // Quests 4.0.0+ only
-	this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
-	this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
+        this.setName("Name Requirement");
+        this.setAuthor("Jane Doe");
+        this.addItem("NAME_TAG", 0);
+        this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
+        this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
+	this.setDisplay("Sorry, you are not on the list.");
     }
     
     // Test whether a player has met the requirement
@@ -57,6 +58,7 @@ In the constructor of your class, you may use any of the following methods:
 | setName\(\) | Sets the name of the Custom Objective. |
 | setAuthor\(\) | Sets the author of the Custom Objective \(you!\). |
 | addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
+| setDisplay | Sets how the requirement is displayed when failed. |
 | addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside \#testRequirement is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
@@ -85,7 +87,7 @@ public class LootReward extends CustomReward {
     public LootReward() {
         this.setName("Loot Reward");
         this.setAuthor("Jane Doe");
-        this.addItem("CHEST", 0); // Quests 4.0.0+ only
+        this.addItem("CHEST", 0);
         this.setRewardName("Loot Chest: %Title%");
         this.addStringPrompt("Title", "Title of the loot inventory interface.", null);
         this.addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
@@ -182,7 +184,7 @@ public class ExperienceObjective extends CustomObjective implements Listener {
     public ExperienceObjective() {
         this.setName("Experience Objective");
         this.setAuthor("Jane Doe");
-        this.addItem("BOOK", 0); // Quests 4.0.0+ only
+        this.addItem("BOOK", 0);
         this.setShowCount(true);
         this.setCountPrompt("Enter the experience points that the player must acquire:");
         this.setDisplay("Acquire experience points: %count%");
@@ -286,7 +288,7 @@ public class AnyBreakBlockObjective extends CustomObjective {
     public AnyBreakBlockObjective() {
         setName("Break Blocks Objective");
         setAuthor("Jane Doe");
-        addItem("DIRT", 0); // Quests 4.0.0+ only
+        addItem("DIRT", 0);
         setShowCount(true);
         addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
         setCountPrompt("Set the amount of blocks to break");
