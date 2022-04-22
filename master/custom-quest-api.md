@@ -31,7 +31,7 @@ public class NameRequirement extends CustomRequirement {
         this.addItem("NAME_TAG", 0);
         this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
         this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
-	this.setDisplay("Acquire experience points: %count%");
+	this.setDisplay("Sorry, you are not on the list.");
     }
     
     // Test whether a player has met the requirement
