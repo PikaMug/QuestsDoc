@@ -22,7 +22,7 @@ Open IntelliJ. If you are currently in a project, go to `File -> Close Project`.
 
 Once you've made the changes you desire, you're ready to either package it or upload it to your forked repository.
 
-**To compile Quests into a jar** for use in a Spigot/Paper server, open the Maven perspective in the right taskbar and expend `quests-root`. Select the `package` option. Any remaining dependencies will be downloaded and \(on Windows\) you will end up with a finished JAR file in `C:\Users\YourAccount\IdeaProjects\Quests\dist\target`.
+**To compile Quests into a jar** for use in a Spigot/Paper server, open the Maven perspective in the right taskbar and expand `quests (root)`. Select the `package` option. Any remaining dependencies will be downloaded and \(on Windows\) you will end up with a finished JAR file in `C:\Users\YourAccount\IdeaProjects\Quests\dist\target`.
 
 **To upload the changes** for future use in a Pull Request, open the Commit perspective in the left taskbar. Make sure all files you wish to trasmit are checked, then give your commit a short description. Once you're completely sure you're ready to share your changes with the world, select the `Commit and Push...` button and follow the prompts.
 
