@@ -112,13 +112,17 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### NPCDestinations
 
-![Adds NPC location requirement and reward.](https://camo.githubusercontent.com/5703b4f519542e8fe21a9296a5a0c291744b13b0be8547b450baa729c1f6669a/68747470733a2f2f692e696d6775722e636f6d2f59504942596b462e706e67)
+![Adds NPC location requirements and reward.](https://camo.githubusercontent.com/5703b4f519542e8fe21a9296a5a0c291744b13b0be8547b450baa729c1f6669a/68747470733a2f2f692e696d6775722e636f6d2f59504942596b462e706e67)
 
-{% hint style="info" %}
-**Warning:** Module is auto-installed and cannot be disabled without removing NPCDestinations!
-{% endhint %}
+{% tabs %}
+{% tab title="Quests 4.0.6+" %}
+[Download](https://www.spigotmc.org/resources/101588/)
+{% endtab %}
 
-↳ [Download](https://www.spigotmc.org/resources/npcdestinations-create-living-npcs.13863/) (requires Quests 3.9.5 or newer)
+{% tab title="3.6.0 - 4.0.6" %}
+Module is auto-installed by NPCDestinations.
+{% endtab %}
+{% endtabs %}
 
 ### Screaming BedWars 💲
 
