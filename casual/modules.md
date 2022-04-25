@@ -138,4 +138,4 @@ If you can't find a module for a particular purpose here or via Internet search,
 * [SpigotMC](https://www.spigotmc.org/forums/hiring-developers.55/)
 * [Lectern](https://lectern.browsit.org/forum/view/6-services/)
 
-Quests is not sponsored by any of the sites above. Neither Quests nor its contributors hold any responsibility for the quality and/or functionality of third-party modules, implied or otherwise, regardless of origin.
+Neither Quests nor its contributors hold any responsibility for the quality and/or functionality of third-party modules, implied or otherwise, regardless of origin.
