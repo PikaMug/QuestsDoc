@@ -10,17 +10,17 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 | -------------------------------------------- | --------------------------------------------- |
 | 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
 
-### Dynmap-Quests 💲
-
-![Displays Quests objectives in a single layer of Dynmap maps.](https://camo.githubusercontent.com/1adf4a3a4faec4be03f2bef5055d36c21911ea93cc9ad7b65f0946f9d3cc7c69/68747470733a2f2f692e696d6775722e636f6d2f45796d6b6e78442e706e67)
-
-↳ [Download](https://www.spigotmc.org/resources/dynmap-quests.65987/)
-
 ### BlueMap-Quests 💲
 
 ![Displays Quests objectives in a single layer of BlueMap maps.](../.gitbook/assets/blue.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/bluemap-quests.96806/)
+
+### Dynmap-Quests 💲
+
+![Displays Quests objectives in a single layer of Dynmap maps.](https://i.imgur.com/cjS4crB.png)
+
+↳ [Download](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
 ### GPS-Quests 💲
 
