@@ -124,6 +124,12 @@ Module is auto-installed by NPCDestinations.
 {% endtab %}
 {% endtabs %}
 
+### PhatLoots
+
+![Adds loot reward and objective.](https://i.imgur.com/yHiPJFh.png)
+
+↳ [Download](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
+
 ### Screaming BedWars 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
