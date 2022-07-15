@@ -4,7 +4,7 @@ Les 3 commandes principales sont: **/quests**, **/quest**, et **/questadmin**. L
 
 ### Commandes de joueurs
 
-Vous trouverez ci-dessous un tableau décrivant chaque commande et son autorisation associée. Notez que les sous-commandes (list, take, quit, ...) peuvent êtres changées si vous [changez la langue du plugin](https://github.com/PikaMug/Quests/wiki/Translations), mais les permissions restent les mêmes.
+Vous trouverez ci-dessous un tableau décrivant chaque commande et son autorisation associée. Notez que les sous-commandes (list, take, quit, ...) peuvent êtres changées si vous [changez la langue du plugin](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/translations#updates), mais les permissions restent les mêmes.
 
 | Commandes             | Permissions      | Description                            |
 | --------------------- | ---------------- | -------------------------------------- |
