@@ -89,5 +89,4 @@ Be advised that the "journalTitle" string will not accept placeholders, as allow
 
 If you find that certain files are gone, or the entire /lang folder is missing, make sure your folder permissions are not restricting their creation. If you're on Windows, right-click on your /plugins folder, select Properties, and go to the Security tab. Click "Advanced" and then, in the Permissions tab, select "Change Permissions". Choose "Add" and in the Select User or Group window, type "everyone" in the text box. Click "Check Names" and then choose "OK". If applicable, check all "Allow" boxes. Continue clicking "OK" until all windows are closed.
 
-Alternatively, you can create the folders manually and download your desired language file\(s\) from [here](https://github.com/PikaMug/Quests/tree/master/main/src/main/resources/lang).
-
+Alternatively, you can create the folders manually and download your desired language file\(s\) from [here](https://github.com/PikaMug/Quests/tree/main/core/src/main/resources/lang).
