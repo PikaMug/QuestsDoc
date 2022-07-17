@@ -1,41 +1,41 @@
-# Plugins de liaisons
+# Plugin de liaison
 
 {% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
+**Remarque:** Ces informations sont destinées aux utilisateurs possédant au moins un niveau intermédiaire. Lisez attentivement ces informations !
 {% endhint %}
 
-Plenty of other server plugins natively depend on Quests. However, it is sometimes easier or more beneficial for a developer to make an "in-between" plugin to link their resource to Quests. Unlike [modules](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules), bridge plugins handle more than just objectives or rewards. Below is a list of published examples.
+De nombreux plugins dépendent nativement de quests. Cependant, il est parfois plus facile ou avantageux pour un dévloppeur de crée un plugin "entre-deux / de liaison" pour lier ses ressources avec quests. Contrairement aux [modules](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules), les plugins de liaison gèrent plus que des objectifs ou des récompenses. Vous trouverez ci-dessous une liste d'exemples publiés.
 
-| Labels:                                      |                                               |
+| Légende:                                      |                                               |
 | -------------------------------------------- | --------------------------------------------- |
-| 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
+| 🌟 =  Recommandé pour une expérience optimale | 💲 = Peut nécessiter l'achat d'une ressource premium |
 
 ### BlueMap-Quests 💲
 
-![Displays Quests objectives in a single layer of BlueMap maps.](../.gitbook/assets/blue.png)
+![Affiche visuellement les objectifs des quêtes dans une zone.](../.gitbook/assets/blue.png)
 
-↳ [Download](https://www.spigotmc.org/resources/bluemap-quests.96806/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
 ### Dynmap-Quests 💲
 
-![Displays Quests objectives in a single layer of Dynmap maps.](https://i.imgur.com/cjS4crB.png)
+![Affiche visuellement les objectifs des quêtes sur la carte Dynmap.](https://i.imgur.com/cjS4crB.png)
 
-↳ [Download](https://www.spigotmc.org/resources/dynmap-quests.65987/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
 ### GPS-Quests 💲
 
-![Guides players to objectives with huge arrows using GPS.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
+![Guide les joueurs vers les objectifs avec d'énormes flèches et l'aide d'un GPS.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/gps-quests.67835/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/gps-quests.67835/)
 
 ### QuestsBar 💲
 
-![Display a boss bar with text for objective progress within Quests.](https://i.imgur.com/9jVAdn9.png)
+![Affiche la progression des objectifs dans une boss-bar.](https://i.imgur.com/9jVAdn9.png)
 
-↳ [Download](https://www.spigotmc.org/resources/questsbar.100634/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/questsbar.100634/)
 
 ### QuestsGUI 🌟💲
 
-![ Displays clickable interfaces over select menus and commands within Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
+![Utilise une interface cliquable pour les menus d'éditions et de sélections pour quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/questsgui.71666/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/questsgui.71666/)
