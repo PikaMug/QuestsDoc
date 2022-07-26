@@ -26,7 +26,7 @@ This file contains all settings relating to how Quests should perform once loade
 | disable-command-feedback                      | true/false | Whether to disable Minecraft's sendCommandFeedback gamerule at startup.                                                                |
 | generate-files-on-join                        | true/false | Either generate a player data file when that player first joins the server or only when they first use Quests.                         |
 | give-journal-item                             | true/false | Quest Journal exists as item in player inventory.                                                                                      |
-| ignore-locked-quests                          | true/false | Ignore locked quests when checking if a player has a quest.                                                                            |
+| ignore-locked-quests                          | true/false | Ignore locked quests when checking if a player has all necessary Requirements.                                                         |
 | kill-delay                                    | number     | How long (in seconds) a player should have to wait after they kill a player for a quest before they can kill that player again.        |
 | language                                      | string     | Which file from the /lang/ folder will be used. For example, a value of "FR-fr" will result in "/lang/FR-fr/strings.yml" being loaded. |
 | language-override-client                      | true/false | Whether `language` setting should override client language when sending text.                                                          |
