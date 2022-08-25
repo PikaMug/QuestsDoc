@@ -1,10 +1,9 @@
 # Doc Contributions
 
 {% hint style="info" %}
-**Warning:** This information is intended for advanced users. Proceed with caution!
+**Avertissement :** Ces informations sont destinées aux utilisateurs avancés. Procéder avec prudence!
 {% endhint %}
 
-If you would like to translate or otherwise improve this documentation, make your edits on [Github](https://github.com/PikaMug/QuestsDoc) and submit the changes as a Pull Request.
-
-Please note that requests for the plugin author\(s\) to write or translate article will be ignored.
+Si vous souhaitez traduire ou améliorer cette documentation, apportez vos modifications sur [Github](https://github.com/PikaMug/QuestsDoc) et soumettre les modifications en tant que _Pull Request_.
+Veuillez noter que les demandes d'écriture ou de traduction d'un article par l'auteur du plug-in seront ignorées.
 
