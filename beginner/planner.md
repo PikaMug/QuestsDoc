@@ -1,6 +1,6 @@
 # Planner
 
-Once you've familiarized yourself with the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
+Once you've familiarized yourself with the [Quests Editor](https://pikamug.gitbook.io/quests/setup/quests-editor), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
 
 ![](https://camo.githubusercontent.com/07cea0e4af2b6bde23df1ada96f63d46b090cfe97a32b8889eb3599245245ff8/68747470733a2f2f692e696d6775722e636f6d2f7743374134396a2e706e67)
 
