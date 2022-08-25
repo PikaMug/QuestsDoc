@@ -1,6 +1,6 @@
 # Quests Editor
 
-Let's make a quest! By default, the Quests Editor is available only to server ops. However, with the [correct permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) in place, it's as simple as running **/quests editor** in-game \(it is not currently accessible from the console\). You will be greeted with the following:
+Let's make a quest! By default, the Quests Editor is available only to server ops. However, with the [correct permissions](https://pikamug.gitbook.io/quests/setup/commands-and-permissions) in place, it's as simple as running **/quests editor** in-game \(it is not currently accessible from the console\). You will be greeted with the following:
 
 ![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
 
@@ -33,7 +33,7 @@ This screen will show all stages for your quest. Enter '1' to proceed.
 Behold the magic of Quests! There are so many different objectives to choose from that the possibilities seem endless! Let's try a basic quest to break some blocks. Enter '1' to continue to the Blocks menu, then '1' again to select Break blocks.
 
 {% hint style="info" %}
-**Pro-tip:** Custom objectives come from special add-ons which often link with other plugins, found [here](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules). To use one, it must be installed in your /Quests/modules folder at startup.
+**Pro-tip:** Custom objectives come from special add-ons which often link with other plugins, found [here](https://pikamug.gitbook.io/quests/casual/modules). To use one, it must be installed in your /Quests/modules folder at startup.
 {% endhint %}
 
 ![](https://camo.githubusercontent.com/e30adfdd454a751bb6ac89e116223d44731c9ecb7939bbe0438de6ecbb2da2c4/68747470733a2f2f692e696d6775722e636f6d2f393267764744492e706e67)
