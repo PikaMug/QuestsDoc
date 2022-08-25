@@ -1,6 +1,6 @@
 # Options
 
-Once you've familiarized yourself with the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml) which apply to _all_ quests.
+Once you've familiarized yourself with the [Quests Editor](https://pikamug.gitbook.io/quests/setup/quests-editor), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration) which apply to _all_ quests.
 
 ![](https://camo.githubusercontent.com/01ac608458bd8b9ea686e4f66bb4d39e0131d0dd738a4317ba898f285345c08a/68747470733a2f2f692e696d6775722e636f6d2f7374485a504f752e706e67)
 
@@ -16,7 +16,7 @@ Once you've familiarized yourself with the [Quests Editor](https://github.com/Pi
 
 | \# | Choice | Data Type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | Use DungeonsXL plugin | true/false | Toggle integration with [DungeonsXL](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#dungeonsxl) |
+| 1 | Use DungeonsXL plugin | true/false | Toggle integration with [DungeonsXL](https://pikamug.gitbook.io/quests/casual/modules#dungeonsxl) |
 | 2 | Use Parties plugin | true/false | Toggle integration with [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-) |
 | 3 | Level of progress sharing | number | How quest progress is distributed, see below |
 | 4 | Share with the same quest only | true/false | Whether players must have same quest to share progress |
