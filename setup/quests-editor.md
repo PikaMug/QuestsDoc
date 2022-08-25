@@ -1,6 +1,6 @@
 # Editeur de quête
 
-Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (actuellement inaccessible depuis la console). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
+Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://pikamug.gitbook.io/quests/v/french-francais/configuration/commands-and-permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (actuellement inaccessible depuis la console). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
 
 ![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
 
@@ -33,7 +33,7 @@ Cet écran montre toutes les étapes de votre quête, entrez '1' pour poursuivre
 Vive la magie des quêtes ! Il y a tellement d'objectifs différents que les possibilités sont presques sans fin ! Essayons de crée une quête basique, casser quelques blocs. Entrez '1' pour acceder au menu des blocs, puis encore '1' pour selectionner la destruction des blocs.
 
 {% hint style="info" %}
-**Conseil de pro:** Les objectifs customisés provienne d'add-on spéciaux qui sont en liens avec d'autres plugins que l'ont peut trouver [ici](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules). Pour en utiliser un, vous devrez l'installer dans le dossier /Quests/modules au démarrage
+**Conseil de pro:** Les objectifs customisés provienne d'add-on spéciaux qui sont en liens avec d'autres plugins que l'ont peut trouver [ici](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules). Pour en utiliser un, vous devrez l'installer dans le dossier /Quests/modules au démarrage
 {% endhint %}
 
 ![](https://camo.githubusercontent.com/e30adfdd454a751bb6ac89e116223d44731c9ecb7939bbe0438de6ecbb2da2c4/68747470733a2f2f692e696d6775722e636f6d2f393267764744492e706e67)
