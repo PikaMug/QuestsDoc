@@ -1,18 +1,18 @@
 # Planner
 
-Once you've familiarized yourself with the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
+Une fois que vous vous serez familiarisé avec l'[Editeur de quêtes](https://pikamug.gitbook.io/quests/v/french-francais/configuration/quests-editor) vous vous poserez peut-être des questions sur la sélection "Modifier le planificateur". Ce sous-menu contient des contrôles pour quand votre quête devrait être disponible, basée sur le temps réel :
 
 ![](https://camo.githubusercontent.com/07cea0e4af2b6bde23df1ada96f63d46b090cfe97a32b8889eb3599245245ff8/68747470733a2f2f692e696d6775722e636f6d2f7743374134396a2e706e67)
 
-To better understand these selections, examples are provided below.
+Pour mieux comprendre ces sélections, des exemples sont fournis ci-dessous.
 
-**Daily Quest**
+**Quête journalière**
 
-In the real world, most businesses are only open during peak shopping hours. Similarly, you may wish to only have your quest available at certain times each day. The following is how such a quest might appear in quests.yml:
+Dans le monde réel, la plupart des entreprises ne sont ouvertes que pendant les heures de pointe. De même, vous souhaiterez peut-être que votre quête ne soit disponible qu'à certains moments de la journée. Voici comment une telle quête peut apparaître dans quests.yml :
 
 ```text
 custom1:
-    name: OnceDaily
+    name: Quotidien
     ...
     planner:
       start: 11:1:2020:9:0:0:SystemV/EST5
@@ -22,19 +22,19 @@ custom1:
       override: true
 ```
 
-The **start date** is set to January 11, 2020 at 9:00 AM EST. The **end date** is set to January 11, 2020 at 5:00 PM EST. This means that the quest will only be available for eight hours.
+La **date de départ (start)** est fixé au 11 janvier 2020 à 9h00. La **date de fin (end)** est fixée au 11 janvier 2020 à 17h00. Cela signifie que la quête ne sera disponible que pendant huit heures.
 
-Since we want players to be able to take the quest every day, the **repeat cycle** is set to 86400 seconds \(24 hours\). This wait time is based on the start date, so the quest will next become available on January 12, 2020, then again on the 13th, and so on. Just like the original duration, it will still only be available between 9:00 AM and 5:00 PM daily.
+Comme nous voulons que les joueurs puissent effectuer la quête tous les jours, le **cycle de répétition (repeat)** est défini sur 86 400 secondes \(24 heures\). Ce temps d'attente est basé sur la date de début, donc la quête sera ensuite disponible le 12 janvier 2020, puis à nouveau le 13, et ainsi de suite. Tout comme la durée d'origine, il ne sera toujours disponible qu'entre 9h00 et 17h00 tous les jours.
 
-Lastly, we set a **player cooldown** of 32400 seconds \(9 hours\) because we do not want the player to take our quest a second time if they complete it before 5:00 PM. This ensures even the fastest players won't be able to take the quest again until the next day. If you want players to be able to take the quest at 9:00 AM the next day regardless of whether their cooldown has expired, you may set the **ignore cooldown after repeat** override to _true_.
+Enfin, nous avons défini un **temps de recharge du joueur (cooldown)** de 32 400 secondes \(9 heures\) car nous ne voulons pas que le joueur reprenne notre quête s'il la termine avant 17h00. Cela garantit que même les joueurs les plus rapides ne pourront pas reprendre la quête avant le lendemain. Si vous souhaitez que les joueurs puissent effectuer la quête à 9h00 le lendemain, que leur temps de recharge ait expiré ou non, vous pouvez définir la priorité **ignorer le temps de recharge après répétition (override)** sur _true_.
 
 **New Years' Celebration**
 
-Let's create a quest for a New Years' party. Please observe the following example as it would appear in quests.yml:
+Créons une quête pour une fête du Nouvel An. Veuillez observer l'exemple suivant tel qu'il apparaîtrait dans quests.yml:
 
 ```text
 custom1:
-    name: PrepareForNewYears
+    name: Préparationdelanouvelleannée
     ...
     planner:
       start: 31:12:2020:23:0:0:SystemV/EST5
@@ -44,9 +44,9 @@ custom1:
       override: false
 ```
 
-The **start date** is set to December 31, 2020 at 11:00 PM EST. The **end date** is set to January 1, 2021 at midnight. This means that the quest will only be available for one hour.
+La **date de début** est fixée au 31 décembre 2020 à 23h00. La **date de fin** est fixée au 1er janvier 2021 à minuit. Cela signifie que la quête ne sera disponible que pendant une heure.
 
-Since we want to celebrate _every year_, the **repeat cycle** is set to 31536000 seconds \(one calendar year\). This wait time is based on the start date, so the quest will next become available on December 31, 2021, then again on the 31st of 2022, and so on. It will only be available for one hour, just like the original duration.
+Puisque nous voulons célébrer _chaque année_, le **cycle de répétition** est défini sur 31536000 secondes \(une année civile\). Ce temps d'attente est basé sur la date de début, donc la quête sera ensuite disponible le 31 décembre 2021, puis à nouveau le 31/12/2022, et ainsi de suite. Il ne sera disponible que pendant une heure, tout comme la durée d'origine.
 
-Lastly, we set a **player cooldown** of 3600 seconds \(one hour\) because we do not want the player to take our quest a second time if they complete it within one hour. This ensures even the quickest players won't be able to take the quest again until next year.
+Enfin, nous avons défini un **temps de recharge du joueur** de 3 600 secondes \(une heure\) car nous ne voulons pas que le joueur reprenne notre quête s'il la termine en moins d'une heure. Cela garantit que même les joueurs les plus rapides ne pourront pas reprendre la quête avant l'année prochaine.
 
