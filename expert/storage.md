@@ -4,7 +4,7 @@
 **Warning:** This information is intended for advanced users. Proceed with caution!
 {% endhint %}
 
-As of Quests 4.0.0-rc.3, you may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml). The available choices are described below. If you should wish to change your storage method later without losing data, first use [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
+As of Quests 4.0.0-rc.3, you may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). The available choices are described below. If you should wish to change your storage method later without losing data, first use [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
 
 ### YAML
 
@@ -14,7 +14,7 @@ This is the default selection which will save player data to separated .yml file
 
 This will save player data to a local or remote MySQL database that you have configured ahead of time. Table and login settings may be specified via the `storage-data` settings. An example of such configuration might look like:
 
-```text
+```
 storage-data:
   address: localhost
   database: minecraft
@@ -33,4 +33,3 @@ Note that HikariCP has been shaded internally to maximize connection speed on la
 ### Custom
 
 A developer may opt to employ a custom storage option. See [here](https://github.com/PikaMug/Quests/tree/master/main/src/main/java/me/blackvein/quests/storage/implementation/custom).
-
