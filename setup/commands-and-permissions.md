@@ -1,10 +1,10 @@
 # Commands & Permissions
 
-The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding\_Permissions).
+The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding_Permissions).
 
 ### Player Commands
 
-Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](https://pikamug.gitbook.io/quests/casual/translations), but permissions will remain the same.
+Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](https://github.com/PikaMug/Quests/wiki/Translations), but permissions will remain the same.
 
 | Command               | Permission       | Description                    |
 | --------------------- | ---------------- | ------------------------------ |
@@ -76,3 +76,4 @@ The following commands have either been removed from or altered within Quests:
 ### Legacy Permissions
 
 Those using Quests 3.4.7 or older must instead use the "Old" permissions for the Events Editor, [as shown here](https://pastebin.com/tcYBebK5). Anyone using Quests 3.4.8 to 3.6.9 should use the "New" permission from that same link.
+

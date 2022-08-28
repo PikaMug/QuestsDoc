@@ -14,14 +14,14 @@ Once you've familiarized yourself with the [Quests Editor](https://pikamug.gitbo
 
 ### Multiplayer
 
-| # | Choice                         | Data Type  | Description                                                                                                        |
-| - | ------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------ |
-| 1 | Use DungeonsXL plugin          | true/false | Toggle integration with [DungeonsXL](https://pikamug.gitbook.io/quests/casual/modules#dungeonsxl)                  |
-| 2 | Use Parties plugin             | true/false | Toggle integration with [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-) |
-| 3 | Level of progress sharing      | number     | How quest progress is distributed, see below                                                                       |
-| 4 | Share with the same quest only | true/false | Whether players must have same quest to share progress                                                             |
-| 5 | Maximum radial distance        | number     | Distance between players for shared progress to count                                                              |
-| 6 | Include offline players        | true/false | Whether to count shared progress for offline friends                                                               |
+| # | Choice                         | Data Type  | Description                                                                                        |
+| - | ------------------------------ | ---------- | -------------------------------------------------------------------------------------------------- |
+| 1 | Use DungeonsXL plugin          | true/false | Toggle integration with [DungeonsXL](https://pikamug.gitbook.io/quests/casual/modules#dungeonsxl)  |
+| 2 | Use Parties plugin             | true/false | Toggle integration with [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) |
+| 3 | Level of progress sharing      | number     | How quest progress is distributed, see below                                                       |
+| 4 | Share with the same quest only | true/false | Whether players must have same quest to share progress                                             |
+| 5 | Maximum radial distance        | number     | Distance between players for shared progress to count                                              |
+| 6 | Include offline players        | true/false | Whether to count shared progress for offline friends                                               |
 
 For level of progress sharing, the different values perform as follows:
 
