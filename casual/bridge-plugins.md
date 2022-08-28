@@ -16,6 +16,12 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ↳ [Download](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
+### Depenizen
+
+<figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilize Quests commands, events, and properties in Denizen scripts.</p></figcaption></figure>
+
+↳ [Download](https://github.com/DenizenScript/Depenizen)
+
 ### Dynmap-Quests 💲
 
 ![Displays Quests objectives in a single layer of Dynmap maps.](https://i.imgur.com/cjS4crB.png)
