@@ -14,7 +14,13 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ![Displays Quests objectives in a single layer of BlueMap maps.](../.gitbook/assets/blue.png)
 
-↳ [Download](https://www.spigotmc.org/resources/bluemap-quests.96806/)
+
+
+### Depenizen
+
+<figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilize Quests commands, events, and properties in Denizen scripts.</p></figcaption></figure>
+
+↳ [Download](https://github.com/DenizenScript/Depenizen)
 
 ### Dynmap-Quests 💲
 
@@ -36,6 +42,6 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ### QuestsGUI 🌟💲
 
-![ Displays clickable interfaces over select menus and commands within Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
+![Displays clickable interfaces over select menus and commands within Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
 
 ↳ [Download](https://www.spigotmc.org/resources/questsgui.71666/)
