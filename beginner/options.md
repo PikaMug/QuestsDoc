@@ -14,14 +14,14 @@ Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](https://pi
 
 ### Multiplayer
 
-| # | Choix                            | Type de donnés | Description                                                                                                                 |
-| - | -------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1 | Utiliser le plugin DungeonsXL    | true/false     | Basculer l'intégration avec [DungeonsXL](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#dungeonsxl) |
-| 2 | Utiliser le plugin Parties       | true/false     | Basculer l'intégration avec [Parties](https://github.com/PikaMug/Quests/wiki/Beginner-%E2%80%90-Dependencies#parties-)      |
-| 3 | Niveau de partage de progression | number         | Comment la progression de la quête est distribuée, voir ci-dessous                                                          |
-| 4 | Partager qu'avec la même quête   | true/false     | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                      |
-| 5 | Rayon de distance maximum        | nombre         | Distance maximal entre les joueurs pour que le partage de progression compte                                                |
-| 6 | Inclus les joueurs hors-ligne    | true/false     | Si le partage comprend les joueurs hors ligne                                                                               |
+| # | Choix                            | Type de donnés | Description                                                                                                                    |
+| - | -------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1 | Utiliser le plugin DungeonsXL    | true/false     | Basculer l'intégration avec [DungeonsXL](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#dungeonsxl) |
+| 2 | Utiliser le plugin Parties       | true/false     | Basculer l'intégration avec [Parties](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#parties)       |
+| 3 | Niveau de partage de progression | number         | Comment la progression de la quête est distribuée, voir ci-dessous                                                             |
+| 4 | Partager qu'avec la même quête   | true/false     | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                         |
+| 5 | Rayon de distance maximum        | nombre         | Distance maximal entre les joueurs pour que le partage de progression compte                                                   |
+| 6 | Inclus les joueurs hors-ligne    | true/false     | Si le partage comprend les joueurs hors ligne                                                                                  |
 
 Pour le niveau de partage des progrès, les différentes valeurs fonctionnent comme décrites ci dessous:
 
