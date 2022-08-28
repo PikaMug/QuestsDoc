@@ -1,6 +1,6 @@
 # Dependencies
 
-Quests can link with many other plugins available on [Spigot](https://www.spigotmc.org). Below is a list of every plugin that can be used, along with a description of how it links. Note that each plugin is entirely optional and are in no way required to use Quests.
+Quests can link with many other plugins available on [Spigot](https://www.spigotmc.org/). Below is a list of every plugin that can be used, along with a description of how it links. Note that each plugin is entirely optional and are in no way required to use Quests.
 
 | Labels:                                      |                                               |
 | -------------------------------------------- | --------------------------------------------- |
