@@ -1,6 +1,6 @@
 # Dépendances
 
-Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](https://www.spigotmc.org).Vous trouverez ci-dessous une liste de tous les plugins pouvant être utilisés, ainsi qu'une description de la manière dont ils sont liés. Notez que chaque plugin est entièrement facultatif et n'est en aucun cas requis pour utiliser les quêtes.
+Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](https://www.spigotmc.org/). Vous trouverez ci-dessous une liste de tous les plugins pouvant être utilisés, ainsi qu'une description de la manière dont ils sont liés. Notez que chaque plugin est entièrement facultatif et n'est en aucun cas requis pour utiliser les quêtes.
 
 | Légende:                                     |                                                      |
 | -------------------------------------------- | ---------------------------------------------------- |
