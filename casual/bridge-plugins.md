@@ -4,7 +4,7 @@
 **Notice:** This information is intended for intermediate users. Read carefully!
 {% endhint %}
 
-Plenty of other server plugins natively depend on Quests. However, it is sometimes easier or more beneficial for a developer to make an "in-between" plugin to link their resource to Quests. Unlike [modules](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules), bridge plugins handle more than just objectives or rewards. Below is a list of published examples.
+Plenty of other server plugins natively depend on Quests. However, it is sometimes easier or more beneficial for a developer to make an "in-between" plugin to link their resource to Quests. Unlike [modules](modules.md), bridge plugins handle more than just objectives or rewards. Below is a list of published examples.
 
 | Labels:                                      |                                               |
 | -------------------------------------------- | --------------------------------------------- |
@@ -36,6 +36,6 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ### QuestsGUI 🌟💲
 
-![ Displays clickable interfaces over select menus and commands within Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
+![Displays clickable interfaces over select menus and commands within Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
 
 ↳ [Download](https://www.spigotmc.org/resources/questsgui.71666/)
