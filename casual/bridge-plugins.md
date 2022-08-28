@@ -12,19 +12,19 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ### BlueMap-Quests 💲
 
-![Affiche visuellement les objectifs des quêtes dans une zone.](../.gitbook/assets/blue.png)
+![Affiche visuellement les objectifs des Quests dans une zone.](../.gitbook/assets/blue.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
 ### Depenizen
 
-<figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilize Quests commands, events, and properties in Denizen scripts.</p></figcaption></figure>
+<figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilisez les commandes événements et propriétés Quests dans les scripts Denizen.</p></figcaption></figure>
 
 ↳ [Téléchargement](https://github.com/DenizenScript/Depenizen)
 
 ### Dynmap-Quests 💲
 
-![Affiche visuellement les objectifs des quêtes sur la carte Dynmap.](https://i.imgur.com/cjS4crB.png)
+![Affiche visuellement les objectifs des Quests sur la carte Dynmap.](https://i.imgur.com/cjS4crB.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
@@ -36,12 +36,12 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ### QuestsBar 💲
 
-![Affiche la progression des objectifs dans une boss-bar.](https://i.imgur.com/9jVAdn9.png)
+![Affiche la progression des objectifs des Quests dans une boss-bar.](https://i.imgur.com/9jVAdn9.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questsbar.100634/)
 
 ### QuestsGUI 🌟💲
 
-![Utilise une interface cliquable pour les menus d'éditions et de sélections pour quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
+![Utilise une interface cliquable pour les menus d'éditions et de sélections pour Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questsgui.71666/)
