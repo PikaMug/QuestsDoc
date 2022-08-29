@@ -6,7 +6,7 @@
 
 * [Commandes & Permissions](setup/commands-and-permissions.md)
 * [Configuration](setup/configuration.md)
-* [Editeur de quête](setup/quests-editor.md)
+* [Éditeur de quête](setup/quests-editor.md)
 
 ## Débutant
 
