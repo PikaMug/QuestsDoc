@@ -27,7 +27,7 @@
 
 * [Editeur de conditions](expert/condition-editor.md)
 * [Stockage](expert/storage.md)
-* [Contributions doc](expert/doc-contributions.md)
+* [Contributions du doc](expert/doc-contributions.md)
 
 ## Maître
 
