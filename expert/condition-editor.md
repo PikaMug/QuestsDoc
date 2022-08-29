@@ -6,7 +6,7 @@
 
 When a player is carrying out a stage of a quest, it may be desirable to force them to meet a certain criteria. For example, holding a specific item while completing objectives. To do this, a condition must be created and applied.
 
-To make a condition, run **/quests conditions** in-game (it is not currently accessible from the console). You will be greeted with the following:
+To make a condition, run **/quests conditions** in-game \(it is not currently accessible from the console\). You will be greeted with the following:
 
 ![](https://camo.githubusercontent.com/7c7cf8db7760543f731b49ec61ef1651886830e96b79c7ce4afb6741f53bb7dc/68747470733a2f2f692e696d6775722e636f6d2f6c7148626f4b492e706e67)
 
@@ -24,4 +24,5 @@ Enter all the appropriate prompt numbers for 'Done' until you've saved your cond
 
 ![](https://camo.githubusercontent.com/0d1d5364054060a0c53960ba9542f09e4c415440d1680ba320dc2757328f247b/68747470733a2f2f692e696d6775722e636f6d2f6c657177796b672e706e67)
 
-Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
+Nice job! Unlike the Quests Editor, there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
+

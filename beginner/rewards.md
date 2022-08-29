@@ -1,6 +1,6 @@
 # Rewards
 
-Once you've familiarized yourself with the [Quests Editor](https://pikamug.gitbook.io/quests/setup/quests-editor), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
+Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
 
 ![](<../.gitbook/assets/rewardz (1).png>)
 
