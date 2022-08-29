@@ -18,14 +18,14 @@
 
 ## Intermédiaire
 
-* [Editeur de actions](casual/action-editor.md)
+* [Éditeur de action](casual/action-editor.md)
 * [Plugins de liaisons](casual/bridge-plugins.md)
 * [Modules](casual/modules.md)
 * [Traductions](casual/translations.md)
 
 ## Expert
 
-* [Editeur de conditions](expert/condition-editor.md)
+* [Éditeur de conditions](expert/condition-editor.md)
 * [Stockage](expert/storage.md)
 * [Contributions du doc](expert/doc-contributions.md)
 
