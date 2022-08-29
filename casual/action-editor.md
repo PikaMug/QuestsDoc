@@ -6,7 +6,7 @@
 
 Similar to how all quest stages have objectives, they can also perform actions. An action is something that happens during a stage, but is typically cosmetic and doesn't inherently progress the quest. For example, causing a player to lose hunger or get struck by lightning are considered actions.
 
-To make an action, run **/quests actions** in-game \(it is not currently accessible from the console\). You will be greeted with the following:
+To make an action, run **/quests actions** in-game (it is not currently accessible from the console). You will be greeted with the following:
 
 ![](https://camo.githubusercontent.com/e8b5f6ac7b8f17ac0aae2f247c7fe7b2b20c877082c6f2e98f96cc3533753b3f/68747470733a2f2f692e696d6775722e636f6d2f7452474e4e65752e706e67)
 
@@ -30,9 +30,8 @@ Enter all the appropriate prompt numbers for 'Done' until you've saved your acti
 
 ![](https://camo.githubusercontent.com/1c753f790d3139529192b019783428d8ed6e9eb9b2665f0c1af90cd144e1be07/68747470733a2f2f692e696d6775722e636f6d2f59496f496172512e706e67)
 
-Nice job! Unlike the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), there is no need to reload the plugin. Exit the Action Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 9 to run the action before, during, or after the stage:
+Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Action Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 9 to run the action before, during, or after the stage:
 
 ![](https://camo.githubusercontent.com/ea5fd196915be6fa887d780bb5f0a42f439f336960cda2f550efc998c1621b24/68747470733a2f2f692e696d6775722e636f6d2f4e6a48476979352e706e67)
 
 Chat and command actions are run during the stage when the player enters a specific keyword or command in-game, respectively.
-
