@@ -6,4 +6,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=k5HR_vYX2Rw" %}
 
-This documentation strives to be relevant for Quests 4.0.0 and newer, but feel free to [contribute](https://github.com/PikaMug/QuestsDoc). For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+**QuestsGUI** To see the documentation for _QuestsGUI (beta)_ click [here](https://browsit.gitbook.io/questsgui/)
+
+This documentation strives to be relevant for Quests 4.0.0 and newer, but feel free to [contribute](https://pikamug.gitbook.io/quests/expert/doc-contributions). For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
