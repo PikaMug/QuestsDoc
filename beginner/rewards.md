@@ -1,6 +1,6 @@
 # Récompenses
 
-Une fois que vous vous êtes familiarisé avec l'[Éditeur de quêtes](https://pikamug.gitbook.io/quests/v/french-francais/configuration/quests-editor), vous vous posez peut-être des questions sur l'outil de selection "Modifier les récompenses". Ce sous-menu contient les prix/récompenses que votre joueur recevra à la fin de la quête :
+Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/quests-editor.md), vous vous posez peut-être des questions sur l'outil de selection "Modifier les récompenses". Ce sous-menu contient les prix/récompenses que votre joueur recevra à la fin de la quête :
 
 ![](../.gitbook/assets/rewardz.png)
 
