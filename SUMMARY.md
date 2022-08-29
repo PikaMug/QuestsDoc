@@ -1,4 +1,4 @@
-# Table des matières
+# Table of contents
 
 * [Acceuil](README.md)
 
@@ -27,7 +27,7 @@
 
 * [Editeur de conditions](expert/condition-editor.md)
 * [Stockage](expert/storage.md)
-* [contributions](expert/doc-contributions.md)
+* [Contributions doc](expert/doc-contributions.md)
 
 ## Maître
 
