@@ -1,12 +1,12 @@
 # Bukkit Event API
 
 {% hint style="info" %}
-**Alert:** This information is intended for developers. Learn how to use Java first!
+**ALERTE:** Ces informations sont destinées aux développeurs. Apprenez d'abord à utiliser Java !
 {% endhint %}
 
-### Add to your project
+### Ajouter à votre projet
 
-If you're using Maven or another project management tool, add the latest version of Quests through the CodeMC service.
+Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la dernière version de Quests via le service CodeMC.
 
 ```xml
 <repository>
@@ -22,7 +22,7 @@ If you're using Maven or another project management tool, add the latest version
 </dependency>
 ```
 
-You may also need the core module.
+Vous pouvez également avoir besoin du module de base.
 
 ```xml
 <dependency>
@@ -32,9 +32,9 @@ You may also need the core module.
 </dependency>
 ```
 
-### Learn the interface
+### Apprendre l'interface
 
-Starting with Quests 3.7.0, a Bukkit-style Event API is available. If you do not see an Event you would like, please [submit a Pull Request](https://github.com/PikaMug/Quests/pulls). All other inquiries for a new Event to be added will be ignored.
+À partir de Quests 3.7.0, une Bukkit-style Event API (API d'événement de style Bukkit) est disponible. Si vous ne voyez pas un événement que vous aimeriez, s'il vous plaît [soumettez une requête ici](https://github.com/PikaMug/Quests/pulls). Toutes les autres demandes d'ajout d'un nouvel événement seront ignorées.
 
-[Click here to see available Events](https://github.com/PikaMug/Quests/tree/master/main/src/main/java/me/blackvein/quests/events)
+[Cliquez ici pour voir les événements disponibles (lien non disponible)]()
 
