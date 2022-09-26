@@ -36,5 +36,5 @@ Vous pouvez également avoir besoin du module de base.
 
 À partir de Quests 3.7.0, une API d'événement de style Bukkit est disponible. Si vous ne voyez pas un événement que vous aimeriez, veuillez [soumettre une demande d'extraction](https://github.com/PikaMug/Quests/pulls).Toutes les autres demandes d'ajout d'un nouvel événement seront ignorées.
 
-[Cliquez ici pour voir les événements disponibles](https://github.com/PikaMug/Quests/tree/master/main/src/main/java/me/blackvein/quests/events)
+[Cliquez ici pour voir les événements disponibles](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/blackvein/quests/events)
 
