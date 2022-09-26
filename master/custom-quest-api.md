@@ -1,12 +1,12 @@
-# Custom Quest API
+# API de quête personnalisée
 
 {% hint style="info" %}
-**Alert:** This information is intended for developers. Learn how to use Java first!
+ALERTE: Ces informations sont destinées aux développeurs. Apprenez d'abord à utiliser Java !
 {% endhint %}
 
-### Add to your project
+### Ajouter à votre projet
 
-If you're using Maven or another project management tool, add the latest version of Quests through the CodeMC service.
+Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la dernière version de Quests via le service CodeMC
 
 ```xml
 <repository>
@@ -22,7 +22,7 @@ If you're using Maven or another project management tool, add the latest version
 </dependency>
 ```
 
-You may also need the core module.
+Vous pouvez également avoir besoin du module de base.
 
 ```xml
 <dependency>
@@ -32,13 +32,13 @@ You may also need the core module.
 </dependency>
 ```
 
-### Learn the interface
+### Apprendre l'interface
 
-Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 4.0.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.
+Quests fournit une API simple pour créer des exigences, des récompenses et des objectifs personnalisés. Pour commencer, assurez-vous que vous compilez avec la version 4.0.0 ou supérieure. Une fois que vous avez fini de suivre ce guide, utilisez le dossier /Quests/modules comme destination pour votre fichier jar fini et compilé. Si vous distribuez votre module, assurez-vous d'informer l'utilisateur de l'emplacement final et correct du dossier.
 
-#### Requirements API
+#### API des exigences
 
-Building a Quests Requirement is very simple. To get started, create a Java class that extends the CustomRequirement class. After that, check out this example of a Custom Requirement where the player must have a particular name in order to take the Quest:
+Construire une exigence de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomRequirement. Après cela, consultez cet exemple d'exigence personnalisée où le joueur doit avoir un nom particulier pour entreprendre la quête :
 
 ```java
 package xyz.janedoe;
@@ -48,50 +48,50 @@ import org.bukkit.entity.Player;
 import me.blackvein.quests.CustomRequirement;
 
 public class NameRequirement extends CustomRequirement {
-    // Construct the requirement
+    // Construire l'exigence
     public NameRequirement() {
-        this.setName("Name Requirement");
+        this.setName("Exigence de nom");
         this.setAuthor("Jane Doe");
         this.addItem("NAME_TAG", 0);
-        this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
-        this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
-	this.setDisplay("Sorry, you are not on the list.");
+        this.addStringPrompt("Nom", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
+        this.addStringPrompt("Sensible aux majuscules et minuscules", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
+	this.setDisplay("Désolé, vous n'êtes pas sur la liste.");
     }
     
-    // Test whether a player has met the requirement
+    // Tester si un joueur a satisfait à l'exigence
     @Override
     public boolean testRequirement(Player player, Map<String, Object> data) {
 	String caseSensitive = (String) data.get("Case-Sensitive");
 		
-	// Check whether the name must be case-sensitive
+	// Vérifiez si le nom doit être sensible à la casse
 	if (caseSensitive.equalsIgnoreCase("true")) {
-	    // Mark the requirement as satisfied if name matches
+	    // Marquer l'exigence comme satisfaite si le nom correspond
 	    return player.getName().contains((String)data.get("Name"));
 	} else {
-	    // Mark the requirement as satisfied if name matches, ignoring case
+	    // Marquer l'exigence comme satisfaite si le nom correspond, en ignorant la casse
 	    return player.getName().toLowerCase().contains(((String)data.get("Name")).toLowerCase());
 	}
     }
 }
 ```
 
-In the constructor of your class, you may use any of the following methods:
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Method | Description |
+| Méthode | Description |
 | :--- | :--- |
-| setName\(\) | Sets the name of the Custom Objective. |
-| setAuthor\(\) | Sets the author of the Custom Objective \(you!\). |
-| addItem\(\) | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setDisplay | Sets how the requirement is displayed when failed. |
-| addStringPrompt\(\) | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName\(\) | Définit le nom de l'objectif personnalisé. |
+| setAuthor\(\) | Définit l'auteur de l'objectif personnalisé \(vous !\). |
+| addItem\(\) | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
+| setDisplay | Définit le mode d'affichage de l'exigence en cas d'échec. |
+| addStringPrompt\(\) | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
-Inside \#testRequirement is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
+À l'intérieur de \#testRequirement, vous exécutez votre logique pour déterminer si le joueur satisfait à l'exigence, renvoyant true s'il le fait et false s'il ne le fait pas.
 
-The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains the two values for 'Name' and 'Case-Sensitive'. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient les deux valeurs pour 'Name' et 'Case-Sensitive'. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
 
-#### Rewards API
+#### API de récompense
 
-Building a Quests Reward is very simple. To get started, create a Java class that extends the CustomReward class. After that, check out this example of a Custom Reward where a player gets a GUI Inventory that pops up containing iron, gold and diamonds:
+Construire une récompense de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomReward. Après cela, consultez cet exemple de récompense personnalisée où un joueur obtient un inventaire GUI contenant du fer, de l'or et des diamants :
 
 ```java
 package xyz.janedoe;
@@ -107,19 +107,19 @@ import org.bukkit.inventory.ItemStack;
 import me.blackvein.quests.CustomReward;
 
 public class LootReward extends CustomReward {
-    // Construct the reward
+    // Construire la récompense
     public LootReward() {
-        this.setName("Loot Reward");
+        this.setName("Butin de récompense");
         this.setAuthor("Jane Doe");
         this.addItem("CHEST", 0);
-        this.setRewardName("Loot Chest: %Title%");
-        this.addStringPrompt("Title", "Title of the loot inventory interface.", null);
-        this.addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
-        this.addStringPrompt("NumGold", "Enter the number of gold ingots to give in the loot chest.", null);
-        this.addStringPrompt("NumDiamond", "Enter the number of diamonds to give in the loot chest.", null);
+        this.setRewardName("Coffre de butin: %Title%");
+        this.addStringPrompt("Title", "Titre de l'interface d'inventaire de butin.", null);
+        this.addStringPrompt("NumIron", "Entrez le nombre de lingots de fer à donner dans le coffre à butin.", null);
+        this.addStringPrompt("NumGold", "Entrez le nombre de lingots d'or à donner dans le coffre à butin.", null);
+        this.addStringPrompt("NumDiamond", "Entrez le nombre de diamants à donner dans le coffre à butin.", null);
     }
     
-    // Give loot reward to a player
+    // Donner une récompense de butin à un joueur
     @Override
     public void giveReward(Player player, Map<String, Object> data) {
         String title = (String) data.get("Title");
@@ -127,30 +127,30 @@ public class LootReward extends CustomReward {
         int numGold = 0;
         int numDiamond = 0;
         
-        // Attempt to load user input as integers
+        // Tentative de chargement de l'entrée utilisateur sous forme d'entiers
         try {
             numIron = Integer.parseInt((String) data.get("NumIron"));
         } catch (NumberFormatException nfe) {
-        	Bukkit.getLogger().severe("Loot Reward has invalid Iron number: " + numIron);
+        	Bukkit.getLogger().severe("La récompense de butin a un numéro de fer invalide: " + numIron);
         }
         try {
             numGold = Integer.parseInt((String) data.get("NumGold"));
         } catch (NumberFormatException nfe) {
-        	Bukkit.getLogger().severe("Loot Reward has invalid Gold number: " + numGold);
+        	Bukkit.getLogger().severe("La récompense de butin a un numéro d'or invalide: " + numGold);
         }
         try {
             numDiamond = Integer.parseInt((String) data.get("NumDiamond"));
         } catch (NumberFormatException nfe) {
-        	Bukkit.getLogger().severe("Loot Reward has invalid Diamond number: " + numDiamond);
+        	Bukkit.getLogger().severe("La récompense de butin a un numéro de diamands invalide: " + numDiamond);
         }
         
-        // Create a temporary inventory to add items to
+        // Créer un inventaire temporaire pour y ajouter des objets
         Inventory inv = Bukkit.getServer().createInventory(player, 3, title);
         int slot = 0;
 
-        // Check if amount is greater than default value
+        // Vérifier si le montant est supérieur à la valeur par défaut
         if (numIron > 0) {
-            // Add item to current slot in temporary inventory, then get next slot ready
+            // Ajoutez un objet à l'emplacement actuel dans l'inventaire temporaire, puis préparez l'emplacement suivant
             inv.setItem(slot, new ItemStack(Material.IRON_INGOT, numIron > 64 ? 64 : numIron));
             slot++;
         }
@@ -162,32 +162,32 @@ public class LootReward extends CustomReward {
             inv.setItem(slot, new ItemStack(Material.DIAMOND, numDiamond > 64 ? 64 : numDiamond));
         }
         
-        // Open temporary inventory for player to accept items
+        // Ouvrir l'inventaire temporaire pour que le joueur accepte les objets
         player.openInventory(inv);
     }
 }
 ```
 
-In the constructor of your class, you may use any of the following methods:
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Method | Description |
+| Méthode | Description |
 | :--- | :--- |
-| setName | Sets the name of the Custom Objective. |
-| setAuthor | Sets the author of the Custom Objective \(you!\). |
-| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setRewardName | Sets the reward name \(text that will appear when the player completes the Quest\) of the Custom Reward. |
-| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Définit le nom de l'objectif personnalisé. |
+| setAuthor | Définit l'auteur de l'objectif personnalisé \(vous !\). |
+| addItem | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
+| setRewardName | Définit le nom de la récompense \(texte qui apparaîtra lorsque le joueur termine la quête\) de la récompense personnalisée. |
+| addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
-Inside \#giveReward is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+À l'intérieur de \#giveReward est l'endroit où vous exécutez votre logique pour donner au joueur tout ce que votre récompense personnalisée donne. La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient quatre valeurs : une pour le titre de l'interface graphique et trois pour la quantité de fer/or/diamants. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
 
-#### Objectives API
+#### API des objectifs
 
-Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out these examples of a Custom Objective:
+Construire un objectif de quête est un peu plus compliqué que les exigences ou les récompenses. Pour commencer, créez une classe Java qui étend la classe CustomObjective. Si vous souhaitez capturer l'un des événements de Bukkit, vous devrez implémenter la classe d'écoute \(Les quêtes se chargeront de l'enregistrer pour vous\). Après cela, consultez ces exemples d'objectif personnalisé :
 
 {% tabs %}
-{% tab title="Example 1" %}
+{% tab title="Exemple 1" %}
 ```java
-// Player must gain a certain amount of experience to advance
+// Le joueur doit acquérir une certaine expérience pour avancer
 
 package xyz.janedoe;
 
@@ -201,27 +201,27 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerExpChangeEvent;
 
 public class ExperienceObjective extends CustomObjective implements Listener {
-    // Get the Quests plugin
+    // Obtenir le plugin Quêtes
     Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
 	
-    // Construct the objective
+    // Construire l'objectif
     public ExperienceObjective() {
-        this.setName("Experience Objective");
+        this.setName("Objectif d'expérience");
         this.setAuthor("Jane Doe");
         this.addItem("BOOK", 0);
         this.setShowCount(true);
-        this.setCountPrompt("Enter the experience points that the player must acquire:");
-        this.setDisplay("Acquire experience points: %count%");
+        this.setCountPrompt("Saisissez les points d'expérience que le joueur doit acquérir:");
+        this.setDisplay("Acquérir des points d'expérience : %count%");
     }
 
-    // Catch the Bukkit event for a player gaining/losing exp
+    // Attrapez l'événement Bukkit pour un joueur gagnant / perdant de l'expérience
     @EventHandler
     public void onPlayerExpChange(PlayerExpChangeEvent evt) {
-        // Make sure to evaluate for all of the player's current quests
+       // Assurez-vous d'évaluer toutes les quêtes actuelles du joueur
         for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
-            // Check if the player gained exp, rather than lost
+            // Vérifie si le joueur a gagné plus d'expérience qu'il n'en a perdu
             if (evt.getAmount() > 0) {
-                // Add to the objective's progress, completing it if requirements were met
+                // Ajoutez à la progression de l'objectif, en le complétant si les exigences ont été remplies
                 incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
             }
         }
@@ -230,9 +230,9 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 ```
 {% endtab %}
 
-{% tab title="Example 2" %}
+{% tab title="Exemple 2" %}
 ```java
-// Require the player to drop a certain number of a certain type of item.
+// Exiger que le joueur laisse tomber un certain nombre d'un certain type d'objet.
 
 package xyz.janedoe;
 
@@ -247,24 +247,24 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class DropItemObjective extends CustomObjective {
-    // Get the Quests plugin
+    // obtenir le plugin Quêtes
     Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
 
-    // Construct the objective
+    // Construire l'objectif
     public DropItemObjective() {
-        this.setName("Drop Item Objective");
+        this.setName("Objectif de l'objet à jeter");
         this.setAuthor("Jane Doe");
-        this.addItem("ANVIL", 0); // Quests 4.0.0+ only
+        this.addItem("ANVIL", 0); // Quests 4.0.0+ uniquement
         this.setShowCount(true);
-        this.setCountPrompt("Enter the amount that the player must drop:");
-        this.setDisplay("Drop %Item Name%: %count%");
-        this.addStringPrompt("Item Name", "Enter the name of the item that the player must drop", "DIRT");
+        this.setCountPrompt("Entrez le montant que le joueur doit déposer:");
+        this.setDisplay("Jeter %Item Name%: %count%");
+        this.addStringPrompt("Item Name", "Entrez le nom de l'objet que le joueur doit déposer", "DIRT");
     }
 
-    // Catch the Bukkit event for a player dropping an item
+    // Attrapez l'événement Bukkit pour un joueur laissant tomber un objet
     @EventHandler
     public void onPlayerDropItem(PlayerDropItemEvent evt){
-    	// Make sure to evaluate for all of the player's current quests
+    	// Assurez-vous d'évaluer toutes les quêtes actuelles du joueur
     	for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
     	    Map<String, Object> map = getDataForPlayer(evt.getPlayer(), this, quest);
 	    if (map == null) {
@@ -273,14 +273,14 @@ public class DropItemObjective extends CustomObjective {
             ItemStack stack = evt.getItemDrop().getItemStack();
             String userInput = (String) map.get("Item Name");
             EntityType type = EntityType.fromName(userInput);
-            // Display error if user-specified item name is invalid
+            // Erreur d'affichage si le nom d'élément spécifié par l'utilisateur n'est pas valide
             if (type == null) {
-            	Bukkit.getLogger().severe("Drop Item Objective has invalid item name: " + userInput);
+            	Bukkit.getLogger().severe("L'objectif d'élément àjeter a un nom d'élément non valide: " + userInput);
             	continue;
             }
-            // Check if the item the player dropped is the one user specified
+            // Vérifiez si l'élément que le joueur a déposé est celui spécifié par l'utilisateur
             if (evt.getItemDrop().getItemStack().getType().equals(type)) {
-    		// Add to the objective's progress, completing it if requirements were met
+    		// Ajouter à la progression de l'objectif, en le complétant si les exigences ont été remplies
             	incrementObjective(evt.getPlayer(), this, stack.getAmount(), quest);
             }
     	}
@@ -289,9 +289,9 @@ public class DropItemObjective extends CustomObjective {
 ```
 {% endtab %}
 
-{% tab title="Example 3" %}
+{% tab title="Exemple 3" %}
 ```java
-// Allow player to break ANY block rather than a specific one
+// Autoriser le joueur à casser N'IMPORTE QUEL bloc plutôt qu'un spécifique
 
 package xyz.janedoe;
 
@@ -306,16 +306,16 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.block.BlockBreakEvent;
 
 public class AnyBreakBlockObjective extends CustomObjective {
-    // Get the Quests plugin
+   // Récupérer le plugin Quêtes
     private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
     
     public AnyBreakBlockObjective() {
-        setName("Break Blocks Objective");
+        setName("Objectif casser des blocs");
         setAuthor("Jane Doe");
         addItem("DIRT", 0);
         setShowCount(true);
-        addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
-        setCountPrompt("Set the amount of blocks to break");
+        addStringPrompt("Obj Name", "Définir un nom pour l'objectif", "Casser tous les bocs");
+        setCountPrompt("Définir le nombre de blocs à casser");
         setDisplay("%Obj Name%: %count%");
     }
     
@@ -332,19 +332,19 @@ public class AnyBreakBlockObjective extends CustomObjective {
 {% endtab %}
 {% endtabs %}
 
-In the constructor of your class, you may use any of the following methods:
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Method | Description |
+| Méthode | Description |
 | :--- | :--- |
-| setName | Sets the name of the Custom Objective. |
-| setAuthor | Sets the author of the Custom Objective \(you!\). |
-| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setShowCount | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with \#addStringPrompt unless disabled._ |
-| setCountPrompt | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number". |
-| setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of \#setShowCount, and \#addStringPrompt titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
-| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Définit le nom de l'objectif personnalisé. |
+| setAuthor | Sets l'auteur de l'objectif personnalisé \(vous !\). |
+| addItem | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
+| setShowCount | Définit si l'éditeur de quête peut définir le décompte \(nombre de fois où le joueur doit répéter la tâche\). La valeur par défaut est "vrai". _Cela s'appliquera à toutes les invites ajoutées avec \#addStringPrompt, sauf si elles sont désactivées._ |
+| setCountPrompt | Définit la description de l'invite permettant à l'utilisateur d'entrer le nombre pour l'objectif. La valeur par défaut est "Entrer le numéro". |
+| setDisplay | Définit la façon dont l'objectif est affiché dans la liste /quests et le journal des quêtes. Pour les espaces réservés, utilisez `%count%` pour obtenir la valeur de \#setShowCount et les titres \#addStringPrompt pour l'entrée utilisateur \(comme `%Item Name%` dans le deuxième exemple\). La valeur par défaut est « Progression : %count% ».|
+| addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
-Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use \#incrementObjective to advance the player. The first and the second argument of \#incrementObjective should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use \#incrementObjective - use an increment of 1 to signal that the objective has been completed.
+À l'intérieur de vos EventHandlers \(le cas échéant\), déterminez si le joueur a atteint tout ou partie de l'objectif, puis utilisez \#incrementObjective pour faire avancer le joueur. Le premier et le deuxième argument de \#incrementObjective doivent toujours être respectivement le joueur et 'this'. Le troisième argument est de combien incrémenter l'objectif, tandis que le dernier est la quête à laquelle appliquer l'incrément. Même si votre objectif n'a pas de décompte, vous devez toujours utiliser \#incrementObjective - utilisez un incrément de 1 pour signaler que l'objectif a été atteint.
 
-The `Map<String, Object>` contains the data that the quest editor provided. In this example, the data keys are the item names, whereas the values are the user's input for your prompt \(which _can_ be null\). Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+Le `Map<String, Object>` contient les données fournies par l'éditeur de quête. Dans cet exemple, les clés de données sont les noms des éléments, tandis que les valeurs sont l'entrée de l'utilisateur pour votre invite \(qui _peut_ être null\). Notez également que même si les valeurs sont de type objets, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
 
