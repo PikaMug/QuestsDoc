@@ -64,16 +64,3 @@ Administrator commands, which should only be granted to those you trust not to m
 {% hint style="info" %}
 **Pro-tip:** Use _quests.admin.\*_, _quests.editor.\*_, _quests.actions.\*_ and _quests.conditions.\*_ to encompass all admin and editor permissions, respectively! By default, you can also use **/qa** instead of **/questadmin**!
 {% endhint %}
-
-### Legacy Commands
-
-The following commands have either been removed from or altered within Quests:
-
-| Command                         | Permission             | Description                                                    |
-| ------------------------------- | ---------------------- | -------------------------------------------------------------- |
-| /questadmin togglegui \[npc id] | quests.admin.togglegui | Toggle GUI Quest Display on an NPC _(Removed in Quests 3.8.0)_ |
-
-### Legacy Permissions
-
-Those using Quests 3.4.7 or older must instead use the "Old" permissions for the Events Editor, [as shown here](https://pastebin.com/tcYBebK5). Anyone using Quests 3.4.8 to 3.6.9 should use the "New" permission from that same link.
-
