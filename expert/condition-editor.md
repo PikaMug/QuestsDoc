@@ -6,7 +6,7 @@
 
 When a player is carrying out a stage of a quest, it may be desirable to force them to meet a certain criteria. For example, holding a specific item while completing objectives. To do this, a condition must be created and applied.
 
-To make a condition, run **/quests conditions** in-game \(it is not currently accessible from the console\). You will be greeted with the following:
+To make a condition, run **/quests conditions** in-game (or from the console, with limited features). You will be greeted with the following:
 
 ![](https://camo.githubusercontent.com/7c7cf8db7760543f731b49ec61ef1651886830e96b79c7ce4afb6741f53bb7dc/68747470733a2f2f692e696d6775722e636f6d2f6c7148626f4b492e706e67)
 
