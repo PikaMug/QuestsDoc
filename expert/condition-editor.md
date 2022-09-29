@@ -6,7 +6,7 @@
 
 Lorsqu'un joueur réalise une étape d'une quête, il peut être souhaitable de le forcer à répondre à certains critères. Par exemple, tenir un objet spécifique tout en remplissant des objectifs. Pour ce faire, une condition doit être créée et appliquée.
 
-Pour créer une condition, lancez **/quests conditions** dans le jeu (elle n'est actuellement pas accessible depuis la console). Vous serez accueilli avec ce qui suit :
+Pour créer une condition, lancez **/quests conditions** dans le jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli avec ce qui suit :
 
 ![](https://camo.githubusercontent.com/7c7cf8db7760543f731b49ec61ef1651886830e96b79c7ce4afb6741f53bb7dc/68747470733a2f2f692e696d6775722e636f6d2f6c7148626f4b492e706e67)
 
