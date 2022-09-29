@@ -8,13 +8,13 @@ Let's make a quest! By default, the Quest Editor is available only to server ops
 | <mark style="color:blue;">3</mark> | - | <mark style="color:yellow;">Delete a quest</mark>   |
 | <mark style="color:red;">4</mark>  | - | <mark style="color:red;">Exit</mark>                |
 
-![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
-
 Enter '1' in chat so the plugin may prompt you to enter a name for your quest. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
-![](https://camo.githubusercontent.com/031f828b6cec9066e378cc41b7e3723090c4d9b448c6960c3642378827a364b0/68747470733a2f2f692e696d6775722e636f6d2f476b566554505a2e706e67)
-
 After you've chosen a valid name, this screen will appear:
+
+{% swagger src="../.gitbook/assets/crowdin.yml" path="/projects/{projectId}/strings/{stringId}" method="get" %}
+[crowdin.yml](../.gitbook/assets/crowdin.yml)
+{% endswagger %}
 
 ![](https://camo.githubusercontent.com/fda7a8693ba61b3a030bccc4911a806db2346282c26833a2d3d9195be39f2641/68747470733a2f2f692e696d6775722e636f6d2f4865473977394b2e706e67)
 

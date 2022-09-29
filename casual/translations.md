@@ -6,10 +6,10 @@
 
 Should you wish to change the plugin's language, Quests has many localization files which are located at /plugins/Quests/lang/**ISO**/strings.yml by default, where "**ISO**" represents your preferred [language code](https://support.crowdin.com/api/language-codes/). Translations are provided [via Crowdin](https://crowdin.com/project/translate-quests), a platform where anyone can contribute, with English(en-US) being the source language.
 
-You may select the language of choice for your server by changing the [language code](https://support.crowdin.com/api/language-codes/) value of `language` in [config.yml](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration). If a particular string/sentence has not been localized, it will default to English. To avoid this, you may edit the strings.yml file directly or [contribute a translation on Crowdin](https://crowdin.com/project/translate-quests).
+You may select the language of choice for your server by changing the [language code](https://support.crowdin.com/api/language-codes/) value of `language` in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). If a particular string/sentence has not been localized, it will default to English. To avoid this, you may edit the strings.yml file directly or [contribute a translation on Crowdin](https://crowdin.com/project/translate-quests).
 
 {% hint style="info" %}
-**Pro-tip:** Certain menu options may be difficult to use as a result of crowdsourced localization. Setting the value of `ask-confirmation` to `false` in [config.yml](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration) may help minimize these issues.
+**Pro-tip:** Certain menu options may be difficult to use as a result of crowdsourced localization. Setting the config value of `ask-confirmation` to `false` may help minimize these issues.
 {% endhint %}
 
 ### Viewing
