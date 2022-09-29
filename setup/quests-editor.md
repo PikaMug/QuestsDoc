@@ -22,7 +22,7 @@ After you've chosen a valid name, this screen will appear:
 | <mark style="color:blue;">7</mark>  | - | <mark style="color:yellow;">Set GUI item display</mark> |
 | <mark style="color:blue;">8</mark>  | - | <mark style="color:blue;">Edit Requirements</mark>      |
 | <mark style="color:blue;">9</mark>  | - | <mark style="color:blue;">Edit Planner</mark>           |
-| <mark style="color:blue;">10</mark> | - | <mark style="color:purple;">Edit Stages</mark>          |
+| <mark style="color:blue;">10</mark> | - | <mark style="color:pink;">Edit Stages</mark>          |
 | <mark style="color:blue;">11</mark> | - | <mark style="color:purple;">Edit Rewards</mark>         |
 | <mark style="color:blue;">12</mark> | - | <mark style="color:green;">Edit Options</mark>          |
 | <mark style="color:blue;">13</mark> | - | <mark style="color:green;">Save</mark>                  |
