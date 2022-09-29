@@ -6,7 +6,7 @@
 
 Semblable à la façon dont toutes les étapes de quête ont des objectifs, elles peuvent également effectuer des actions. Une action est quelque chose qui se produit pendant une étape, mais qui est généralement cosmétique et ne fait pas progresser la quête. Par exemple, faire perdre la faim à un joueur ou être frappé par la foudre sont considérés comme des actions.
 
-Pour effectuer une action, lancez **/quests actions** dans le jeu (elle n'est actuellement pas accessible depuis la console). Vous serez accueilli avec ce qui suit :
+Pour effectuer une action, lancez **/quests actions** dans le jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli avec ce qui suit :
 
 ![](https://camo.githubusercontent.com/e8b5f6ac7b8f17ac0aae2f247c7fe7b2b20c877082c6f2e98f96cc3533753b3f/68747470733a2f2f692e696d6775722e636f6d2f7452474e4e65752e706e67)
 
