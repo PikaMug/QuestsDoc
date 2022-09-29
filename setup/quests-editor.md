@@ -1,4 +1,4 @@
-# Editeur de quête
+# Éditeur de quête
 
 Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://pikamug.gitbook.io/quests/v/french-francais/configuration/commands-and-permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli par ce qui suit :
 
@@ -18,11 +18,7 @@ Comme vous pouvez le voir, il y vraiment beaucoup de choix, entrez '2' et indiqu
 **Conseil de pro:** Si vous avez [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) d'installé pour les PNJ, vous pouvez entrer '4' pour choisir le PNJ que vous souhaitez afin de lui confier votre quête.
 {% endhint %}
 
-Félicitation, si vous sauvegardé votre quête maintenant, vous aurez cette erreur.
-
-![](https://camo.githubusercontent.com/99bdcd82f5754ef236c0ac1dcfb23a28dea3be3bbdd64ac7f8c9bf6adfeccd75/68747470733a2f2f692e696d6775722e636f6d2f4d4166765a6e482e706e67)
-
-C'est parce que votre quête doit comporter au moins une étape, il faut donc la crée, entrez '11' pour commencer.
+Félicitation, si vous sauvegardé votre quête maintenant, vous aurez une erreur. C'est parce que votre quête doit comporter au moins une étape, il faut donc la crée, entrez '11' pour commencer.
 
 ![](https://camo.githubusercontent.com/70fd785e576145ea3c0a111f963c727053819815d8b2057385b65156d8ccee86/68747470733a2f2f692e696d6775722e636f6d2f4944694466524a2e706e67)
 
@@ -44,7 +40,7 @@ Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La ter
 **Conseil de pro:** Les joueurs peuvent casser des blocs sans affecter la quête en utilisant une pioche avec l'enchantement toucher de soie, cette option peut être désactivé dans [Options](../beginner/options.md).
 {% endhint %}
 
-Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez  '13' puis '1' pour enregistrer votre quête ! Vous devriez recevoir ce message :
+Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez '13' puis '1' pour enregistrer votre quête ! Vous devriez recevoir ce message :
 
 ![](https://camo.githubusercontent.com/34cf772e5a8bed2117fbf064bf3c42c0f0b4ef34f7e0d1cb0539054367db9e6f/68747470733a2f2f692e696d6775722e636f6d2f4b5373635232582e706e67)
 
