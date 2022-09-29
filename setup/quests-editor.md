@@ -2,13 +2,11 @@
 
 Let's make a quest! By default, the Quest Editor is available only to server ops. However, with the [correct permissions](https://pikamug.gitbook.io/quests/setup/commands-and-permissions) in place, it's as simple as running **/quests editor** in-game (or from the console, with limited features). You will be greeted with the following:
 
-
-| # | - | Description      |
-| - | - | ---------------- |
-| 1 | - | Create new quest |
-| 2 | - | Edit a quest     |
-| 3 | - | Delete a quest   |
-| 4 | - | Exit             |
+| <mark style="color:blue;">1</mark> | - | <mark style="color:yellow;">Create new quest</mark> |
+| ---------------------------------- | - | --------------------------------------------------- |
+| <mark style="color:blue;">2</mark> | - | <mark style="color:yellow;">Edit a quest</mark>     |
+| <mark style="color:blue;">3</mark> | - | <mark style="color:yellow;">Delete a quest</mark>   |
+| <mark style="color:red;">4</mark>  | - | <mark style="color:red;">Exit</mark>                |
 
 ![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
 
