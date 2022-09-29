@@ -1,6 +1,6 @@
 # Editeur de quête
 
-Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://pikamug.gitbook.io/quests/v/french-francais/configuration/commands-and-permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (actuellement inaccessible depuis la console). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
+Faisons des quête !! Par défaut l'éditeur de quête est disponible que pour les opérateurs du serveur. Cependant, avec les [bonnes permissions](https://pikamug.gitbook.io/quests/v/french-francais/configuration/commands-and-permissions) il est très simple pour certains staffs de faire la commande **/quests editor** en jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli par ce qui suit: (Les screenshots seront bientôt mis à jour).
 
 ![](https://camo.githubusercontent.com/fd0571c9f8dd71b0cdcd37522e00efd6841fb861d9c74cc0f0936b5688ba6f39/68747470733a2f2f692e696d6775722e636f6d2f35664c645170612e706e67)
 
