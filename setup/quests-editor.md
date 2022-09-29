@@ -12,6 +12,21 @@ Enter '1' in chat so the plugin may prompt you to enter a name for your quest. T
 
 After you've chosen a valid name, this screen will appear:
 
+| <mark style="color:blue;">1</mark> | - | <mark style="color:yellow;">Set name</mark> |
+| ---------------------------------- | - | --------------------------------------------------- |
+| <mark style="color:blue;">2</mark> | - | <mark style="color:yellow;">Set ask message</mark>     |
+| <mark style="color:blue;">3</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">4</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">5</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">6</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">7</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">8</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">9</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">10</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">11</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">12</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:blue;">13</mark> | - | <mark style="color:yellow;">Set finish message</mark>   |
+| <mark style="color:red;">14</mark>  | - | <mark style="color:red;">Exit</mark>                |
 ![](https://camo.githubusercontent.com/fda7a8693ba61b3a030bccc4911a806db2346282c26833a2d3d9195be39f2641/68747470733a2f2f692e696d6775722e636f6d2f4865473977394b2e706e67)
 
 That's a lot of choices! Enter '2' and then input the first thing you'd like the player to hear for your quest. Once you're done, enter '3' to input the final message to come from your quest.
