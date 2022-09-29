@@ -18,11 +18,7 @@ That's a lot of choices! Enter '2' and then input the first thing you'd like the
 **Pro-tip:** If you have [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) installed for NPCs, you may enter '4' to select an NPC that you'd like to hand out the quest.
 {% endhint %}
 
-Great job! Now, if you go to save your quest, you'll get the following error:
-
-![](https://camo.githubusercontent.com/99bdcd82f5754ef236c0ac1dcfb23a28dea3be3bbdd64ac7f8c9bf6adfeccd75/68747470733a2f2f692e696d6775722e636f6d2f4d4166765a6e482e706e67)
-
-This is because all quests must contain at least one stage. So, let's create one! Enter '11' to begin.
+Great job! Now, if you go to save your quest, you'll get an error. This is because all quests must contain at least one stage. So, let's create one! Enter '11' to begin.
 
 ![](https://camo.githubusercontent.com/70fd785e576145ea3c0a111f963c727053819815d8b2057385b65156d8ccee86/68747470733a2f2f692e696d6775722e636f6d2f4944694466524a2e706e67)
 
