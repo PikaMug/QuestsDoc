@@ -12,10 +12,6 @@ Enter '1' in chat so the plugin may prompt you to enter a name for your quest. T
 
 After you've chosen a valid name, this screen will appear:
 
-{% swagger src="../.gitbook/assets/crowdin.yml" path="/projects/{projectId}/strings/{stringId}" method="get" %}
-[crowdin.yml](../.gitbook/assets/crowdin.yml)
-{% endswagger %}
-
 ![](https://camo.githubusercontent.com/fda7a8693ba61b3a030bccc4911a806db2346282c26833a2d3d9195be39f2641/68747470733a2f2f692e696d6775722e636f6d2f4865473977394b2e706e67)
 
 That's a lot of choices! Enter '2' and then input the first thing you'd like the player to hear for your quest. Once you're done, enter '3' to input the final message to come from your quest.
