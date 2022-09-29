@@ -64,15 +64,3 @@ Les commandes d'administrateurs, qui doivent être accordées qu'à ceux en qui 
 {% hint style="info" %}
 **Astuce de pro:** Pour englober respectivement toutes les autorisations d'administrateur et d'éditeur vous pouvez utiliser _quests.admin.\*_, _quests.editor.\*_, _quests.actions.\*_ et _quests.conditions.\*_ ! Par défaut, vous pouvez utilisé **/qa** en remplacement de **/questadmin**!
 {% endhint %}
-
-### Anciennes Commandes
-
-Les commandes suivantes ont été retirée ou modifié pour Quests
-
-| Commandes                          | Permission             | Description                                                    |
-| ---------------------------------- | ---------------------- | -------------------------------------------------------------- |
-| /questadmin togglegui \[Id du npc] | quests.admin.togglegui | Ouvrir l'interface graphique (GUI) d'un pnj _(Retiré pour Quests 3.8.0 et ultérieur)_ |
-
-### Anciennes Permissions
-
-Si vous utilisez Quests 3.4.7 ou inférieur, vous devrez utiliser les anciennes permissions pour l'éditeur d'évenements [disponible ici](https://pastebin.com/tcYBebK5). Pour les versions 3.4.8 à 3.6.9 utilisez les "nouvelles" permissions du lien fournis ci dessus.
