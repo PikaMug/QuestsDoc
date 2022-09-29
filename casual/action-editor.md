@@ -6,7 +6,7 @@
 
 Similar to how all quest stages have objectives, they can also perform actions. An action is something that happens during a stage, but is typically cosmetic and doesn't inherently progress the quest. For example, causing a player to lose hunger or get struck by lightning are considered actions.
 
-To make an action, run **/quests actions** in-game (it is not currently accessible from the console). You will be greeted with the following:
+To make an action, run **/quests actions** in-game (or from the console, with limited features). You will be greeted with the following:
 
 ![](https://camo.githubusercontent.com/e8b5f6ac7b8f17ac0aae2f247c7fe7b2b20c877082c6f2e98f96cc3533753b3f/68747470733a2f2f692e696d6775722e636f6d2f7452474e4e65752e706e67)
 
