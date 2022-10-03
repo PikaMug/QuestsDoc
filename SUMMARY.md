@@ -18,7 +18,7 @@
 
 ## Intermédiaire
 
-* [Éditeur de action](casual/action-editor.md)
+* [Éditeur d'actions](casual/action-editor.md)
 * [Plugins de liaisons](casual/bridge-plugins.md)
 * [Modules](casual/modules.md)
 * [Traductions](casual/translations.md)
