@@ -14,7 +14,7 @@ This is the default selection which will save player data to separated .yml file
 
 This will save player data to a local or remote MySQL database that you have configured ahead of time. Table and login settings may be specified via the `storage-data` settings. An example of such configuration might look like:
 
-```text
+```
 storage-data:
   address: localhost
   database: minecraft
@@ -32,5 +32,4 @@ Note that HikariCP has been shaded internally to maximize connection speed on la
 
 ### Custom
 
-A developer may opt to employ a custom storage option. See [here](https://github.com/PikaMug/Quests/tree/master/main/src/main/java/me/blackvein/quests/storage/implementation/custom).
-
+A developer may opt to employ a custom storage option. See [here](https://github.com/PikaMug/Quests/tree/main/core/src/main/java/me/blackvein/quests/storage/implementation/custom).
