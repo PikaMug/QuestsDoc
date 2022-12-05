@@ -10,7 +10,7 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 | - | - | ------------------------------------ | ---------- | --------------------------------------------------- |
 | 1 | - | Allow commands during quest          | true/false | Whether players may use commands after taking quest |
 | 2 | - | Allow quitting during quest          | true/false | Whether players may quit quest after accepting it   |
-| 3 | - | Ignore blocks broken with Silk Touch | true/false | Weather break-block objectives count Silk Touch     |
+| 3 | - | Ignore blocks broken with Silk Touch | true/false | Whether break-block objectives count Silk Touch     |
 
 ### Multiplayer
 
