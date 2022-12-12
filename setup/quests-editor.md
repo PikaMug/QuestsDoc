@@ -34,8 +34,6 @@ Here, you can enter whichever block you would like the player to break. Dirt mak
 **Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../beginner/options.md).
 {% endhint %}
 
-Enter all the appropriate prompt numbers for 'Done' until you're back at the ask/finish message screen. You're nearly finished! Enter '13' and then '1' to save your quest! You should be greeted with this message:
+Enter all the appropriate prompt numbers for 'Done' until you're back at the ask/finish message screen. You're nearly finished! Enter '13' and then '1' to save your quest.
 
-![](https://camo.githubusercontent.com/34cf772e5a8bed2117fbf064bf3c42c0f0b4ef34f7e0d1cb0539054367db9e6f/68747470733a2f2f692e696d6775722e636f6d2f4b5373635232582e706e67)
-
-Great work! You've completed making a quest. To give it a try either run **/questadmin reload** or restart the server (do _not_ use /reload) and then **/quests take \[yourQuestName]**. Once you make a few more, you should share your most interesting quest lines on [our Discord](https://discordapp.com/invite/d56CQ6e). Have fun!
+Great work! To give your new quest a try, either run **/questadmin reload** or restart the server (do _not_ use /reload) and then **/quests take \[yourQuestName]**. Once you make a few more, you should share your most interesting quest lines on [our Discord](https://discordapp.com/invite/d56CQ6e). Have fun!
