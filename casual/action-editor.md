@@ -24,15 +24,10 @@ For now, enter '5' for the Weather menu, then '2' to set up an action which will
 
 Input '1' to select one of your Minecraft server's worlds by name. They will be listed for your convenience, but you can only select one! You may create a second action later if you wish to deal out thunder across multiple worlds.
 
-Once that's done, enter '2' to set a duration of time in seconds. This is how long your thunder action will last for. As an example, type in 180 for the event to last 3 minutes.
-
-Enter all the appropriate prompt numbers for 'Done' until you've saved your action! You should be greeted with this message:
-
-![](https://camo.githubusercontent.com/1c753f790d3139529192b019783428d8ed6e9eb9b2665f0c1af90cd144e1be07/68747470733a2f2f692e696d6775722e636f6d2f59496f496172512e706e67)
+Once that's done, enter '2' to set a duration of time in seconds. This is how long your thunder action will last for. As an example, type in 180 for the event to last 3 minutes. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your action.
 
 Nice job! Unlike the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E2%80%90-Quests-Editor), there is no need to reload the plugin. Exit the Action Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 9 to run the action before, during, or after the stage:
 
 ![](https://camo.githubusercontent.com/ea5fd196915be6fa887d780bb5f0a42f439f336960cda2f550efc998c1621b24/68747470733a2f2f692e696d6775722e636f6d2f4e6a48476979352e706e67)
 
 Chat and command actions are run during the stage when the player enters a specific keyword or command in-game, respectively.
-
