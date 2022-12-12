@@ -8,7 +8,7 @@ Entrez '1' dans le chat, et le plugin vous demandera un nom pour votre première
 
 Après avoir choisis un nom correct, cet écran apparaitra:
 
-![](<../.gitbook/assets/quest\_main (1).png>)
+![](../.gitbook/assets/quest\_main.png)
 
 Comme vous pouvez le voir, il y vraiment beaucoup de choix, entrez '2' et indiquez un message au joueur qui souhaiterais prendre la quête. Validez, puis entrez '3' pour ajouter un message final qui récompensera le joueur.
 
