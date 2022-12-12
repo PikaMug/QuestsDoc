@@ -12,6 +12,8 @@ To make an action, run **/quests actions** in-game (or from the console, with li
 
 Enter '1' in chat so the plugin may prompt you to enter a name for your action. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
+![](https://camo.githubusercontent.com/142258f62b59f0a4536534206b216dd96f26bb14e4805851fd4ecc45d96d2490/68747470733a2f2f692e696d6775722e636f6d2f7877307a6753752e706e67)
+
 After you've chosen a valid name, this screen will appear:
 
 ![](https://camo.githubusercontent.com/6c685a9d56578d14d1cda1edc55b64b92e35f67b4c94d848835a94b774ff76fe/68747470733a2f2f692e696d6775722e636f6d2f7572756d6a69712e706e67)
