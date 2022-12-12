@@ -1,4 +1,4 @@
-# Éditeur de conditions
+# Éditeur de condition
 
 {% hint style="info" %}
 **Avertissement :** Ces informations sont destinées aux utilisateurs avancés. Procéder avec prudence!
@@ -18,10 +18,6 @@ Après avoir choisi un nom valide, cet écran apparaît :
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
 
-Sélectionnez un type de condition et décidez si le joueur doit échouer à la quête si la condition souaitée n'est pas remplie.
-
-Entrez tous les numéros d'invite appropriés pour "Validé" vos actions jusqu'à pouvoir enregistrer votre condition ! Si cela est le cas vous devriez être accueilli par ce message :
-
-![](https://camo.githubusercontent.com/0d1d5364054060a0c53960ba9542f09e4c415440d1680ba320dc2757328f247b/68747470733a2f2f692e696d6775722e636f6d2f6c657177796b672e706e67)
+Sélectionnez un type de condition et décidez si le joueur doit échouer à la quête si la condition souaitée n'est pas remplie. Maintenant, entrez tous les numéros d'invite appropriés pour "Terminé" jusqu'à ce que vous ayez enregistré votre condition.
 
 Bon travail ! Contrairement à l'[éditeur de quête](../setup/quests-editor.md), il n'est pas nécessaire de recharger le plugin. Quittez l'éditeur de conditions, puis créez ou modifiez une quête dans l'éditeur de quête. Allez dans le menu "Modifier les étapes" et, après avoir défini au moins un objectif, sélectionnez l'option 11 pour appliquer la condition.
