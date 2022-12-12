@@ -36,4 +36,4 @@ Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La ter
 
 Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez '13' puis '1' pour enregistrer votre quête.
 
-Bon travail ! Pour essayer votre nouvelle quête, **/questadmin reload** ou redémarrez le serveur (Ne _pas_ utiliser /reload) puis **/quests take \[votre nom de quête]**. Une fois que vous en aurez fait quelques autres, vous pouvez partager vos séries de quêtes les plus intéressantes ou en trouver d'autres sur [Notre Discord](https://discordapp.com/invite/d56CQ6e) (Discord en anglais). Bon jeu!
+Bon travail ! Pour essayer votre nouvelle quête, **/questadmin reload** ou redémarrez le serveur (Ne _pas_ utiliser /reload) puis **/quests take \[votre nom de quête]**. Une fois que vous en aurez fait quelques autres, vous pouvez partager vos séries de quêtes les plus intéressantes ou en trouver d'autres sur [notre Discord](https://discord.com/invite/d56CQ6e). Bon jeu!
