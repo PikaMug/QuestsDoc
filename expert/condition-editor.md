@@ -12,8 +12,6 @@ Pour créer une condition, lancez **/quests conditions** dans le jeu (ou depuis 
 
 Entrez '1' dans le chat afin que le plugin puisse vous demander d'entrer un nom pour votre condition. Il peut s'agir de n'importe quelle séquence alphanumérique, ce qui signifie que les lettres et les chiffres sont acceptables, mais pas de caractères spéciaux ni de symboles ! Ne vous inquiétez pas, vous pourrez le modifier plus tard si vous n'êtes pas sûr.
 
-![](https://camo.githubusercontent.com/80bc88d8dbcfb01e7f684ed12c65c2c70a7ee519140d459dd8bcf8111327b091/68747470733a2f2f692e696d6775722e636f6d2f50446d734a5a482e706e67)
-
 Après avoir choisi un nom valide, cet écran apparaît :
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
