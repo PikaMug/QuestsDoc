@@ -24,13 +24,9 @@ Pour l'instant, entrez '5' pour le menu Météo, puis '2' pour configurer une ac
 
 Entrez '1' pour sélectionner l'un des mondes de votre serveur Minecraft par son nom. Ils seront répertoriés pour votre commodité, mais vous ne pouvez en sélectionner qu'un ! Vous pouvez créer une deuxième action plus tard si vous souhaitez distribuer le tonnerre sur plusieurs mondes.
 
-Une fois cela fait, entrez '2' pour définir une durée en secondes. C'est la durée de l'événement tonnerre. Par exemple, tapez 180 pour que l'événement dure 3 minutes.
+Une fois cela fait, entrez '2' pour définir une durée en secondes. C'est la durée de l'événement tonnerre. Par exemple, tapez 180 pour que l'événement dure 3 minutes. Maintenant, entrez tous les numéros d'invite appropriés pour "Terminé" jusqu'à ce que vous ayez enregistré votre action.
 
-Entrez tous les numéros d'invite appropriés pour "Sauvegarder" jusqu'à ce que vous ayez enregistré votre action ! Vous devriez être accueilli par ce message :
-
-![](https://camo.githubusercontent.com/1c753f790d3139529192b019783428d8ed6e9eb9b2665f0c1af90cd144e1be07/68747470733a2f2f692e696d6775722e636f6d2f59496f496172512e706e67)
-
-Bon travail! Contrairement à l'[éditeur de quete](../setup/quests-editor.md), il n'est pas nécessaire de recharger le plugin. Quittez l'éditeur d'action, puis créez ou modifiez une quête dans l'éditeur de quête. Allez dans le menu "Modifier les étapes" et, après avoir défini au moins un objectif, sélectionnez l'option 9 pour exécuter l'action avant, pendant ou après l'étape :
+Bon travail ! Contrairement à l'[éditeur de quete](../setup/quests-editor.md), il n'est pas nécessaire de recharger le plugin. Quittez l'éditeur d'action, puis créez ou modifiez une quête dans l'éditeur de quête. Allez dans le menu "Modifier les étapes" et, après avoir défini au moins un objectif, sélectionnez l'option 9 pour exécuter l'action avant, pendant ou après l'étape :
 
 ![](https://camo.githubusercontent.com/ea5fd196915be6fa887d780bb5f0a42f439f336960cda2f550efc998c1621b24/68747470733a2f2f692e696d6775722e636f6d2f4e6a48476979352e706e67)
 
