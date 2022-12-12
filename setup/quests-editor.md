@@ -2,7 +2,7 @@
 
 Let's make a quest! By default, the Quest Editor is available only to server ops. However, with the [correct permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) in place, it's as simple as running **/quests editor** in-game (or from the console, with limited features). You will be greeted with the following:
 
-![](../.gitbook/assets/quest\_editor.png)
+![](<../.gitbook/assets/quest\_editor (1).png>)
 
 Enter '1' in chat so the plugin may prompt you to enter a name for your quest. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
