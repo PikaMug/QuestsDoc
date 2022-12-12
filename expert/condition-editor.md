@@ -18,10 +18,6 @@ After you've chosen a valid name, this screen will appear:
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
 
-Select a condition type and decide whether the player should fail the quest if said condition is not met.
-
-Enter all the appropriate prompt numbers for 'Done' until you've saved your condition! You should be greeted with this message:
-
-![](https://camo.githubusercontent.com/0d1d5364054060a0c53960ba9542f09e4c415440d1680ba320dc2757328f247b/68747470733a2f2f692e696d6775722e636f6d2f6c657177796b672e706e67)
+Select a condition type and decide whether the player should fail the quest if said condition is not met. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your condition.
 
 Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
