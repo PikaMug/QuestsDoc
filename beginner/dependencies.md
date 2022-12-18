@@ -101,3 +101,13 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 ![Set regions for use with Quests.](https://camo.githubusercontent.com/55a494e4c5676605026ac22ae2c59e3097e9987e58196f04686418b51342a917/68747470733a2f2f692e696d6775722e636f6d2f53426b6b7a454e2e706e67)
 
 ↳ [Download](https://dev.bukkit.org/projects/worldguard/files)
+
+### ZNPCs
+
+<figure><img src="https://i.imgur.com/bcrtalK.png" alt=""><figcaption><p>Start and interact with quests through NPCs.</p></figcaption></figure>
+
+{% hint style="info" %}
+<mark style="color:red;">Warning:</mark> ZNPCs is not fully supported and will break after server restart. Please ask its developer to fix this at [https://github.com/gonalez/znpc-servers/issues/36](https://github.com/gonalez/znpcs-old/issues/36)
+{% endhint %}
+
+↳ [Download](https://www.spigotmc.org/resources/znpcs-1-8-1-19-open-source.80940/)
