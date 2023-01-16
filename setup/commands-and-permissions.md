@@ -17,6 +17,7 @@ Below is a chart which describes each command and its associated permission. Not
 | /quests info          | quests.info      | View plugin information        |
 | /quests journal       | quests.journal   | Toggle the Quest Journal       |
 | N/A                   | quests.compass   | Track quests using a Compass   |
+| N/A                   | quests.choice    | Use clickable text             |
 |                       |                  |                                |
 | /quest                | quests.quest     | View current quest objectives  |
 | /quest \[quest]       | quests.questinfo | View information about a quest |
