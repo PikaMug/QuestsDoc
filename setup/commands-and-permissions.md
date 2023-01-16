@@ -1,6 +1,6 @@
 # Commands & Permissions
 
-The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding_Permissions).
+The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding\_Permissions).
 
 ### Player Commands
 
@@ -17,6 +17,7 @@ Below is a chart which describes each command and its associated permission. Not
 | /quests info          | quests.info      | View plugin information        |
 | /quests journal       | quests.journal   | Toggle the Quest Journal       |
 | N/A                   | quests.compass   | Track quests using a Compass   |
+| N/A                   | quests.choice    | Use clickable text             |
 |                       |                  |                                |
 | /quest                | quests.quest     | View current quest objectives  |
 | /quest \[quest]       | quests.questinfo | View information about a quest |
