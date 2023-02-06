@@ -36,9 +36,15 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ### QuestsBar 💲
 
-![Display a boss bar with text for objective progress within Quests.](https://i.imgur.com/9jVAdn9.png)
+![Displays a boss bar with text for objective progress within Quests.](https://i.imgur.com/9jVAdn9.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/questsbar.100634/)
+
+### QuestsEffect 💲
+
+<figure><img src="https://i.imgur.com/rJcuZj4.png" alt=""><figcaption><p>Spawns configurable effects on objective progress and over quest-giving NPCs.</p></figcaption></figure>
+
+↳ [Download](https://www.spigotmc.org/resources/questseffect.107679/)
 
 ### QuestsGUI 🌟💲
 
