@@ -72,7 +72,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 {% endtab %}
 {% endtabs %}
 
-### Marcely's Bedwars
+### Marcely's Bedwars 💲
 
 <figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Ajoute les objectifs suivants: "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".</p></figcaption></figure>
 
