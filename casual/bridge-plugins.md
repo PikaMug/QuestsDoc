@@ -40,7 +40,7 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questsbar.100634/)
 
-### QuestsEffect
+### QuestsEffect 💲
 
 <figure><img src="https://i.imgur.com/rJcuZj4.png" alt=""><figcaption><p>Engendre des effets configurables sur la progression objective et sur les PNJ donnant des quêtes.</p></figcaption></figure>
 
