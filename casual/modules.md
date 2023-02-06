@@ -8,8 +8,8 @@ Les plugins qui s'intègrent aux quêtes pour fournir des objectifs, des récomp
 
 Les jars de module doivent être placés dans le dossier _Quests/modules_, tandis que le plugin cible va dans le dossier _/plugins_ comme d'habitude. Notez que tous les modules sont entièrement facultatifs et que vous pouvez les ajouter ou les supprimer comme bon vous semble. Vous trouverez ci-dessous une liste incomplète des plugins populaires pour lesquels un module est connu, ainsi qu'une description de la façon dont il est lié.
 
-| Légende:                                      |                                               |
-| -------------------------------------------- | --------------------------------------------- |
+| Légende:                                                 |                                                      |
+| -------------------------------------------------------- | ---------------------------------------------------- |
 | 🌟 = Recommandé pour une expérience utilisateur optimale | 💲 = Peut nécessiter l'achat d'une ressource premium |
 
 ### BedWars1058 - Open Source 💲 <a href="#bedwars1058-open-source" id="bedwars1058-open-source"></a>
@@ -71,6 +71,12 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 [Téléchargement](https://jenkins.elmakers.com/job/MagicQuests/88/)
 {% endtab %}
 {% endtabs %}
+
+### Marcely's Bedwars
+
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Ajoute les objectifs suivants: "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".</p></figcaption></figure>
+
+↳ [Téléchargement](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
 
 ### mcMMO Overhaul 💲
 
@@ -136,9 +142,9 @@ Le module est installé automatiquement avec NPCDestinations.
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/screaming-bedwars-module.98380/)
 
-### Vous souhaitez une assistance pour d'autres plugins ou fonctionnalités ?
+### Vous souhaitez une assistance pour d'autres plugins ou fonctionnalités ?
 
-Si vous ne trouvez pas de module pour un usage particulier ici ou via une recherche sur Internet, envisagez d'embaucher un développeur sur l'un de ces sites :
+Si vous ne trouvez pas de module pour un usage particulier ici ou via une recherche sur Internet, envisagez d'embaucher un développeur sur l'un de ces sites :
 
 * [Quests Community](https://discordapp.com/invite/QdJAv2G7qg)
 * [SpigotMC](https://www.spigotmc.org/forums/hiring-developers.55/)
