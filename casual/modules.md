@@ -72,7 +72,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 {% endtab %}
 {% endtabs %}
 
-### Marcely's Bedwars
+### Marcely's Bedwars 💲
 
 <figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
 
