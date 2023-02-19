@@ -4,6 +4,19 @@ Une fois que vous vous serez familiarisé avec l'[éditeur de quête](../setup/q
 
 ![](https://camo.githubusercontent.com/07cea0e4af2b6bde23df1ada96f63d46b090cfe97a32b8889eb3599245245ff8/68747470733a2f2f692e696d6775722e636f6d2f7743374134396a2e706e67)
 
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+1. Time the quest should become available
+2. Time the quest should cease to be available
+3. Length until quest is available again
+4. Length to wait after completing quest
+5. If true, players can take quest immediately after repeat cycle ends
+6. Finish working on your quest planner
+
+</details>
+
 Pour mieux comprendre ces sélections, des exemples sont fournis ci-dessous.
 
 **Quête journalière**
