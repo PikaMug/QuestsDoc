@@ -10,6 +10,27 @@ After you've chosen a valid name, this screen will appear:
 
 ![](../.gitbook/assets/quest\_main.png)
 
+<details>
+
+<summary>Expand to see the breakdown.</summary>
+
+1. Change the name of your quest
+2. Shown to player when accepting quest
+3. Shown to player after completing quest
+4. Must speak to this Citizens NPC to start quest
+5. Must right-click on this block to start quest
+6. Must stand in this WorldGuard region to start quest
+7. Use NPC GUI to start quest instead of chat
+8. Change what a player needs to take your quest
+9. Change the time(s) that your quest is available
+10. Change what objectives your quest consists of
+11. Change what a player gets for taking your quest
+12. Change settings purely specific to your quest
+13. Finish working on your quest
+14. Discard all work on your quest
+
+</details>
+
 That's a lot of choices! Enter '2' and then input the first thing you'd like the player to hear for your quest. Once you're done, enter '3' to input the final message to come from your quest.
 
 {% hint style="info" %}
@@ -22,9 +43,9 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 
 <details>
 
-<summary>Tap here to see the breakdown.</summary>
+<summary>Expand to see the breakdown.</summary>
 
-1. Includes objectives to break, place, damage, cut (with shears), or use blocks
+1. Includes objectives to break, place, damage, or use blocks
 2. Includes objectives to craft, smelt, or enchant items
 3. Includes objectives to deliver items to, talk to, or kill NPCs
 4. Includes objectives to kill or tame mobs, catch fish, or shear sheep
