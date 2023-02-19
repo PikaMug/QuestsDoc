@@ -14,7 +14,20 @@ Après avoir choisis un nom correct, cet écran apparaitra:
 
 <summary>Développez pour voir la ventilation.</summary>
 
-
+1. Change the name of your quest
+2. Shown to player when accepting quest
+3. Shown to player after completing quest
+4. Must speak to this Citizens NPC to start quest
+5. Must right-click on this block to start quest
+6. Must stand in this WorldGuard region to start quest
+7. Use NPC GUI to start quest instead of chat
+8. Change what a player needs to take your quest
+9. Change the time(s) that your quest is available
+10. Change what objectives your quest consists of
+11. Change what a player gets for taking your quest
+12. Change settings purely specific to your quest
+13. Finish working on your quest
+14. Discard all work on your quest
 
 </details>
 
@@ -27,6 +40,30 @@ Il y vraiment beaucoup de choix ! Entrez '2' et indiquez un message au joueur qu
 Excellent travail ! Maintenant, si vous allez sauver votre quête, vous aurez une erreur. C'est parce que votre quête doit comporter au moins une étape, il faut donc la crée ! Entrez '11' pour commencer, puis '1' pour ajouter votre première étape.
 
 ![](../.gitbook/assets/quest\_stage.png)
+
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+1. Includes objectives to break, place, damage, or use blocks
+2. Includes objectives to craft, smelt, or enchant items
+3. Includes objectives to deliver items to, talk to, or kill NPCs
+4. Includes objectives to kill or tame mobs, catch fish, or shear sheep
+5. Objective to kill an amount of players
+6. Objective to travel to a specific radius of world coordinates
+7. Objective to enter a specific string in chat
+8. Objective from an installed [custom module](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules)
+9. After setting at least one objective, run an [action](../casual/action-editor.md) at the start, end, or during the stage
+10. After setting at least one objective, check a [condition](../expert/condition-editor.md) during the stage
+11. Number of seconds to wait before the next stage may begin
+12. After setting a delay, show a message to the player once the delay starts
+13. Show a message to the player once the stage begins
+14. Show a message to the player once the stage ends
+15. Override the message shown to the player about what their objectives are
+16. Permanently remove this stage
+17. Finish working on your stage
+
+</details>
 
 Vive la magie des quêtes ! Il y a tellement d'objectifs différents que les possibilités sont presques sans fin ! Essayons de crée une quête basique, casser quelques blocs. Entrez '1' pour acceder au menu des blocs, puis encore '1' pour selectionner la destruction des blocs.
 
