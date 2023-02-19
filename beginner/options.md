@@ -15,14 +15,14 @@ Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/q
 
 ### Multiplayer
 
-| # | Choix                            | Description                                                                                                              |
-| - | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 1 | Définir le fournisseur via Unite | Définir l'intégration avec le plugin party via Unite                                                                     |
-| 2 | Utiliser le plugin Parties       | Basculer l'intégration avec [Parties](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#parties) |
-| 3 | Niveau de partage de progression | Comment la progression de la quête est distribuée, voir ci-dessous                                                       |
-| 4 | Partager qu'avec la même quête   | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                   |
-| 5 | Rayon de distance maximum        | Distance maximal entre les joueurs pour que le partage de progression compte                                             |
-| 6 | Inclus les joueurs hors-ligne    | Si le partage comprend les joueurs hors ligne                                                                            |
+| # | Choix                            | Description                                                                                                                             |
+| - | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | Définir le fournisseur via Unite | Définir l'intégration avec le plugin party via [Unite](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#unite) |
+| 2 | Utiliser le plugin Parties       | Basculer l'intégration avec [Parties](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#parties)                |
+| 3 | Niveau de partage de progression | Comment la progression de la quête est distribuée, voir ci-dessous                                                                      |
+| 4 | Partager qu'avec la même quête   | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                                  |
+| 5 | Rayon de distance maximum        | Distance maximal entre les joueurs pour que le partage de progression compte                                                            |
+| 6 | Inclus les joueurs hors-ligne    | Si le partage comprend les joueurs hors ligne                                                                                           |
 
 Pour le niveau de partage des progrès, les différentes valeurs fonctionnent comme décrites ci dessous:
 
