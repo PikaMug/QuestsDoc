@@ -45,4 +45,19 @@ Nice job! Unlike the [Quests Editor](https://github.com/PikaMug/Quests/wiki/3-%E
 
 ![](../.gitbook/assets/action\_quest.png)
 
+<details>
+
+<summary>Expand to see the breakdown.</summary>
+
+1. Activate on start of stage
+2. Activate at end of stage
+3. Activate if player fails quest
+4. Activate if player dies during stage
+5. Activate if player disconnects during stage
+6. Activate if chat message sent during stage
+7. Activate if command run during stage
+8. Save and return to previous menu
+
+</details>
+
 Chat and command actions are run during the stage when the player enters a specific keyword or command in-game, respectively.
