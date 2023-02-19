@@ -8,15 +8,15 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 
 <summary>Expand to see the breakdown.</summary>
 
-1. Money needed through Vault
+1. Money needed through [Vault](https://pikamug.gitbook.io/quests/beginner/dependencies#vault)
 2. Points needed
 3. Material needed
 4. Player permission needed
 5. Quest which must be taken before this one
 6. Quest which prevents this one from being taken
-7. mcMMO experience levels needed
-8. Heroes experience levels needed
-9. Requirements from a Quests module
+7. [mcMMO](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) experience levels needed
+8. [Heroes](https://pikamug.gitbook.io/quests/beginner/dependencies#heroes) experience levels needed
+9. Requirements from a [Quests module](../casual/modules.md)
 10. Override message shown to the player describing their requirements
 
 </details>
