@@ -10,8 +10,8 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 
 1. Money needed through [Vault](https://pikamug.gitbook.io/quests/beginner/dependencies#vault)
 2. Points needed
-3. Material needed
-4. Experience needed
+3. Material needed such as Emeralds or Diamonds
+4. Vanilla experience needed
 5. Player permission needed
 6. Quest which must be taken before this one
 7. Quest which prevents this one from being taken

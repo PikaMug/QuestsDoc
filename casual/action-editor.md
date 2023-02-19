@@ -16,6 +16,23 @@ After you've chosen a valid name, this screen will appear:
 
 ![](../.gitbook/assets/action\_main.png)
 
+<details>
+
+<summary>Expand to see the breakdown.</summary>
+
+1. Change the name of your action
+2. Send message, clear inventory, give items, apply potion effects, set hunger level, set saturation level, teleport to location, or execute commands
+3. Set time to fail quest and whether to cancel the quest timer
+4. Set effects or set explosion locations
+5. Set storm or thunder in a particular world, or set lightning strike locations
+6. Action to spawn mobs
+7. Run a [Denizen](https://pikamug.gitbook.io/quests/beginner/dependencies#denizen) script
+8. Action to fail the quest
+9. Finish working on your action
+10. Discard all work on your action
+
+</details>
+
 For now, enter '5' for the Weather menu, then '2' to set up an action which will force thunder across a world for a while.
 
 ![](../.gitbook/assets/action\_thunder.png)
