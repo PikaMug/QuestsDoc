@@ -17,7 +17,7 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 
 | # | Choice                         | Description                                                                                                 |
 | - | ------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| 1 | Set provider via Unite         | Set integration with party plugin via Unite                                                                 |
+| 1 | Set provider via Unite         | Set integration with party plugin via [Unite](dependencies.md#unite)                                        |
 | 2 | Use Parties plugin             | Toggle built-in integration with [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) |
 | 3 | Level of progress sharing      | How quest progress is distributed, see below                                                                |
 | 4 | Share with the same quest only | Whether players must have same quest to share progress                                                      |
