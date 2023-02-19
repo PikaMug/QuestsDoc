@@ -6,11 +6,12 @@ Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/q
 
 ### Général
 
-| # | Choix                                                          | Type de donnés | Description                                                                |
-| - | -------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------- |
-| 1 | Autoriser des commandes durant la quête                        | true/false     | Si les joueurs peuvent utiliser des commandes après avoir pris la quête    |
-| 2 | Autoriser l'abandon pendant la quête                           | true/false     | Si les joueurs peuvent quitter la quête après l'avoir acceptée             |
-| 3 | Ignorer les blocs cassés avec l'enchantement "toucher de soie" | true/false     | Si l'objectif de "casser des blocs" compte ceux cassés avec touché de soie |
+| # | Choix                                                        | Type de donnés | Description                                                               |
+| - | ------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------- |
+| 1 | Autoriser des commandes durant la quête                      | true/false     | Si les joueurs peuvent utiliser des commandes après avoir pris la quête   |
+| 2 | Autoriser l'abandon pendant la quête                         | true/false     | Si les joueurs peuvent quitter la quête après l'avoir acceptée            |
+| 3 | Ignorer les blocs cassés avec l'enchantement Toucher de soie | true/false     | Si l'objectif de casser des blocs compte ceux cassés avec Toucher de soie |
+| 4 | Ignorer les blocs remplacés une fois cassés                  |                | Si le placement de blocs décrément-nous les objectifs de casser des blocs |
 
 ### Multiplayer
 
