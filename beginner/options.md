@@ -6,23 +6,23 @@ Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/q
 
 ### Général
 
-| # | Choix                                                        | Type de donnés | Description                                                               |
-| - | ------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------- |
-| 1 | Autoriser des commandes durant la quête                      | true/false     | Si les joueurs peuvent utiliser des commandes après avoir pris la quête   |
-| 2 | Autoriser l'abandon pendant la quête                         | true/false     | Si les joueurs peuvent quitter la quête après l'avoir acceptée            |
-| 3 | Ignorer les blocs cassés avec l'enchantement Toucher de soie | true/false     | Si l'objectif de casser des blocs compte ceux cassés avec Toucher de soie |
-| 4 | Ignorer les blocs remplacés une fois cassés                  |                | Si le placement de blocs décrément-nous les objectifs de casser des blocs |
+| # | Choix                                                        | Description                                                               |
+| - | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| 1 | Autoriser des commandes durant la quête                      | Si les joueurs peuvent utiliser des commandes après avoir pris la quête   |
+| 2 | Autoriser l'abandon pendant la quête                         | Si les joueurs peuvent quitter la quête après l'avoir acceptée            |
+| 3 | Ignorer les blocs cassés avec l'enchantement Toucher de soie | Si l'objectif de casser des blocs compte ceux cassés avec Toucher de soie |
+| 4 | Ignorer les blocs remplacés une fois cassés                  | Si le placement de blocs décrément-nous les objectifs de casser des blocs |
 
 ### Multiplayer
 
-| # | Choix                            | Type de donnés | Description                                                                                                                    |
-| - | -------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 1 | Utiliser le plugin DungeonsXL    | true/false     | Basculer l'intégration avec [DungeonsXL](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#dungeonsxl) |
-| 2 | Utiliser le plugin Parties       | true/false     | Basculer l'intégration avec [Parties](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#parties)       |
-| 3 | Niveau de partage de progression | number         | Comment la progression de la quête est distribuée, voir ci-dessous                                                             |
-| 4 | Partager qu'avec la même quête   | true/false     | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                         |
-| 5 | Rayon de distance maximum        | nombre         | Distance maximal entre les joueurs pour que le partage de progression compte                                                   |
-| 6 | Inclus les joueurs hors-ligne    | true/false     | Si le partage comprend les joueurs hors ligne                                                                                  |
+| # | Choix                            | Description                                                                                                              |
+| - | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 1 | Définir le fournisseur via Unite | Définir l'intégration avec le plugin party via Unite                                                                     |
+| 2 | Utiliser le plugin Parties       | Basculer l'intégration avec [Parties](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#parties) |
+| 3 | Niveau de partage de progression | Comment la progression de la quête est distribuée, voir ci-dessous                                                       |
+| 4 | Partager qu'avec la même quête   | Si les joueurs doivent avoir la même quête pour partager leurs progrès                                                   |
+| 5 | Rayon de distance maximum        | Distance maximal entre les joueurs pour que le partage de progression compte                                             |
+| 6 | Inclus les joueurs hors-ligne    | Si le partage comprend les joueurs hors ligne                                                                            |
 
 Pour le niveau de partage des progrès, les différentes valeurs fonctionnent comme décrites ci dessous:
 
