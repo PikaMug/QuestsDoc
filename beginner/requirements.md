@@ -14,7 +14,7 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 4. Player permission needed
 5. Quest which must be taken before this one
 6. Quest which prevents this one from being taken
-7. [mcMMO](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) experience levels needed
+7. [mcMMO Classic](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) experience levels needed
 8. [Heroes](https://pikamug.gitbook.io/quests/beginner/dependencies#heroes) experience levels needed
 9. Requirements from a [Quests module](../casual/modules.md)
 10. Override message shown to the player describing their requirements
