@@ -16,6 +16,23 @@ Après avoir choisi un nom valide, cet écran apparaît :
 
 ![](../.gitbook/assets/action\_main.png)
 
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+1. Change the name of your action
+2. Send message, clear inventory, give items, apply potion effects, set hunger level, set saturation level, teleport to location, or execute commands
+3. Set time to fail quest and whether to cancel the quest timer
+4. Set effects or set explosion locations
+5. Set storm or thunder in a particular world, or set lightning strike locations
+6. Action to spawn mobs
+7. Run a [Denizen](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#denizen) script
+8. Action to fail the quest
+9. Finish working on your action
+10. Discard all work on your action
+
+</details>
+
 Pour l'instant, entrez '5' pour le menu Météo, puis '2' pour configurer une action qui forcera le tonnerre sur un monde pendant un certain temps.
 
 ![](../.gitbook/assets/action\_thunder.png)
