@@ -16,6 +16,21 @@ After you've chosen a valid name, this screen will appear:
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
 
+<details>
+
+<summary>Expand to see the breakdown.</summary>
+
+1. Change the name of your condition
+2. Ride an entity or [Citizens](https://pikamug.gitbook.io/quests/v/spanish-espanol/beginner/dependencies#citizens) NPC
+3. Own permission, hold item in main hand, or wear items as armor
+4. Stay within world, stay within ticks, stay within biome, or stay within [WorldGuard](https://pikamug.gitbook.io/quests/v/spanish-espanol/beginner/dependencies#citizens) region
+5. Whether placeholder value is true
+6. Whether to fail quest if condition not met
+7. Finish working on your condition
+8. Discard all work on your condition
+
+</details>
+
 Select a condition type and decide whether the player should fail the quest if said condition is not met. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your condition.
 
 Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
