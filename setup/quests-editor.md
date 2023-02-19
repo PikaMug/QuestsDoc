@@ -10,13 +10,21 @@ Après avoir choisis un nom correct, cet écran apparaitra:
 
 ![](../.gitbook/assets/quest\_main.png)
 
-Comme vous pouvez le voir, il y vraiment beaucoup de choix, entrez '2' et indiquez un message au joueur qui souhaiterais prendre la quête. Validez, puis entrez '3' pour ajouter un message final qui récompensera le joueur.
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+
+
+</details>
+
+Il y vraiment beaucoup de choix ! Entrez '2' et indiquez un message au joueur qui souhaiterais prendre la quête. Validez, puis entrez '3' pour ajouter un message final qui récompensera le joueur.
 
 {% hint style="info" %}
 **Conseil de pro:** Si vous avez [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) d'installé pour les PNJ, vous pouvez entrer '4' pour choisir le PNJ que vous souhaitez afin de lui confier votre quête.
 {% endhint %}
 
-Félicitation, si vous sauvegardé votre quête maintenant, vous aurez une erreur. C'est parce que votre quête doit comporter au moins une étape, il faut donc la crée ! Entrez '11' pour commencer, puis '1' pour ajouter votre première étape.
+Excellent travail ! Maintenant, si vous allez sauver votre quête, vous aurez une erreur. C'est parce que votre quête doit comporter au moins une étape, il faut donc la crée ! Entrez '11' pour commencer, puis '1' pour ajouter votre première étape.
 
 ![](../.gitbook/assets/quest\_stage.png)
 
