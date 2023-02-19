@@ -20,6 +20,30 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 
 ![](../.gitbook/assets/quest\_stage.png)
 
+<details>
+
+<summary>Tap here to see the breakdown.</summary>
+
+1. Includes objectives to break, place, damage, cut (with shears), or use blocks
+2. Includes objectives to craft, smelt, or enchant items
+3. Includes objectives to deliver items to, talk to, or kill NPCs
+4. Includes objectives to kill or tame mobs, catch fish, or shear sheep
+5. Objective to kill an amount of players
+6. Objective to travel to a specific radius of world coordinates
+7. Objective to enter a specific string in chat
+8. Objective from an installed [custom module](../casual/modules.md)
+9. After setting at least one objective, run an [action](../casual/action-editor.md) at the start, end, or during the stage
+10. After setting at least one objective, check a [condition](../expert/condition-editor.md) during the stage
+11. Number of seconds to wait before the next stage may begin
+12. After setting a delay, show a message to the player once the delay starts
+13. Show a message to the player once the stage begins
+14. Show a message to the player once the stage ends
+15. Override the message shown to the player about what their objectives are
+16. Permanently remove this stage
+17. Finish working on your stage
+
+</details>
+
 Behold the magic of Quests! There are so many different objectives to choose from that the possibilities seem endless! Let's try a basic quest to break some blocks. Enter '1' to continue to the Blocks menu, then '1' again to select Break blocks.
 
 {% hint style="info" %}
