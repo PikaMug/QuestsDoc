@@ -45,4 +45,19 @@ Bon travail ! Contrairement à l'[éditeur de quete](../setup/quests-editor.md),
 
 ![](../.gitbook/assets/action\_quest.png)
 
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+1. Activate on start of stage
+2. Activate at end of stage
+3. Activate if player fails quest
+4. Activate if player dies during stage
+5. Activate if player disconnects during stage
+6. Activate if chat message sent during stage
+7. Activate if command run during stage
+8. Save and return to previous menu
+
+</details>
+
 Les actions de chats et de commandes sont exécutées pendant l'étape lorsque le joueur entre un mot-clé ou une commande spécifique dans le jeu, respectivement.
