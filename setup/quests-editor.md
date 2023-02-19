@@ -17,9 +17,9 @@ After you've chosen a valid name, this screen will appear:
 1. Change the name of your quest
 2. Shown to player when accepting quest
 3. Shown to player after completing quest
-4. Must speak to this Citizens NPC to start quest
+4. Must speak to this [Citizens](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC to start quest
 5. Must right-click on this block to start quest
-6. Must stand in this WorldGuard region to start quest
+6. Must stand in this [WorldGuard](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) region to start quest
 7. Use NPC GUI to start quest instead of chat
 8. Change what a player needs to take your quest
 9. Change the time(s) that your quest is available
