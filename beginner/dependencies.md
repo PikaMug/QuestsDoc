@@ -90,6 +90,12 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
+### Unite
+
+<figure><img src="https://i.imgur.com/8CSt94n.png" alt=""><figcaption><p>Support multiple party plugins.</p></figcaption></figure>
+
+↳ [Téléchargement](https://www.spigotmc.org/resources/unite.95217/)
+
 ### Vault
 
 ![Récompenses et prérequis économiques en jeu](https://camo.githubusercontent.com/713822b836312741b9b531a55774bfc57291c0f62296d70943118ee493b1df0a/68747470733a2f2f6d656469612e666f72676563646e2e6e65742f6174746163686d656e74732f3133342f3336312f7661756c742e706e67)
