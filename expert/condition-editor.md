@@ -16,6 +16,21 @@ Après avoir choisi un nom valide, cet écran apparaît :
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
 
+<details>
+
+<summary>Développez pour voir la ventilation.</summary>
+
+1. Change the name of your condition
+2. Ride an entity or [Citizens](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#citizens) NPC
+3. Own permission, hold item in main hand, or wear items as armor
+4. Stay within world, stay within ticks, stay within biome, or stay within WorldGuard region
+5. Whether placeholder value is true
+6. Whether to fail quest if condition not met
+7. Finish working on your condition
+8. Discard all work on your condition
+
+</details>
+
 Sélectionnez un type de condition et décidez si le joueur doit échouer à la quête si la condition souaitée n'est pas remplie. Maintenant, entrez tous les numéros d'invite appropriés pour "Terminé" jusqu'à ce que vous ayez enregistré votre condition.
 
 Bon travail ! Contrairement à l'[éditeur de quête](../setup/quests-editor.md), il n'est pas nécessaire de recharger le plugin. Quittez l'éditeur de conditions, puis créez ou modifiez une quête dans l'éditeur de quête. Allez dans le menu "Modifier les étapes" et, après avoir défini au moins un objectif, sélectionnez l'option 11 pour appliquer la condition.
