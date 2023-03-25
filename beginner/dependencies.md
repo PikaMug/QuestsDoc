@@ -6,17 +6,17 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 | -------------------------------------------- | ---------------------------------------------------- |
 | 🌟 = Recommandé pour une expérience optimale | 💲 = Peut nécessiter l'achat d'une ressource premium |
 
+### AstralBooks
+
+![Ouvrez des livres sur les PNJ.](https://camo.githubusercontent.com/a946d5d41882bd0e9ae444259bb863592f27a179cd134a040cabffb72274af20/68747470733a2f2f7777772e737069676f746d632e6f72672f646174612f7265736f757263655f69636f6e732f33372f33373436352e6a7067)
+
+↳ [Téléchargement](https://www.spigotmc.org/resources/citizensbooks.37465/)
+
 ### Citizens 🌟
 
 ![Démarrer et intéragissez au travers des pnj.](https://camo.githubusercontent.com/0291e7fb6eaf46ac9d03bbb164c0da5592bb01d1125ce1908ccda4bfe9322b6a/68747470733a2f2f77696b692e636974697a656e736e7063732e636f2f696d616765732f312f31622f576f72646d61726b2e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/citizens.13811/)
-
-### CitizensBooks
-
-![Ouvrez des livres sur les PNJ.](https://camo.githubusercontent.com/a946d5d41882bd0e9ae444259bb863592f27a179cd134a040cabffb72274af20/68747470733a2f2f7777772e737069676f746d632e6f72672f646174612f7265736f757263655f69636f6e732f33372f33373436352e6a7067)
-
-↳ [Téléchargement](https://www.spigotmc.org/resources/citizensbooks.37465/)
 
 ### Denizen
 
