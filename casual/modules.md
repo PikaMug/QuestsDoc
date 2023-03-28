@@ -99,7 +99,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 ![Adds "Kill MythicMobs" objective, plus other features depending on version.](https://camo.githubusercontent.com/aebb3e692cec287e8baddc103a16e47bfb986dd861678a461e799e7cf240ebfc/68747470733a2f2f692e696d6775722e636f6d2f7a6c776f31304c2e706e67)
 
 {% tabs %}
-{% tab title="Quests 4.0.6+" %}
+{% tab title="Quests 4.0.7+" %}
 [Download](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
 {% endtab %}
 
