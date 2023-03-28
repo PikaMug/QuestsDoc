@@ -99,7 +99,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 ![Ajoute l'objectif "Kill MythicMobs" (tuer des monstres MythicMobs), ainsi que d'autres fonctionnalités selon la version.](https://camo.githubusercontent.com/aebb3e692cec287e8baddc103a16e47bfb986dd861678a461e799e7cf240ebfc/68747470733a2f2f692e696d6775722e636f6d2f7a6c776f31304c2e706e67)
 
 {% tabs %}
-{% tab title="Quests 4.0.6+" %}
+{% tab title="Quests 4.0.7+" %}
 [Téléchargement](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
 {% endtab %}
 
@@ -121,7 +121,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 ![Ajoute les exigences de localisation et les récompenses des PNJ.](https://camo.githubusercontent.com/5703b4f519542e8fe21a9296a5a0c291744b13b0be8547b450baa729c1f6669a/68747470733a2f2f692e696d6775722e636f6d2f59504942596b462e706e67)
 
 {% tabs %}
-{% tab title="Quests 4.0.6+" %}
+{% tab title="Quests 4.0.7+" %}
 [Téléchargement](https://www.spigotmc.org/resources/101588/)
 {% endtab %}
 
