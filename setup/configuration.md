@@ -54,18 +54,30 @@ This file contains all settings relating to how Quests should perform once loade
 
 ### actions.yml
 
-This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a Quest. This is best accomplished with the _/quests actions_ command.
+{% hint style="info" %}
+Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+{% endhint %}
+
+This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a quest. This is best accomplished with the _/quests actions_ command.
 
 > [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
 
-This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a Quest. This is best accomplished with the _/quests conditions_ command.
+{% hint style="info" %}
+Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+{% endhint %}
+
+This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a quest. This is best accomplished with the _/quests conditions_ command.
 
 > [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
 ### quests.yml
 
-This file consists of every single quest available. Although this file can be edited manually, it is recommended to use the _/quests editor_ command. Regardless, changes will not appear on the server until a _/questadmin reload_ is input.
+{% hint style="info" %}
+Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+{% endhint %}
+
+This file contains all saved quests. A few example quests are included which you may delete at any time. This is best accomplished with the _/quests editor_ command.
 
 > [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
