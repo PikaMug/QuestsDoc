@@ -54,11 +54,19 @@ Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes u
 
 ### actions.yml
 
+{% hint style="info" %}
+La modification manuelle de ce fichier n'est pas conseillée. Aucune assistance ne sera apportée à ceux qui choisissent de ne pas utiliser l'éditeur en jeu.
+{% endhint %}
+
 Ce fichier contient des actions personnalisées qui exécutent certaines tâches et effets. À l'exception des exemples inclus, les actions sont créées avant d'être utilisées dans une quête. Ceci est mieux accompli avec la commande _/quests actions_.
 
 > [Cliquez ici pour voir le fichier par défaut actions.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
+
+{% hint style="info" %}
+La modification manuelle de ce fichier n'est pas conseillée. Aucune assistance ne sera apportée à ceux qui choisissent de ne pas utiliser l'éditeur en jeu.
+{% endhint %}
 
 Ce fichier contient des conditions personnalisées qui sont vérifiées pendant le jeu. À l'exception des exemples inclus, les conditions sont créées avant l'utilisation dans une quête. Ceci est mieux accompli avec la commande _/quests conditions_.
 
@@ -66,6 +74,10 @@ Ce fichier contient des conditions personnalisées qui sont vérifiées pendant 
 
 ### quests.yml
 
-Ce fichier comprend toutes les quêtes disponibles. Bien que ce fichier puisse être édité manuellement, il est recommandé d'utiliser la commande _/quests editor_. Quoi qu'il en soit, les modifications n'apparaîtront pas sur le serveur tant qu'un _/questadmin reload_ n'aura pas été effectué.
+{% hint style="info" %}
+La modification manuelle de ce fichier n'est pas conseillée. Aucune assistance ne sera apportée à ceux qui choisissent de ne pas utiliser l'éditeur en jeu.
+{% endhint %}
+
+Ce fichier contient toutes les quêtes enregistrées. Quelques exemples de quêtes sont inclus que vous pouvez supprimer à tout moment. Ceci est mieux accompli avec la commande _/quests editor_.
 
 > [Cliquez ici pour voir le fichier par défaut quests.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
