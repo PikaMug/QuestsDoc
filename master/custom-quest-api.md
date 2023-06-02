@@ -6,7 +6,7 @@ ALERTE: Ces informations sont destinées aux développeurs. Apprenez d'abord à 
 
 ### Ajouter à votre projet
 
-Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la dernière version de Quests via le service CodeMC
+Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la dernière version de Quests via le service CodeMC.
 
 ```xml
 <repository>
@@ -53,8 +53,8 @@ public class NameRequirement extends CustomRequirement {
         this.setName("Exigence de nom");
         this.setAuthor("Jane Doe");
         this.addItem("NAME_TAG", 0);
-        this.addStringPrompt("Nom", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
-        this.addStringPrompt("Sensible aux majuscules et minuscules", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
+        this.addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
+        this.addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
 	this.setDisplay("Désolé, vous n'êtes pas sur la liste.");
     }
     
