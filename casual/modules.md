@@ -136,6 +136,12 @@ Module is auto-installed by NPCDestinations.
 
 ↳ [Download](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
 
+### Proskillapi
+
+<figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Adds class requirements and rewards.</p></figcaption></figure>
+
+↳ [Download](https://www.spigotmc.org/resources/91913/)
+
 ### Screaming BedWars 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
