@@ -136,6 +136,12 @@ Le module est installé automatiquement avec NPCDestinations.
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
 
+### Proskillapi
+
+<figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Ajoute des exigences de classe et des récompenses.</p></figcaption></figure>
+
+↳ [Téléchargement](https://www.spigotmc.org/resources/91913/)
+
 ### Screaming BedWars 💲
 
 ![Ajoute les objectifs suivants: "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
