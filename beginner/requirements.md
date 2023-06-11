@@ -19,7 +19,7 @@ Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/q
 9. [Heroes](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies#heroes) experience levels needed
 10. Requirements from a [Quests module](../casual/modules.md)
 11. Override message shown to the player describing their requirements
-12. Finish working on your quest reward
+12. Finish working on your quest requirements
 
 </details>
 
