@@ -19,7 +19,7 @@ Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor
 9. [Heroes](https://pikamug.gitbook.io/quests/beginner/dependencies#heroes) experience levels needed
 10. Requirements from a [Quests module](../casual/modules.md)
 11. Override message shown to the player describing their requirements
-12. Finish working on your quest reward
+12. Finish working on your quest requirement
 
 </details>
 
