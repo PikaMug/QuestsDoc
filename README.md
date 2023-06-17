@@ -1,9 +1,9 @@
-# Home
+# дом
 
-(Ad) _**Get 25% off QuestsGUI at**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
+(Реклама) _**Вземете 25% отстъпка от QuestsGUI в**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
 
-**Quests** is the easy-to-use, open-source server plugin for immersing visitors in challenges made by you! Players can take on multiple quests simultaneously, completing them for stellar rewards and unlockables. From placing blocks on mountain tops to slaying a hundred Skeletons on Halloween, the combinations are only limited by your imagination!
+**Quests** е лесен за използване сървърен плъгин с отворен код за потапяне на играчите в предизвикателства, направени от вас! Играчите могат да поемат множество задачи едновременно, като ги изпълняват за звездни награди и отключващи се неща. От поставяне на блокове на планински върхове до убиване на сто скелета на Хелоуин, комбинациите са ограничени само от вашето въображение!
 
 {% embed url="https://www.youtube.com/watch?v=k5HR_vYX2Rw" %}
 
-This documentation strives to be relevant for Quests 4.0.0 and newer, but feel free to [contribute](https://pikamug.gitbook.io/quests/expert/doc-contributions). For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+Тази документация се стреми да бъде подходяща за Quests 4.0.0 и по-нови, но можете да [допринесете](https://pikamug.gitbook.io/quests/expert/doc-contributions). За помощ при надграждане от по-стари версии на Quests вижте [старата документация](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
