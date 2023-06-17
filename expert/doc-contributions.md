@@ -1,10 +1,10 @@
-# Doc Contributions
+# Принос на документи
 
 {% hint style="info" %}
-**Warning:** This information is intended for advanced users. Proceed with caution!
+**Внимание:** Тази информация е предназначена за напреднали потребители. Продължавете с повишено внимание!
 {% endhint %}
 
-If you would like to translate or otherwise improve this documentation, make your edits on [Github](https://github.com/PikaMug/QuestsDoc) and submit the changes as a Pull Request.
+Ако искате да преведете или по друг начин да подобрите тази документация, направете своите радакции в [Github](https://github.com/PikaMug/QuestsDoc) и изпратете промените като Pull request.
 
-Please note that requests for the plugin author\(s\) to write or translate article will be ignored.
+Моля, имайте предвид, че исканията към автора(ите) на плъгина да напишат или преведат статия ще бъдат игнорирани.
 

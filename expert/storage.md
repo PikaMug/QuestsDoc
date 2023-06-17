@@ -1,18 +1,18 @@
-# Storage
+# Съхранение
 
 {% hint style="info" %}
-**Warning:** This information is intended for advanced users. Proceed with caution!
+**Внимание:** Тази информация е предназначена за напреднали потребители. Продължавайте с повишено внимание!
 {% endhint %}
 
-As of Quests 4.0.0-rc.3, you may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). The available choices are described below. If you should wish to change your storage method later without losing data, first use [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
+От Quests 4.0.0-rc.3, можете да изберете да промените опцията си за съхранение чрез настройката `storage-method` от [Конфигурационен файл на Quests](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). Наличните възможности за избор са описани по-долу. Ако искате да промените метода си на съхранение по-късно, без да губите данни, първо използвайте [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
 
 ### YAML
 
-This is the default selection which will save player data to separated .yml files under the _/Quests/data_ folder. It is recommended for beginner and casual users as it works right "out of the box" with no additional setup required.
+Това е изборът по подразбиране, който ще запази данните на играчите в отделни .yml файлове в папката _/Quests/data_. Препоръчва се за начинаещи и случайни потребители, тъй като работи веднага, без да се изисква допълнителна настройка.
 
 ### MySQL
 
-This will save player data to a local or remote MySQL database that you have configured ahead of time. Table and login settings may be specified via the `storage-data` settings. An example of such configuration might look like:
+Това тип ще запази данните на играчите в локална или отдалечена MySQL база данни, която сте конфигурирали преди това. Настройките за таблицата и влизане могат да бъдат зададени чрез настройката 'storage-data'. Пример за такава конфигурация може да изглежда така:
 
 ```
 storage-data:
@@ -28,8 +28,8 @@ storage-data:
     connection-timeout: 5000
 ```
 
-Note that HikariCP has been shaded internally to maximize connection speed on largely-populated servers.
+Обърнете внимание, че HikariCP е засенчен вътрешно, за да се увеличи максимално скоростта на връзката на широко населени сървъри.
 
-### Custom
+### Персонализиран
 
-A developer may opt to employ a custom storage option. See [here](https://github.com/PikaMug/Quests/tree/main/core/src/main/java/me/blackvein/quests/storage/implementation/custom).
+Разработчик може да избере да използва персонализирана опция за съхранение. Вижте [тук](https://github.com/PikaMug/Quests/tree/main/core/src/main/java/me/blackvein/quests/storage/implementation/custom).

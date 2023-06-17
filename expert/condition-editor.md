@@ -1,36 +1,36 @@
-# Condition Editor
+# Редактор на условия
 
 {% hint style="info" %}
-**Warning:** This information is intended for advanced users. Proceed with caution!
+**Предупреждение:** Тази информация е предназначена за напреднали потребители. Продължете с повишето внимание!
 {% endhint %}
 
-When a player is carrying out a stage of a quest, it may be desirable to force them to meet a certain criteria. For example, holding a specific item while completing objectives. To do this, a condition must be created and applied.
+Когато играч изпълнява етап от задача, може да е желателно да го принудите да отговаря на определени критерии. Например, държани на конкретен предмет, докато изпълнява цели. За целта трябва да се създаде и приложи условие.
 
-To make a condition, run **/quests conditions** in-game (or from the console, with limited features). You will be greeted with the following:
+За да направите условие, стартирайте **/quests conditions** в игра (или от конзолата, с ограничени функции). Ще бъдете посрещната със следното:
 
 ![](https://camo.githubusercontent.com/7c7cf8db7760543f731b49ec61ef1651886830e96b79c7ce4afb6741f53bb7dc/68747470733a2f2f692e696d6775722e636f6d2f6c7148626f4b492e706e67)
 
-Enter '1' in chat so the plugin may prompt you to enter a name for your condition. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
+Въведете '1' в чата, за да може приставката да ви подкани да въведете име за вашето състояние. Това може да бъде всяка буквено-цифрова последователност, което означава, че буквеите и цифрите са ОК, но без специални знаци или символи! Не се притеснявайте, можете да го промените по-късно, ако не сте сигурни.
 
-After you've chosen a valid name, this screen will appear:
+След като изберете валидно име, ще се появи този екран:
 
 ![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Change the name of your condition
-2. Ride an entity or [Citizens](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC
-3. Own permission, hold item in main hand, or wear items as armor
-4. Stay within world, stay within ticks, stay within biome, or stay within [WorldGuard](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) region
-5. Whether placeholder value is true
-6. Whether to fail quest if condition not met
-7. Finish working on your condition
-8. Discard all work on your condition
+1. Променете името на вашите състояние
+2. Яздете същество или [Citizens](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC
+3. Собствено разрешение, дръжте предмета в основната ръка или носете предмети като броня
+4. Останете в свят, Останеве в рамките на тикове, останете в биом, или останете в [WorldGuard](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) регион
+5. Дали стойността на земестителя е вярна
+6. Дали да се провали задачата, ако условието не е изпълнено
+7. Завършете работата по вашето условие
+8. Отхвърлете всяка работа по вашето условие
 
 </details>
 
-Select a condition type and decide whether the player should fail the quest if said condition is not met. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your condition.
+Изберете тип условие и решете дали играчът да провали мисията, ако въпросното условие не е изпълнено. Сега въведете всички подходящи номера за подкана за "Готово", докато не запазите условието си.
 
-Nice job! Unlike the Quests Editor, there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
+Страхотна работа! За разлика от Редактора на Задачи, няма нужда за презареждате приставката. Излезте от редактора на условия е след това създайте или редактирайте задача в редактора на задачи. Отидете в менюто "Редактиране на Етапи" и след като зададете поне една цел, изберете опция 11, за да приложите условието.

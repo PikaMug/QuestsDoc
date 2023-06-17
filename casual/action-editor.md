@@ -1,63 +1,63 @@
-# Action Editor
+# Редактор на действия
 
 {% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
+**Забележете:** Тази информация е предназначена за средно напреднали потребители. Прочетете внимателно!
 {% endhint %}
 
-Similar to how all quest stages have objectives, they can also perform actions. An action is something that happens during a stage, but is typically cosmetic and doesn't inherently progress the quest. For example, causing a player to lose hunger or get struck by lightning are considered actions.
+Подобно на начина, по който всички етапи на задачата имат цели, те също могат да извършват действия. Действието е нещо, което се случва по време на етап, но обикновено е козметично и по своята същност не напредва в мисията. Например, карането на играч да загуби глад или да бъде ударен от мълния се считат за действия.
 
-To make an action, run **/quests actions** in-game (or from the console, with limited features). You will be greeted with the following:
+За да направите действие, стартирайте **/quests actions** в играта (или от конзолата, с ограничение функции). Ще бъдете посрещната със следното:
 
 ![](../.gitbook/assets/action\_editor.png)
 
-Enter '1' in chat so the plugin may prompt you to enter a name for your action. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
+Въведете '1' в чата, за да може приставката да ви подкани да въведете име за вашите действие. Това може да бъде всяка буквено-цифрова последователност, което означава, че буквите и цифрите са ОК, но без специални знаци или символи! Не се притеснявайте, можете да го промените по-късно, ако не сте сигурни.
 
-After you've chosen a valid name, this screen will appear:
+След като изберете валидно име, ще се появи този екран:
 
 ![](../.gitbook/assets/action\_main.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Change the name of your action
-2. Send message, clear inventory, give items, apply potion effects, set hunger level, set saturation level, teleport to location, or execute commands
-3. Set time to fail quest and whether to cancel the quest timer
-4. Set effects or set explosion locations
-5. Set storm or thunder in a particular world, or set lightning strike locations
-6. Action to spawn mobs
-7. Run a [Denizen](https://pikamug.gitbook.io/quests/beginner/dependencies#denizen) script
-8. Action to fail the quest
-9. Finish working on your action
-10. Discard all work on your action
+1. Променете името на вашето действие
+2. Изпратете съобщение, изчистете инвентар, дайте предмети, приложете ефекти на отвари, задайте ниво на глад, задайте ниво на насищане, телепортирайте се до местоположение или изпълнете команди
+3. Задайте време за провал на мисията и дали да отнемите таймера за мисията
+4. Задайте ефекти или задайте места за експлозия
+5. Задайте буря или гръмотевицата в определен свят или задайте места за удар на мълния
+6. Действие за създаване на чудовища
+7. Изпълнете [Denizen](https://pikamug.gitbook.io/quests/beginner/dependencies#denizen) скрипт
+8. Действие за провал на мисията
+9. Завършете работата по действието си
+10. Отхвърлете цялата работа по вашето действие
 
 </details>
 
-For now, enter '5' for the Weather menu, then '2' to set up an action which will force thunder across a world for a while.
+Засега въведете '5' за менюто 'Време' след това '2', за да настроите действие, което ще предизвика гръмотевиците в целия свят за известно време
 
 ![](../.gitbook/assets/action\_thunder.png)
 
-Input '1' to select one of your Minecraft server's worlds by name. They will be listed for your convenience, but you can only select one! You may create a second action later if you wish to deal out thunder across multiple worlds.
+Въведете '1', за да изберете един от световете на сървъра на Minecraft по име. Те ще бъдат изброени за ваше удобство, но може да изберете само един! Можете да създадете второ действие по-късно, ако искате да раздавате гръмотевици в множество светове.
 
-Once that's done, enter '2' to set a duration of time in seconds. This is how long your thunder action will last for. As an example, type in 180 for the event to last 3 minutes. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your action.
+След като това стане, въведете '2', за да зададете продължителност от време в секунди. Това е колко дълго ще продължи вашето гръмотевично действие. Като пример, въведете 180, за да продължи събитието 3 минути. Сега въведете всички подходящи номера за подкана за 'Готово', докато не запазите действието си.
 
-Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Action Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 9 to run the action before, during, or after the stage:
+Страхотна работа! за разлика от [Редактор на задачи](../setup/quests-editor.md), няма нужда от презареждане на плъгина. Излезте от редактора на действия и след това създайте или редактирайте задача в радактора на задачи. Отидете в менюто 'Редактиране на етапи' и след като зададете поне една цел, изберете опция 9, за да изпълните действието преди, по време или след етапа:
 
 ![](../.gitbook/assets/action\_quest.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Activate on start of stage
-2. Activate at end of stage
-3. Activate if player fails quest
-4. Activate if player dies during stage
-5. Activate if player disconnects during stage
-6. Activate if chat message sent during stage
-7. Activate if command run during stage
-8. Save and return to previous menu
+1. Активирайте в началото на етапа
+2. Активирайте в края на етапа
+3. Активирайте, ако играчът провали задачата
+4. Активирайте, ако играча умря по време на етапа
+5. Активирайте, ако играчът напусне сървъра по време на етапа
+6. Активирайте, ако чат съобщение е изпратено по време на етапа
+7. Активирайте, ако команда е изпълнена по време на етапа
+8. Запазете и се върнете към предишното меню
 
 </details>
 
-Chat and command actions are run during the stage when the player enters a specific keyword or command in-game, respectively.
+Чатът и командните действия се изпълняват по време на етапа, когато играчът въведе съответно ключова дума или команда в играта.

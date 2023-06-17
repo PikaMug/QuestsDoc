@@ -1,84 +1,84 @@
-# Quest Editor
+# Редактор на задачи
 
-Let's make a quest! By default, the Quest Editor is available only to server ops. However, with the [correct permissions](https://pikamug.gitbook.io/quests/setup/commands-and-permissions) in place, it's as simple as running **/quests editor** in-game (or from the console, with limited features). You will be greeted with the following:
+Да направим задачи! По подразбиране Редактора на задачи е достъпен само за сървърни администратори. Въпреки това, с [правилното разрешение](https://pikamug.gitbook.io/quests/setup/commands-and-permissions) можете толкова просто да използвате командата **/quests editor** в играта (или от конзолата, с ограничение функции). Ще бъдете посрещнати със следното:
 
 ![](../.gitbook/assets/quest\_editor.png)
 
-Enter '1' in chat so the plugin may prompt you to enter a name for your quest. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
+Въведете „1“ в чата, за да може плъгина да ви подкани да въведете име за вашата задача. Това може да бъде всяка буквено-цифрова последователност, което означава, че буквите и цифрите са ОК, но без специални знаци или символи! Не се притеснявайте, можете да го промените по-късно, ако не сте сигурни.
 
-After you've chosen a valid name, this screen will appear:
+След като изберете валидно име, ще се появи този екран:
 
 ![](../.gitbook/assets/quest\_main.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Change the name of your quest
-2. Shown to player when accepting quest
-3. Shown to player after completing quest
-4. Must speak to this [Citizens](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC to start quest
-5. Must right-click on this block to start quest
-6. Must stand in this [WorldGuard](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) region to start quest
-7. Use NPC GUI to start quest instead of chat
-8. Change what a player needs to take your quest
-9. Change the time(s) that your quest is available
-10. Change what objectives your quest consists of
-11. Change what a player gets for taking your quest
-12. Change settings purely specific to your quest
-13. Finish working on your quest
-14. Discard all work on your quest
+1. Променете името на вашата задача
+2. Показва се на играча при приемане на задача
+3. Показва се на играча след завършване на задачата
+4. Трябва да се говори с [Citizens NPC](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC to start quest
+5. Трябва да щракнете с десния бутон върху този блок, за да започнете задачата
+6. Трябва да стои в [WorldGuard регион](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) region to start quest
+7. Използвайте NPC GUI, за да започнете задача вместо чат
+8. Променете това, от което играчът се нуждае като изискване, за да приеме вашата задача
+9. Променете времето(ата), в които вашата задачата е достъпна
+10. Променете целите, от които се състои вашата задача
+11. Променете наградата на играча, при завършване на задачата
+12. Променете настройките, изцяло специфични за вашата задача
+13. Завършете работата по задачата си
+14. Отхвърлете цялата работа по вашата задача
 
 </details>
 
-That's a lot of choices! Enter '2' and then input the first thing you'd like the player to hear for your quest. Once you're done, enter '3' to input the final message to come from your quest.
+Това са много възможности за избор! Въведете '2' и след това въведете първото нещо, което бихте искали играчът да чуе за вашата задача. След като сте готови, въведете „3“, за да въведете последното съобщение, което ще дойде от вашата задача.
 
 {% hint style="info" %}
-**Pro-tip:** If you have [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) installed for NPCs, you may enter '4' to select an NPC that you'd like to hand out the quest.
+**Професионален съвет:** Ако имате инсталиран [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/), можете да въведете '4', за да изберете NPC, на който искате да раздадете задачата.
 {% endhint %}
 
-Great job! Now, if you go to save your quest, you'll get an error. This is because all quests must contain at least one stage. So, let's create one! Enter '11' to begin, then '1' to add your first stage.
+Добра работа! Сега, ако отидете да запазите задачата си, ще получите грешка. Това е така, защото всички задачи трябва да съдържат поне един етап. И така, нека създадем такъв! Въведете „11“, за да започнете, след това „1“, за да добавите първия си етап.
 
 ![](../.gitbook/assets/quest\_stage.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Includes objectives to break, place, damage, or use blocks
-2. Includes objectives to craft, smelt, or enchant items
-3. Includes objectives to deliver items to, talk to, or kill NPCs
-4. Includes objectives to kill or tame mobs, catch fish, or shear sheep
-5. Objective to kill an amount of players
-6. Objective to travel to a specific radius of world coordinates
-7. Objective to enter a specific string in chat
-8. Objective from an installed [custom module](../casual/modules.md)
-9. After setting at least one objective, run an [action](../casual/action-editor.md) at the start, end, or during the stage
-10. After setting at least one objective, check a [condition](../expert/condition-editor.md) during the stage
-11. Number of seconds to wait before the next stage may begin
-12. After setting a delay, show a message to the player once the delay starts
-13. Show a message to the player once the stage begins
-14. Show a message to the player once the stage ends
-15. Override the message shown to the player about what their objectives are
-16. Permanently remove this stage
-17. Finish working on your stage
+1. Включва цели за разбиване, поставяне, повреда или използване на блокове
+2. Включва цели за изработване, разтапане или омагьосване на предмети
+3. Включва цели за доставяне на предмети на, разговор с или убиване на NPC
+4. Включва цели за убиване или опитомяване, улов на риба или стригане на овце
+5. Целта е да убиете определен брой играчи
+6. Целта е да пътувате до определен радиус от координати
+7. Целта е да въведете конкретен низ в чата
+8. Задача от инсталирани [персонализирани модули](../casual/modules.md)
+9. След като зададете поне една цел, стартирайте [действие](../casual/action-editor.md) at the start, end, or during the stage
+10. След като зададете поне една цел, проверете [условие](../expert/condition-editor.md) during the stage
+11. Броят секунди за изчакване, преди да започне следващият етап
+12. След като зададете забавяне, покажете съобщение на играча, след като забавянето започне
+13. Покажете съобщение на играча, след като етапът започне
+14. Покажете съобщение на играча, след като сцената приключи
+15. Заменете съобщението, показано на играча за това какви са неговите цели
+16. Премахнете окончателно този етап
+17. Завършете работата по вашата цел
 
 </details>
 
-Behold the magic of Quests! There are so many different objectives to choose from that the possibilities seem endless! Let's try a basic quest to break some blocks. Enter '1' to continue to the Blocks menu, then '1' again to select Break blocks.
+Вижте магията на Quests! Има толкова много различни цели, от които да изберете, че възможностите изглеждат безкрайни! Нека опитаме основна задача, за да разбием някои блокове. Въведете '1', за да продължите към менюто Блокове, след това отново '1', за да изберете Разбиване на блокове.
 
 {% hint style="info" %}
-**Pro-tip:** Custom objectives come from special add-ons which often link with other plugins, found [here](https://pikamug.gitbook.io/quests/casual/modules). To use one, it must be installed in your /Quests/modules folder at startup.
+**Професионален съвет:** Персонализираните цели идват от специални добавки, които често се свързват с други намерени добавки [тук](https://pikamug.gitbook.io/quests/casual/modules). За да използвате такъв, той трябва да бъде инсталиран във вашата папка /Quests/modules при стартиране.
 {% endhint %}
 
 ![](../.gitbook/assets/quest\_break.png)
 
-Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants (for example, a value of '3' would equate to Podzol rather than Dirt).
+Тук можете да въведете блока, който искате играчът да разбие. Dirt е лесно предизвикателство, така че нека накараме играча да разбие пет от него. Ако използвате версия на Minecraft, _по-стара_ от 1.13, можете също да зададете издръжливост, за да използвате блокови варианти (например стойност „3“ би била Podzol, а не Dirt).
 
 {% hint style="info" %}
-**Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../beginner/options.md).
+**Професионален съвет:** Играчите могат да чупят блокове, без да засягат мисията, като използват кирка с омагьосването Silk Touch. Тази функция може да бъде деактивирана в [Настройки](../beginner/options.md).
 {% endhint %}
 
-Enter all the appropriate prompt numbers for 'Done' until you're back at the ask/finish message screen. You're nearly finished! Enter '13' and then '1' to save your quest.
+Въведете всички подходящи номера за подкана за „Готово“, докато се върнете на екрана за запитване/завършване на съобщението. Почти сте готови! Въведете '13' и след това '1', за да запазите вашата задача.
 
-Great work! To give your new quest a try, either run **/questadmin reload** or restart the server (do _not_ use /reload) and then **/quests take \[yourQuestName]**. Once you make a few more, you should share your most interesting quest lines on [our Discord](https://discordapp.com/invite/d56CQ6e). Have fun!
+Чудесна работа! За да изпробвате новата си задача, стартирайте **/questadmin reload** или рестартирайте сървъра (_не_ използвайте /reload) и след това **/quests take\[yourQuestName]**. След като направите още няколко задачи, трябва да споделите най-интерестините си истории [в нашият Дискорд](https://discordapp.com/invite/d56CQ6e). Забавлявай се!

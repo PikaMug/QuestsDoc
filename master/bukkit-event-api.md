@@ -1,12 +1,12 @@
 # Bukkit Event API
 
 {% hint style="info" %}
-**Alert:** This information is intended for developers. Learn how to use Java first!
+**Тревога:** Тази информация е предназначена за разработчици. Научете първо как да използвате Java!
 {% endhint %}
 
-### Add to your project
+### Добавете към вашия проект
 
-If you're using Maven or another project management tool, add the latest version of Quests through the CodeMC service.
+Ако използвате Maven или друг инструмент за управление на проекти, добавете най-новата версия на Quests чрез услугата CodeMC.
 
 ```xml
 <repository>
@@ -34,7 +34,7 @@ You may also need the core module.
 
 ### Learn the interface
 
-Starting with Quests 3.7.0, a Bukkit-style Event API is available. If you do not see an Event you would like, please [submit a Pull Request](https://github.com/PikaMug/Quests/pulls). All other inquiries for a new Event to be added will be ignored.
+Започвайки с Quests 3.7.0, е наличен API за събития в стил Bukkit. Ако не виждате Event, което искате, моля [submit a Pull Request](https://github.com/PikaMug/Quests/pulls). Всички други запитвания за добавяне на нов Event ще бъдат игнорирани.
 
-[Click here to see available Events](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/blackvein/quests/events)
+[Щракнете тук, за да видите наличните Events](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/blackvein/quests/events)
 

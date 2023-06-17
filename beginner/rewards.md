@@ -1,26 +1,26 @@
-# Rewards
+# Награди
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
+След като се запознаете с [Редактора на задачи](../setup/quests-editor.md), може би се чудите за избора 'Промени наградите'. Това подменю съдържа награди, които вашият играч ще получи при завършване на задачата. 
 
 ![](../.gitbook/assets/rewardz.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката..</summary>
 
-1. Monetary prize through [Vault](https://pikamug.gitbook.io/quests/beginner/dependencies#vault)
-2. Points for use as a quest Requirement
-3. Material prize such as Emeralds or Diamonds
-4. Vanilla experience levels prize
-5. Run command from the console (`<player>` replaces name)
-6. Give player permission from the console through Vault
-7. [mcMMO Classic](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) experience levels prize
-8. [Heroes](https://pikamug.gitbook.io/quests/beginner/dependencies#heroes) experience levels prize
-9. [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) experience levels prize
-10. Rewards from a [Quests module](https://pikamug.gitbook.io/quests/casual/modules)
-11. Override message shown to the player describing their rewards
-12. Finish working on your quest reward
+1. Парична награда чрез [Vault](https://pikamug.gitbook.io/quests/beginner/dependencies#vault)
+2. Точки за използване като изискване за задача
+3. Предметна награда като Смадагди и Диаманти
+4. Награда ванила опит
+5. Изпълнете команда от конзолата (`<player>` замества името)
+6. Дайте разрешение на играча от конзолата чрез Vault
+7. [mcMMO Classic](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) награда за опит и нива
+8. [Heroes](https://pikamug.gitbook.io/quests/beginner/dependencies#heroes) награда за нива
+9. [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) награда за нива
+10. Награда от [Персонализиран модул](https://pikamug.gitbook.io/quests/casual/modules)
+11. Персонализирано съобщение, показано на играча, описващо неговите награди.
+12. Завършете работата по наградите си за задачата
 
 </details>
 
-Note that the free mcMMO Classic is different than the paid mcMMO Overhaul, which is not natively supported. To use Quests with mcMMO Overhaul, you'll need [the module](https://pikamug.gitbook.io/quests/casual/modules#mcmmo-overhaul) which loads under custom rewards.
+Имайте предвид, че безпланият McMMO Classic е различен от платения McMMO Overhaul, който не сеп поддържа първоначално. За да използвате Quests с McMMO Overhaul, ще ви трябва [персонализиран модул](https://pikamug.gitbook.io/quests/casual/modules#mcmmo-overhaul) който се използва под персонализирани награди.

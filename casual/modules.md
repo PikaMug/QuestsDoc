@@ -1,28 +1,28 @@
-# Modules
+# Модули
 
 {% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
+**Забележка:** Тази информация е предназначена за средно напреднали потребители. Прочети внимателно!
 {% endhint %}
 
-Plugins which integrate with Quests to provide Custom Objectives, Rewards and Requirements, use what are known as _modules_. A module is a jar file created by developers using the [Quests API](../master/custom-quest-api.md), which acts as a middleman between Quests and the integrating plugin. This is in contrast to a [dependency](../beginner/dependencies.md), which you typically do not need a module for.
+Плъгините, които се интегрират с Quests, за да предоставят персонализирани цели, награди и изисквания, използват това, което е известно като _модули_. Модулут е jar файл, създаден от разработчици, използващи [Quests API](../master/custom-quest-api.md), който действа като посредник между Quests и интегриращия плъгин. Това е в контраст с [зависимости](../beginner/dependencies.md), за което обикновено не се нуждаете от модул.
 
-Module jars must be placed in the _Quests/modules_ folder, while the target plugin goes in the _/plugins_ folder as usual. Note that all modules are entirely optional and you may add or remove them as seen fit. Below is an incomplete list of popular plugins for which a module is known to exist, along with a description of how it links.
+Модул файловете трябва да бъдат поставени в папка _Quests/modules_ докато целевият плъгин отива в папката _/plugins_ както обикновено. Имайте предвид, че всички модули са изцяло незадължителни и можете да ги добавяте или премахване, както сметнете за добре. По-долу е даден непълен списък с популярни плъгини, за които е известно, че съществува модул, заедно с описание на това как се свързва.
 
-| Labels:                                      |                                               |
+| Етикети:                                      |                                               |
 | -------------------------------------------- | --------------------------------------------- |
-| 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
+| 🌟 = Препоръчва се за оптимално потребилско изживяване | 💲 = Може да изисква закупуване на премиум ресурс |
 
-### BedWars1058 - Open Source 💲
+### BedWars1058 - Отворен код 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
 
-↳ [Download](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
 
 ### Boss 💲
 
 ![](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
+↳ [Изтегляне](https://www.spigotmc.org/resources/boss-quests-module.66973/) (Изисква Quests 3.6.0 или по нов)
 
 ### CustomMobs
 
@@ -30,15 +30,15 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
-[Download](https://www.spigotmc.org/resources/custommobs-quests-module.56686/)
+[Изтегляне](https://www.spigotmc.org/resources/custommobs-quests-module.56686/)
 {% endtab %}
 
 {% tab title="3.2.7 - 3.5.9" %}
-[Download](https://www.spigotmc.org/resources/custommobs-quests-module.56686/download?version=232903)
+[Изтегляне](https://www.spigotmc.org/resources/custommobs-quests-module.56686/download?version=232903)
 {% endtab %}
 
 {% tab title="2.0.0  - 3.2.6" %}
-[Download](https://www.spigotmc.org/resources/custommobs-quests.25679/)
+[Изтегляне](https://www.spigotmc.org/resources/custommobs-quests.25679/)
 {% endtab %}
 {% endtabs %}
 
@@ -46,13 +46,13 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds "Finish dungeon", "Get reward item", "Get reward level", "Get reward money", and "Kill dungeon mob" objectives.](https://camo.githubusercontent.com/70fecf6dfd0399b3a64f8a16d94dd3d7cf928178d92c9f180a7f3345117fdc78/687474703a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (requires Quests 3.6.0 or newer)
+↳ [Изтегляне](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (изисква Quests 3.6.0 или по нов)
 
 ### Interactions 💲
 
 ![Adds "Start conversation" and "End conversation" objectives.](../.gitbook/assets/976a91ee01f5c7d5c20de730115b3e93bf604244.png)
 
-↳ [Download](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
 
 ### Magic
 
@@ -60,39 +60,39 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
-[Download](http://jenkins.elmakers.com/job/MagicQuests/)
+[Изтегляне](http://jenkins.elmakers.com/job/MagicQuests/)
 {% endtab %}
 
 {% tab title="3.2.7 - 3.5.9" %}
-[Download](https://jenkins.elmakers.com/job/MagicQuests/90/)
+[Изтегляне](https://jenkins.elmakers.com/job/MagicQuests/90/)
 {% endtab %}
 
 {% tab title="2.0.0  - 3.2.6" %}
-[Download](https://jenkins.elmakers.com/job/MagicQuests/88/)
+[Изтегляне](https://jenkins.elmakers.com/job/MagicQuests/88/)
 {% endtab %}
 {% endtabs %}
 
 ### Marcely's Bedwars 💲
 
-<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Добавя "Започни арена", "Отвори магазина", "Купи предмет", "Купи ъпгрейд", "Разруши легло", "Убий играч", и "Приключи арена" цели.</p></figcaption></figure>
 
-↳ [Download](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
 
 ### mcMMO Overhaul 💲
 
 ![Adds "Skill" reward and requirement.](https://camo.githubusercontent.com/8f19026fc09827670ad5f270b6865286c135f18de8400bd3de55402fd49a165f/68747470733a2f2f692e696d6775722e636f6d2f655575427247522e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/92962/) (requires Quests 4.0.0 or newer)
+↳ [Изтегляне](https://www.spigotmc.org/resources/92962/) (изисква Quests 4.0.0 или по нов)
 
 {% hint style="info" %}
-**Note:** For the older mcMMO Classic, use [this dependency](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) instead.
+**Забележка:** за по стари версии на mcMMO Classic, използвайте вместо това [тази зависимост](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic).
 {% endhint %}
 
 ### MobArena
 
 ![Adds "Kill mobs", "Finish wave", and "Complete arena" objectives.](https://camo.githubusercontent.com/c0d2e237c6293ada28cce473aa0578a0246f045ec75ed26a38054d8b6564f034/68747470733a2f2f692e696d6775722e636f6d2f733874715944702e706e67)
 
-↳ [Download](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) (requires Quests 3.6.0 or newer)
+↳ [Изтегляне](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) (изисква Quests 3.6.0 или по нов)
 
 ### MythicMobs 🌟💲
 
@@ -100,19 +100,19 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 {% tabs %}
 {% tab title="Quests 4.0.7+" %}
-[Download](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
+[Изтегляне](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
 {% endtab %}
 
 {% tab title="3.6.0 - 4.0.6" %}
-[Download](https://mc.hackerzlair.org/jenkins/job/MythicMobsQuests/)
+[Изтегляне](https://mc.hackerzlair.org/jenkins/job/MythicMobsQuests/)
 {% endtab %}
 
 {% tab title="3.2.7 - 3.5.9" %}
-[Download](https://github.com/BerndiVader/MythicMobsQuestsModule/blob/a346d24545e874587c0895b30b369492978f6f81/MythicMobsQuests.jar)
+[Изтегляне](https://github.com/BerndiVader/MythicMobsQuestsModule/blob/a346d24545e874587c0895b30b369492978f6f81/MythicMobsQuests.jar)
 {% endtab %}
 
 {% tab title="2.0.0  - 3.2.6" %}
-[Download](https://github.com/BerndiVader/MythicMobsQuestsModule/blob/edd5df5968628c06e5670c0e2a1c19ca41a86467/MythicMobsQuests285.jar)
+[Изтегляне](https://github.com/BerndiVader/MythicMobsQuestsModule/blob/edd5df5968628c06e5670c0e2a1c19ca41a86467/MythicMobsQuests285.jar)
 {% endtab %}
 {% endtabs %}
 
@@ -122,11 +122,11 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 {% tabs %}
 {% tab title="Quests 4.0.6+" %}
-[Download](https://www.spigotmc.org/resources/101588/)
+[Изтегляне](https://www.spigotmc.org/resources/101588/)
 {% endtab %}
 
 {% tab title="3.6.0 - 4.0.6" %}
-Module is auto-installed by NPCDestinations.
+Модула се инсталира автоматично от NPCDestinations.
 {% endtab %}
 {% endtabs %}
 
@@ -134,26 +134,26 @@ Module is auto-installed by NPCDestinations.
 
 ![Adds loot reward and objective.](https://i.imgur.com/yHiPJFh.png)
 
-↳ [Download](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
 
 ### Proskillapi
 
-<figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Adds class requirements and rewards.</p></figcaption></figure>
+<figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Добавя изисквания за клас и награди.</p></figcaption></figure>
 
-↳ [Download](https://www.spigotmc.org/resources/91913/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/91913/)
 
 ### Screaming BedWars 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
 
-↳ [Download](https://www.spigotmc.org/resources/screaming-bedwars-module.98380/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/screaming-bedwars-module.98380/)
 
-### Want support for other plugins or features?
+### Искате поддръжка за други добавки или функции?
 
-If you can't find a module for a particular purpose here or via Internet search, consider hiring a developer at one of these sites:
+Ако не можете да намерите модул за определена цел тук или чрез търсене в Интернет, помислете за наемане на програмист в един от тези сайтове:
 
 * [Quests Community](https://discordapp.com/invite/QdJAv2G7qg)
 * [SpigotMC](https://www.spigotmc.org/forums/hiring-developers.55/)
 * [Lectern](https://lectern.browsit.org/forum/view/6-services/)
 
-Neither Quests nor its contributors hold any responsibility for the quality and/or functionality of third-party modules, implied or otherwise, regardless of origin.
+Нито Quests, нито неговите сътрудници носят никаква отговорност за качеството и/или фукционалността на модуле на трети страни, подразбиращи се или по друг начин, независимо от произхода.

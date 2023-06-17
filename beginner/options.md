@@ -1,32 +1,32 @@
-# Options
+# Опции
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml) which apply to _all_ quests.
+Once you've familiarized yourself with the [Редактор на задачи](../setup/quests-editor.md), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml) which apply to _all_ quests.
 
 ![](https://camo.githubusercontent.com/01ac608458bd8b9ea686e4f66bb4d39e0131d0dd738a4317ba898f285345c08a/68747470733a2f2f692e696d6775722e636f6d2f7374485a504f752e706e67)
 
-### General
+### Общи настройки
 
-| # | Choice                               | Description                                              |
+| # | Избор                                | Описание                                              |
 | - | ------------------------------------ | -------------------------------------------------------- |
-| 1 | Allow commands during quest          | Whether players may use commands after taking quest      |
-| 2 | Allow quitting during quest          | Whether players may quit quest after accepting it        |
-| 3 | Ignore blocks broken with Silk Touch | Whether break-block objectives count Silk Touch          |
-| 4 | Ignore blocks replaced once broken   | Whether placing blocks decrements break-block objectives |
+| 1 | Разрешаване на команди по време на задача         | Дали играчите могат да използват команди по време на изпълнение на задача      |
+| 2 | Разрешаване напускане на сървъра по време на задача          | Дали играчите могат да напуснат задачата, след като я приемат        |
+| 3 | Игнорирайте блокове, счупени с копринено докосване | Дали да бъде зачетено, когато счупите блок за задача с копринено докосване          |
+| 4 | Игнорирайте блокове, поставени след като се били счупени   | Дали поставянето на блок да намалява прогреса на целта ви за счупени блокове |
 
-### Multiplayer
+### Мултиплеър (Игра в мрежа)
 
-| # | Choice                         | Description                                                                                                 |
+| # | Избор                          | Описание                                                                                                 |
 | - | ------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| 1 | Set provider via Unite         | Set integration with party plugin via [Unite](dependencies.md#unite)                                        |
-| 2 | Use Parties plugin             | Toggle built-in integration with [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) |
-| 3 | Level of progress sharing      | How quest progress is distributed, see below                                                                |
-| 4 | Share with the same quest only | Whether players must have same quest to share progress                                                      |
-| 5 | Maximum radial distance        | Distance between players for shared progress to count                                                       |
-| 6 | Include offline players        | Whether to count shared progress for offline friends                                                        |
+| 1 | Задаване на доставчик чрез Unite        | Задайте интеграция с плъгин за групи чрез [Unite](dependencies.md#unite)                                        |
+| 2 | Използвайте Parties плъгина             | Превключете вградената интеграция с [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) |
+| 3 | Нито на споделяне на напредъка      | Как да се разпределя напредъка на задата, вижте по-долу                                                                |
+| 4 | Споделете само със същата задача | Дали играчите трябва да имат една и същата задача, за да споделят напредъка                                                      |
+| 5 | Максимално радиално разстояние       | Разстоянието между играчите за споделен напредък                                                     |
+| 6 | Включете офлайн играчите        | Дали да се начислява напредък на задачата на офлайн играчи                                                      |
 
-For level of progress sharing, the different values perform as follows:
+За ниво на споделяне различните стойности се изпълняват както следва:
 
-1. Everything (default): constantly share progress. If one player breaks a block, all players break a block.
-2. Objectives: if one player completes an objective, all members advance to the next objective.
-3. Stages: if one player completes a stage, all members advance to the next stage.
-4. Quests: similar to older versions' functionality. All members finish when one completes a quest.
+1. Всичко (по подразбиране): непрекъснато споделен напредък. Ако един играч счупи блок, всички играчи счупват блок.
+2. Цели: Ако един от играчите изпълни цел, то тогава всички членове преминават към следващата цел.
+3. Етапи: Ако един от играчите изпълни етап, то тогава всички членове преминават към следващия етап.
+4. Задачи: подобно на фукционалността на по-старите весии. Всичките членове изпълняват задача, когато един от играчите завърши мисията.

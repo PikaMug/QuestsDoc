@@ -1,13 +1,13 @@
 # Custom Quest API
 
 {% hint style="info" %}
-**Alert:** This information is intended for developers. Learn how to use Java first!
+**Тревога:** Тази информация е предназначена за разработчици. Научете първо как да използвате Java!
 {% endhint %}
 
 ### Add to your project
 
 
-If you're using Maven or another project management tool, add the latest version of Quests through the CodeMC service.
+Ако използвате Maven или друг инструмент за управление на проекти, добавете най-новата версия на Quests чрез услугата CodeMC.
 
 ```xml
 <repository>
@@ -33,13 +33,13 @@ You may also need the core module.
 </dependency>
 ```
 
-### Learn the interface
+### Научете интерфейса
 
-Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 4.0.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.
+Quests предоставя прост API за създаване на персонализирани изисквания, награди и цели. Като начало се уверете, че компилирате спрямо версия 4.0.0 или по-нова. След като приключите с това ръководство, използвайте папката _/Quests/modules_ като дестинация за вашия завършен и компилиран jar. Ако разпространявате вашия модул, не забравяйте да информирате крайния потребител за правилното местоположение на папката.
 
 #### Requirements API
 
-Building a Quests Requirement is very simple. To get started, create a Java class that extends the CustomRequirement class. After that, check out this example of a Custom Requirement where the player must have a particular name in order to take the Quest:
+Изграждането на изискване на задача е много просто. За да започнете, създайте Java клас, който разширява класа като CustomRequirement. След това вижте този пример за персонализирано изискване, при което играчът трябва да има конкретно име, за да вземе задачата:
 
 ```java
 package xyz.janedoe;
@@ -76,23 +76,23 @@ public class NameRequirement extends CustomRequirement {
 }
 ```
 
-In the constructor of your class, you may use any of the following methods:
+В конструктора на вашия клас можете да използвате някой от следните методи:
 
-| Method | Description |
+| Методи | Описание |
 | :--- | :--- |
-| setName | Sets the name of the Custom Objective. |
-| setAuthor | Sets the author of the Custom Objective \(you!\). |
-| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setDisplay | Sets how the requirement is displayed when failed. |
-| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Задава името на персонализираната цел. |
+| setAuthor | Задава автора на персонализираната цел \(ти!\). |
+| addItem | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI. |
+| setDisplay | Задава как изискването да се показва при неуспех. |
+| addStringPrompt | Добавя нова подкана за радактор с указано заглавие, описание и стойност по подразбиране за вашата персонализирана цел. Редактора на задачи може да въведе низ, който зависи от вас да анализирате |
 
-Inside \#testRequirement is where you perform your logic to determine whether the player passes the requirement, returning true if they do, and false if they do not.
+Вътре в \#testRequirement е мястото където изпълнявате вашата логика, за да определите дали играчът преминава изискването, връщайки 'true', ако го направи, и 'false' ако не го направи. 
 
-The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains the two values for 'Name' and 'Case-Sensitive'. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+Картата с данни съдържа данните, които лицето, създало задачата, й е дало. В този пример картата на данните съдържа двете стойности за „Име“ и „Отчитане на малки и големи букви“. Също така имайте предвид, че въпреки че стойностите са от тип Object, те са преобразувани вътрешно към тип String. Трябва да извършите ръчно преобразуване на типа, ако искате да получите integers, booleans стойности и др.
 
 #### Rewards API
 
-Building a Quests Reward is very simple. To get started, create a Java class that extends the CustomReward class. After that, check out this example of a Custom Reward where a player gets a GUI Inventory that pops up containing iron, gold and diamonds:
+Изграждането на награда за задачи е много просто. За да започнете, създайте Java клас, който разширява класа CustomReward. След това вижте този пример за персонализирана награда, при която играчът получава GUI инвентар, който се появява, съдържащ желязо, злато и диаманти:
 
 ```java
 package xyz.janedoe;
@@ -169,24 +169,24 @@ public class LootReward extends CustomReward {
 }
 ```
 
-In the constructor of your class, you may use any of the following methods:
+В конструктора на вашия клас можете да използвате някой от следните методи
 
-| Method | Description |
+| Методи | Описание |
 | :--- | :--- |
-| setName | Sets the name of the Custom Objective. |
-| setAuthor | Sets the author of the Custom Objective \(you!\). |
-| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setRewardName | Sets the reward name \(text that will appear when the player completes the Quest\) of the Custom Reward. |
-| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Задава името на персонализираната цел. |
+| setAuthor | Задава автора на персонализираната цел \(ти!\). |
+| addItem | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI. |
+| setDisplay | Задава как изискването да се показва при неуспех. |
+| addStringPrompt | Добавя нова подкана за радактор с указано заглавие, описание и стойност по подразбиране за вашата персонализирана цел. Редактора на задачи може да въведе низ, който зависи от вас да анализирате |
 
-Inside \#giveReward is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+Вътре в \#giveReward е мястото където изпълнявате вашата логика, за да определите дали играчът преминава изискването, връщайки 'true', ако го направи, и 'false' ако не го направи.
 
 #### Objectives API
 
-Building a Quests Objective is a bit more complicated than Requirements or Rewards. To get started, create a Java class that extends the CustomObjective class. If you want to catch one of Bukkit's Events, you'll need to implement the Listener class \(Quests will take care of registering it for you\). After that, check out these examples of a Custom Objective:
+Изграждането на цел за задача е малко по-сложно от изискванията или наградите. За да започнете, създайте Java клас, който разширява класа CustomObjective. Ако искате да хванете някой Event от Bukkit, ще трябва да внедрите класа Listener \(Quests ще се погрижи за регистрацията на събитието вместо вас\). След това вижте тези примери за персонализираната цел:
 
 {% tabs %}
-{% tab title="Example 1" %}
+{% tab title="Пример 1" %}
 ```java
 // Player must gain a certain amount of experience to advance
 
@@ -231,7 +231,7 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 ```
 {% endtab %}
 
-{% tab title="Example 2" %}
+{% tab title="Пример 2" %}
 ```java
 // Require the player to drop a certain number of a certain type of item.
 
@@ -290,7 +290,7 @@ public class DropItemObjective extends CustomObjective {
 ```
 {% endtab %}
 
-{% tab title="Example 3" %}
+{% tab title="Пример 3" %}
 ```java
 // Allow player to break ANY block rather than a specific one
 
@@ -333,19 +333,21 @@ public class AnyBreakBlockObjective extends CustomObjective {
 {% endtab %}
 {% endtabs %}
 
-In the constructor of your class, you may use any of the following methods:
+В конструктора на вашия клас можете да използвате някой от следните методи:
 
-| Method | Description |
+| Методи | Описание |
 | :--- | :--- |
-| setName | Sets the name of the Custom Objective. |
-| setAuthor | Sets the author of the Custom Objective \(you!\). |
-| addItem | Add an item which might appear in overlay plugins like QuestsGUI. |
-| setShowCount | Sets whether the quest editor may set the count \(number of times player must repeat task\). Default is "true". _This will apply to all prompts added with \#addStringPrompt unless disabled._ |
-| setCountPrompt | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number". |
-| setDisplay | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of \#setShowCount, and \#addStringPrompt titles for user input \(such as `%Item Name%` in the second example\). Default is "Progress: %count%". |
-| addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
+| setName | Задава името на персонализираната цел. |
+| setAuthor | Задава автора на персонализираната цел \(ти!\). |
+| addItem | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI. |
+| setShowCount | Определя дали редакторът на задачи може да задавя броя \(брой пъти, когато играчът трябва да повтори целта\). По подразбиране е "true". _Това ще се прилага за всички подкани, дабавени с \#addStringPrompt, освен ако не е забранено._ |
+| setCountPrompt | Задава подканящото описание за потребителя да въведе броя за целта. По подразбиране е "Въведете номер". |
+| setDisplay | Задава начина, по който целта се показва в "/quests list" и дневника на задачите. За контейнерите използвайте %count%, за да получите стойността на \#setShowCount, и \#addStringPrompt заглавия за въвеждане от потребителя \(като "Item Name" във втория пример\). По подразбиране е "Progress: %count%". |
+| addStringPrompt | Добавя нова подкана за радактор с указано заглавие, описание и стойност по подразбиране за вашата персонализирана цел. Редактора на задачи може да въведе низ, който зависи от вас да анализирате |
 
-Inside your EventHandlers \(if applicable\), determine whether the player has completed part or all of the objective, and then use \#incrementObjective to advance the player. The first and the second argument of \#incrementObjective should always be the player and 'this' respectively. The third argument is how much to increment the objective by, while the last is the quest for which to apply the increment to. Even if your objective does not have a count, you must still use \#incrementObjective - use an increment of 1 to signal that the objective has been completed.
 
-The `Map<String, Object>` contains the data that the quest editor provided. In this example, the data keys are the item names, whereas the values are the user's input for your prompt \(which _can_ be null\). Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
+Във вашият EventHandlers \(ако е приложимо\), определете дали играчът е изпълнил част или цялата цел и след това използвайте \#incrementObjective, за да напреднете играча. Първият и вторият аргумент на \#incrementObjective винаги трябва да бъдат съответно играчът и 'this'. Третият аргумент е с колко да се увеличи целта, докато последният е търсенете, към което да се приложи увеличението. Дори ако вашата цел няма брой, пак трябва да използвате \#incrementObjective - използвайте увеличение от 1, за да сигнализирате, че целта е изпълнена.
 
+`Map<String, Object>` съдържа данните, предоставени от редактора на задачи. В този пример ключовете за данни са имената на елементите, докато стойностите са въведените от потребителя за вашата подкана \(която _може_ да бъде _null_\). Също така имайте предвид, че въпреки, че стойностите са от тип Object, те са преобразувани вътрешно към тип String. Трябва да извършите ръчно преобразуване на типа, ако искате да получите цели integers, booleans стойности и др.
+
+ 

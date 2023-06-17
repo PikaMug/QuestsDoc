@@ -1,27 +1,27 @@
 # Planner
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
+След като се запознаете с [Редактора на задачи](../setup/quests-editor.md), може би се чудите за избора 'Промени Planner'. Това подменю съдържа контрол за това кога вашата задача трябва да е достъпна, въз основа на реално време:
 
 ![](https://camo.githubusercontent.com/07cea0e4af2b6bde23df1ada96f63d46b090cfe97a32b8889eb3599245245ff8/68747470733a2f2f692e696d6775722e636f6d2f7743374134396a2e706e67)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>Разгънете за да видите разбивката.</summary>
 
-1. Time the quest should become available
-2. Time the quest should cease to be available
-3. Length until quest is available again
-4. Length to wait after completing quest
-5. If true, players can take quest immediately after repeat cycle ends
-6. Finish working on your quest planner
+1. Времето, когато задачата трябва да стане достъпна
+2. Времето, когато задачата трябва да спре да бъде достъпна
+3. Продължителност на повторение, докато задачата ще е налична отново
+4. Продължителност на изчакване след завършване на задачата
+5. Ако е 'true', играчите мога да започнат задачата веднага след края на цикъла на повторение
+6. Завършете промените на вашия Planner
 
 </details>
 
-To better understand these selections, examples are provided below.
+За да разберете по-добре тези селекции, по-долу са дадени примери
 
-**Daily Quest**
+**Ежедневни задачи**
 
-In the real world, most businesses are only open during peak shopping hours. Similarly, you may wish to only have your quest available at certain times each day. The following is how such a quest might appear in quests.yml:
+В реалния свят, повечето бизнеси са отворени само през пиковите часове за пазаруване. По същия начин може да пожелаете задачата ви да е достъпна само в определени часове всеки ден. По-долу може да намерите пример как такава задача ще изглежда в quests.yml:
 
 ```
 custom1:
@@ -35,15 +35,15 @@ custom1:
       override: true
 ```
 
-The **start date** is set to January 11, 2020 at 9:00 AM EST. The **end date** is set to January 11, 2020 at 5:00 PM EST. This means that the quest will only be available for eight hours.
+**Началната дата** е зададена на 11 Януари, 2020 в 09:00 часа EST. **Крайната дата** е зададена на 11 Януари, 2020 в 17:00 часа EST. Това означава, че задачата ще бъде достъпна само за осем часа.
 
-Since we want players to be able to take the quest every day, the **repeat cycle** is set to 86400 seconds (24 hours). This wait time is based on the start date, so the quest will next become available on January 12, 2020, then again on the 13th, and so on. Just like the original duration, it will still only be available between 9:00 AM and 5:00 PM daily.
+Тъй като искаме играчите да могат да изпълняват задачата всеки ден, **Цикъл на повторение** е настроен на 86400 секунди (24 часа). Това време на изчаквана се основава на началната дата, така че мисията ще стане достъпна следващия път на 12 януари 2020г. След това на 13ти и т.н. Точко както първоначалната продължителност, той все още ще бъде достъпен само между 09:00 сутринта и 17:00 часа всеки ден.
 
-Lastly, we set a **player cooldown** of 32400 seconds (9 hours) because we do not want the player to take our quest a second time if they complete it before 5:00 PM. This ensures even the fastest players won't be able to take the quest again until the next day. If you want players to be able to take the quest at 9:00 AM the next day regardless of whether their cooldown has expired, you may set the **ignore cooldown after repeat** override to _true_.
+И накрая, задаваме **Изчакване на играча** от 32400 секунди (9 часа), защото не искаме играчът да приеме същата задача втори път, ако я завърши преди 17:00. Това гарантира, че дори най-бързите играчи няма да могат да приемат задачата отново до следващия ден. Ако искате играчите да мога да приемат задачата в 09:00 часа на следващия ден, независимо дали тяхното време за изчакване е изтекло, можете да зададете **Игнорирайте изчакването след повторение** на _true_.
 
-**New Years' Celebration**
+**Новогодишно тържество**
 
-Let's create a quest for a New Years' party. Please observe the following example as it would appear in quests.yml:
+Нека създадем задача за новогодишното парти. Моля, обърнете внимание на следващия пример, както би изглеждал в quests.yml:
 
 ```
 custom1:
@@ -57,8 +57,8 @@ custom1:
       override: false
 ```
 
-The **start date** is set to December 31, 2020 at 11:00 PM EST. The **end date** is set to January 1, 2021 at midnight. This means that the quest will only be available for one hour.
+**Началната дата** е зададена на 31 декември, 2020 в 23:00 часа EST. **Крайната дата** е зададена на 1 Януари, 2021 в полунощ. Това означава, че задачата ще бъде достъчна само за един час.
 
-Since we want to celebrate _every year_, the **repeat cycle** is set to 31536000 seconds (one calendar year). This wait time is based on the start date, so the quest will next become available on December 31, 2021, then again on the 31st of 2022, and so on. It will only be available for one hour, just like the original duration.
+Тъй като искаме да празнуваме _всяка година_, **цикълът на повторение** е зададен на 31536000 секунди (една календарна година). Това време за изчакване се основата на началната дата, така че задачата ще стане достъпна следващия път на 31 декември 2021 г. След това отново на 31-ви 2022г. и т.н. Ще бъде достъпна само за един час, точно както първоначалната продължителност.
 
-Lastly, we set a **player cooldown** of 3600 seconds (one hour) because we do not want the player to take our quest a second time if they complete it within one hour. This ensures even the quickest players won't be able to take the quest again until next year.
+И накрая, задаваме **Изчакване на играча** на 3600 секунди (1 час), защото не искаме играчът да предприеме нашата зачача втори път, ако я завърши в рамките на един час. Това гарантира, че дори най-бързите играчи няма да могат да предприемат задачата отново до следващата година.

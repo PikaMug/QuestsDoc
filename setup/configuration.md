@@ -1,83 +1,83 @@
 # Configuration
 
-When Quests is first run, configuration files will be created in the /plugins/Quests directory. If this is your first time using Quests, just make sure the settings in **config.yml** are to your liking. Don't worry about any of the other files or folders for the time being.
+Когато Quests се стартира за първи път, конфигурационните файлове ще бъдат създадени в директорията /plugins/Quests. Ако за първи път използвате Quests, просто се уверете, че настройките в **config.yml** са по ваш вкус. Засега не се притеснявайте за другите файлове или папки.
 
 {% hint style="info" %}
-**Pro-tip:** Opening a .yml file that contains non-English characters on an English computer may not display those characters correctly. In the case of Windows, this is because Windows in English uses the ANSI character set, while the preferred format is UTF-8. Unfortunately, Windows makes this difficult to change, so we recommend an editing program that supports UTF-8. [Notepad++](https://notepad-plus-plus.org/) is a free and popular choice.
+**Професионален съвет:** Отварянето на .yml файл, който съдържа неанглийски знаци, на английски компютър може да не покаже тези знаци правилно. В случая с Windows това е така, защоот Windows на английски използва набота от символи ANSI, докато предпочитаният формат е UTF-8. За съжаление Windows прави това трудно да се промени, затова препоръчваме програма за редактиране, която поддържа UTF-8 [Notepad++](https://notepad-plus-plus.org/) е безплатен и популярен избор.
 {% endhint %}
 
 ### config.yml
 
-This file contains all settings relating to how Quests should perform once loaded. As such, changes made to this file must be configured and saved _before_ the server is started.
+Този файл съдържа всички настройки, свързани с това как Quests трябва да изглежда след като бъде зареден. Промените, направени в този файл трябва да бъдат конфигурирани и запазени _преди_ сървърът да бъде стартиран.
 
-> [Click here to view the default config.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/config.yml)
+> [Натистене тук за да видите файла config.yml по подразбиране.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/config.yml)
 
-| Key                                           | Data Type  | Description                                                                                                                                                    |
+| Ключ                                           | Тип на данните  | Описание                                                                                                                                                    |
 | --------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| accept-timeout                                | number     | How long (in seconds) a player should be able to accept/deny a quest before the prompt cancels automatically.                                                  |
-| allow-command-questing                        | true/false | Whether players are allowed to accept and manage quests via command (e.g. /quests take SomeQuest).                                                             |
-| allow-command-quests-with-npcs                | true/false | Whether players can accept/manage NPC quests via command (e.g. /quests take SomeQuest).                                                                        |
-| allow-pranks                                  | true/false | Whether to permit clicking Portals with the Quests Journal.                                                                                                    |
-| clickable-prompts                             | true/false | Click most prompt selections in chat.                                                                                                                          |
-| condition-interval                            | number     | How long (in seconds) between condition notifications (min. 3, max. 180).                                                                                      |
-| confirm-abandon                               | true/false | Whether players must confirm quitting of a quest.                                                                                                              |
-| confirm-accept                                | true/false | Whether players must confirm taking of a quest.                                                                                                                |
-| console-logging                               | number     | 0 = disabled, 1 = track editing, 2 = and start/quit quests, 3 = and rewards, 4 = and debug information.                                                        |
-| disable-command-feedback                      | true/false | Whether to disable Minecraft's sendCommandFeedback gamerule at startup.                                                                                        |
-| generate-files-on-join                        | true/false | Either generate a player data file when that player first joins the server or only when they first use Quests.                                                 |
-| give-journal-item                             | true/false | Quest Journal exists as item in player inventory.                                                                                                              |
-| ignore-locked-quests                          | true/false | Ignore locked quests when checking if a player has all necessary Requirements.                                                                                 |
-| kill-delay                                    | number     | How long (in seconds) a player should have to wait after they kill a player for a quest before they can kill that player again.                                |
-| language                                      | string     | Which file from the /lang/ folder will be used for administrative text. For example, a value of "FR-fr" will result in "/lang/FR-fr/strings.yml" being loaded. |
-| language-override-client                      | true/false | Whether `language` setting should override client language when sending all types of text.                                                                     |
-| max-quests                                    | number     | Maximum number of quests a given player can have at any time.                                                                                                  |
-| npc-effects.enabled                           | true/false | Whether to enable particle effects. Note that the client must have particles enabled.                                                                          |
-| npc-effects.new-quest                         | string     | The particle effect to be played for a new quest (ex. note, enchant, crit, spell, portal).                                                                     |
-| npc-effects.redo-quest                        | string     | The particle effect to be played for a repeatable quest (ex. note, enchant, crit, spell, portal).                                                              |
-| show-requirements                             | true/false | Allow players to see requirements in /quest \[quest]                                                                                                           |
-| show-titles                                   | true/false | Display titles to players when accepting/completing quests.                                                                                                    |
-| strict-player-movement                        | number     | Seconds between advanced player movement tracking.                                                                                                             |
-| storage-data.address                          | string     | The IP address for optional storage.                                                                                                                           |
-| storage-data.database                         | string     | The table name for optional storage.                                                                                                                           |
-| storage-data.username                         | string     | The login username for optional storage.                                                                                                                       |
-| storage-data.password                         | string     | The login password for optional storage.                                                                                                                       |
-| storage-data.pool-settings.max-pool-size      | number     | Advanced HikariCP setting.                                                                                                                                     |
-| storage-data.pool-settings.min-idle           | number     | Advanced HikariCP setting.                                                                                                                                     |
-| storage-data.pool-settings.max-lifetime       | number     | Advanced HikariCP setting.                                                                                                                                     |
-| storage-data.pool-settings.connection-timeout | number     | Advanced HikariCP setting.                                                                                                                                     |
-| storage-method.player-data                    | string     | yaml = file storage, mysql = remote storage, custom = developer storage                                                                                        |
-| top-limit                                     | number     | Maximum number of quests that can be displayed by /quests top \[number]                                                                                        |
-| translate-names                               | true/false | Translate item/mob name to client's game language.                                                                                                             |
-| translate-subcommands                         | true/false | Translate subcommands to server's plugin language.                                                                                                             |
-| trial-save                                    | true/false | Allow saving while in Trial Mode.                                                                                                                              |
-| update-check                                  | true/false | Whether to permit checking for plugin updates.                                                                                                                 |
+| accept-timeout                                | номер     | Колко дълго (в секунди) играчът трябва да може да приеме/откаже мисия, преди подканата да се отмени автоматично.                                                 |
+| allow-command-questing                        | true/false | Дали на играчите е разрешено да приемат и управляват задачи чрез команда (напр. /quests take SomeQuest).                                                         |
+| allow-command-quests-with-npcs                | true/false | Дали играчите могат да приемат/управляват NPC задачи чрез команда (напр. /quests take SomeQuest).                                                                 |
+| allow-pranks                                  | true/false | Дали да се разреши щракване върху портали с дневника на задачите.                                                                                            |
+| clickable-prompts                             | true/false | Щракнете върху повечето селекции в чата.                                                                                                                      |
+| condition-interval                            | номер     | Колко дълго (в секунди) между уведомленията за условия (мин. 3, макс. 180).                                                                           |
+| confirm-abandon                               | true/false | Дали играчите трябва да потвърдят отказ от задача.                                                                                                              |
+| confirm-accept                                | true/false | Дали играчите трябва да потвърдят поемането на задача.                                                                                                              |
+| console-logging                               | номер     | 0 = Деактивирано, 1 = Следене на проемени, 2 = и старт/напусни задача, 3 = и награди, 4 = и debug информация.                                                        |
+| disable-command-feedback                      | true/false | Дали да деактивирате правилото за игра sendCommandFeedback на Minecraft при стартиране.                                                                                        |
+| generate-files-on-join                        | true/false | Или генерирайте файл с данни за играч, когато този играч за първи път се присъедини към сървъра, или само когато за първи път използва мисии.                                                 |
+| give-journal-item                             | true/false | Дневника на задачите съществува като предмет в инвентара на играча.                                                                                                          |
+| ignore-locked-quests                          | true/false | Игнорирайте заключените задачи, когато проверявате дали играчът има всички необходими изисквания.                                                                             |
+| kill-delay                                    | номер     | Колко време (в секунди) трябва да изчака играч, след като убие играч за задача, преди да може да убие този играч отново.                                |
+| language                                      | низ     | Кой файл от папката /lang/ ще се използва за административен текст. Например, стойност на "FR-fr" ще доведе до зареждане на "/lang/FR-fr/strings.yml". |
+| language-override-client                      | true/false | Дали настройката „language“ трябва да замени езика на клиента при изпращане на всички видове текст.                                                            |
+| max-quests                                    | номер     | Максимален брой задачи, които даден играч може да има по всяко време.                                                                                                |
+| npc-effects.enabled                           | true/false | Дали да се активират ефекти на частици. Имайте предвид, че клиентът трябва да има разрешени частици.                                                                         |
+| npc-effects.new-quest                         | низ     | Ефектът на частиците, който трябва да се използва за нови задачи (напр. note, enchant, crit, spell, portal).                                                                     |
+| npc-effects.redo-quest                        | низ     | Ефектът на частиците, който трябва да се използва за повтаряща се задача (напр. note, enchant, crit, spell, portal).                                                              |
+| show-requirements                             | true/false | Позволете на играчите да виждат изискванията в /quest \[quest]                                                                                                           |
+| show-titles                                   | true/false | Показвайте заглавие на играчите, когато приемате/завършвате мисии.                                                                                                    |
+| strict-player-movement                        | номер     | Секунди между разширеното проследяване на движението на играча.                                                                                                          |
+| storage-data.address                          | низ     | IP адресът за опционално съхранение.                                                                                                                         |
+| storage-data.database                         | низ     | Името на таблицата за опционално съхранение.                                                                                                                          |
+| storage-data.username                         | низ     | Потребителското име за вход за опционално съхранение.                                                                                                                      |
+| storage-data.password                         | низ     | Паролата за вход за опционално съхранение.                                                                                                                      |
+| storage-data.pool-settings.max-pool-size      | номер     | Разширена настройка на HikariCP.                                                                                                                                   |
+| storage-data.pool-settings.min-idle           | номер     | Разширена настройка на HikariCP.                                                                                                                                   |
+| storage-data.pool-settings.max-lifetime       | номер     | Разширена настройка на HikariCP.                                                                                                                                     |
+| storage-data.pool-settings.connection-timeout | номер     | Разширена настройка на HikariCP.                                                                                                                                     |
+| storage-method.player-data                    | низ     | yaml = съхранение на файлове, mysql = отдалечено съхранение, custom = хранилище за разработчици                                                                                        |
+| top-limit                                     | номер     | Максимален брой задачи, които могат да бъдат показани от /quests top \[число]                                                                                        |
+| translate-names                               | true/false | Преведете името на предмета/чудовището на езика на играта на клиента.                                                                                                             |
+| translate-subcommands                         | true/false |Преведете подкомандите на езика на плъгина на сървъра.                                                                                                             |
+| trial-save                                    | true/false | Разрешете запазване, докато сте в пробен режим.                                                                                                                              |
+| update-check                                  | true/false | Дали да се разреши проверка за актуализации на плъгина.                                                                                                                 |
 
 ### actions.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+Не се препоръчва ръчно редактиране на този файл. Няма да се предоставя поддръжка на онези, които изберат да не използват редактора в играта.
 {% endhint %}
 
-This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a quest. This is best accomplished with the _/quests actions_ command.
+Този файл съдържа персонализирани действия, които изпълняват определени задачи и ефекти. С изключение на включените примери, действията се създават преди използване в задача. Това се постига най-добре с командата _/quests actions)_.
 
-> [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
+> [Натистене тук за да видите файла actions.yml по подразбиране.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+Не се препоръчва ръчно редактиране на този файл. Няма да се предоставя поддръжка на онези, които изберат да не използват редактора в играта.
 {% endhint %}
 
-This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a quest. This is best accomplished with the _/quests conditions_ command.
+Този файл съдържа персонализирани условия, които се проверяват по време на игра. С изключение на включение примери, условията се създават преди използване в задача. Това се постига най-добре с командата _/quests conditions_.
 
-> [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
+> [Натистене тук за да видите файла conditions.yml по подразбиране.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
 ### quests.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+Не се препоръчва ръчно редактиране на този файл. Няма да се предоставя поддръжка на онези, които изберат да не използват редактора в играта.
 {% endhint %}
 
-This file contains all saved quests. A few example quests are included which you may delete at any time. This is best accomplished with the _/quests editor_ command.
+Този файл съдържа всички запазени задачи. Включение са няколко примерни задачи, които можете да изтриете по всяко време. Това се постига най-добре с командата _/quests editor_.
 
-> [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
+> [Натистене тук за да видите файла quests.yml по подразбиране.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)

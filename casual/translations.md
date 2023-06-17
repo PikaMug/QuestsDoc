@@ -1,92 +1,92 @@
-# Translations
+# Преводи
 
 {% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
+**Забележка:** Тази информация е предназначена за средно напреднали потребители. Прочети внимателно!
 {% endhint %}
 
-Should you wish to change the plugin's language, Quests has many localization files which are located at /plugins/Quests/lang/**ISO**/strings.yml by default, where "**ISO**" represents your preferred [language code](https://support.crowdin.com/api/language-codes/). Translations are provided [via Crowdin](https://crowdin.com/project/translate-quests), a platform where anyone can contribute, with English(en-US) being the source language.
+Ако желаете да промените езика на приставката, Quests има много файлове за локализация, които се намират в /plugins/Quests/lang/**ISO**/string.yml по подразбиране, където "**ISO**" представлява вашия предпочитан [езиков код](https://support.crowdin.com/api/language-codes/). Осигурени са преводи [чрез Crowdin](https://crowdin.com/project/translate-quests), платформа, където всеки може да допринесе, като Английският (en-US) е изходния език.
 
-You may select the language of choice for your server by changing the [language code](https://support.crowdin.com/api/language-codes/) value of `language` in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). If a particular string/sentence has not been localized, it will default to English. To avoid this, you may edit the strings.yml file directly or [contribute a translation on Crowdin](https://crowdin.com/project/translate-quests).
+Можете да избере езика по избор за вашия сървър, като промените [езиковия код](https://support.crowdin.com/api/language-codes/) стойност на `language` в [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). Ако конкретен низ/изречение не е локализиран, той ще бъде на английски по подразбиране. За да избегнете това, можете да редактирате файла strings.myl директно или [допринесете за превод в Crowdin](https://crowdin.com/project/translate-quests).
 
 {% hint style="info" %}
-**Pro-tip:** Certain menu options may be difficult to use as a result of crowdsourced localization. Setting the config value of `ask-confirmation` to `false` may help minimize these issues.
+**Професионален съвет:** Определени опции на менюто може да са трудни за използване в резултат на краудсорсинг локализация. Задаването на конфигурационната стойност на 'ask-confirmation' на 'false' може да помогне за минимизиране на тези проблеми.
 {% endhint %}
 
-### Viewing
+### Разглеждане
 
-Opening a strings.yml file that contains non-English characters on an English computer may not display those characters correctly. In the case of Windows, this is because Windows in English uses the ANSI character set, while the preferred format is UTF-8. Unfortunately, Windows makes this difficult to change, so we recommend an editing program that supports UTF-8. [Notepad++](https://notepad-plus-plus.org/) is a popular choice.
+Отварянето на файл string.yml, който съдържа неанглийски знаци на английски компютър, може да не покаже тези знаци правилно. В случая с Windows това е така, защото Windows на английски използва набора от символи ANSI, докато предпочитаният формат е UTF-8. За съжаление Windows прави това трудно да се промени, затова препоръчваме програма за редактиране, която поддържа UTF-8 [Notepad++](https://notepad-plus-plus.org/) е популярен избор.
 
-### Updates
+### Актуализации
 
-New language strings will sometimes be added to a separate file in the same folder as your chosen language file whenever you update Quests. This file will be named similarly to your current file, but with "\_new" appended at the end of the name (for example, "en-US/strings\_new.yml" or "fr-FR/strings\_new.yml"). Simply copy the strings from this new file into your current one.
+Нови езикови низове понякога ще се добавят към отделен файл в същата папка като избрания от вас езиков файл, когато актиализирате Quests. Този файл ще бъде наименуван подобно на текущия ви файл, но с "\_new", добавен в края на името (например "en-US/strings\_new.yml" или "fr-FR/strings\_new.yml"). Просто копирайте низовете от този нов файл в текущия.
 
-If you haven't edited the default language file, you could also simply delete the file and allow Quests to create a new one with the updated strings next time the server is started.
+Ако не сте редактирали езиковия файл по подразбиране, можете също просто да изтриете файла и да позволите на Quests да създаде нов с актиализираните низове при следващото стартиране на сървъра.
 
-### Editing
+### Редактиране
 
-First, know that each string is made of a "key" and a "value". The "key" helps the plugin know what to use the string for and is shown below in **BOLD**. The "value" is the part inside quotes that your users will see and can usually be translated. It is shown in _ITALIC_.
+Първо, знайте че всеки низ е напревен от "ключ" и "стойност". "Ключът" помага на плъгина да знае за какво да използва низа и е показан по-долу с **BOLD**. "Стойността" е частта в кавички, която вашите потребители ще видят и обикновено може да бъде преведена. Показано е в _ITALIC_
 
 > **COMMAND\_LIST\_HELP:** "`<command>` _\[page] - List available Quests_"
 
-Notice that `<command>` is neither **BOLD** nor _ITALIC_. This is because even though it's part of the value, it generally should not be edited. Quests replaces this part of the value with something important, in this case, a player command.
+Забележете, че '<command>' не е нито **BOLD**, нито _ITALIC_. Това е така, защото въпреки, че е част от стойността, обикновено не трябва да се редактира. Quests замества тази част от стойността с нещо важно, в този случай команда на играч.
 
-To solidify, here are some tips to follow when editing a language file:
+За да се затвърдите, ето няколко съвета, които да следвате, когато редактирате езиков файл:
 
-* **DO** keep the double quotation marks on the ends of each value.
-* **DO** feel free to use regular brackets \[] and parentheses () in your translations.
-* Do **NOT** edit the key. Only edit the value.
-* Do **NOT** add double quotation marks " in any of your values or you will likely break them. Single quotes ' are OK.
-* Do **NOT** change anything inside angle brackets <>. You're welcome to move it around or delete it entirely, but it cannot be translated.
-* It is not possible to change the /quests, /quest and /questadmin commands via the language files.
+* **Запазете** двойните кавички в краищата на всяка стоиност.
+* **Чувствайте се свободни** да използвате обикновени сколи \[] и скоби () във вашите преводи.
+* **НЕ** редактирайте ключа. Редактирайте само стойността
+* **НЕ** добавяйте двойни кавички " във всяка от вашите стойности или вероятно ще ги нарушите. Единичните кавички '' са ОК.
+* **НЕ** променяйте нещо в игловите скоби <>. Можете да го преместите или да го изтриете изцяло, но не може да бъде преведено.
+* Не е възможно да промените командите /quests, /quest и /questadmin чрез езиковите файлове.
 
-If you are ever unsure about whether your edits are correct, or you receive errors on startup, try using an online YAML parser to check your language file. One such parser can be found [here](http://yaml-online-parser.appspot.com/).
+Ако някога не сте сигурни дали вашите редакции са правилни или получавате грешки при стартиране, опитайте да използвате онлайн анализатор на YAML, за да проверите вашия езиков файл. Един такъв анализатор може да бъде намерен [тук](http://yaml-online-parser.appspot.com/).
 
-### Formatting
+### Форматиране
 
-You may put any of the following formatting tokens into your language files.
+Можете да поставите всеки от следните токени за форматиране във вашите езикови файлове.
 
-| Token           | Equivalent | Description                  |
+| Токен           | Еквивалентен | Описание                  |
 | --------------- | ---------- | ---------------------------- |
-| %black%         | §0         | Black color                  |
-| %darkblue%      | §1         | Dark blue color              |
-| %darkgreen%     | §2         | Dark green color             |
-| %darkaqua%      | §3         | Dark aqua color              |
-| %darkred%       | §4         | Dark red color               |
-| %purple%        | §5         | Dark purple color            |
-| %gold%          | §6         | Gold color                   |
-| %gray%          | §7         | Gray (silver) color          |
-| %darkgray%      | §8         | Dark gray color              |
-| %blue%          | §9         | Blue color                   |
-| %green%         | §a         | Green color                  |
-| %aqua%          | §b         | Aqua color                   |
-| %red%           | §c         | Red color                    |
-| %pink%          | §d         | Light purple (pink) color    |
-| %yellow%        | §e         | Yellow color                 |
-| %white%         | §f         | White color                  |
-| %magic%         | §k         | Obfuscated formatting        |
-| %bold%          | §l         | **Bold** formatting          |
-| %strikethrough% | §m         | ~~Strikethrough~~ formatting |
-| %underline%     | §n         | Underline formatting         |
-| %italic%        | §o         | _Italic_ formatting          |
-| %reset%         | §r         | Reset to default             |
-| %br%            | N/A        | Line break character         |
-| %tab%           | N/A        | Tab character                |
-| %rtr%           | N/A        | Return carriage character    |
+| %black%         | §0         | Черен цвят               |
+| %darkblue%      | §1         | Тъмно син цвят              |
+| %darkgreen%     | §2         | Тъкмо зелен цвят             |
+| %darkaqua%      | §3         | Тъмен аква цвят             |
+| %darkred%       | §4         | Тъмно червен цвят            |
+| %purple%        | §5         | Тъмно лилав цвят           |
+| %gold%          | §6         | Златен цвят                |
+| %gray%          | §7         | Сив (сребрист) цвят          |
+| %darkgray%      | §8         | Тъмно сив цвят              |
+| %blue%          | §9         | Син цвят                   |
+| %green%         | §a         | Зелен цвят                  |
+| %aqua%          | §b         | Аква цвят                   |
+| %red%           | §c         | Червен цвят                    |
+| %pink%          | §d         | Светло лилав (розово) цвят    |
+| %yellow%        | §e         | Жълт цвят                 |
+| %white%         | §f         | Бял цвят                  |
+| %magic%         | §k         | Скрито форматиране        |
+| %bold%          | §l         | **BOLD** форматиране          |
+| %strikethrough% | §m         | ~~Зачертано~~ форматиране |
+| %underline%     | §n         | Подчертано форматиране         |
+| %italic%        | §o         | _Italic_ форматиране          |
+| %reset%         | §r         | По подразбиране             |
+| %br%            | N/A        | Символ за прекъсване на реда         |
+| %tab%           | N/A        | Символ тубалация                |
+| %rtr%           | N/A        | Символ за връщане на каретка    |
 
-Example of hex color format is `%#c89664%` on compatible versions.
+Пример за шестнадесетичен цветен формат е `%#c89664%` на съвместими версии.
 
 #### PlaceholderAPI
 
-Starting with Quests 3.2.4, [PlaceholderAPI](https://www.spigotmc.org/wiki/placeholderapi/) tokens (called "[placeholders](https://www.spigotmc.org/wiki/placeholderapi-placeholders/)") can be used in strings which your players typically encounter. Admin strings, like those for the Quests and Actions editors will not accept placeholders. The following is an example of how to customize a string with a player's name.
+Започвайки с Quests 3.2.4, [PlaceholderAPI](https://www.spigotmc.org/wiki/placeholderapi/) токените (наричащи се "[placeholders](https://www.spigotmc.org/wiki/placeholderapi-placeholders/)") може да се използва в низове, които вашите играчи обикновено срещат. Администраторските низове, като тези са редакторите на мисии и действия, няма да приемат контейнери. Следното е пример за това как да персонализирате низ с името на играч.
 
-Before: `journalPutAway: "You put away your Quest Journal."`
+Преди: `journalPutAway: "You put away your Quest Journal."`
 
-After: `journalPutAway: "You put away %player_name%'s Quest Journal."`
+След това: `journalPutAway: "You put away %player_name%'s Quest Journal."`
 
-Be advised that the "journalTitle" string will not accept placeholders, as allowing tokens there would break the book's metadata. If you're skeptical as to whether a string will accept a placeholder, best practice is to just try it!
+Имайте предвид, че низът "journalTitle" няма да приема контейнери, тъй като разрешаването на токени там би нарушило метаданните на книгата. Ако сте скептични по отношение на това дали даден низ ще приеме заместител, най-добрата практира е просто да го опитате!
 
-### Troubleshooting
+### Отстраняване на неизправности
 
-If you find that certain files are gone, or the entire /lang folder is missing, make sure your folder permissions are not restricting their creation. If you're on Windows, right-click on your /plugins folder, select Properties, and go to the Security tab. Click "Advanced" and then, in the Permissions tab, select "Change Permissions". Choose "Add" and in the Select User or Group window, type "everyone" in the text box. Click "Check Names" and then choose "OK". If applicable, check all "Allow" boxes. Continue clicking "OK" until all windows are closed.
+Ако установите, че определени файлове ги няма или цялата папка /lang липсва, уверете се, че разрешенията на вашата папка не ограничават тяхното създаване. Ако сте на Windows, щракнете с десния бутон върху вашата папка /plugins, изберете "Разширени" и след това в раздела "Разширения" изберете "Промяна на разрешенията". Изберете "Добавяне" и в прозореца "Избор на протебител или група" въведете "всички" в текстовото поле. Щракнете върху "Проверка на имената" и след това изберете "ОК". Ако е приложимо, поставете отметка във всички крадратчета "Разреши". Продължете да щраквате върху "ОК", докато всички прозорци се затворят.
 
-Alternatively, you can create the folders manually and download your desired language file(s) from [here](https://github.com/PikaMug/Quests/tree/main/core/src/main/resources/lang).
+Като алтернатива можете да създадете папките ръчно и да изтеглите желаните от вас изокови файлове [тук](https://github.com/PikaMug/Quests/tree/main/core/src/main/resources/lang).
