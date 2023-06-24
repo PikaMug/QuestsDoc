@@ -108,8 +108,8 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ↳ [Téléchargement](https://dev.bukkit.org/projects/worldguard/files)
 
-### ZNPCsPlus
+### ZNPCsPlus 🌟
 
-![Démarrez et interagissez avec des quêtes via des PNJ.](https://i.imgur.com/bcrtalK.png)
+![Démarrez et interagissez avec des quêtes via des PNJ.](https://www.spigotmc.org/data/resource\_icons/109/109380.jpg)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/znpcsplus.109380/)
