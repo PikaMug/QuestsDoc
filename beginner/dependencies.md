@@ -107,3 +107,9 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 ![Définissez des régions pour les utiliser avec Quests.](https://camo.githubusercontent.com/55a494e4c5676605026ac22ae2c59e3097e9987e58196f04686418b51342a917/68747470733a2f2f692e696d6775722e636f6d2f53426b6b7a454e2e706e67)
 
 ↳ [Téléchargement](https://dev.bukkit.org/projects/worldguard/files)
+
+### ZNPCsPlus
+
+![Démarrez et interagissez avec des quêtes via des PNJ.](https://i.imgur.com/bcrtalK.png)
+
+↳ [Téléchargement](https://www.spigotmc.org/resources/znpcsplus.109380/)
