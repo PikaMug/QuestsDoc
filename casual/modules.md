@@ -8,13 +8,13 @@
 
 Модул файловете трябва да бъдат поставени в папка _Quests/modules_ докато целевият плъгин отива в папката _/plugins_ както обикновено. Имайте предвид, че всички модули са изцяло незадължителни и можете да ги добавяте или премахване, както сметнете за добре. По-долу е даден непълен списък с популярни плъгини, за които е известно, че съществува модул, заедно с описание на това как се свързва.
 
-| Етикети:                                      |                                               |
-| -------------------------------------------- | --------------------------------------------- |
+| Етикети:                                               |                                                   |
+| ------------------------------------------------------ | ------------------------------------------------- |
 | 🌟 = Препоръчва се за оптимално потребилско изживяване | 💲 = Може да изисква закупуване на премиум ресурс |
 
 ### BedWars1058 - Отворен код 💲
 
-![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
+![Добавя "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player" и "End arena" цели.](../.gitbook/assets/bedwars1058.jpg)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
 
@@ -26,7 +26,7 @@
 
 ### CustomMobs
 
-![Adds a "Kill CustomMobs" objective.](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
+![Добавя цел "Убий CustomMobs".](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
@@ -44,7 +44,7 @@
 
 ### DungeonsXL
 
-![Adds "Finish dungeon", "Get reward item", "Get reward level", "Get reward money", and "Kill dungeon mob" objectives.](https://camo.githubusercontent.com/70fecf6dfd0399b3a64f8a16d94dd3d7cf928178d92c9f180a7f3345117fdc78/687474703a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
+![Добавя цели "Finish dungeon", "Get reward item", "Get reward level", "Get reward money" и "Kill dungeon mob".](https://camo.githubusercontent.com/70fecf6dfd0399b3a64f8a16d94dd3d7cf928178d92c9f180a7f3345117fdc78/687474703a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (изисква Quests 3.6.0 или по нов)
 
