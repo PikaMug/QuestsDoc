@@ -20,7 +20,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### Boss 💲
 
-![](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
+![Ajoute un objectif "Kill Boss".](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/boss-quests-module.66973/) (nécessite Quests 3.6.0 ou plus récent)
 
