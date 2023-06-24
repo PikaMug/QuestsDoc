@@ -26,7 +26,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### CustomMobs
 
-![Ajoute un objectif "Kill CustomMobs" (tuez des monstres customisés).](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
+![Ajoute un objectif "Kill CustomMobs".](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
