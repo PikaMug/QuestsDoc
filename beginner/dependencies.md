@@ -108,7 +108,7 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ↳ [Download](https://dev.bukkit.org/projects/worldguard/files)
 
-### ZNPCsPlus
+### ZNPCsPlus 🌟
 
 <figure><img src="https://www.spigotmc.org/data/resource_icons/109/109380.jpg" alt=""><figcaption><p>Start and interact with quests through NPCs.</p></figcaption></figure>
 
