@@ -108,8 +108,8 @@ Quests може да се свърже с много други плъгини, 
 
 ↳ [Изтегляне](https://dev.bukkit.org/projects/worldguard/files)
 
-### ZNPCsPlus
+### ZNPCsPlus 🌟
 
-<figure><img src="https://i.imgur.com/bcrtalK.png" alt=""><figcaption><p>Започнете и взаимодействайте с куестове чрез NPC.</p></figcaption></figure>
+<figure><img src="https://www.spigotmc.org/data/resource_icons/109/109380.jpg" alt=""><figcaption><p>Започнете и взаимодействайте с куестове чрез NPC.</p></figcaption></figure>
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/znpcsplus.109380/)
