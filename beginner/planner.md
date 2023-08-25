@@ -28,8 +28,8 @@ custom1:
     name: OnceDaily
     ...
     planner:
-      start: 11:1:2020:9:0:0:SystemV/EST5
-      end: 11:1:2020:17:0:0:SystemV/EST5
+      start: 11:0:2020:9:0:0:SystemV/EST5  # Month is zero-based; 0 = January
+      end: 11:0:2020:17:0:0:SystemV/EST5  # Month is zero-based; 0 = January
       repeat: 86400
       cooldown: 32400
       override: true
@@ -50,8 +50,8 @@ custom1:
     name: PrepareForNewYears
     ...
     planner:
-      start: 31:12:2020:23:0:0:SystemV/EST5
-      end: 1:1:2021:0:0:0:SystemV/EST5
+      start: 31:11:2020:23:0:0:SystemV/EST5  # Month is zero-based; 0 = January
+      end: 1:0:2021:0:0:0:SystemV/EST5  # Month is zero-based; 0 = January
       repeat: 31536000
       cooldown: 3600
       override: false
