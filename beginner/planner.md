@@ -28,8 +28,8 @@ custom1:
     name: Quotidien
     ...
     planner:
-      start: 11:1:2020:9:0:0:SystemV/EST5  # Mes es de base cero; 0 = Enero
-      end: 11:1:2020:17:0:0:SystemV/EST5  # Mes es de base cero; 0 = Enero
+      start: 11:1:2020:9:0:0:SystemV/EST5  # Mois est base zéro; 0 = janvier
+      end: 11:1:2020:17:0:0:SystemV/EST5  # Mois est base zéro; 0 = janvier
       repeat: 86400
       cooldown: 32400
       override: true
@@ -50,8 +50,8 @@ custom1:
     name: Préparationdelanouvelleannée
     ...
     planner:
-      start: 31:12:2020:23:0:0:SystemV/EST5  # Mes es de base cero; 0 = Enero
-      end: 1:1:2021:0:0:0:SystemV/EST5  # Mes es de base cero; 0 = Enero
+      start: 31:12:2020:23:0:0:SystemV/EST5  # Mois est base zéro; 0 = janvier
+      end: 1:1:2021:0:0:0:SystemV/EST5  # Mois est base zéro; 0 = janvier
       repeat: 31536000
       cooldown: 3600
       override: false
