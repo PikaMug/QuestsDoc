@@ -1,6 +1,6 @@
 # Casa
 
-(Anuncio) _**¡Obtén un 25% de descuento en QuestsGUI en**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
+(Anuncio) _**¡Obtén un 20% de descuento en QuestsGUI en**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
 
 **Quests** es el complemento de servidor de código abierto y fácil de usar para sumergir a los visitantes en los desafíos que usted ha planteado. Los jugadores pueden realizar múltiples misiones simultáneamente, completándolas para obtener recompensas estelares y desbloqueables. Desde colocar bloques en las cimas de las montañas hasta matar un centenar de esqueletos en Halloween, ¡las combinaciones solo están limitadas por tu imaginación!
 
