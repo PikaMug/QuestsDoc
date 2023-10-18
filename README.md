@@ -1,6 +1,6 @@
 # Acceuil
 
-(Annonce) _**Obtenez 25 % de réduction pour QuestsGUI sur**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&) _**!**_
+(Annonce) _**Obtenez 20 % de réduction pour QuestsGUI sur**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&) _**!**_
 
 **Quests** est simple d'utilisation, c'est un plugin open-source pour les serveur, afin d'immerger les visiteurs dans des challenges crée par vous! Les joueurs peuvent prendre plusieurs quête en même temps, et les terminer permet d'obtenir des récompenses uniques et de débloquer des objets. Que se soit de placer des blocs sur une montagne ou de tuer une centaine de squellettes pour halloween, les combinaisons ne sont limité que par votre immagination !
 
