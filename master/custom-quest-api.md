@@ -1,4 +1,4 @@
-# API de quête personnalisée
+# Quêtes customisées API
 
 {% hint style="info" %}
 ALERTE: Ces informations sont destinées aux développeurs. Apprenez d'abord à utiliser Java !
@@ -14,15 +14,8 @@ Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la derni�
   <url>https://repo.codemc.io/repository/maven-public/</url>
 </repository>
 ```
-```xml
-<dependency>
-  <groupId>me.blackvein.quests</groupId>
-  <artifactId>quests-api</artifactId>
-  <version>VERSION</version>
-</dependency>
-```
 
-Vous pouvez également avoir besoin du module de base.
+A menos que diseñe un proyecto multiplataforma, querrá definir el artefacto principal.
 
 ```xml
 <dependency>
@@ -38,7 +31,7 @@ Quests fournit une API simple pour créer des exigences, des récompenses et des
 
 #### API des exigences
 
-Construire une exigence de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomRequirement. Après cela, consultez cet exemple d'exigence personnalisée où le joueur doit avoir un nom particulier pour entreprendre la quête :
+Construire une exigence de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomRequirement. Après cela, consultez cet exemple d'exigence personnalisée où le joueur doit avoir un nom particulier pour entreprendre la quête :
 
 ```java
 package xyz.janedoe;
@@ -75,23 +68,23 @@ public class NameRequirement extends CustomRequirement {
 }
 ```
 
-Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Méthode | Description |
-| :--- | :--- |
-| setName\(\) | Définit le nom de l'objectif personnalisé. |
-| setAuthor\(\) | Définit l'auteur de l'objectif personnalisé \(vous !\). |
-| addItem\(\) | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
-| setDisplay | Définit le mode d'affichage de l'exigence en cas d'échec. |
-| addStringPrompt\(\) | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
+| Méthode           | Description                                                                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| setName()         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                      |
+| setAuthor()       | Définit l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                           |
+| addItem()         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                   |
+| setDisplay        | Définit le mode d'affichage de l'exigence en cas d'échec.                                                                                                                                                       |
+| addStringPrompt() | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
-À l'intérieur de \#testRequirement, vous exécutez votre logique pour déterminer si le joueur satisfait à l'exigence, renvoyant true s'il le fait et false s'il ne le fait pas.
+À l'intérieur de #testRequirement, vous exécutez votre logique pour déterminer si le joueur satisfait à l'exigence, renvoyant true s'il le fait et false s'il ne le fait pas.
 
 La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient les deux valeurs pour 'Name' et 'Case-Sensitive'. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
 
 #### API de récompense
 
-Construire une récompense de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomReward. Après cela, consultez cet exemple de récompense personnalisée où un joueur obtient un inventaire GUI contenant du fer, de l'or et des diamants :
+Construire une récompense de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomReward. Après cela, consultez cet exemple de récompense personnalisée où un joueur obtient un inventaire GUI contenant du fer, de l'or et des diamants :
 
 ```java
 package xyz.janedoe;
@@ -168,21 +161,21 @@ public class LootReward extends CustomReward {
 }
 ```
 
-Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Méthode | Description |
-| :--- | :--- |
-| setName | Définit le nom de l'objectif personnalisé. |
-| setAuthor | Définit l'auteur de l'objectif personnalisé \(vous !\). |
-| addItem | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
-| setRewardName | Définit le nom de la récompense \(texte qui apparaîtra lorsque le joueur termine la quête\) de la récompense personnalisée. |
+| Méthode         | Description                                                                                                                                                                                                     |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| setName         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                      |
+| setAuthor       | Définit l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                           |
+| addItem         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                   |
+| setRewardName   | Définit le nom de la récompense (texte qui apparaîtra lorsque le joueur termine la quête) de la récompense personnalisée.                                                                                       |
 | addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
-À l'intérieur de \#giveReward est l'endroit où vous exécutez votre logique pour donner au joueur tout ce que votre récompense personnalisée donne. La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient quatre valeurs : une pour le titre de l'interface graphique et trois pour la quantité de fer/or/diamants. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
+À l'intérieur de #giveReward est l'endroit où vous exécutez votre logique pour donner au joueur tout ce que votre récompense personnalisée donne. La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient quatre valeurs : une pour le titre de l'interface graphique et trois pour la quantité de fer/or/diamants. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
 
 #### API des objectifs
 
-Construire un objectif de quête est un peu plus compliqué que les exigences ou les récompenses. Pour commencer, créez une classe Java qui étend la classe CustomObjective. Si vous souhaitez capturer l'un des événements de Bukkit, vous devrez implémenter la classe d'écoute \(Les quêtes se chargeront de l'enregistrer pour vous\). Après cela, consultez ces exemples d'objectif personnalisé :
+Construire un objectif de quête est un peu plus compliqué que les exigences ou les récompenses. Pour commencer, créez une classe Java qui étend la classe CustomObjective. Si vous souhaitez capturer l'un des événements de Bukkit, vous devrez implémenter la classe d'écoute (Les quêtes se chargeront de l'enregistrer pour vous). Après cela, consultez ces exemples d'objectif personnalisé :
 
 {% tabs %}
 {% tab title="Exemple 1" %}
@@ -332,19 +325,18 @@ public class AnyBreakBlockObjective extends CustomObjective {
 {% endtab %}
 {% endtabs %}
 
-Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
+Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes suivantes :
 
-| Méthode | Description |
-| :--- | :--- |
-| setName | Définit le nom de l'objectif personnalisé. |
-| setAuthor | Sets l'auteur de l'objectif personnalisé \(vous !\). |
-| addItem | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI. |
-| setShowCount | Définit si l'éditeur de quête peut définir le décompte \(nombre de fois où le joueur doit répéter la tâche\). La valeur par défaut est "vrai". _Cela s'appliquera à toutes les invites ajoutées avec \#addStringPrompt, sauf si elles sont désactivées._ |
-| setCountPrompt | Définit la description de l'invite permettant à l'utilisateur d'entrer le nombre pour l'objectif. La valeur par défaut est "Entrer le numéro". |
-| setDisplay | Définit la façon dont l'objectif est affiché dans la liste /quests et le journal des quêtes. Pour les espaces réservés, utilisez `%count%` pour obtenir la valeur de \#setShowCount et les titres \#addStringPrompt pour l'entrée utilisateur \(comme `%Item Name%` dans le deuxième exemple\). La valeur par défaut est « Progression : %count% ».|
-| addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
+| Méthode         | Description                                                                                                                                                                                                                                                                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| setName         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                                                                                                                                                      |
+| setAuthor       | Sets l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                                                                                                                                                              |
+| addItem         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                                                                                                                                                   |
+| setShowCount    | Définit si l'éditeur de quête peut définir le décompte (nombre de fois où le joueur doit répéter la tâche). La valeur par défaut est "vrai". _Cela s'appliquera à toutes les invites ajoutées avec #addStringPrompt, sauf si elles sont désactivées._                                                                                           |
+| setCountPrompt  | Définit la description de l'invite permettant à l'utilisateur d'entrer le nombre pour l'objectif. La valeur par défaut est "Entrer le numéro".                                                                                                                                                                                                  |
+| setDisplay      | Définit la façon dont l'objectif est affiché dans la liste /quests et le journal des quêtes. Pour les espaces réservés, utilisez `%count%` pour obtenir la valeur de #setShowCount et les titres #addStringPrompt pour l'entrée utilisateur (comme `%Item Name%` dans le deuxième exemple). La valeur par défaut est « Progression : %count% ». |
+| addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser.                                                                                                                                 |
 
-À l'intérieur de vos EventHandlers \(le cas échéant\), déterminez si le joueur a atteint tout ou partie de l'objectif, puis utilisez \#incrementObjective pour faire avancer le joueur. Le premier et le deuxième argument de \#incrementObjective doivent toujours être respectivement le joueur et 'this'. Le troisième argument est de combien incrémenter l'objectif, tandis que le dernier est la quête à laquelle appliquer l'incrément. Même si votre objectif n'a pas de décompte, vous devez toujours utiliser \#incrementObjective - utilisez un incrément de 1 pour signaler que l'objectif a été atteint.
+À l'intérieur de vos EventHandlers (le cas échéant), déterminez si le joueur a atteint tout ou partie de l'objectif, puis utilisez #incrementObjective pour faire avancer le joueur. Le premier et le deuxième argument de #incrementObjective doivent toujours être respectivement le joueur et 'this'. Le troisième argument est de combien incrémenter l'objectif, tandis que le dernier est la quête à laquelle appliquer l'incrément. Même si votre objectif n'a pas de décompte, vous devez toujours utiliser #incrementObjective - utilisez un incrément de 1 pour signaler que l'objectif a été atteint.
 
-Le `Map<String, Object>` contient les données fournies par l'éditeur de quête. Dans cet exemple, les clés de données sont les noms des éléments, tandis que les valeurs sont l'entrée de l'utilisateur pour votre invite \(qui _peut_ être null\). Notez également que même si les valeurs sont de type objets, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
-
+Le `Map<String, Object>` contient les données fournies par l'éditeur de quête. Dans cet exemple, les clés de données sont les noms des éléments, tandis que les valeurs sont l'entrée de l'utilisateur pour votre invite (qui _peut_ être null). Notez également que même si les valeurs sont de type objets, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
