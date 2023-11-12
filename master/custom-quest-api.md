@@ -15,11 +15,11 @@ Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la derni�
 </repository>
 ```
 
-A menos que diseñe un proyecto multiplataforma, querrá definir el artefacto principal.
+À moins de concevoir un projet multiplateforme, vous devez définir l'artefact principal.
 
 ```xml
 <dependency>
-  <groupId>me.blackvein.quests</groupId>
+  <groupId>me.pikamug.quests</groupId>
   <artifactId>quests-core</artifactId>
   <version>VERSION</version>
 </dependency>
