@@ -14,15 +14,8 @@ If you're using Maven or another project management tool, add the latest version
   <url>https://repo.codemc.io/repository/maven-public/</url>
 </repository>
 ```
-```xml
-<dependency>
-  <groupId>me.blackvein.quests</groupId>
-  <artifactId>quests-api</artifactId>
-  <version>VERSION</version>
-</dependency>
-```
 
-You may also need the core module.
+Unless designing a cross-platform project, you'll want to define the core artifact.
 
 ```xml
 <dependency>
@@ -37,4 +30,3 @@ You may also need the core module.
 Starting with Quests 3.7.0, a Bukkit-style Event API is available. If you do not see an Event you would like, please [submit a Pull Request](https://github.com/PikaMug/Quests/pulls). All other inquiries for a new Event to be added will be ignored.
 
 [Click here to see available Events](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/blackvein/quests/events)
-
