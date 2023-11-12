@@ -1,4 +1,4 @@
-# Съдържание
+# Table of contents
 
 * [Начало](README.md)
 
@@ -31,6 +31,5 @@
 
 ## Майстори
 
-* [Bukkit Event API](master/bukkit-event-api.md)
 * [Custom Quest API](master/custom-quest-api.md)
 * [Компилация на плъгини](master/plugin-compilation.md)
