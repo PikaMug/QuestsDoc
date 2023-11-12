@@ -31,6 +31,5 @@
 
 ## Maître
 
-* [Evenements Bukkit API](master/bukkit-event-api.md)
 * [Quêtes customisées API](master/custom-quest-api.md)
 * [Compilation du plugin](master/plugin-compilation.md)
