@@ -1,4 +1,4 @@
-# Custom Quest API
+# Обичай Quest API
 
 {% hint style="info" %}
 **Тревога:** Тази информация е предназначена за разработчици. Научете първо как да използвате Java!
@@ -15,19 +15,11 @@
 </repository>
 ```
 
-```xml
-<dependency>
-  <groupId>me.blackvein.quests</groupId>
-  <artifactId>quests-api</artifactId>
-  <version>VERSION</version>
-</dependency>
-```
-
-Може да се нуждаете и от основния модул.
+Освен ако не проектирате междуплатформен проект, ще искате да дефинирате основния артефакт.
 
 ```xml
 <dependency>
-  <groupId>me.blackvein.quests</groupId>
+  <groupId>me.pikamug.quests</groupId>
   <artifactId>quests-core</artifactId>
   <version>VERSION</version>
 </dependency>

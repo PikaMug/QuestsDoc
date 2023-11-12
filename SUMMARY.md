@@ -31,5 +31,5 @@
 
 ## Майстори
 
-* [Custom Quest API](master/custom-quest-api.md)
+* [Обичай Quest API](master/custom-quest-api.md)
 * [Компилация на плъгини](master/plugin-compilation.md)
