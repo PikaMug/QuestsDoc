@@ -38,9 +38,9 @@ package xyz.janedoe;
 
 import java.util.Map;
 import org.bukkit.entity.Player;
-import me.blackvein.quests.CustomRequirement;
+import me.blackvein.quests.module.BukkitCustomRequirement;
 
-public class NameRequirement extends CustomRequirement {
+public class NameRequirement extends BukkitCustomRequirement {
     // Construct the requirement
     public NameRequirement() {
         this.setName("Name Requirement");
@@ -97,9 +97,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import me.blackvein.quests.CustomReward;
+import me.blackvein.quests.module.BukkitCustomReward;
 
-public class LootReward extends CustomReward {
+public class LootReward extends BukkitCustomReward {
     // Construct the reward
     public LootReward() {
         this.setName("Loot Reward");
@@ -184,7 +184,7 @@ public class LootReward extends CustomReward {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.module.BukkitCustomObjective;
 import me.blackvein.quests.Quest;
 import me.blackvein.quests.Quests;
 
@@ -193,9 +193,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerExpChangeEvent;
 
-public class ExperienceObjective extends CustomObjective implements Listener {
+public class ExperienceObjective extends BukkitCustomObjective implements Listener {
     // Get the Quests plugin
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 	
     // Construct the objective
     public ExperienceObjective() {
@@ -229,7 +229,7 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.module.BukkitCustomObjective;
 import me.blackvein.quests.Quest;
 import me.blackvein.quests.Quests;
 
@@ -239,9 +239,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.inventory.ItemStack;
 
-public class DropItemObjective extends CustomObjective {
+public class DropItemObjective extends BukkitCustomObjective {
     // Get the Quests plugin
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 
     // Construct the objective
     public DropItemObjective() {
@@ -288,7 +288,7 @@ public class DropItemObjective extends CustomObjective {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
+import me.blackvein.quests.module.BukkitCustomObjective;
 import me.blackvein.quests.Quest;
 import me.blackvein.quests.Quests;
 
@@ -298,7 +298,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.block.BlockBreakEvent;
 
-public class AnyBreakBlockObjective extends CustomObjective {
+public class AnyBreakBlockObjective extends BukkitCustomObjective {
     // Get the Quests plugin
     private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
     
