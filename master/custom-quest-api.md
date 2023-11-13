@@ -29,6 +29,8 @@ Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la derni�
 
 Quests fournit une API simple pour créer des exigences, des récompenses et des objectifs personnalisés. Pour commencer, assurez-vous que vous compilez avec la version 4.0.0 ou supérieure. Une fois que vous avez fini de suivre ce guide, utilisez le dossier /Quests/modules comme destination pour votre fichier jar fini et compilé. Si vous distribuez votre module, assurez-vous d'informer l'utilisateur de l'emplacement final et correct du dossier.
 
+Les exemples suivants supposent que vous créez un projet pour un logiciel basé sur Bukkit.
+
 #### API des exigences
 
 Construire une exigence de quêtes est très simple. Pour commencer, créez une classe Java qui étend la classe CustomRequirement. Après cela, consultez cet exemple d'exigence personnalisée où le joueur doit avoir un nom particulier pour entreprendre la quête :
@@ -38,9 +40,9 @@ package xyz.janedoe;
 
 import java.util.Map;
 import org.bukkit.entity.Player;
-import me.blackvein.quests.CustomRequirement;
+import me.pikamug.quests.module.BukkitCustomRequirement;
 
-public class NameRequirement extends CustomRequirement {
+public class NameRequirement extends BukkitCustomRequirement {
     // Construire l'exigence
     public NameRequirement() {
         this.setName("Exigence de nom");
@@ -97,9 +99,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import me.blackvein.quests.CustomReward;
+import me.pikamug.quests.module.BukkitCustomReward;
 
-public class LootReward extends CustomReward {
+public class LootReward extends BukkitCustomReward {
     // Construire la récompense
     public LootReward() {
         this.setName("Butin de récompense");
@@ -184,18 +186,18 @@ Construire un objectif de quête est un peu plus compliqué que les exigences ou
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerExpChangeEvent;
 
-public class ExperienceObjective extends CustomObjective implements Listener {
+public class ExperienceObjective extends BukkitCustomObjective implements Listener {
     // Obtenir le plugin Quêtes
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 	
     // Construire l'objectif
     public ExperienceObjective() {
@@ -229,9 +231,9 @@ public class ExperienceObjective extends CustomObjective implements Listener {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.EntityType;
@@ -239,9 +241,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.inventory.ItemStack;
 
-public class DropItemObjective extends CustomObjective {
-    // obtenir le plugin Quêtes
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+public class DropItemObjective extends BukkitCustomObjective {
+    // Obtenir le plugin Quêtes
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 
     // Construire l'objectif
     public DropItemObjective() {
@@ -288,9 +290,9 @@ public class DropItemObjective extends CustomObjective {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.CustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -298,7 +300,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.block.BlockBreakEvent;
 
-public class AnyBreakBlockObjective extends CustomObjective {
+public class AnyBreakBlockObjective extends BukkitCustomObjective {
    // Récupérer le plugin Quêtes
     private static Quests quests = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
     
