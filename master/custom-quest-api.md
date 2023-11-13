@@ -197,7 +197,7 @@ import org.bukkit.event.player.PlayerExpChangeEvent;
 
 public class ExperienceObjective extends BukkitCustomObjective implements Listener {
     // Get the Quests plugin
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 	
     // Construct the objective
     public ExperienceObjective() {
@@ -243,7 +243,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class DropItemObjective extends BukkitCustomObjective {
     // Get the Quests plugin
-    Quests qp = (Quests)Bukkit.getServer().getPluginManager().getPlugin("Quests");
+    Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 
     // Construct the objective
     public DropItemObjective() {
