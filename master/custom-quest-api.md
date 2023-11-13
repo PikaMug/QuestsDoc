@@ -290,7 +290,7 @@ public class DropItemObjective extends BukkitCustomObjective {
 
 package xyz.janedoe;
 
-import me.pikamug.quests.BukkitCustomObjective;
+import me.pikamug.quests.module.BukkitCustomObjective;
 import me.pikamug.quests.Quest;
 import me.pikamug.quests.Quests;
 
