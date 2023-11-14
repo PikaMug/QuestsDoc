@@ -47,7 +47,7 @@ public class NameRequirement extends BukkitCustomRequirement {
     public NameRequirement() {
         this.setName("Exigence de nom");
         this.setAuthor("Jane Doe");
-        this.addItem("NAME_TAG", 0);
+        this.setItem("NAME_TAG", (short)0);
         this.addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
         this.addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
 	this.setDisplay("Désolé, vous n'êtes pas sur la liste.");
@@ -76,7 +76,7 @@ Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes s
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName()         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                      |
 | setAuthor()       | Définit l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                           |
-| addItem()         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                   |
+| setItem()         | Définissez un élément qui peut apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                    |
 | setDisplay        | Définit le mode d'affichage de l'exigence en cas d'échec.                                                                                                                                                       |
 | addStringPrompt() | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
@@ -106,7 +106,7 @@ public class LootReward extends BukkitCustomReward {
     public LootReward() {
         this.setName("Butin de récompense");
         this.setAuthor("Jane Doe");
-        this.addItem("CHEST", 0);
+        this.setItem("CHEST", (short)0);
         this.setRewardName("Coffre de butin: %Title%");
         this.addStringPrompt("Title", "Titre de l'interface d'inventaire de butin.", null);
         this.addStringPrompt("NumIron", "Entrez le nombre de lingots de fer à donner dans le coffre à butin.", null);
@@ -169,7 +169,7 @@ Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes s
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                      |
 | setAuthor       | Définit l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                           |
-| addItem         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                   |
+| setItem         | Définissez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                |
 | setRewardName   | Définit le nom de la récompense (texte qui apparaîtra lorsque le joueur termine la quête) de la récompense personnalisée.                                                                                       |
 | addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
@@ -203,7 +203,7 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
     public ExperienceObjective() {
         this.setName("Objectif d'expérience");
         this.setAuthor("Jane Doe");
-        this.addItem("BOOK", 0);
+        this.setItem("BOOK", (short)0);
         this.setShowCount(true);
         this.setCountPrompt("Saisissez les points d'expérience que le joueur doit acquérir:");
         this.setDisplay("Acquérir des points d'expérience : %count%");
@@ -249,7 +249,7 @@ public class DropItemObjective extends BukkitCustomObjective {
     public DropItemObjective() {
         this.setName("Objectif de l'objet à jeter");
         this.setAuthor("Jane Doe");
-        this.addItem("ANVIL", 0); // Quests 4.0.0+ uniquement
+        this.addItem("ANVIL", (short)0); // Quests 4.0.0+ uniquement
         this.setShowCount(true);
         this.setCountPrompt("Entrez le montant que le joueur doit déposer:");
         this.setDisplay("Jeter %Item Name%: %count%");
@@ -307,7 +307,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public AnyBreakBlockObjective() {
         setName("Objectif casser des blocs");
         setAuthor("Jane Doe");
-        addItem("DIRT", 0);
+        addItem("DIRT", (short)0);
         setShowCount(true);
         addStringPrompt("Obj Name", "Définir un nom pour l'objectif", "Casser tous les bocs");
         setCountPrompt("Définir le nombre de blocs à casser");
@@ -333,7 +333,7 @@ Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes s
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                                                                                                                                                      |
 | setAuthor       | Sets l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                                                                                                                                                              |
-| addItem         | Ajoutez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                                                                                                                                                   |
+| setItem         | Définissez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                                                                                                                                                |
 | setShowCount    | Définit si l'éditeur de quête peut définir le décompte (nombre de fois où le joueur doit répéter la tâche). La valeur par défaut est "vrai". _Cela s'appliquera à toutes les invites ajoutées avec #addStringPrompt, sauf si elles sont désactivées._                                                                                           |
 | setCountPrompt  | Définit la description de l'invite permettant à l'utilisateur d'entrer le nombre pour l'objectif. La valeur par défaut est "Entrer le numéro".                                                                                                                                                                                                  |
 | setDisplay      | Définit la façon dont l'objectif est affiché dans la liste /quests et le journal des quêtes. Pour les espaces réservés, utilisez `%count%` pour obtenir la valeur de #setShowCount et les titres #addStringPrompt pour l'entrée utilisateur (comme `%Item Name%` dans le deuxième exemple). La valeur par défaut est « Progression : %count% ». |
