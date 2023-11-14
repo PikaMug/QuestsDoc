@@ -38,7 +38,7 @@ package xyz.janedoe;
 
 import java.util.Map;
 import org.bukkit.entity.Player;
-import me.blackvein.quests.module.BukkitCustomRequirement;
+import me.pikamug.quests.module.BukkitCustomRequirement;
 
 public class NameRequirement extends BukkitCustomRequirement {
     // Construct the requirement
@@ -86,8 +86,7 @@ public class NameRequirement extends BukkitCustomRequirement {
 
 Изграждането на награда за задачи е много просто. За да започнете, създайте Java клас, който разширява класа CustomReward. След това вижте този пример за персонализирана награда, при която играчът получава GUI инвентар, който се появява, съдържащ желязо, злато и диаманти:
 
-```java
-package xyz.janedoe;
+<pre class="language-java"><code class="lang-java">package xyz.janedoe;
 
 import java.util.Map;
 
@@ -97,7 +96,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import me.blackvein.quests.module.BukkitCustomReward;
+import me.pikamug.quests.module.BukkitCustomReward;
+
+import java.util.UUID;
 
 public class LootReward extends BukkitCustomReward {
     // Construct the reward
@@ -114,9 +115,14 @@ public class LootReward extends BukkitCustomReward {
     
     // Give loot reward to a player
     @Override
-    public void giveReward(Player player, Map<String, Object> data) {
-        String title = (String) data.get("Title");
-        int numIron = 0;
+    public void giveReward(UUID uuid, Map&#x3C;String, Object> data) {
+        final Player player = Bukkit.getPlayer(uuid);
+        if (player == null) {
+            Bukkit.getLogger().severe("Player was null for UUID " + uuid);
+            return;
+        }
+<strong>        String title = (String) data.get("Title");
+</strong>        int numIron = 0;
         int numGold = 0;
         int numDiamond = 0;
         
@@ -159,7 +165,7 @@ public class LootReward extends BukkitCustomReward {
         player.openInventory(inv);
     }
 }
-```
+</code></pre>
 
 В конструктора на вашия клас можете да използвате някой от следните методи
 
@@ -184,9 +190,9 @@ public class LootReward extends BukkitCustomReward {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.module.BukkitCustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
@@ -229,9 +235,9 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
 
 package xyz.janedoe;
 
-import me.blackvein.quests.module.BukkitCustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.EntityType;
@@ -288,9 +294,9 @@ public class DropItemObjective extends BukkitCustomObjective {
 
 package xyz.janedoe;
 
-import me.blackvein.quests.module.BukkitCustomObjective;
-import me.blackvein.quests.Quest;
-import me.blackvein.quests.Quests;
+import me.pikamug.quests.module.BukkitCustomObjective;
+import me.pikamug.quests.Quest;
+import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
