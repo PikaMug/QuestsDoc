@@ -105,7 +105,7 @@ public class LootReward extends BukkitCustomReward {
         setName("Loot Reward");
         setAuthor("Jane Doe");
         setItem("CHEST", (short)0);
-        setRewardName("Loot Chest: %Title%");
+        setDisplay("Loot Chest: %Title%");
         addStringPrompt("Title", "Title of the loot inventory interface.", null);
         addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
         addStringPrompt("NumGold", "Enter the number of gold ingots to give in the loot chest.", null);
