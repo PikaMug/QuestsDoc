@@ -47,7 +47,7 @@ public class NameRequirement extends BukkitCustomRequirement {
     public NameRequirement() {
         this.setName("Name Requirement");
         this.setAuthor("Jane Doe");
-        this.addItem("NAME_TAG", 0);
+        this.setItem("NAME_TAG", (short)0);
         this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
         this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
 	this.setDisplay("Acquire experience points: %count%");
@@ -76,7 +76,7 @@ In the constructor of your class, you may use any of the following methods:
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Sets the name of the Custom Objective.                                                                                                                                     |
 | setAuthor       | Sets the author of the Custom Objective (you!).                                                                                                                            |
-| addItem         | Add an item which might appear in overlay plugins like QuestsGUI.                                                                                                          |
+| setItem         | Set an item which might appear in overlay plugins like QuestsGUI.                                                                                                          |
 | setDisplay      | Sets how the requirement is displayed when failed.                                                                                                                         |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
@@ -106,7 +106,7 @@ public class LootReward extends BukkitCustomReward {
     public LootReward() {
         this.setName("Loot Reward");
         this.setAuthor("Jane Doe");
-        this.addItem("CHEST", 0);
+        this.setItem("CHEST", (short)0);
         this.setRewardName("Loot Chest: %Title%");
         this.addStringPrompt("Title", "Title of the loot inventory interface.", null);
         this.addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
@@ -169,7 +169,7 @@ In the constructor of your class, you may use any of the following methods:
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Sets the name of the Custom Objective.                                                                                                                                     |
 | setAuthor       | Sets the author of the Custom Objective (you!).                                                                                                                            |
-| addItem         | Add an item which might appear in overlay plugins like QuestsGUI.                                                                                                          |
+| setItem         | Set an item which might appear in overlay plugins like QuestsGUI.                                                                                                          |
 | setRewardName   | Sets the reward name (text that will appear when the player completes the Quest) of the Custom Reward.                                                                     |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
@@ -203,7 +203,7 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
     public ExperienceObjective() {
         this.setName("Experience Objective");
         this.setAuthor("Jane Doe");
-        this.addItem("BOOK", 0);
+        this.setItem("BOOK", (short)0);
         this.setShowCount(true);
         this.setCountPrompt("Enter the experience points that the player must acquire:");
         this.setDisplay("Acquire experience points: %count%");
@@ -249,7 +249,7 @@ public class DropItemObjective extends BukkitCustomObjective {
     public DropItemObjective() {
         this.setName("Drop Item Objective");
         this.setAuthor("Jane Doe");
-        this.addItem("ANVIL", 0);
+        this.setItem("ANVIL", (short)0);
         this.setShowCount(true);
         this.setCountPrompt("Enter the amount that the player must drop:");
         this.setDisplay("Drop %Item Name%: %count%");
@@ -307,7 +307,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public AnyBreakBlockObjective() {
         setName("Break Blocks Objective");
         setAuthor("Jane Doe");
-        addItem("DIRT", 0);
+        setItem("DIRT", (short)0);
         setShowCount(true);
         addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
         setCountPrompt("Set the amount of blocks to break");
@@ -333,7 +333,7 @@ In the constructor of your class, you may use any of the following methods:
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Sets the name of the Custom Objective.                                                                                                                                                                                                                                  |
 | setAuthor       | Sets the author of the Custom Objective (you!).                                                                                                                                                                                                                         |
-| addItem         | Add an item which might appear in overlay plugins like QuestsGUI.                                                                                                                                                                                                       |
+| setItem         | Set an item which might appear in overlay plugins like QuestsGUI.                                                                                                                                                                                                       |
 | setShowCount    | Sets whether the quest editor may set the count (number of times player must repeat task). Default is "true". _This will apply to all prompts added with #addStringPrompt unless disabled._                                                                             |
 | setCountPrompt  | Sets the prompt description for the user to enter the count for the objective. Default is "Enter number".                                                                                                                                                               |
 | setDisplay      | Sets how the objective is displayed in /quests list and the Quest Journal. For placeholders, use `%count%` to get the value of #setShowCount, and #addStringPrompt titles for user input (such as `%Item Name%` in the second example). Default is "Progress: %count%". |
