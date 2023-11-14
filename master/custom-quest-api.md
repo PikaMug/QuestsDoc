@@ -45,12 +45,12 @@ import me.blackvein.quests.module.BukkitCustomRequirement;
 public class NameRequirement extends BukkitCustomRequirement {
     // Construct the requirement
     public NameRequirement() {
-        this.setName("Name Requirement");
-        this.setAuthor("Jane Doe");
-        this.setItem("NAME_TAG", (short)0);
-        this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
-        this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
-	this.setDisplay("Acquire experience points: %count%");
+        setName("Name Requirement");
+        setAuthor("Jane Doe");
+        setItem("NAME_TAG", (short)0);
+        addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
+        addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
+	setDisplay("Acquire experience points: %count%");
     }
     
     // Test whether a player has met the requirement
@@ -104,14 +104,14 @@ import me.blackvein.quests.module.BukkitCustomReward;
 public class LootReward extends BukkitCustomReward {
     // Construct the reward
     public LootReward() {
-        this.setName("Loot Reward");
-        this.setAuthor("Jane Doe");
-        this.setItem("CHEST", (short)0);
-        this.setRewardName("Loot Chest: %Title%");
-        this.addStringPrompt("Title", "Title of the loot inventory interface.", null);
-        this.addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
-        this.addStringPrompt("NumGold", "Enter the number of gold ingots to give in the loot chest.", null);
-        this.addStringPrompt("NumDiamond", "Enter the number of diamonds to give in the loot chest.", null);
+        setName("Loot Reward");
+        setAuthor("Jane Doe");
+        setItem("CHEST", (short)0);
+        setRewardName("Loot Chest: %Title%");
+        addStringPrompt("Title", "Title of the loot inventory interface.", null);
+        addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
+        addStringPrompt("NumGold", "Enter the number of gold ingots to give in the loot chest.", null);
+        addStringPrompt("NumDiamond", "Enter the number of diamonds to give in the loot chest.", null);
     }
     
     // Give loot reward to a player
@@ -201,12 +201,12 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
 	
     // Construct the objective
     public ExperienceObjective() {
-        this.setName("Experience Objective");
-        this.setAuthor("Jane Doe");
-        this.setItem("BOOK", (short)0);
-        this.setShowCount(true);
-        this.setCountPrompt("Enter the experience points that the player must acquire:");
-        this.setDisplay("Acquire experience points: %count%");
+        setName("Experience Objective");
+        setAuthor("Jane Doe");
+        setItem("BOOK", (short)0);
+        setShowCount(true);
+        setCountPrompt("Enter the experience points that the player must acquire:");
+        setDisplay("Acquire experience points: %count%");
     }
 
     // Catch the Bukkit event for a player gaining/losing exp
@@ -247,13 +247,13 @@ public class DropItemObjective extends BukkitCustomObjective {
 
     // Construct the objective
     public DropItemObjective() {
-        this.setName("Drop Item Objective");
-        this.setAuthor("Jane Doe");
-        this.setItem("ANVIL", (short)0);
-        this.setShowCount(true);
-        this.setCountPrompt("Enter the amount that the player must drop:");
-        this.setDisplay("Drop %Item Name%: %count%");
-        this.addStringPrompt("Item Name", "Enter the name of the item that the player must drop", "DIRT");
+        setName("Drop Item Objective");
+        setAuthor("Jane Doe");
+        setItem("ANVIL", (short)0);
+        setShowCount(true);
+        setCountPrompt("Enter the amount that the player must drop:");
+        setDisplay("Drop %Item Name%: %count%");
+        addStringPrompt("Item Name", "Enter the name of the item that the player must drop", "DIRT");
     }
 
     // Catch the Bukkit event for a player dropping an item
