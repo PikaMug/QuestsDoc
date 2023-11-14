@@ -101,6 +101,8 @@ import org.bukkit.inventory.ItemStack;
 
 import me.pikamug.quests.module.BukkitCustomReward;
 
+import java.util.UUID;
+
 public class LootReward extends BukkitCustomReward {
     // Construct the reward
     public LootReward() {
@@ -116,7 +118,12 @@ public class LootReward extends BukkitCustomReward {
     
     // Give loot reward to a player
     @Override
-    public void giveReward(Player player, Map<String, Object> data) {
+    public void giveReward(UUID uuid, Map<String, Object> data) {
+        final Player player = Bukkit.getPlayer(uuid);
+        if (player == null) {
+            Bukkit.getLogger().severe("Player was null for UUID " + uuid);
+            return;
+        }
         String title = (String) data.get("Title");
         int numIron = 0;
         int numGold = 0;
