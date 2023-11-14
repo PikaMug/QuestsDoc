@@ -107,7 +107,7 @@ public class LootReward extends BukkitCustomReward {
         setName("Loot Reward");
         setAuthor("Jane Doe");
         setItem("CHEST", (short)0);
-        setRewardName("Loot Chest: %Title%");
+        setDisplay("Loot Chest: %Title%");
         addStringPrompt("Title", "Title of the loot inventory interface.", null);
         addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
         addStringPrompt("NumGold", "Enter the number of gold ingots to give in the loot chest.", null);
@@ -170,7 +170,7 @@ In the constructor of your class, you may use any of the following methods:
 | setName         | Sets the name of the Custom Objective.                                                                                                                                     |
 | setAuthor       | Sets the author of the Custom Objective (you!).                                                                                                                            |
 | setItem         | Set an item which might appear in overlay plugins like QuestsGUI.                                                                                                          |
-| setRewardName   | Sets the reward name (text that will appear when the player completes the Quest) of the Custom Reward.                                                                     |
+| setDisplay      | Sets the reward name (text that will appear when the player completes the Quest) of the Custom Reward.                                                                     |
 | addStringPrompt | Adds a new editor prompt with the specified title, description, and default value for your Custom Objective. Quest editors may input a string which is up to you to parse. |
 
 Inside #giveReward is where you perform your logic to give the player whatever it is your Custom Reward gives. The data Map contains the data that the person who created the Quest gave to it. In this example, the data Map contains four values: One for the title of the GUI, and three for the amount of iron/gold/diamonds. Also, note that while the values are of type Object, they were cast to type String internally. You must perform manual type-conversion if you want to obtain integers, booleans, et al.
