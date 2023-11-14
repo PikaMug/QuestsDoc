@@ -40,7 +40,7 @@ package xyz.janedoe;
 
 import java.util.Map;
 import org.bukkit.entity.Player;
-import me.blackvein.quests.module.BukkitCustomRequirement;
+import me.pikamug.quests.module.BukkitCustomRequirement;
 
 public class NameRequirement extends BukkitCustomRequirement {
     // Construct the requirement
@@ -56,16 +56,16 @@ public class NameRequirement extends BukkitCustomRequirement {
     // Test whether a player has met the requirement
     @Override
     public boolean testRequirement(Player player, Map<String, Object> data) {
-	      String caseSensitive = (String) data.get("Case-Sensitive");
+        String caseSensitive = (String) data.get("Case-Sensitive");
 	     
       	// Check whether the name must be case-sensitive
-	      if (caseSensitive.equalsIgnoreCase("true")) {
-	          // Mark the requirement as satisfied if name matches
-	          return player.getName().contains((String)data.get("Name"));
-	      } else {
-	          // Mark the requirement as satisfied if name matches, ignoring case
-	          return player.getName().toLowerCase().contains(((String)data.get("Name")).toLowerCase());
-	      }
+	if (caseSensitive.equalsIgnoreCase("true")) {
+	    // Mark the requirement as satisfied if name matches
+	    return player.getName().contains((String)data.get("Name"));
+	} else {
+	    // Mark the requirement as satisfied if name matches, ignoring case
+	    return player.getName().toLowerCase().contains(((String)data.get("Name")).toLowerCase());
+	}
     }
 }
 ```
@@ -99,7 +99,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import me.blackvein.quests.module.BukkitCustomReward;
+import me.pikamug.quests.module.BukkitCustomReward;
+
+import java.util.UUID;
 
 public class LootReward extends BukkitCustomReward {
     // Construct the reward
@@ -116,7 +118,12 @@ public class LootReward extends BukkitCustomReward {
     
     // Give loot reward to a player
     @Override
-    public void giveReward(Player player, Map<String, Object> data) {
+    public void giveReward(UUID uuid, Map<String, Object> data) {
+        final Player player = Bukkit.getPlayer(uuid);
+        if (player == null) {
+            Bukkit.getLogger().severe("Player was null for UUID " + uuid);
+            return;
+        }
         String title = (String) data.get("Title");
         int numIron = 0;
         int numGold = 0;
