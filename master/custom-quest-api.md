@@ -107,7 +107,7 @@ public class LootReward extends BukkitCustomReward {
         setName("Butin de récompense");
         setAuthor("Jane Doe");
         setItem("CHEST", (short)0);
-        setRewardName("Coffre de butin: %Title%");
+        setDisplay("Coffre de butin: %Title%");
         addStringPrompt("Title", "Titre de l'interface d'inventaire de butin.", null);
         addStringPrompt("NumIron", "Entrez le nombre de lingots de fer à donner dans le coffre à butin.", null);
         addStringPrompt("NumGold", "Entrez le nombre de lingots d'or à donner dans le coffre à butin.", null);
@@ -170,7 +170,7 @@ Dans le constructeur de votre classe, vous pouvez utiliser l'une des méthodes s
 | setName         | Définit le nom de l'objectif personnalisé.                                                                                                                                                                      |
 | setAuthor       | Définit l'auteur de l'objectif personnalisé (vous !).                                                                                                                                                           |
 | setItem         | Définissez un élément qui pourrait apparaître dans les plugins de superposition comme QuestsGUI.                                                                                                                |
-| setRewardName   | Définit le nom de la récompense (texte qui apparaîtra lorsque le joueur termine la quête) de la récompense personnalisée.                                                                                       |
+| setDisplay      | Définit le nom de la récompense (texte qui apparaîtra lorsque le joueur termine la quête) de la récompense personnalisée.                                                                                       |
 | addStringPrompt | Ajoute une nouvelle invite d'éditeur avec le titre, la description et la valeur par défaut spécifiés pour votre objectif personnalisé. Les éditeurs de quête peuvent saisir une chaîne que vous devez analyser. |
 
 À l'intérieur de #giveReward est l'endroit où vous exécutez votre logique pour donner au joueur tout ce que votre récompense personnalisée donne. La carte de données contient les données que la personne qui a créé la quête lui a données. Dans cet exemple, la carte de données contient quatre valeurs : une pour le titre de l'interface graphique et trois pour la quantité de fer/or/diamants. Notez également que même si les valeurs sont de type Object, elles ont été converties en type String en interne. Vous devez effectuer une conversion de type manuelle si vous souhaitez obtenir des entiers, des booléens, etc.
