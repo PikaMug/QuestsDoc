@@ -45,12 +45,12 @@ import me.pikamug.quests.module.BukkitCustomRequirement;
 public class NameRequirement extends BukkitCustomRequirement {
     // Construire l'exigence
     public NameRequirement() {
-        this.setName("Exigence de nom");
-        this.setAuthor("Jane Doe");
-        this.setItem("NAME_TAG", (short)0);
-        this.addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
-        this.addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
-	this.setDisplay("Désolé, vous n'êtes pas sur la liste.");
+        setName("Exigence de nom");
+        setAuthor("Jane Doe");
+        setItem("NAME_TAG", (short)0);
+        addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
+        addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
+	setDisplay("Désolé, vous n'êtes pas sur la liste.");
     }
     
     // Tester si un joueur a satisfait à l'exigence
@@ -104,14 +104,14 @@ import me.pikamug.quests.module.BukkitCustomReward;
 public class LootReward extends BukkitCustomReward {
     // Construire la récompense
     public LootReward() {
-        this.setName("Butin de récompense");
-        this.setAuthor("Jane Doe");
-        this.setItem("CHEST", (short)0);
-        this.setRewardName("Coffre de butin: %Title%");
-        this.addStringPrompt("Title", "Titre de l'interface d'inventaire de butin.", null);
-        this.addStringPrompt("NumIron", "Entrez le nombre de lingots de fer à donner dans le coffre à butin.", null);
-        this.addStringPrompt("NumGold", "Entrez le nombre de lingots d'or à donner dans le coffre à butin.", null);
-        this.addStringPrompt("NumDiamond", "Entrez le nombre de diamants à donner dans le coffre à butin.", null);
+        setName("Butin de récompense");
+        setAuthor("Jane Doe");
+        setItem("CHEST", (short)0);
+        setRewardName("Coffre de butin: %Title%");
+        addStringPrompt("Title", "Titre de l'interface d'inventaire de butin.", null);
+        addStringPrompt("NumIron", "Entrez le nombre de lingots de fer à donner dans le coffre à butin.", null);
+        addStringPrompt("NumGold", "Entrez le nombre de lingots d'or à donner dans le coffre à butin.", null);
+        addStringPrompt("NumDiamond", "Entrez le nombre de diamants à donner dans le coffre à butin.", null);
     }
     
     // Donner une récompense de butin à un joueur
@@ -201,12 +201,12 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
 	
     // Construire l'objectif
     public ExperienceObjective() {
-        this.setName("Objectif d'expérience");
-        this.setAuthor("Jane Doe");
-        this.setItem("BOOK", (short)0);
-        this.setShowCount(true);
-        this.setCountPrompt("Saisissez les points d'expérience que le joueur doit acquérir:");
-        this.setDisplay("Acquérir des points d'expérience : %count%");
+        setName("Objectif d'expérience");
+        setAuthor("Jane Doe");
+        setItem("BOOK", (short)0);
+        setShowCount(true);
+        setCountPrompt("Saisissez les points d'expérience que le joueur doit acquérir:");
+        setDisplay("Acquérir des points d'expérience : %count%");
     }
 
     // Attrapez l'événement Bukkit pour un joueur gagnant / perdant de l'expérience
@@ -247,13 +247,13 @@ public class DropItemObjective extends BukkitCustomObjective {
 
     // Construire l'objectif
     public DropItemObjective() {
-        this.setName("Objectif de l'objet à jeter");
-        this.setAuthor("Jane Doe");
-        this.addItem("ANVIL", (short)0); // Quests 4.0.0+ uniquement
-        this.setShowCount(true);
-        this.setCountPrompt("Entrez le montant que le joueur doit déposer:");
-        this.setDisplay("Jeter %Item Name%: %count%");
-        this.addStringPrompt("Item Name", "Entrez le nom de l'objet que le joueur doit déposer", "DIRT");
+        setName("Objectif de l'objet à jeter");
+        setAuthor("Jane Doe");
+        addItem("ANVIL", (short)0); // Quests 4.0.0+ uniquement
+        setShowCount(true);
+        setCountPrompt("Entrez le montant que le joueur doit déposer:");
+        setDisplay("Jeter %Item Name%: %count%");
+        addStringPrompt("Item Name", "Entrez le nom de l'objet que le joueur doit déposer", "DIRT");
     }
 
     // Attrapez l'événement Bukkit pour un joueur laissant tomber un objet
