@@ -101,6 +101,8 @@ import org.bukkit.inventory.ItemStack;
 
 import me.pikamug.quests.module.BukkitCustomReward;
 
+import java.util.UUID;
+
 public class LootReward extends BukkitCustomReward {
     // Construire la récompense
     public LootReward() {
@@ -116,7 +118,12 @@ public class LootReward extends BukkitCustomReward {
     
     // Donner une récompense de butin à un joueur
     @Override
-    public void giveReward(Player player, Map<String, Object> data) {
+    public void giveReward(UUID uuid, Map<String, Object> data) {
+        final Player player = Bukkit.getPlayer(uuid);
+        if (player == null) {
+            Bukkit.getLogger().severe("Player was null for UUID " + uuid);
+            return;
+        }
         String title = (String) data.get("Title");
         int numIron = 0;
         int numGold = 0;
@@ -212,7 +219,7 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
     // Attrapez l'événement Bukkit pour un joueur gagnant / perdant de l'expérience
     @EventHandler
     public void onPlayerExpChange(PlayerExpChangeEvent evt) {
-       // Assurez-vous d'évaluer toutes les quêtes actuelles du joueur
+        // Assurez-vous d'évaluer toutes les quêtes actuelles du joueur
         for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
             // Vérifie si le joueur a gagné plus d'expérience qu'il n'en a perdu
             if (evt.getAmount() > 0) {
