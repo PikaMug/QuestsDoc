@@ -45,7 +45,7 @@ public class NameRequirement extends BukkitCustomRequirement {
     public NameRequirement() {
         this.setName("Name Requirement");
         this.setAuthor("Jane Doe");
-        this.addItem("NAME_TAG", 0);
+        this.setItem("NAME_TAG", (short)0);
         this.addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
         this.addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\'", null);
 	this.setDisplay("Sorry, you are not on the list.");
@@ -74,7 +74,7 @@ public class NameRequirement extends BukkitCustomRequirement {
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Задава името на персонализираната цел.                                                                                                                                                            |
 | setAuthor       | Задава автора на персонализираната цел (ти!).                                                                                                                                                     |
-| addItem         | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                   |
+| setItem         | Задайте елемент, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                    |
 | setDisplay      | Задава как изискването да се показва при неуспех.                                                                                                                                                 |
 | addStringPrompt | Добавя нова подкана за радактор с указано заглавие, описание и стойност по подразбиране за вашата персонализирана цел. Редактора на задачи може да въведе низ, който зависи от вас да анализирате |
 
@@ -104,7 +104,7 @@ public class LootReward extends BukkitCustomReward {
     public LootReward() {
         this.setName("Loot Reward");
         this.setAuthor("Jane Doe");
-        this.addItem("CHEST", 0);
+        this.setItem("CHEST", (short)0);
         this.setRewardName("Loot Chest: %Title%");
         this.addStringPrompt("Title", "Title of the loot inventory interface.", null);
         this.addStringPrompt("NumIron", "Enter the number of iron ingots to give in the loot chest.", null);
@@ -167,7 +167,7 @@ public class LootReward extends BukkitCustomReward {
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Задава името на персонализираната цел.                                                                                                                                                            |
 | setAuthor       | Задава автора на персонализираната цел (ти!).                                                                                                                                                     |
-| addItem         | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                   |
+| setItem         | Задайте елемент, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                    |
 | setDisplay      | Задава как изискването да се показва при неуспех.                                                                                                                                                 |
 | addStringPrompt | Добавя нова подкана за радактор с указано заглавие, описание и стойност по подразбиране за вашата персонализирана цел. Редактора на задачи може да въведе низ, който зависи от вас да анализирате |
 
@@ -201,7 +201,7 @@ public class ExperienceObjective extends BukkitCustomObjective implements Listen
     public ExperienceObjective() {
         this.setName("Experience Objective");
         this.setAuthor("Jane Doe");
-        this.addItem("BOOK", 0);
+        this.setItem("BOOK", (short)0);
         this.setShowCount(true);
         this.setCountPrompt("Enter the experience points that the player must acquire:");
         this.setDisplay("Acquire experience points: %count%");
@@ -247,7 +247,7 @@ public class DropItemObjective extends BukkitCustomObjective {
     public DropItemObjective() {
         this.setName("Drop Item Objective");
         this.setAuthor("Jane Doe");
-        this.addItem("ANVIL", 0);
+        this.setItem("ANVIL", (short)0);
         this.setShowCount(true);
         this.setCountPrompt("Enter the amount that the player must drop:");
         this.setDisplay("Drop %Item Name%: %count%");
@@ -305,7 +305,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public AnyBreakBlockObjective() {
         setName("Break Blocks Objective");
         setAuthor("Jane Doe");
-        addItem("DIRT", 0);
+        setItem("DIRT", (short)0);
         setShowCount(true);
         addStringPrompt("Obj Name", "Set a name for the objective", "Break ANY block");
         setCountPrompt("Set the amount of blocks to break");
@@ -331,7 +331,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setName         | Задава името на персонализираната цел.                                                                                                                                                                                                                                                                  |
 | setAuthor       | Задава автора на персонализираната цел (ти!).                                                                                                                                                                                                                                                           |
-| addItem         | Добавете предмет, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                                                                                                                         |
+| setItem         | Задайте елемент, който може да се появи в плъгин за наслагване като QuestsGUI.                                                                                                                                                                                                                          |
 | setShowCount    | Определя дали редакторът на задачи може да задавя броя (брой пъти, когато играчът трябва да повтори целта). По подразбиране е "true". _Това ще се прилага за всички подкани, дабавени с #addStringPrompt, освен ако не е забранено._                                                                    |
 | setCountPrompt  | Задава подканящото описание за потребителя да въведе броя за целта. По подразбиране е "Въведете номер".                                                                                                                                                                                                 |
 | setDisplay      | Задава начина, по който целта се показва в "/quests list" и дневника на задачите. За контейнерите използвайте %count%, за да получите стойността на #setShowCount, и #addStringPrompt заглавия за въвеждане от потребителя (като "Item Name" във втория пример). По подразбиране е "Progress: %count%". |
