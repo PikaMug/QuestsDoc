@@ -322,7 +322,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
         for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
-            incrementObjective(player, this, 1, q);
+            incrementObjective(player, this, q, 1);
             return;
         }
     }
