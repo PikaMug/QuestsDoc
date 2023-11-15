@@ -196,10 +196,9 @@ import me.pikamug.quests.Quests;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerExpChangeEvent;
 
-public class ExperienceObjective extends BukkitCustomObjective implements Listener {
+public class ExperienceObjective extends BukkitCustomObjective {
     // Get the Quests plugin
     Quests qp = (Quests) Bukkit.getServer().getPluginManager().getPlugin("Quests");
 	
