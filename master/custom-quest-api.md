@@ -6,6 +6,8 @@ ALERTE: Ces informations sont destinées aux développeurs. Apprenez d'abord à 
 
 ### Ajouter à votre projet
 
+Pour un démarrage rapide, un projet de modèle de module est disponible sur Github [ici](https://github.com/PikaMug/ExampleQuestsModule).
+
 Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la dernière version de Quests via le service CodeMC.
 
 ```xml
