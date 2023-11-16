@@ -6,6 +6,8 @@
 
 ### Add to your project
 
+For a quick start, a module template project is available on Github [here](https://github.com/PikaMug/ExampleQuestsModule).
+
 If you're using Maven or another project management tool, add the latest version of Quests through the CodeMC service.
 
 ```xml
