@@ -17,7 +17,7 @@
 1. Променете името на вашата задача
 2. Показва се на играча при приемане на задача
 3. Показва се на играча след завършване на задачата
-4. Трябва да се говори с [Citizens NPC](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) NPC to start quest
+4. Трябва да се говори с [Citizens](https://pikamug.gitbook.io/quests/beginner/dependencies#citizens) or [ZNPCsPlus](https://pikamug.gitbook.io/quests/v/bulgarian-blgarski/nachinaeshi/dependencies#znpcsplus) NPC to start quest
 5. Трябва да щракнете с десния бутон върху този блок, за да започнете задачата
 6. Трябва да стои в [WorldGuard регион](https://pikamug.gitbook.io/quests/beginner/dependencies#worldguard) region to start quest
 7. Използвайте NPC GUI, за да започнете задача вместо чат
