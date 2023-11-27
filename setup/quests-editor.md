@@ -46,7 +46,7 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 <summary>Expand to see the breakdown.</summary>
 
 1. Includes objectives to break, place, damage, or use blocks
-2. Includes objectives to craft, smelt, or enchant items
+2. Includes objectives to craft, smelt, enchant, brew or consume items
 3. Includes objectives to deliver items to, talk to, or kill NPCs
 4. Includes objectives to kill or tame mobs, catch fish, or shear sheep
 5. Objective to kill an amount of players
