@@ -99,7 +99,11 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 ![Ajoute l'objectif "Kill MythicMobs" (tuer des monstres MythicMobs), ainsi que d'autres fonctionnalités selon la version.](https://camo.githubusercontent.com/aebb3e692cec287e8baddc103a16e47bfb986dd861678a461e799e7cf240ebfc/68747470733a2f2f692e696d6775722e636f6d2f7a6c776f31304c2e706e67)
 
 {% tabs %}
-{% tab title="Quests 4.0.7+" %}
+{% tab title="Quests 5.0.0+" %}
+[Téléchargement](https://lectern.browsit.org/resources/resource/48-mythicmobs-quests-module/)
+{% endtab %}
+
+{% tab title="4.0.7 - 4.8.3" %}
 [Téléchargement](https://lectern.browsit.org/resources/resource/32-kill-mythic-mobs-multiplayer-improvement/)
 {% endtab %}
 
