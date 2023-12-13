@@ -58,7 +58,7 @@ Ce fichier contient tous les paramètres relatif au fonctionnement des quêtes u
 La modification manuelle de ce fichier n'est pas conseillée. Aucune assistance ne sera apportée à ceux qui choisissent de ne pas utiliser l'éditeur en jeu.
 {% endhint %}
 
-Ce fichier contient des actions personnalisées qui exécutent certaines tâches et effets. À l'exception des exemples inclus, les actions sont créées avant d'être utilisées dans une quête. Ceci est mieux accompli avec la commande _/quests actions_.
+Ce fichier contient des actions qui exécutent certaines tâches et effets. À l'exception des exemples inclus, les actions sont créées avant d'être utilisées dans une quête. Ceci est mieux accompli avec la commande _/quests actions_.
 
 > [Cliquez ici pour voir le fichier par défaut actions.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
@@ -68,7 +68,7 @@ Ce fichier contient des actions personnalisées qui exécutent certaines tâches
 La modification manuelle de ce fichier n'est pas conseillée. Aucune assistance ne sera apportée à ceux qui choisissent de ne pas utiliser l'éditeur en jeu.
 {% endhint %}
 
-Ce fichier contient des conditions personnalisées qui sont vérifiées pendant le jeu. À l'exception des exemples inclus, les conditions sont créées avant l'utilisation dans une quête. Ceci est mieux accompli avec la commande _/quests conditions_.
+Ce fichier contient des conditions qui sont vérifiées pendant le jeu. À l'exception des exemples inclus, les conditions sont créées avant l'utilisation dans une quête. Ceci est mieux accompli avec la commande _/quests conditions_.
 
 > [Cliquez ici pour voir le fichier par défaut conditions.yml](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
