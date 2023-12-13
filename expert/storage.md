@@ -32,4 +32,4 @@ Notez que HikariCP a été shaded en interne pour maximiser la vitesse de connex
 
 ### Customisé
 
-Un développeur peut choisir d'utiliser une option de stockage personnalisée. Voir [ici](https://github.com/PikaMug/Quests/tree/main/core/src/main/java/me/blackvein/quests/storage/implementation/custom) (lien non disponible).
+Un développeur peut choisir d'utiliser une option de stockage personnalisée. Voir [ici](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/pikamug/quests/storage/implementation/custom).
