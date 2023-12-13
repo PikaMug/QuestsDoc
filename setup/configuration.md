@@ -58,7 +58,7 @@ This file contains all settings relating to how Quests should perform once loade
 Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
 {% endhint %}
 
-This file holds custom actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a quest. This is best accomplished with the _/quests actions_ command.
+This file holds actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a quest. This is best accomplished with the _/quests actions_ command.
 
 > [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
@@ -68,7 +68,7 @@ This file holds custom actions which execute certain tasks and effects. Except f
 Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
 {% endhint %}
 
-This file holds custom conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a quest. This is best accomplished with the _/quests conditions_ command.
+This file holds conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a quest. This is best accomplished with the _/quests conditions_ command.
 
 > [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
