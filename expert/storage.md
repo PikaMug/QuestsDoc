@@ -32,4 +32,4 @@ storage-data:
 
 ### Персонализиран
 
-Разработчик може да избере да използва персонализирана опция за съхранение. Вижте [тук](https://github.com/PikaMug/Quests/tree/main/core/src/main/java/me/blackvein/quests/storage/implementation/custom).
+Разработчик може да избере да използва персонализирана опция за съхранение. Вижте [тук](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/pikamug/quests/storage/implementation/custom).
