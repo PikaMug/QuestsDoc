@@ -190,7 +190,8 @@ Construire un objectif de quête est un peu plus compliqué que les exigences ou
 
 {% tabs %}
 {% tab title="Exemple 1" %}
-<pre class="language-java"><code class="lang-java">// Le joueur doit acquérir une certaine expérience pour avancer
+```java
+// Le joueur doit acquérir une certaine expérience pour avancer
 
 package xyz.janedoe;
 
@@ -227,8 +228,8 @@ public class ExperienceObjective extends BukkitCustomObjective {
                 // Ajoutez à la progression de l'objectif, en le complétant si les exigences ont été remplies
                 incrementObjective(evt.getPlayer(), this, quest, evt.getAmount());
                 // Facultatif : partagez la progression avec les membres du groupe (le cas échéant)
-<strong>                quester.dispatchMultiplayerEverything(quest, ObjectiveType.CUSTOM,
-</strong>                        (final Quester q, final Quest cq) -> {
+                quester.dispatchMultiplayerEverything(quest, ObjectiveType.CUSTOM,
+                        (final Quester q, final Quest cq) -> {
                             incrementObjective(q.getUUID(), this, quest, evt.getAmount());
                             return null;
                 });
@@ -236,7 +237,7 @@ public class ExperienceObjective extends BukkitCustomObjective {
         }
     }
 }
-</code></pre>
+```
 {% endtab %}
 
 {% tab title="Exemple 2" %}
