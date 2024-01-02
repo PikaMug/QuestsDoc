@@ -291,7 +291,7 @@ public class DropItemObjective extends BukkitCustomObjective {
             // Check if the item the player dropped is the one user specified
             if (evt.getItemDrop().getItemStack().getType().equals(type)) {
     		// Add to the objective's progress, completing it if requirements were met
-            	incrementObjective(evt.getPlayer(), this, stack.getAmount(), quest);
+            	incrementObjective(evt.getPlayer().getUniqueId(), this, quest, stack.getAmount());
             }
     	}
     }
