@@ -223,6 +223,12 @@ public class ExperienceObjective extends BukkitCustomObjective {
             if (evt.getAmount() > 0) {
                 // Add to the objective's progress, completing it if requirements were met
                 incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
+                // Optional: Share progress with party members (if applicable)
+                quester.dispatchMultiplayerEverything(quest, ObjectiveType.CUSTOM,
+                        (final Quester q, final Quest cq) -> {
+                           incrementObjective(q.getUUID(), this, quest, evt.getAmount());
+                           return null;
+                });
             }
         }
     }
