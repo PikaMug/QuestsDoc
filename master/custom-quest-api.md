@@ -217,6 +217,7 @@ public class ExperienceObjective extends BukkitCustomObjective {
     // Catch the Bukkit event for a player gaining/losing exp
     @EventHandler
     public void onPlayerExpChange(PlayerExpChangeEvent evt) {
+        Quester quester = qp.getQuester(evt.getPlayer().getUniqueId());
         // Make sure to evaluate for all of the player's current quests
         for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
             // Check if the player gained exp, rather than lost
@@ -287,7 +288,7 @@ public class DropItemObjective extends BukkitCustomObjective {
             // Check if the item the player dropped is the one user specified
             if (evt.getItemDrop().getItemStack().getType().equals(type)) {
     		// Add to the objective's progress, completing it if requirements were met
-            	incrementObjective(evt.getPlayer(), this, stack.getAmount(), quest);
+            	incrementObjective(evt.getPlayer().getUniqueId(), this, quest, stack.getAmount());
             }
     	}
     }
@@ -329,7 +330,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
         for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
-            incrementObjective(player, this, q, 1);
+            incrementObjective(player.getUniqueId(), this, q, 1);
             return;
         }
     }
