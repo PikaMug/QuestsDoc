@@ -226,11 +226,11 @@ public class ExperienceObjective extends BukkitCustomObjective {
             // Check if the player gained exp, rather than lost
             if (evt.getAmount() > 0) {
                 // Add to the objective's progress, completing it if requirements were met
-                incrementObjective(quester.getUUID(), this, quest, 1);
+                incrementObjective(quester.getUUID(), this, quest, evt.getAmount());
                 // Optional: Share progress with party members (if applicable)
                 quester.dispatchMultiplayerEverything(quest, ObjectiveType.CUSTOM,
                         (final Quester q, final Quest cq) -> {
-                           incrementObjective(q.getUUID(), this, quest, 1);
+                           incrementObjective(q.getUUID(), this, quest, evt.getAmount());
                            return null;
                 });
             }
@@ -333,7 +333,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
         for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
-            incrementObjective(player, this, q, 1);
+            incrementObjective(player.getUniqueId(), this, q, 1);
             return;
         }
     }
