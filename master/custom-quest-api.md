@@ -291,7 +291,7 @@ public class DropItemObjective extends BukkitCustomObjective {
             // Vérifiez si l'élément que le joueur a déposé est celui spécifié par l'utilisateur
             if (evt.getItemDrop().getItemStack().getType().equals(type)) {
     		// Ajouter à la progression de l'objectif, en le complétant si les exigences ont été remplies
-            	incrementObjective(evt.getPlayer(), this, stack.getAmount(), quest);
+            	incrementObjective(evt.getPlayer().getUniqueId(), this, quest, stack.getAmount());
             }
     	}
     }
@@ -333,7 +333,7 @@ public class AnyBreakBlockObjective extends BukkitCustomObjective {
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
         for (Quest q : quests.getQuester(player.getUniqueId()).getCurrentQuests().keySet()) {
-            incrementObjective(player, this, q, 1);
+            incrementObjective(player.getUniqueId(), this, q, 1);
             return;
         }
     }
