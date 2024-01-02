@@ -220,12 +220,18 @@ public class ExperienceObjective extends BukkitCustomObjective {
     // Catch the Bukkit event for a player gaining/losing exp
     @EventHandler
     public void onPlayerExpChange(PlayerExpChangeEvent evt) {
+        Quester quester = qp.getQuester(evt.getPlayer().getUniqueId());
         // Make sure to evaluate for all of the player's current quests
         for (Quest quest : qp.getQuester(evt.getPlayer().getUniqueId()).getCurrentQuests().keySet()) {
             // Check if the player gained exp, rather than lost
             if (evt.getAmount() > 0) {
                 // Add to the objective's progress, completing it if requirements were met
                 incrementObjective(evt.getPlayer(), this, evt.getAmount(), quest);
+                // Optional: Share progress with party members (if applicable)
+                quester.dispatchMultiplayerEverything(quest, ObjectiveType.CUSTOM,
+                        (final Quester q, final Quest cq) -> {
+                           incrementObjective(q.getUUID(), this, quest, evt.getAmount());
+                });
             }
         }
     }
