@@ -10,7 +10,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ![Ouvrez des livres sur les PNJ.](https://camo.githubusercontent.com/a946d5d41882bd0e9ae444259bb863592f27a179cd134a040cabffb72274af20/68747470733a2f2f7777772e737069676f746d632e6f72672f646174612f7265736f757263655f69636f6e732f33372f33373436352e6a7067)
 
-↳ [Téléchargement](https://www.spigotmc.org/resources/citizensbooks.37465/)
+↳ [Téléchargement](https://github.com/NicoNekoDev/AstralBooks)
 
 ### Citizens 🌟
 
