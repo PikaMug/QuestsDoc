@@ -51,7 +51,7 @@ public class NameRequirement extends BukkitCustomRequirement {
         setAuthor("Jane Doe");
         setItem("NAME_TAG", (short)0);
         addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
-        addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\'", null);
+        addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\')", null);
 	setDisplay("Désolé, vous n'êtes pas sur la liste.");
     }
     
