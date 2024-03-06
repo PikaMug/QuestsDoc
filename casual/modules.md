@@ -20,13 +20,13 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### Boss 💲
 
-![Ajoute un objectif "Kill Boss".](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
+![Ajoute un objectif "Kill Boss".](../.gitbook/assets/boss.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/boss-quests-module.66973/) (nécessite Quests 3.6.0 ou plus récent)
 
 ### CustomMobs
 
-![Ajoute un objectif "Kill CustomMobs".](https://camo.githubusercontent.com/6029eb00543fc07c423a8818389bb53d679c4be330064631bc7d8aa2d0d1a86a/68747470733a2f2f692e696d6775722e636f6d2f79446e32704c632e706e67)
+![Ajoute un objectif "Kill CustomMobs".](../.gitbook/assets/custommobs.png)
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
@@ -44,19 +44,19 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### DungeonsXL
 
-![Ajoute les objectifs "Terminer le donjon", "Obtenir un objet de récompense", "Obtenir le niveau de récompense", "Obtenir de l'argent de récompense" et "Tuer la foule du donjon".](https://camo.githubusercontent.com/70fecf6dfd0399b3a64f8a16d94dd3d7cf928178d92c9f180a7f3345117fdc78/687474703a2f2f65726574686f6e2e64652f7265736f75726365732f6c6f676f732f44756e67656f6e73584c2e706e67)
+![Ajoute les objectifs "Terminer le donjon", "Obtenir un objet de récompense", "Obtenir le niveau de récompense", "Obtenir de l'argent de récompense" et "Tuer la foule du donjon".](../.gitbook/assets/dungeonsxl.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (nécessite Quests 3.6.0 ou plus récent)
 
 ### Interactions 💲
 
-![Ajoute les objectifs "Démarrer la conversation" et "Terminer la conversation".](../.gitbook/assets/976a91ee01f5c7d5c20de730115b3e93bf604244.png)
+![Ajoute les objectifs "Démarrer la conversation" et "Terminer la conversation".](../.gitbook/assets/interactions.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
 
 ### Magic
 
-![Lien avec divers sorts et tâches magiques.](https://camo.githubusercontent.com/d9ef4d8eb088489debd7f72e65cbf67f6a682f9c3d36e41a4b3a3747b635ab92/68747470733a2f2f692e696d6775722e636f6d2f453155344361522e706e67)
+![Lien avec divers sorts et tâches magiques.](../.gitbook/assets/magic.png)
 
 {% tabs %}
 {% tab title="Quests 3.6.0+" %}
@@ -90,13 +90,13 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### MobArena
 
-![Ajoute les objectifs "Tuer les mobs", "Terminer la vague" et "Terminer l'arène".](https://camo.githubusercontent.com/c0d2e237c6293ada28cce473aa0578a0246f045ec75ed26a38054d8b6564f034/68747470733a2f2f692e696d6775722e636f6d2f733874715944702e706e67)
+![Ajoute les objectifs "Tuer les mobs", "Terminer la vague" et "Terminer l'arène".](../.gitbook/assets/mobarena.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) (nécessite Quests 3.6.0 ou plus récent)
 
 ### MythicMobs 🌟💲
 
-![Ajoute l'objectif "Kill MythicMobs" (tuer des monstres MythicMobs), ainsi que d'autres fonctionnalités selon la version.](https://camo.githubusercontent.com/aebb3e692cec287e8baddc103a16e47bfb986dd861678a461e799e7cf240ebfc/68747470733a2f2f692e696d6775722e636f6d2f7a6c776f31304c2e706e67)
+![Ajoute l'objectif "Kill MythicMobs" (tuer des monstres MythicMobs), ainsi que d'autres fonctionnalités selon la version.](../.gitbook/assets/mythicmobs.jpg)
 
 {% tabs %}
 {% tab title="Quests 5.0.0+" %}
@@ -122,7 +122,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### NPCDestinations
 
-![Ajoute les exigences de localisation et les récompenses des PNJ.](https://camo.githubusercontent.com/5703b4f519542e8fe21a9296a5a0c291744b13b0be8547b450baa729c1f6669a/68747470733a2f2f692e696d6775722e636f6d2f59504942596b462e706e67)
+![Ajoute les exigences de localisation et les récompenses des PNJ.](../.gitbook/assets/npcdestinations.png)
 
 {% tabs %}
 {% tab title="Quests 4.0.7+" %}
