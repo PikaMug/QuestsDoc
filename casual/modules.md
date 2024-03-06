@@ -50,7 +50,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### Interactions 💲
 
-![Adds "Start conversation" and "End conversation" objectives.](../.gitbook/assets/976a91ee01f5c7d5c20de730115b3e93bf604244.png)
+![Adds "Start conversation" and "End conversation" objectives.](../.gitbook/assets/interactions.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
 
