@@ -18,11 +18,15 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ↳ [Download](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
 
+***
+
 ### Boss 💲
 
 ![Adds a "Kill Boss" objective.](../.gitbook/assets/boss.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
+
+***
 
 ### CustomMobs
 
@@ -42,17 +46,23 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### DungeonsXL
 
 ![Adds "Finish dungeon", "Get reward item", "Get reward level", "Get reward money", and "Kill dungeon mob" objectives.](../.gitbook/assets/dungeonsxl.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (requires Quests 3.6.0 or newer)
 
+***
+
 ### Interactions 💲
 
 ![Adds "Start conversation" and "End conversation" objectives.](../.gitbook/assets/interactions.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/interactions-quests-module.92421/)
+
+***
 
 ### Magic
 
@@ -72,11 +82,15 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### Marcely's Bedwars 💲
 
-<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt="" width="375"><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
 
 ↳ [Download](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
+
+***
 
 ### mcMMO Overhaul 💲
 
@@ -88,11 +102,15 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 **Note:** For the older mcMMO Classic, use [this dependency](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) instead.
 {% endhint %}
 
+***
+
 ### MobArena
 
 ![Adds "Kill mobs", "Finish wave", and "Complete arena" objectives.](../.gitbook/assets/mobarena.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) (requires Quests 3.6.0 or newer)
+
+***
 
 ### MythicMobs 🌟💲
 
@@ -122,6 +140,8 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### NPCDestinations
 
 ![Adds NPC location requirements and reward.](../.gitbook/assets/npcdestinations.png)
@@ -136,11 +156,15 @@ Module is auto-installed by NPCDestinations.
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### PhatLoots
 
 ![Adds loot reward and objective.](https://i.imgur.com/yHiPJFh.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/phatloots-quests-module.102525/)
+
+***
 
 ### Proskillapi
 
@@ -148,11 +172,15 @@ Module is auto-installed by NPCDestinations.
 
 ↳ [Download](https://www.spigotmc.org/resources/91913/)
 
+***
+
 ### Screaming BedWars 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](https://www.spigotmc.org/data/resource\_icons/63/63714.jpg)
 
 ↳ [Download](https://www.spigotmc.org/resources/screaming-bedwars-module.98380/)
+
+***
 
 ### Want support for other plugins or features?
 
