@@ -12,7 +12,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 | -------------------------------------------------------- | ---------------------------------------------------- |
 | 🌟 = Recommandé pour une expérience utilisateur optimale | 💲 = Peut nécessiter l'achat d'une ressource premium |
 
-### BedWars1058 - Open Source 💲 <a href="#bedwars1058-open-source" id="bedwars1058-open-source"></a>
+### BedWars1058 💲 <a href="#bedwars1058-open-source" id="bedwars1058-open-source"></a>
 
 ![Ajoute les objectifs suivants:  "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".](../.gitbook/assets/bedwars1058.jpg)
 
