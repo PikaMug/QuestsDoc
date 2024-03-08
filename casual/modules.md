@@ -12,7 +12,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 | -------------------------------------------- | --------------------------------------------- |
 | 🌟 = Recommended for optimal user experience | 💲 = May require purchase of premium resource |
 
-### BedWars1058 - Open Source 💲
+### BedWars1058 💲
 
 ![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
 
