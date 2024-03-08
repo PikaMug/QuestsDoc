@@ -125,8 +125,12 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 ![Ajoute les exigences de localisation et les récompenses des PNJ.](../.gitbook/assets/npcdestinations.png)
 
 {% tabs %}
-{% tab title="Quests 4.0.7+" %}
+{% tab title="Quests 5.0.0+" %}
 [Téléchargement](https://www.spigotmc.org/resources/101588/)
+{% endtab %}
+
+{% tab title="4.0.7 - 4.8.3" %}
+[Téléchargement](https://www.spigotmc.org/resources/npcdestinations-quests-module.101588/download?version=449913)
 {% endtab %}
 
 {% tab title="3.6.0 - 4.0.6" %}
