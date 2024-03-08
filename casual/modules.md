@@ -118,7 +118,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 {% tabs %}
 {% tab title="Quests 5.0.0+" %}
-[Download on Lectern](https://lectern.browsit.org/resources/resource/48-mythicmobs-quests-module/) (on sale)
+[Download on Lectern](https://lectern.browsit.org/resources/resource/48-mythicmobs-quests-module/) (on sale!)
 
 [Download on SpigotMC](https://www.spigotmc.org/resources/113916/)
 {% endtab %}
