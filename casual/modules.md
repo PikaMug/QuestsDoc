@@ -125,8 +125,12 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 ![Adds NPC location requirements and reward.](../.gitbook/assets/npcdestinations.png)
 
 {% tabs %}
-{% tab title="Quests 4.0.7+" %}
+{% tab title="Quests 5.0.0+" %}
 [Download](https://www.spigotmc.org/resources/101588/)
+{% endtab %}
+
+{% tab title="4.8.3 - 4.0.7" %}
+[Download](https://www.spigotmc.org/resources/npcdestinations-quests-module.101588/download?version=449913)
 {% endtab %}
 
 {% tab title="3.6.0 - 4.0.6" %}
