@@ -69,7 +69,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 ![Lien avec divers sorts et tâches magiques.](../.gitbook/assets/magic.png)
 
 {% tabs %}
-{% tab title="Quests 3.6.0+" %}
+{% tab title="Quests 3.6.0 - 4.0.6" %}
 [Téléchargement](http://jenkins.elmakers.com/job/MagicQuests/)
 {% endtab %}
 
