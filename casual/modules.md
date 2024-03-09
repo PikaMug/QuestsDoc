@@ -172,7 +172,7 @@ Le module est installé automatiquement avec NPCDestinations.
 
 <figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Ajoute des exigences de classe et des récompenses.</p></figcaption></figure>
 
-↳ [Téléchargement](https://www.spigotmc.org/resources/91913/)
+↳ [Téléchargement](https://www.spigotmc.org/resources/91913/) (le module est installé automatiquement par Proskillapi)
 
 ***
 
