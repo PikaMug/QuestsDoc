@@ -16,11 +16,15 @@
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
+***
+
 ### Depenizen
 
 <figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Използвайте команди, събития и свойства на Quests в скриптове на Denizen.</p></figcaption></figure>
 
 ↳ [Изтегляне](https://github.com/DenizenScript/Depenizen)
+
+***
 
 ### Dynmap-Quests 💲
 
@@ -28,11 +32,15 @@
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
+***
+
 ### GPS-Quests 💲
 
 ![Насочва играчите към цели с огромни стрелки с помощта на GPS.](../.gitbook/assets/gps.png)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/gps-quests.67835/)
+
+***
 
 ### QuestsBar 💲
 
@@ -40,11 +48,15 @@
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/questsbar.100634/)
 
+***
+
 ### QuestsEffect 💲
 
 <figure><img src="https://i.imgur.com/rJcuZj4.png" alt="" width="375"><figcaption><p>Създава конфигурируеми ефекти върху етапния напредък и върху NPC, които дават задачи.</p></figcaption></figure>
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/questseffect.107679/)
+
+***
 
 ### QuestsGUI 🌟💲
 
