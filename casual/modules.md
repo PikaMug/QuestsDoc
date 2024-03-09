@@ -24,7 +24,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds a "Kill Boss" objective.](../.gitbook/assets/boss.png)
 
-↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
+↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/)
 
 ***
 
@@ -52,7 +52,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds "Finish dungeon", "Get reward item", "Get reward level", "Get reward money", and "Kill dungeon mob" objectives.](../.gitbook/assets/dungeonsxl.png)
 
-↳ [Download](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/) (requires Quests 3.6.0 or newer)
+↳ [Download](https://www.spigotmc.org/resources/dungeonsxl-quests-module.66703/)
 
 ***
 
@@ -96,7 +96,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds "Skill" reward and requirement.](../.gitbook/assets/mcmmo\_overhaul.png)
 
-↳ [Download](https://www.spigotmc.org/resources/92962/) (requires Quests 4.0.0 or newer)
+↳ [Download](https://www.spigotmc.org/resources/92962/)
 
 {% hint style="info" %}
 **Note:** For the older mcMMO Classic, use [this dependency](https://pikamug.gitbook.io/quests/beginner/dependencies#mcmmo-classic) instead.
@@ -108,7 +108,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ![Adds "Kill mobs", "Finish wave", and "Complete arena" objectives.](../.gitbook/assets/mobarena.png)
 
-↳ [Download](https://www.spigotmc.org/resources/mobarena-quests-module.72355/) (requires Quests 3.6.0 or newer)
+↳ [Download](https://www.spigotmc.org/resources/mobarena-quests-module.72355/)
 
 ***
 
@@ -174,7 +174,7 @@ Module is auto-installed by NPCDestinations.
 
 <figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Adds class requirements and rewards.</p></figcaption></figure>
 
-↳ [Download](https://www.spigotmc.org/resources/91913/)
+↳ [Download](https://www.spigotmc.org/resources/91913/) (module is auto-installed by Proskillapi)
 
 ***
 
