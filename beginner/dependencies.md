@@ -36,7 +36,7 @@ Quests може да се свърже с много други плъгини, 
 
 ### DungeonsXL
 
-![Създаване и се присъединят към групи, за да завършите куестове масово.](../.gitbook/assets/DungeonsXL.png)
+![Създаване и се присъединят към групи, за да завършите куестове масово.](broken-reference)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
