@@ -8,13 +8,13 @@ When a player is carrying out a stage of a quest, it may be desirable to force t
 
 To make a condition, run **/quests conditions** in-game (or from the console, with limited features). You will be greeted with the following:
 
-![](https://camo.githubusercontent.com/7c7cf8db7760543f731b49ec61ef1651886830e96b79c7ce4afb6741f53bb7dc/68747470733a2f2f692e696d6775722e636f6d2f6c7148626f4b492e706e67)
+![](../.gitbook/assets/condition\_editor.png)
 
 Enter '1' in chat so the plugin may prompt you to enter a name for your condition. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
 After you've chosen a valid name, this screen will appear:
 
-![](https://camo.githubusercontent.com/23267d859c71ffcb3cd6f4123060c813a2d75817eb8c8a1f535f17c7f4fc2338/68747470733a2f2f692e696d6775722e636f6d2f455379363872492e706e67)
+![](../.gitbook/assets/condition\_main.png)
 
 <details>
 
