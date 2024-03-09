@@ -16,11 +16,15 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ↳ [Download](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
+***
+
 ### Depenizen
 
 <figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilize Quests commands, events, and properties in Denizen scripts.</p></figcaption></figure>
 
 ↳ [Download](https://github.com/DenizenScript/Depenizen)
+
+***
 
 ### Dynmap-Quests 💲
 
@@ -28,11 +32,15 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ↳ [Download](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
+***
+
 ### GPS-Quests 💲
 
 ![Guides players to objectives with huge arrows using GPS.](../.gitbook/assets/gps.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/gps-quests.67835/)
+
+***
 
 ### QuestsBar 💲
 
@@ -40,11 +48,15 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 ↳ [Download](https://www.spigotmc.org/resources/questsbar.100634/)
 
+***
+
 ### QuestsEffect 💲
 
 <figure><img src="https://i.imgur.com/rJcuZj4.png" alt="" width="375"><figcaption><p>Spawns configurable effects on objective progress and over quest-giving NPCs.</p></figcaption></figure>
 
 ↳ [Download](https://www.spigotmc.org/resources/questseffect.107679/)
+
+***
 
 ### QuestsGUI 🌟💲
 
