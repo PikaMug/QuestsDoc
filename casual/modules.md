@@ -144,7 +144,7 @@
 
 <figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Добавя изисквания за клас и награди.</p></figcaption></figure>
 
-↳ [Изтегляне](https://www.spigotmc.org/resources/91913/)
+↳ [Изтегляне](https://www.spigotmc.org/resources/91913/) (модулът се инсталира автоматично от Proskillapi)
 
 ### Screaming BedWars 💲
 
