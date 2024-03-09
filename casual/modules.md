@@ -172,7 +172,7 @@ Module is auto-installed by NPCDestinations.
 
 <figure><img src="https://www.spigotmc.org/data/resource_icons/91/91913.jpg" alt=""><figcaption><p>Adds class requirements and rewards.</p></figcaption></figure>
 
-↳ [Download](https://www.spigotmc.org/resources/91913/)
+↳ [Download](https://www.spigotmc.org/resources/91913/) (el módulo es instalado automáticamente por Proskillapi)
 
 ***
 
