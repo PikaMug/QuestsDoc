@@ -2,7 +2,7 @@
 
 Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
 
-![](../.gitbook/assets/rewardz.png)
+![](<../.gitbook/assets/rewardz (1).png>)
 
 <details>
 
