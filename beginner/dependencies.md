@@ -8,7 +8,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### AstralBooks
 
-![Ouvrez des livres sur les PNJ.](https://camo.githubusercontent.com/a946d5d41882bd0e9ae444259bb863592f27a179cd134a040cabffb72274af20/68747470733a2f2f7777772e737069676f746d632e6f72672f646174612f7265736f757263655f69636f6e732f33372f33373436352e6a7067)
+![Ouvrez des livres sur les PNJ.](../.gitbook/assets/astralbooks.png)
 
 ↳ [Téléchargement](https://github.com/NicoNekoDev/AstralBooks)
 
@@ -16,7 +16,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### Citizens 🌟
 
-![Démarrer et intéragissez au travers des pnj.](https://camo.githubusercontent.com/0291e7fb6eaf46ac9d03bbb164c0da5592bb01d1125ce1908ccda4bfe9322b6a/68747470733a2f2f77696b692e636974697a656e736e7063732e636f2f696d616765732f312f31622f576f72646d61726b2e706e67)
+![Démarrer et intéragissez au travers des pnj.](../.gitbook/assets/citizens.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/citizens.13811/)
 
@@ -24,7 +24,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### Denizen
 
-![Exécuter des scripts pendant les quêtes.](https://camo.githubusercontent.com/7f9cdc61cb0c90d0b14bb6cb853222fc9f9d4f6fb338b2fdf4f9e3b455a56cd9/68747470733a2f2f692e616c6578676f6f6477696e2e6d656469612f692f6d6973632f6535333961392e706e67)
+![Exécuter des scripts pendant les quêtes.](../.gitbook/assets/denizen.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/denizen.21039/)
 
@@ -52,7 +52,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### Heroes 💲
 
-![Donnez des récompenses d'expérience ou exigez des grades.](https://camo.githubusercontent.com/a22173723e927d32f02f6a8d5f1ecb0ef4cd32c993700f34e6de00b64b5a3f4d/687474703a2f2f692e696d6775722e636f6d2f386a46634656592e706e67)
+![Donnez des récompenses d'expérience ou exigez des grades.](../.gitbook/assets/heroes.png)
 
 {% tabs %}
 {% tab title="Minecraft 1.8 -  1.12" %}
@@ -68,7 +68,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### mcMMO Classic 💲
 
-![Récompensez ou exiger des talents.](https://camo.githubusercontent.com/bacd0f447ea7e426c865dcc9168e9f69e7cf61beb9e454178427926e0c82410a/68747470733a2f2f692e696d6775722e636f6d2f31745830692e706e67)
+![Récompensez ou exiger des talents.](../.gitbook/assets/mcmmo\_classic.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/official-mcmmo-classic.2445/)
 
@@ -88,7 +88,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### PlaceholderAPI
 
-![Utilisez PAPI pour des variables de chaîne dans les fichiers de langue Quests.](https://camo.githubusercontent.com/5f030c112dc1e7fcf18f44ce6a34e86d71a283797ecd88a776fff28af556f8a5/68747470733a2f2f692e696d6775722e636f6d2f366b6b3872374e2e706e67)
+![Utilisez PAPI pour des variables de chaîne dans les fichiers de langue Quests.](../.gitbook/assets/papi.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
@@ -96,7 +96,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### Unite
 
-<figure><img src="https://i.imgur.com/8CSt94n.png" alt=""><figcaption><p>Support multiple party plugins.</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/8CSt94n.png" alt="" width="188"><figcaption><p>Support multiple party plugins.</p></figcaption></figure>
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/unite.95217/)
 
@@ -104,7 +104,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### Vault
 
-![Récompenses et prérequis économiques en jeu](https://camo.githubusercontent.com/713822b836312741b9b531a55774bfc57291c0f62296d70943118ee493b1df0a/68747470733a2f2f6d656469612e666f72676563646e2e6e65742f6174746163686d656e74732f3133342f3336312f7661756c742e706e67)
+![Récompenses et prérequis économiques en jeu](../.gitbook/assets/vault.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/vault.34315/) (Prérequis: Utilisez un plugin économique comme [Fé](https://www.spigotmc.org/resources/fe.723/))
 
@@ -112,7 +112,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### WorldGuard
 
-![Définissez des régions pour les utiliser avec Quests.](https://camo.githubusercontent.com/55a494e4c5676605026ac22ae2c59e3097e9987e58196f04686418b51342a917/68747470733a2f2f692e696d6775722e636f6d2f53426b6b7a454e2e706e67)
+![Définissez des régions pour les utiliser avec Quests.](../.gitbook/assets/worldguard.png)
 
 ↳ [Téléchargement](https://dev.bukkit.org/projects/worldguard/files)
 
