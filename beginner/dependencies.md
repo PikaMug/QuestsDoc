@@ -12,11 +12,15 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ↳ [Téléchargement](https://github.com/NicoNekoDev/AstralBooks)
 
+***
+
 ### Citizens 🌟
 
 ![Démarrer et intéragissez au travers des pnj.](https://camo.githubusercontent.com/0291e7fb6eaf46ac9d03bbb164c0da5592bb01d1125ce1908ccda4bfe9322b6a/68747470733a2f2f77696b692e636974697a656e736e7063732e636f2f696d616765732f312f31622f576f72646d61726b2e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/citizens.13811/)
+
+***
 
 ### Denizen
 
@@ -28,17 +32,23 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 **Note:** Essayez d'utiliser [Depenizen](https://ci.citizensnpcs.co/job/Depenizen/) pour effectuer des tâches de quêtes.
 {% endhint %}
 
+***
+
 ### DungeonsXL
 
 ![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](../.gitbook/assets/DungeonsXL.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
+***
+
 ### GPS 💲
 
 ![Version 2.3.6 ou supérieure pour les guides fléchés.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) (Prérequis: [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-))
+
+***
 
 ### Heroes 💲
 
@@ -54,6 +64,8 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### mcMMO Classic 💲
 
 ![Récompensez ou exiger des talents.](https://camo.githubusercontent.com/bacd0f447ea7e426c865dcc9168e9f69e7cf61beb9e454178427926e0c82410a/68747470733a2f2f692e696d6775722e636f6d2f31745830692e706e67)
@@ -64,11 +76,15 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 **Note:** Pour mcMMO Overhaul premium, utilisez plutôt [ce module](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules#mcmmo-overhaul).
 {% endhint %}
 
+***
+
 ### Parties 🌟
 
 ![Créez et rejoignez des groupes pour complèter des quêtes à plusieurs.](https://raw.githubusercontent.com/AlessioDP/Parties/master/logo.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/parties-an-advanced-parties-manager.3709/)
+
+***
 
 ### PhatLoots
 
@@ -84,11 +100,15 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 {% endtab %}
 {% endtabs %}
 
+***
+
 ### PlaceholderAPI
 
 ![Utilisez PAPI pour des variables de chaîne dans les fichiers de langue Quests.](https://camo.githubusercontent.com/5f030c112dc1e7fcf18f44ce6a34e86d71a283797ecd88a776fff28af556f8a5/68747470733a2f2f692e696d6775722e636f6d2f366b6b3872374e2e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/placeholderapi.6245/)
+
+***
 
 ### Unite
 
@@ -96,17 +116,23 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/unite.95217/)
 
+***
+
 ### Vault
 
 ![Récompenses et prérequis économiques en jeu](https://camo.githubusercontent.com/713822b836312741b9b531a55774bfc57291c0f62296d70943118ee493b1df0a/68747470733a2f2f6d656469612e666f72676563646e2e6e65742f6174746163686d656e74732f3133342f3336312f7661756c742e706e67)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/vault.34315/) (Prérequis: Utilisez un plugin économique comme [Fé](https://www.spigotmc.org/resources/fe.723/))
 
+***
+
 ### WorldGuard
 
 ![Définissez des régions pour les utiliser avec Quests.](https://camo.githubusercontent.com/55a494e4c5676605026ac22ae2c59e3097e9987e58196f04686418b51342a917/68747470733a2f2f692e696d6775722e636f6d2f53426b6b7a454e2e706e67)
 
 ↳ [Téléchargement](https://dev.bukkit.org/projects/worldguard/files)
+
+***
 
 ### ZNPCsPlus 🌟
 
