@@ -34,7 +34,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 {% tabs %}
 {% tab title="Quests 5.0.0+" %}
-Téléchargement
+[Téléchargement](https://www.spigotmc.org/resources/custommobs-quests-module.56686/)
 {% endtab %}
 
 {% tab title="4.0.7 - 4.8.3" %}
