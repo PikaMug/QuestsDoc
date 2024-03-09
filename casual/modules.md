@@ -74,7 +74,7 @@
 
 ### Marcely's Bedwars 💲
 
-<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Добавя "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", и "End arena" цели.</p></figcaption></figure>
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt="" width="375"><figcaption><p>Добавя "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", и "End arena" цели.</p></figcaption></figure>
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
 
