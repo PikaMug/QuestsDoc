@@ -30,7 +30,7 @@
 
 {% tabs %}
 {% tab title="Quests 5.0.0+" %}
-Изтегляне
+[Изтегляне](https://www.spigotmc.org/resources/custommobs-quests-module.56686/)
 {% endtab %}
 
 {% tab title="4.0.7 - 4.8.3" %}
