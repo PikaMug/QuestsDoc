@@ -22,7 +22,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### Boss 💲
 
-![](https://camo.githubusercontent.com/53192d923a6add754608ffd62dae992b9963ebbc72635ac313027ea8dd0632e9/68747470733a2f2f692e696d6775722e636f6d2f68793653754b392e706e67)
+![Adds a "Kill Boss" objective.](../.gitbook/assets/boss.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/boss-quests-module.66973/) (requires Quests 3.6.0 or newer)
 
@@ -86,7 +86,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### Marcely's Bedwars 💲
 
-<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt="" width="375"><figcaption><p>Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.</p></figcaption></figure>
 
 ↳ [Download](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
 
