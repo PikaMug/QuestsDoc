@@ -36,7 +36,7 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ### DungeonsXL
 
-![Create and join groups to complete quests en masse.](../.gitbook/assets/DungeonsXL.png)
+![Create and join groups to complete quests en masse.](broken-reference)
 
 ↳ [Download](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
