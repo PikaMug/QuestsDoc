@@ -33,7 +33,15 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 ![Adds a "Kill CustomMobs" objective.](../.gitbook/assets/custommobs.png)
 
 {% tabs %}
-{% tab title="Quests 3.6.0+" %}
+{% tab title="Quests 5.0.0+" %}
+Download
+{% endtab %}
+
+{% tab title="4.0.7 - 4.8.3" %}
+[Download](https://www.spigotmc.org/resources/custommobs-quests-module.56686/download?version=450058)
+{% endtab %}
+
+{% tab title="3.6.0 - 4.0.6" %}
 [Download](https://www.spigotmc.org/resources/custommobs-quests-module.56686/)
 {% endtab %}
 
