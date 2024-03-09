@@ -2,7 +2,7 @@
 
 Une fois que vous vous serez familiarisé avec l'[éditeur de quête](../setup/quests-editor.md) vous vous poserez peut-être des questions sur la sélection "Modifier le planificateur". Ce sous-menu contient des contrôles pour quand votre quête devrait être disponible, basée sur le temps réel :
 
-![](https://camo.githubusercontent.com/07cea0e4af2b6bde23df1ada96f63d46b090cfe97a32b8889eb3599245245ff8/68747470733a2f2f692e696d6775722e636f6d2f7743374134396a2e706e67)
+![](../.gitbook/assets/planner.png)
 
 <details>
 

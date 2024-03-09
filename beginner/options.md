@@ -2,7 +2,7 @@
 
 Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/quests-editor.md), vous vous posez peut-être des questions sur la sélection « Modifier les options ». Ce sont des contrôles qui s'appliquent _par-quête_, et sont différents des paramètres de [config.yml](https://pikamug.gitbook.io/quests/v/french-francais/configuration/configuration#config.yml) qui eux sont appliqués à _toutes_ les quêtes.
 
-![](https://camo.githubusercontent.com/01ac608458bd8b9ea686e4f66bb4d39e0131d0dd738a4317ba898f285345c08a/68747470733a2f2f692e696d6775722e636f6d2f7374485a504f752e706e67)
+![](../.gitbook/assets/options.png)
 
 ### Général
 
