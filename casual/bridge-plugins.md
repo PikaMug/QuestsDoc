@@ -30,7 +30,7 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ### GPS-Quests 💲
 
-![Guide les joueurs vers les objectifs avec d'énormes flèches et l'aide d'un GPS.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
+![Guide les joueurs vers les objectifs avec d'énormes flèches et l'aide d'un GPS.](../.gitbook/assets/gps.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/gps-quests.67835/)
 
@@ -42,12 +42,12 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ### QuestsEffect 💲
 
-<figure><img src="https://i.imgur.com/rJcuZj4.png" alt=""><figcaption><p>Engendre des effets configurables sur la progression objective et sur les PNJ donnant des quêtes.</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/rJcuZj4.png" alt="" width="375"><figcaption><p>Engendre des effets configurables sur la progression objective et sur les PNJ donnant des quêtes.</p></figcaption></figure>
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questseffect.107679/)
 
 ### QuestsGUI 🌟💲
 
-![Utilise une interface cliquable pour les menus d'éditions et de sélections pour Quests.](https://camo.githubusercontent.com/bc6481a592127a020859fd524de5479b96f32c0e7ddbd9764d738605d7622acd/68747470733a2f2f692e696d6775722e636f6d2f4b514736436c332e706e67)
+![Utilise une interface cliquable pour les menus d'éditions et de sélections pour Quests.](../.gitbook/assets/questsgui.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questsgui.71666/)
