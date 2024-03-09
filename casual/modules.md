@@ -86,7 +86,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### Marcely's Bedwars 💲
 
-<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt=""><figcaption><p>Ajoute les objectifs suivants: "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".</p></figcaption></figure>
+<figure><img src="https://public.marcely.de/data/img/products/mbedwars/v5/logo2.gif" alt="" width="375"><figcaption><p>Ajoute les objectifs suivants: "Démarrer l'arène", "Ouvrir la boutique", "Acheter un article", "Acheter une amélioration", "Détruire le lit", "Tuer le joueur" et "Fin de l'arène".</p></figcaption></figure>
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/marcelys-bedwars-quests-module.107857/)
 
@@ -94,7 +94,7 @@ Les jars de module doivent être placés dans le dossier _Quests/modules_, tandi
 
 ### mcMMO Overhaul 💲
 
-![Ajoute la récompense et l'exigence "Compétence".](https://camo.githubusercontent.com/8f19026fc09827670ad5f270b6865286c135f18de8400bd3de55402fd49a165f/68747470733a2f2f692e696d6775722e636f6d2f655575427247522e706e67)
+![Ajoute la récompense et l'exigence "Compétence".](../.gitbook/assets/mcmmo\_overhaul.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/92962/) (nécessite Quests 4.0.0 ou plus récent)
 
