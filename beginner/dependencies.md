@@ -36,7 +36,7 @@ Quests може да се свърже с много други плъгини, 
 
 ### DungeonsXL
 
-![Създаване и се присъединят към групи, за да завършите куестове масово.](broken-reference)
+![Създаване и се присъединят към групи, за да завършите куестове масово.](../.gitbook/assets/dungeonsxl.png)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
@@ -44,7 +44,7 @@ Quests може да се свърже с много други плъгини, 
 
 ### GPS 💲
 
-![Версия 2.3.6 или по-нова за водачите със стрелки.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
+![Версия 2.3.6 или по-нова за водачите със стрелки.](../.gitbook/assets/gps.png)
 
 ↳ [Изтегляне](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) (requires [GPS-Quests](https://pikamug.gitbook.io/quests/casual/bridge-plugins#gps-quests))
 
