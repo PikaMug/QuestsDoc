@@ -69,7 +69,7 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 ![Link with various Magic spells and tasks.](../.gitbook/assets/magic.png)
 
 {% tabs %}
-{% tab title="Quests 3.6.0+" %}
+{% tab title="Quests 3.6.0 - 4.0.6" %}
 [Download](http://jenkins.elmakers.com/job/MagicQuests/)
 {% endtab %}
 
