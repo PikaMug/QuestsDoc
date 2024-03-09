@@ -36,7 +36,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### DungeonsXL
 
-![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](../.gitbook/assets/DungeonsXL.png)
+![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](broken-reference)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
