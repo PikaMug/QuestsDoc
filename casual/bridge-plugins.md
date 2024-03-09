@@ -16,11 +16,15 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/bluemap-quests.96806/)
 
+***
+
 ### Depenizen
 
 <figure><img src="https://i.alexgoodwin.media/i/misc/e539a9.png" alt=""><figcaption><p>Utilisez les commandes événements et propriétés Quests dans les scripts Denizen.</p></figcaption></figure>
 
 ↳ [Téléchargement](https://github.com/DenizenScript/Depenizen)
+
+***
 
 ### Dynmap-Quests 💲
 
@@ -28,11 +32,15 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dynmap-quests.65987/)
 
+***
+
 ### GPS-Quests 💲
 
 ![Guide les joueurs vers les objectifs avec d'énormes flèches et l'aide d'un GPS.](../.gitbook/assets/gps.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/gps-quests.67835/)
+
+***
 
 ### QuestsBar 💲
 
@@ -40,11 +48,15 @@ De nombreux plugins dépendent nativement de quests. Cependant, il est parfois p
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questsbar.100634/)
 
+***
+
 ### QuestsEffect 💲
 
 <figure><img src="https://i.imgur.com/rJcuZj4.png" alt="" width="375"><figcaption><p>Engendre des effets configurables sur la progression objective et sur les PNJ donnant des quêtes.</p></figcaption></figure>
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/questseffect.107679/)
+
+***
 
 ### QuestsGUI 🌟💲
 
