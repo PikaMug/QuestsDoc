@@ -59,7 +59,7 @@
 ![Връзка с различни магически заклинания и задачи.](../.gitbook/assets/magic.png)
 
 {% tabs %}
-{% tab title="Quests 3.6.0+" %}
+{% tab title="Quests 3.6.0 - 4.0.6" %}
 [Изтегляне](http://jenkins.elmakers.com/job/MagicQuests/)
 {% endtab %}
 
