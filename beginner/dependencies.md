@@ -86,22 +86,6 @@ Quests can link with many other plugins available on [Spigot](https://www.spigot
 
 ***
 
-### PhatLoots
-
-![Loot chest rewards.](https://camo.githubusercontent.com/46d7f1ad0aa4beed0bbd5c2e36118a1fd357fbd033169239720959811b53db83/68747470733a2f2f692e696d6775722e636f6d2f794869504a46682e706e67)
-
-{% tabs %}
-{% tab title="Minecraft 1.13+" %}
-[Download](https://www.spigotmc.org/resources/phatloots-loot-tables-conditions-block-loots-mob-drops-1-13-1-16.68925/)
-{% endtab %}
-
-{% tab title="Minecraft 1.7 - 1.12" %}
-[Download](http://codisimus.com/phatloots)
-{% endtab %}
-{% endtabs %}
-
-***
-
 ### PlaceholderAPI
 
 ![Use PAPI string variables in Quests language files.](https://camo.githubusercontent.com/5f030c112dc1e7fcf18f44ce6a34e86d71a283797ecd88a776fff28af556f8a5/68747470733a2f2f692e696d6775722e636f6d2f366b6b3872374e2e706e67)
