@@ -36,7 +36,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### DungeonsXL
 
-![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](broken-reference)
+![Créez et rejoignez des groupes pour faire les quêtes à plusieurs.](../.gitbook/assets/dungeonsxl.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/dungeonsxl.9488/)
 
@@ -44,7 +44,7 @@ Quests peut être lié avec beaucoup d'autres plugins disponible sur [Spigot](ht
 
 ### GPS 💲
 
-![Version 2.3.6 ou supérieure pour les guides fléchés.](https://camo.githubusercontent.com/b7330dd49cc77246b603c4802ebcffcecedbc9d9cd4ddba147d24fe0e06e10b9/68747470733a2f2f692e696d6775722e636f6d2f484a5979487a4d2e706e67)
+![Version 2.3.6 ou supérieure pour les guides fléchés.](../.gitbook/assets/gps.png)
 
 ↳ [Téléchargement](https://www.spigotmc.org/resources/gps-1-9-1-13-2-the-first-ever-minecraft-global-positioning-system.53672/) (Prérequis: [GPS-Quests](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Bridge-Plugins#gps-quests-))
 
