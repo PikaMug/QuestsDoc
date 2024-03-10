@@ -14,7 +14,8 @@ Module jars must be placed in the _Quests/modules_ folder, while the target plug
 
 ### BedWars1058 💲
 
-![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade", "Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
+![Adds "Start arena", "Open shop", "Buy item", "Buy upgrade",
+&#x20;"Destroy bed", "Kill player", and "End arena" objectives.](../.gitbook/assets/bedwars1058.jpg)
 
 ↳ [Download](https://www.spigotmc.org/resources/bedwars1058-quests-module.100722/)
 
