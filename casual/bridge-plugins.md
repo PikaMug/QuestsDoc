@@ -1,8 +1,6 @@
 # Bridge Plugins
 
-{% hint style="info" %}
 **Notice:** This information is intended for intermediate users. Read carefully!
-{% endhint %}
 
 Plenty of other server plugins natively depend on Quests. However, it is sometimes easier or more beneficial for a developer to make an "in-between" plugin to link their resource to Quests. Unlike [modules](modules.md), bridge plugins handle more than just objectives or rewards. Below is a list of published examples.
 
@@ -68,6 +66,4 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 *
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>test</td><td></td><td></td><td><a href="../.gitbook/assets/worldguard.png">worldguard.png</a></td><td></td></tr><tr><td>test2</td><td></td><td></td><td><a href="../.gitbook/assets/papi.png">papi.png</a></td><td></td></tr><tr><td>GPS-Quests <a data-footnote-ref href="#user-content-fn-1">ℹ️</a></td><td><a href="https://lectern.browsit.org/resources/resource/5-gps-quests/">Download on Lectern</a></td><td><a href="https://www.spigotmc.org/resources/gps-quests.67835/">Download on SpigotMC</a></td><td><a href="../.gitbook/assets/gps.png">gps.png</a></td><td><a href="https://www.spigotmc.org/resources/gps-quests.67835/">https://www.spigotmc.org/resources/gps-quests.67835/</a></td></tr></tbody></table>
-
-[^1]: Guides players to objectives with huge arrows using GPS.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>test</td><td></td><td><a href="../.gitbook/assets/worldguard.png">worldguard.png</a></td><td></td></tr><tr><td>test2</td><td></td><td><a href="../.gitbook/assets/papi.png">papi.png</a></td><td></td></tr><tr><td>GPS-Quests</td><td>Guides players to objectives with huge arrows using GPS.</td><td><a href="../.gitbook/assets/gps.png">gps.png</a></td><td><a href="https://www.spigotmc.org/resources/gps-quests.67835/">https://www.spigotmc.org/resources/gps-quests.67835/</a></td></tr></tbody></table>
