@@ -66,6 +66,4 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 
 #### This area is experimental WIP vvvv
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>test</td><td></td><td></td><td><a href="../.gitbook/assets/worldguard.png">worldguard.png</a></td></tr><tr><td>test2</td><td></td><td></td><td><a href="../.gitbook/assets/papi.png">papi.png</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">GPS-Quests</a></td><td>↳ <a href="https://www.spigotmc.org/resources/gps-quests.67835/">Download</a></td><td></td><td><a href="../.gitbook/assets/gps.png">gps.png</a></td></tr></tbody></table>
-
-[^1]: Guides players to objectives with huge arrows using GPS.
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>test</td><td></td><td></td><td><a href="../.gitbook/assets/worldguard.png">worldguard.png</a></td></tr><tr><td>test2</td><td></td><td></td><td><a href="../.gitbook/assets/papi.png">papi.png</a></td></tr><tr><td>GPS-Quests ℹ️🛈 </td><td>↳ <a href="https://www.spigotmc.org/resources/gps-quests.67835/">Download</a></td><td></td><td><a href="../.gitbook/assets/gps.png">gps.png</a></td></tr></tbody></table>
