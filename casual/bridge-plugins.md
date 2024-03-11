@@ -63,3 +63,9 @@ Plenty of other server plugins natively depend on Quests. However, it is sometim
 ![Displays clickable interfaces over select menus and commands within Quests.](../.gitbook/assets/questsgui.png)
 
 ↳ [Download](https://www.spigotmc.org/resources/questsgui.71666/)
+
+#### This area is experimental WIP vvvv
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">GPS-Quests</a></td><td>↳ <a href="https://www.spigotmc.org/resources/gps-quests.67835/">Download</a></td><td></td><td><a href="../.gitbook/assets/gps.png">gps.png</a></td></tr></tbody></table>
+
+[^1]: Guides players to objectives with huge arrows using GPS.
