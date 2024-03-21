@@ -8,7 +8,7 @@ Entrez '1' dans le chat, et le plugin vous demandera un nom pour votre première
 
 Après avoir choisis un nom correct, cet écran apparaitra:
 
-![](../.gitbook/assets/quest\_main.png)
+![](<../.gitbook/assets/quest\_main (1).png>)
 
 <details>
 
