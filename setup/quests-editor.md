@@ -34,7 +34,7 @@ After you've chosen a valid name, this screen will appear:
 That's a lot of choices! Enter '2' and then input the first thing you'd like the player to hear for your quest. Once you're done, enter '3' to input the final message to come from your quest.
 
 {% hint style="info" %}
-**Pro-tip:** If you have [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) installed for NPCs, you may enter '4' to select an NPC that you'd like to hand out the quest.
+**Pro-tip:** If you have [Citizens 2](https://www.spigotmc.org/resources/citizens.13811/) or [ZNPCsPlus](https://www.spigotmc.org/resources/znpcsplus.109380/) installed for NPCs, you may enter '4' to select an NPC that you'd like to hand out the quest.
 {% endhint %}
 
 Great job! Now, if you go to save your quest, you'll get an error. This is because all quests must contain at least one stage. So, let's create one! Enter '11' to begin, then '1' to add your first stage.
