@@ -1,9 +1,5 @@
 # Modules
 
-{% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
-{% endhint %}
-
 Plugins which integrate with Quests to provide Custom Objectives, Rewards and Requirements, use what are known as _modules_. A module is a jar file created by developers using the [Quests API](../master/custom-quest-api.md), which acts as a middleman between Quests and the integrating plugin. This is in contrast to a [dependency](../beginner/dependencies.md), which you typically do not need a module for.
 
 Module jars must be placed in the _Quests/modules_ folder, while the target plugin goes in the _/plugins_ folder as usual. Note that all modules are entirely optional and you may add or remove them as seen fit. Below is an incomplete list of popular plugins for which a module is known to exist, along with a description of how it links.

@@ -1,7 +1,5 @@
 # Bridge Plugins
 
-**Notice:** This information is intended for intermediate users. Read carefully!
-
 Plenty of other server plugins natively depend on Quests. However, it is sometimes easier or more beneficial for a developer to make an "in-between" plugin to link their resource to Quests. Unlike [modules](modules.md), bridge plugins handle more than just objectives or rewards. Below is a list of published examples.
 
 <table data-full-width="false"><thead><tr><th>Labels:</th><th></th></tr></thead><tbody><tr><td>🌟 = Recommended for optimal user experience</td><td>💲 = May require purchase of premium resource</td></tr></tbody></table>
