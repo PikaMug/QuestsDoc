@@ -1,10 +1,6 @@
 # Съхранение
 
-{% hint style="info" %}
-**Внимание:** Тази информация е предназначена за напреднали потребители. Продължавайте с повишено внимание!
-{% endhint %}
-
-От Quests 4.0.0-rc.3, можете да изберете да промените опцията си за съхранение чрез настройката `storage-method` от [Конфигурационен файл на Quests](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). Наличните възможности за избор са описани по-долу. Ако искате да промените метода си на съхранение по-късно, без да губите данни, първо използвайте [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
+Можете да изберете да промените опцията си за съхранение чрез настройката `storage-method` от [Конфигурационен файл на Quests](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). Наличните възможности за избор са описани по-долу. Ако искате да промените метода си на съхранение по-късно, без да губите данни, първо използвайте [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
 
 ### YAML
 
