@@ -6,4 +6,4 @@
 
 {% embed url="https://www.youtube.com/watch?v=k5HR_vYX2Rw" %}
 
-Тази документация се стреми да бъде подходяща за Quests 4.0.0 и по-нови, но можете да [допринесете](https://pikamug.gitbook.io/quests/expert/doc-contributions). За помощ при надграждане от по-стари версии на Quests вижте [старата документация](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+Тази документация се стреми да бъде подходяща за Quests 5.0.0 и по-нови, но можете да [допринесете](https://pikamug.gitbook.io/quests/expert/doc-contributions). За помощ при надграждане от по-стари версии на Quests вижте [старата документация](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
