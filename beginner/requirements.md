@@ -2,7 +2,7 @@
 
 Une fois que vous vous êtes familiarisé avec l'[éditeur de quête](../setup/quests-editor.md), vous vous posez peut-être des questions sur la selection " Modifier les exigences ". Ce sous-menu contient les prérequis que votre joueur devra avoir avant d'accepter la quête :
 
-![](../.gitbook/assets/requirements.png)
+![](broken-reference)
 
 <details>
 
