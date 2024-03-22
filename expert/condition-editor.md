@@ -1,9 +1,5 @@
 # Condition Editor
 
-{% hint style="info" %}
-**Warning:** This information is intended for advanced users. Proceed with caution!
-{% endhint %}
-
 When a player is carrying out a stage of a quest, it may be desirable to force them to meet a certain criteria. For example, holding a specific item while completing objectives. To do this, a condition must be created and applied.
 
 To make a condition, run **/quests conditions** in-game (or from the console, with limited features). You will be greeted with the following:
