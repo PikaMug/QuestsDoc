@@ -14,4 +14,4 @@
 {% endtab %}
 {% endtabs %}
 
-Esta documentación se esfuerza por ser relevante para Quests 4.0.0 y versiones posteriores, pero no dude en [contribuir](https://github.com/PikaMug/QuestsDoc/tree/spanish-espanol). Para obtener ayuda para actualizar desde versiones anteriores de Quests, consulte la [documentación heredada](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+Esta documentación se esfuerza por ser relevante para Quests 5.0.0 y versiones posteriores, pero no dude en [contribuir](https://github.com/PikaMug/QuestsDoc/tree/spanish-espanol). Para obtener ayuda para actualizar desde versiones anteriores de Quests, consulte la [documentación heredada](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
