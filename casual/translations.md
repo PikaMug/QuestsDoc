@@ -1,9 +1,5 @@
 # Traductions
 
-{% hint style="info" %}
-**Notice:** This information is intended for intermediate users. Read carefully!
-{% endhint %}
-
 Should you wish to change the plugin's language, Quests has many localization files which are located at /plugins/Quests/lang/**ISO**/strings.yml by default, where "**ISO**" represents your preferred [language code](https://support.crowdin.com/api/language-codes/). Translations are provided [via Crowdin](https://crowdin.com/project/translate-quests), a platform where anyone can contribute, with English(en-US) being the source language.
 
 You may select the language of choice for your server by changing the [language code](https://support.crowdin.com/api/language-codes/) value of `language` in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). If a particular string/sentence has not been localized, it will default to English. To avoid this, you may edit the strings.yml file directly or [contribute a translation on Crowdin](https://crowdin.com/project/translate-quests).

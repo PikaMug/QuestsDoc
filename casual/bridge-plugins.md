@@ -1,9 +1,5 @@
 # Plugins de liaisons
 
-{% hint style="info" %}
-**Remarque:** Ces informations sont destinées aux utilisateurs possédant au moins un niveau intermédiaire. Lisez attentivement ces informations !
-{% endhint %}
-
 De nombreux plugins dépendent nativement de quests. Cependant, il est parfois plus facile ou avantageux pour un dévloppeur de crée un plugin "entre-deux / de liaison" pour lier ses ressources avec quests. Contrairement aux [modules](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules), les plugins de liaison gèrent plus que des objectifs ou des récompenses. Vous trouverez ci-dessous une liste d'exemples publiés.
 
 | Légende:                                     |                                                      |

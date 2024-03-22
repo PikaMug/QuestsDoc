@@ -1,9 +1,5 @@
 # Modules
 
-{% hint style="info" %}
-**Remarque:** Ces informations sont destinées aux utilisateurs intermédiaires. Lire attentivement!
-{% endhint %}
-
 Les plugins qui s'intègrent aux quêtes pour fournir des objectifs, des récompenses et des exigences personnalisés utilisent ce que l'on appelle des _modules_. Un module est un fichier jar créé par les développeurs à l'aide de [Quests API](https://pikamug.gitbook.io/quests/v/french-francais/maitre/custom-quest-api), qui agit comme un intermédiaire entre les invités et le plugin d'intégration. Ceci est en contraste avec les [dépendances](https://pikamug.gitbook.io/quests/v/french-francais/debutant/dependencies), pour lequel vous n'avez généralement pas besoin d'un module.
 
 Les jars de module doivent être placés dans le dossier _Quests/modules_, tandis que le plugin cible va dans le dossier _/plugins_ comme d'habitude. Notez que tous les modules sont entièrement facultatifs et que vous pouvez les ajouter ou les supprimer comme bon vous semble. Vous trouverez ci-dessous une liste incomplète des plugins populaires pour lesquels un module est connu, ainsi qu'une description de la façon dont il est lié.

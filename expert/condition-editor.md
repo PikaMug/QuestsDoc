@@ -1,9 +1,5 @@
 # Éditeur de condition
 
-{% hint style="info" %}
-**Avertissement :** Ces informations sont destinées aux utilisateurs avancés. Procéder avec prudence!
-{% endhint %}
-
 Lorsqu'un joueur réalise une étape d'une quête, il peut être souhaitable de le forcer à répondre à certains critères. Par exemple, tenir un objet spécifique tout en remplissant des objectifs. Pour ce faire, une condition doit être créée et appliquée.
 
 Pour créer une condition, lancez **/quests conditions** dans le jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli avec ce qui suit :

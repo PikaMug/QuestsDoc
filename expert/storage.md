@@ -1,10 +1,6 @@
 # Stockage
 
-{% hint style="info" %}
-**Avertissement :** Ces informations sont destinées aux utilisateurs avancés. Procéder avec prudence!
-{% endhint %}
-
-À partir de Quests 4.0.0-rc.3, vous pouvez choisir de modifier votre option de stockage via le paramètre `storage-method` du [fichier de configuration Quests](https://pikamug.gitbook.io/quests/v/french-francais/configuration/configuration). Les choix disponibles sont décrits ci-dessous. Si vous souhaitez changer votre méthode de stockage plus tard sans perdre de données, utilisez d'abord [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
+Vous pouvez choisir de modifier votre option de stockage via le paramètre `storage-method` du [fichier de configuration Quests](https://pikamug.gitbook.io/quests/v/french-francais/configuration/configuration). Les choix disponibles sont décrits ci-dessous. Si vous souhaitez changer votre méthode de stockage plus tard sans perdre de données, utilisez d'abord [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
 
 ### YAML
 

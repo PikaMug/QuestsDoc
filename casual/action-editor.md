@@ -1,9 +1,5 @@
 # Éditeur de action
 
-{% hint style="info" %}
-**Remarque:** Ces informations sont destinées aux utilisateurs intermédiaires. Lire attentivement!
-{% endhint %}
-
 Semblable à la façon dont toutes les étapes de quête ont des objectifs, elles peuvent également effectuer des actions. Une action est quelque chose qui se produit pendant une étape, mais qui est généralement cosmétique et ne fait pas progresser la quête. Par exemple, faire perdre la faim à un joueur ou être frappé par la foudre sont considérés comme des actions.
 
 Pour effectuer une action, lancez **/quests actions** dans le jeu (ou depuis la console, avec des fonctionnalités limitées). Vous serez accueilli avec ce qui suit :
