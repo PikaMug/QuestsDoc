@@ -2,7 +2,7 @@
 
 Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Requirements' selection. This sub-menu contains prerequisites your player would need to have before accepting the quest:
 
-![](broken-reference)
+![](../.gitbook/assets/requirements.png)
 
 <details>
 
