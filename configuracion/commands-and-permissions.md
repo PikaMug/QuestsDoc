@@ -1,43 +1,43 @@
-# Commands & Permissions
+# Comandos y Permisos
 
-The three main commands for Quests are **/quests**, **/quest**, and **/questadmin**. The first two are enabled for all users by default, while the last one is reserved for server ops. To change this behavior, such as giving **/questadmin** to non-op administrators, you must set up [permissions](https://bukkit.gamepedia.com/Understanding\_Permissions).
+Los tres comandos principales para Quests son **/quests**, **/quest** y **/questadmin**. Los dos primeros están habilitados para todos los usuarios de forma predeterminada, mientras que el último está reservado para operaciones del servidor. Para cambiar este comportamiento, como dar **/questadmin** a administradores no operativos, debe configurar [permisos](https://bukkit.fandom.com/wiki/Understanding\_Permissions).
 
-### Player Commands
+### Comandos del Jugador
 
-Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](https://github.com/PikaMug/Quests/wiki/Translations), but permissions will remain the same.
+A continuación se muestra un cuadro que describe cada comando y su permiso asociado. Tenga en cuenta que los subcomandos (listar, tomar, salir, etc.) pueden cambiar si [selecciona otro idioma del complemento](../casual/translations.md), pero los permisos seguirán siendo los mismos.
 
-| Command               | Permission       | Description                    |
-| --------------------- | ---------------- | ------------------------------ |
-| /quests               | quests.quests    | Display plugin help            |
-| /quests list \[page]  | quests.list      | List available quests          |
-| /quests take \[quest] | quests.take      | Accept a quest via command     |
-| /quests quit \[quest] | quests.quit      | Quit a current quest           |
-| /quests stats         | quests.stats     | View quest statistics          |
-| /quests top \[number] | quests.top       | View plugin leaderboards       |
-| /quests info          | quests.info      | View plugin information        |
-| /quests journal       | quests.journal   | Toggle the Quest Journal       |
-| N/A                   | quests.compass   | Track quests using a Compass   |
-| N/A                   | quests.choice    | Use clickable text             |
-|                       |                  |                                |
-| /quest                | quests.quest     | View current quest objectives  |
-| /quest \[quest]       | quests.questinfo | View information about a quest |
+| Command                  | Permission       | Description                                 |
+| ------------------------ | ---------------- | ------------------------------------------- |
+| /quests                  | quests.quests    | Mostrar ayuda del complemento               |
+| /quests list \[pagina]   | quests.list      | Listar misiones disponibles                 |
+| /quests take \[búsqueda] | quests.take      | Aceptar una misión mediante comando         |
+| /quests quit \[búsqueda] | quests.quit      | Salir de una misión actual                  |
+| /quests stats            | quests.stats     | Ver estadísticas de misiones                |
+| /quests top \[número]    | quests.top       | Ver tablas de clasificación de complementos |
+| /quests info             | quests.info      | Ver información del complemento             |
+| /quests journal          | quests.journal   | Alternar el Diario de Misiones              |
+| N/A                      | quests.compass   | Seguimiento de misiones usando una Brújula  |
+| N/A                      | quests.choice    | Utilice texto en el que se pueda hacer clic |
+|                          |                  |                                             |
+| /quest                   | quests.quest     | Ver objetivos de misión actuales            |
+| /quest \[búsqueda]       | quests.questinfo | Ver información sobre una misión            |
 
 {% hint style="info" %}
-**Pro-tip:** By default, you can also use **/qs** and **/q** in place of **/quests** and **/quest**, respectively!
+Co**nsejo-pro:** De forma predeterminada, también puedes usar **/qs** y **/q** en lugar de **/quests** y **/quest**, respectivamente.
 {% endhint %}
 
-### Administrator Commands
+### Comandos de Administrador
 
-Administrator commands, which should only be granted to those you trust not to misuse them, are outlined below.
+Los comandos de administrador, que sólo deben concederse a aquellas personas en las que usted confía para que no los utilicen indebidamente, se describen a continuación.
 
 | Command                                          | Permission               | Description                                    |
 | ------------------------------------------------ | ------------------------ | ---------------------------------------------- |
-| /questadmin                                      | quests.admin             | Display administrator help                     |
-| /questadmin stats \[player]                      | quests.admin.stats       | View quest statistics of a player              |
-| /questadmin give \[player] \[quest]              | quests.admin.give        | Force a player to take a quest                 |
-| /questadmin quit \[player] \[quest]              | quests.admin.quit        | Force a player to quit a quest                 |
-| /questadmin points \[player] \[amount]           | quests.admin.points      | Set a player's Quest Points                    |
-| /questadmin takepoints \[player] \[amount]       | quests.admin.takepoints  | Take away a player's Quest Points              |
+| /questadmin                                      | quests.admin             | Mostrar ayuda del administrador                |
+| /questadmin stats \[player]                      | quests.admin.stats       | Ver estadísticas de búsqueda de un jugador     |
+| /questadmin give \[player] \[quest]              | quests.admin.give        | Obliga a un jugador a tomar una misión         |
+| /questadmin quit \[player] \[quest]              | quests.admin.quit        | Forzar a un jugador a salir de una búsqueda    |
+| /questadmin points \[player] \[amount]           | quests.admin.points      | Establecer los Puntos de Misión de un jugador  |
+| /questadmin takepoints \[player] \[amount]       | quests.admin.takepoints  | Quitar los Puntos de Misión de un jugador      |
 | /questadmin givepoints \[player] \[amount]       | quests.admin.givepoints  | Add to a player's Quest Points                 |
 | /questadmin finish \[player] \[quest]            | quests.admin.finish      | Force a player to complete a quest             |
 | /questadmin nextstage \[player] \[quest]         | quests.admin.nextstage   | Force a player to complete current stage       |
