@@ -1,6 +1,6 @@
 # Requirements
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Requirements' selection. This sub-menu contains prerequisites your player would need to have before accepting the quest:
+Once you've familiarized yourself with the [Quest Editor](../configuracion/quests-editor.md), you may be wondering about the 'Edit Requirements' selection. This sub-menu contains prerequisites your player would need to have before accepting the quest:
 
 ![](../.gitbook/assets/requirements.png)
 

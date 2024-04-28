@@ -1,6 +1,6 @@
 # Planner
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
+Once you've familiarized yourself with the [Quest Editor](../configuracion/quests-editor.md), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
 
 ![](../.gitbook/assets/planner.png)
 

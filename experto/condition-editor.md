@@ -29,4 +29,4 @@ After you've chosen a valid name, this screen will appear:
 
 Select a condition type and decide whether the player should fail the quest if said condition is not met. Now, enter all the appropriate prompt numbers for 'Done' until you've saved your condition.
 
-Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.
+Nice job! Unlike the [Quest Editor](../configuracion/quests-editor.md), there is no need to reload the plugin. Exit the Condition Editor and then create or edit a quest in the Quest Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 11 to apply the condition.

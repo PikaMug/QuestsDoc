@@ -54,7 +54,7 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 7. Objective to enter a specific string in chat
 8. Objective from an installed [custom module](../casual/modules.md)
 9. After setting at least one objective, run an [action](../casual/action-editor.md) at the start, end, or during the stage
-10. After setting at least one objective, check a [condition](../expert/condition-editor.md) during the stage
+10. After setting at least one objective, check a [condition](../experto/condition-editor.md) during the stage
 11. Number of seconds to wait before the next stage may begin
 12. After setting a delay, show a message to the player once the delay starts
 13. Show a message to the player once the stage begins
@@ -76,7 +76,7 @@ Behold the magic of Quests! There are so many different objectives to choose fro
 Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants (for example, a value of '3' would equate to Podzol rather than Dirt).
 
 {% hint style="info" %}
-**Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../beginner/options.md).
+**Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../principiante/options.md).
 {% endhint %}
 
 Enter all the appropriate prompt numbers for 'Done' until you're back at the ask/finish message screen. You're nearly finished! Enter '13' and then '1' to save your quest.

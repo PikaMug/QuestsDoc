@@ -1,6 +1,6 @@
 # Options
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml) which apply to _all_ quests.
+Once you've familiarized yourself with the [Quest Editor](../configuracion/quests-editor.md), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://github.com/PikaMug/Quests/wiki/2-%E2%80%90-Configuration#configyml) which apply to _all_ quests.
 
 ![](../.gitbook/assets/options.png)
 

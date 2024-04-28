@@ -2,19 +2,19 @@
 
 * [Casa](README.md)
 
-## Setup
+## Configuración
 
-* [Commands & Permissions](setup/commands-and-permissions.md)
-* [Configuration](setup/configuration.md)
-* [Quest Editor](setup/quests-editor.md)
+* [Commands & Permissions](configuracion/commands-and-permissions.md)
+* [Configuration](configuracion/configuration.md)
+* [Quest Editor](configuracion/quests-editor.md)
 
-## Beginner
+## Principiante
 
-* [Dependencies](beginner/dependencies.md)
-* [Options](beginner/options.md)
-* [Planner](beginner/planner.md)
-* [Requirements](beginner/requirements.md)
-* [Rewards](beginner/rewards.md)
+* [Dependencies](principiante/dependencies.md)
+* [Options](principiante/options.md)
+* [Planner](principiante/planner.md)
+* [Requirements](principiante/requirements.md)
+* [Rewards](principiante/rewards.md)
 
 ## Casual
 
@@ -23,13 +23,13 @@
 * [Modules](casual/modules.md)
 * [Translations](casual/translations.md)
 
-## Expert
+## Experto
 
-* [Condition Editor](expert/condition-editor.md)
-* [Storage](expert/storage.md)
-* [Doc Contributions](expert/doc-contributions.md)
+* [Condition Editor](experto/condition-editor.md)
+* [Storage](experto/storage.md)
+* [Doc Contributions](experto/doc-contributions.md)
 
-## Master
+## Maestro
 
-* [Custom Quest API](master/custom-quest-api.md)
-* [Plugin Compilation](master/plugin-compilation.md)
+* [Custom Quest API](maestro/custom-quest-api.md)
+* [Plugin Compilation](maestro/plugin-compilation.md)
