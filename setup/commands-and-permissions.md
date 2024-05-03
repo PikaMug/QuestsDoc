@@ -4,7 +4,7 @@ The three main commands for Quests are **/quests**, **/quest**, and **/questadmi
 
 ### Player Commands
 
-Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](https://github.com/PikaMug/Quests/wiki/Translations), but permissions will remain the same.
+Below is a chart which describes each command and its associated permission. Note that the subcommands (list, take, quit, et al.) can change if you [select another plugin language](../casual/translations.md), but permissions will remain the same.
 
 | Command               | Permission       | Description                    |
 | --------------------- | ---------------- | ------------------------------ |
