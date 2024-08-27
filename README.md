@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # Casa
 
 (Anuncio) _**¡Obtén un 20% de descuento en QuestsGUI en**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
