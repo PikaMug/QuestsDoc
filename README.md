@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # Начало
 
 (Реклама) _**Вземете 20% отстъпка от QuestsGUI в**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
