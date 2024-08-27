@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # Home
 
 (Ad) _**Get 20% off QuestsGUI on**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&)_**!**_
