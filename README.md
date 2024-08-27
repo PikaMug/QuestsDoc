@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # Acceuil
 
 (Annonce) _**Obtenez 20 % de réduction pour QuestsGUI sur**_ [_**Lectern**_](https://lectern.browsit.org/resources/?sort=downloads&) _**!**_
