@@ -59,7 +59,7 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 12. After setting a delay, show a message to the player once the delay starts
 13. Show a message to the player once the stage begins
 14. Show a message to the player once the stage ends
-15. Override the message shown to the player about what their objectives are (use `<count>` or `%count%` to insert objective progress).
+15. Override the message shown to the player about what their objectives are (use `<count>` or `%count%` to insert objective progress)
 16. Permanently remove this stage
 17. Finish working on your stage
 
