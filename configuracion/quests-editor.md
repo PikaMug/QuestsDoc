@@ -1,14 +1,14 @@
-# Quest Editor
+# Editor de Misiones
 
 Let's make a quest! By default, the Quest Editor is available only to server ops. However, with the [correct permissions](https://github.com/PikaMug/Quests/wiki/1-%E2%80%90-Commands-&-Permissions) in place, it's as simple as running **/quests editor** in-game (or from the console, with limited features). You will be greeted with the following:
 
-![](<../.gitbook/assets/quest\_editor (1).png>)
+![](<../.gitbook/assets/quest_editor (1).png>)
 
 Enter '1' in chat so the plugin may prompt you to enter a name for your quest. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
 After you've chosen a valid name, this screen will appear:
 
-![](../.gitbook/assets/quest\_main.png)
+![](../.gitbook/assets/quest_main.png)
 
 <details>
 
@@ -39,7 +39,7 @@ That's a lot of choices! Enter '2' and then input the first thing you'd like the
 
 Great job! Now, if you go to save your quest, you'll get an error. This is because all quests must contain at least one stage. So, let's create one! Enter '11' to begin, then '1' to add your first stage.
 
-![](../.gitbook/assets/quest\_stage.png)
+![](../.gitbook/assets/quest_stage.png)
 
 <details>
 
@@ -59,7 +59,7 @@ Great job! Now, if you go to save your quest, you'll get an error. This is becau
 12. After setting a delay, show a message to the player once the delay starts
 13. Show a message to the player once the stage begins
 14. Show a message to the player once the stage ends
-15. Override the message shown to the player about what their objectives are
+15. Override the message shown to the player about what their objectives are (use `<count>` or `%count%` to insert objective progress)
 16. Permanently remove this stage
 17. Finish working on your stage
 
@@ -71,7 +71,7 @@ Behold the magic of Quests! There are so many different objectives to choose fro
 **Pro-tip:** Custom objectives come from special add-ons which often link with other plugins, found [here](https://github.com/PikaMug/Quests/wiki/Casual-%E2%80%90-Modules). To use one, it must be installed in your /Quests/modules folder at startup.
 {% endhint %}
 
-![](../.gitbook/assets/quest\_break.png)
+![](../.gitbook/assets/quest_break.png)
 
 Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants (for example, a value of '3' would equate to Podzol rather than Dirt).
 
