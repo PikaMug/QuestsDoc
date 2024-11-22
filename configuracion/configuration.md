@@ -1,4 +1,4 @@
-# Configuration
+# Configuración
 
 When Quests is first run, configuration files will be created in the /plugins/Quests directory. If this is your first time using Quests, just make sure the settings in **config.yml** are to your liking. Don't worry about any of the other files or folders for the time being.
 
@@ -34,6 +34,7 @@ This file contains all settings relating to how Quests should perform once loade
 | npc-effects.enabled                           | true/false | Whether to enable particle effects. Note that the client must have particles enabled.                                                                          |
 | npc-effects.new-quest                         | string     | The particle effect to be played for a new quest (ex. note, enchant, crit, spell, portal).                                                                     |
 | npc-effects.redo-quest                        | string     | The particle effect to be played for a repeatable quest (ex. note, enchant, crit, spell, portal).                                                              |
+| prevent-exploit                               | true/false | Attempt to prevent inventory exploits on applicable quests.                                                                                                    |
 | show-requirements                             | true/false | Allow players to see requirements in /quest \[quest]                                                                                                           |
 | show-titles                                   | true/false | Display titles to players when accepting/completing quests.                                                                                                    |
 | strict-player-movement                        | number     | Seconds between advanced player movement tracking.                                                                                                             |
