@@ -29,7 +29,7 @@ Unless designing a cross-platform project, you'll want to define the core artifa
 
 ### Learn the interface
 
-Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 4.0.0 or above. Once you've finished following this guide, use the /Quests/modules folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.
+Quests provides a simple API to create custom requirements, rewards, and objectives. To begin, make sure you are compiling against version 4.0.0 or above. Once you've finished following this guide, use the _Quests/modules_ folder as the destination for your finished and compiled jar. If distributing your module, make sure to inform the end user of the correct folder location.
 
 The following examples assume you are creating a project for Bukkit-based software.
 
@@ -52,7 +52,7 @@ public class NameRequirement extends BukkitCustomRequirement {
         setItem("NAME_TAG", (short)0);
         addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
         addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\')", null);
-	setDisplay("Sorry, you are not on the list.");
+        setDisplay("Sorry, you are not on the list.");
     }
     
     // Test whether a player has met the requirement
