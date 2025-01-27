@@ -29,7 +29,7 @@ Si vous utilisez Maven ou un autre outil de gestion de projet, ajoutez la derni�
 
 ### Apprendre l'interface
 
-Quests fournit une API simple pour créer des exigences, des récompenses et des objectifs personnalisés. Pour commencer, assurez-vous que vous compilez avec la version 4.0.0 ou supérieure. Une fois que vous avez fini de suivre ce guide, utilisez le dossier /Quests/modules comme destination pour votre fichier jar fini et compilé. Si vous distribuez votre module, assurez-vous d'informer l'utilisateur de l'emplacement final et correct du dossier.
+Quests fournit une API simple pour créer des exigences, des récompenses et des objectifs personnalisés. Pour commencer, assurez-vous que vous compilez avec la version 4.0.0 ou supérieure. Une fois que vous avez fini de suivre ce guide, utilisez le dossier _Quests/modules_ comme destination pour votre fichier jar fini et compilé. Si vous distribuez votre module, assurez-vous d'informer l'utilisateur de l'emplacement final et correct du dossier.
 
 Les exemples suivants supposent que vous créez un projet pour un logiciel basé sur Bukkit.
 
@@ -52,7 +52,7 @@ public class NameRequirement extends BukkitCustomRequirement {
         setItem("NAME_TAG", (short)0);
         addStringPrompt("Name", "Entrez la valeur que le nom du joueur doit contenir afin de prendre la quête", null);
         addStringPrompt("Case-Sensitive", "La vérification doit-elle être sensible à la casse ou non ? (Entrer \'true\' ou \'false\')", null);
-	setDisplay("Désolé, vous n'êtes pas sur la liste.");
+        setDisplay("Désolé, vous n'êtes pas sur la liste.");
     }
     
     // Tester si un joueur a satisfait à l'exigence
