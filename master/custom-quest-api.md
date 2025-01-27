@@ -29,7 +29,7 @@
 
 ### Научете интерфейса
 
-Quests предоставя прост API за създаване на персонализирани изисквания, награди и цели. Като начало се уверете, че компилирате спрямо версия 4.0.0 или по-нова. След като приключите с това ръководство, използвайте папката _/Quests/modules_ като дестинация за вашия завършен и компилиран jar. Ако разпространявате вашия модул, не забравяйте да информирате крайния потребител за правилното местоположение на папката.
+Quests предоставя прост API за създаване на персонализирани изисквания, награди и цели. Като начало се уверете, че компилирате спрямо версия 4.0.0 или по-нова. След като приключите с това ръководство, използвайте папката _Quests/modules_ като дестинация за вашия завършен и компилиран jar. Ако разпространявате вашия модул, не забравяйте да информирате крайния потребител за правилното местоположение на папката.
 
 #### Requirements API
 
@@ -50,7 +50,7 @@ public class NameRequirement extends BukkitCustomRequirement {
         setItem("NAME_TAG", (short)0);
         addStringPrompt("Name", "Enter value that player's name must contain in order to take the Quest", null);
         addStringPrompt("Case-Sensitive", "Should the check be case-sensitive or not? (Enter \'true\' or \'false\')", null);
-	setDisplay("Sorry, you are not on the list.");
+        setDisplay("Sorry, you are not on the list.");
     }
     
     // Test whether a player has met the requirement
