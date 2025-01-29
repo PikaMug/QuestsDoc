@@ -3,7 +3,7 @@
 When Quests is first run, configuration files will be created in the /plugins/Quests directory. If this is your first time using Quests, just make sure the settings in **config.yml** are to your liking. Don't worry about any of the other files or folders for the time being.
 
 {% hint style="info" %}
-**Pro-tip:** Opening a .yml file that contains non-English characters on an English computer may not display those characters correctly. In the case of Windows, this is because Windows in English uses the ANSI character set, while the preferred format is UTF-8. Unfortunately, Windows makes this difficult to change, so we recommend an editing program that supports UTF-8. [Notepad++](https://notepad-plus-plus.org/) is a free and popular choice.
+**Pro-tip:** Opening a .yml file that contains non-English characters on an English computer may not display those characters correctly. In the case of Windows, this is because Windows in English uses the ANSI character set, while the preferred format is UTF-8. Unfortunately, Windows makes this difficult to change, so we recommend an editing program which supports UTF-8. [Notepad++](https://notepad-plus-plus.org/) is a free and popular choice.
 {% endhint %}
 
 ### config.yml
