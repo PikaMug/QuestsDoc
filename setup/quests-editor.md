@@ -67,10 +67,6 @@ Excellent travail ! Maintenant, si vous allez sauver votre quête, vous aurez un
 
 Vive la magie des quêtes ! Il y a tellement d'objectifs différents que les possibilités sont presques sans fin ! Essayons de crée une quête basique, casser quelques blocs. Entrez '1' pour acceder au menu des blocs, puis encore '1' pour selectionner la destruction des blocs.
 
-{% hint style="info" %}
-**Conseil de pro:** Les objectifs customisés provienne d'add-on spéciaux qui sont en liens avec d'autres plugins que l'ont peut trouver [ici](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules). Pour en utiliser un, vous devrez l'installer dans le dossier /Quests/modules au démarrage.
-{% endhint %}
-
 ![](../.gitbook/assets/quest_break.png)
 
 Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La terre est un défi facile, par exemple le joueur dois en casser 5. Si vous utiliser une version _supérieur_ à la 1.13, vous pouvez aussi définir une durabilité pour utiliser des variants (par exemple, la valeur '3' correspond à du pozdol plutôt qu'a de la terre).
@@ -82,3 +78,7 @@ Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La ter
 Entrez tous les numéros dans les menus pour « Terminé » jusqu'à ce que vous reveniez à l'écran de message 'demander/terminer'. Vous avez presque finis! Entrez '13' puis '1' pour enregistrer votre quête.
 
 Bon travail ! Pour essayer votre nouvelle quête, **/questadmin reload** ou redémarrez le serveur (Ne _pas_ utiliser /reload) puis **/quests take \[votre nom de quête]**. Une fois que vous en aurez fait quelques autres, vous pouvez partager vos séries de quêtes les plus intéressantes ou en trouver d'autres sur [notre Discord](https://discord.com/invite/d56CQ6e). Bon jeu!
+
+{% hint style="info" %}
+**Conseil de pro:** Les objectifs customisés provienne d'add-on spéciaux qui sont en liens avec d'autres plugins que l'ont peut trouver [ici](https://pikamug.gitbook.io/quests/v/french-francais/intermediaire/modules). Pour en utiliser un, vous devrez l'installer dans le dossier /Quests/modules au démarrage.
+{% endhint %}
