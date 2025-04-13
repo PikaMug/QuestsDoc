@@ -30,3 +30,12 @@ For level of progress sharing, the different values perform as follows:
 2. Objectives: if one player completes an objective, all members advance to the next objective.
 3. Stages: if one player completes a stage, all members advance to the next stage.
 4. Quests: similar to older versions' functionality. All members finish when one completes a quest.
+
+### Server (Global)
+
+| # | Choice                            | Description                                                                                                   |
+| - | --------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1 | Give quest globally at login      | Whether to force players to participate upon login                                                            |
+| 2 | Allow stacking with global quests | Whether players may participate while engaged in other global quests                                          |
+| 3 | Inform players on quest start     | Whether players are to be notified of participation at login                                                  |
+| 4 | Override 'max-quests' setting     | Whether this quest may ignore the 'max-quests' [configuration](../setup/configuration.md) setting for players |
