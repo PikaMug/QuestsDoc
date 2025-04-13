@@ -30,3 +30,12 @@ Pour le niveau de partage des progrès, les différentes valeurs fonctionnent co
 2. Objectifs: Si un joueur complète un objectifs (casser 50 blocs de terres), tous les membres termineront l'objectif.
 3. Etapes: Si un joueur finis une étape, tous les membres passeront à la suivante.
 4. Quêtes: similaire à la fonctionnalité des anciennes versions. Tous les membres la finissent quand l'un termine complètement une quête.
+
+### Serveur (Global)
+
+| # | Choix                                             | Description                                                                                                   |
+| - | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1 | Donner une quête globalement lors de la connexion | Faut-il forcer les joueurs à participer lors de la connexion                                                  |
+| 2 | Autoriser le cumul avec les quêtes globales       | Si les joueurs peuvent participer tout en étant engagés dans d'autres quêtes mondiales                        |
+| 3 | Informer les joueurs du début de la quête         | Les joueurs doivent-ils être informés de leur participation lors de la connexion ?                            |
+| 4 | Remplacer le paramètre « max-quests »             | Si cette quête peut ignorer le paramètre de [configuration](broken-reference) « max-quêtes » pour les joueurs |
