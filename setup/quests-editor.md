@@ -69,7 +69,7 @@ Vive la magie des quêtes ! Il y a tellement d'objectifs différents que les pos
 
 ![](../.gitbook/assets/quest_break.png)
 
-Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La terre est un défi facile, par exemple le joueur dois en casser 5. Si vous utiliser une version _supérieur_ à la 1.13, vous pouvez aussi définir une durabilité pour utiliser des variants (par exemple, la valeur '3' correspond à du pozdol plutôt qu'a de la terre).
+Ici, vous pouvez entrer quel bloc que vous souhaitez que le joueur casse. La terre est un défi facile, par exemple le joueur dois en casser 5. Si vous utiliser une version _supérieur_ à la 1.13, vous pouvez aussi définir une durabilité pour utiliser des variants (par exemple, la valeur '3' correspond à du pozdol plutôt qu'a de la terre). Les versions plus récentes peuvent spécifier l'âge des cultures (comme le blé) via ce champ.
 
 {% hint style="info" %}
 **Conseil de pro:** Les joueurs peuvent casser des blocs sans affecter la quête en utilisant une pioche avec l'enchantement toucher de soie, cette option peut être désactivé dans [Options](../beginner/options.md).
