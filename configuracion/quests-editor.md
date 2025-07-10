@@ -69,7 +69,7 @@ Behold the magic of Quests! There are so many different objectives to choose fro
 
 ![](../.gitbook/assets/quest_break.png)
 
-Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants (for example, a value of '3' would equate to Podzol rather than Dirt).
+Here, you can enter whichever block you would like the player to break. Dirt makes for an easy challenge, so let's have the player break five of them. If you're using a Minecraft version _older_ than 1.13, you can also set durability to use block variants (for example, a value of '3' would equate to Podzol rather than Dirt). Newer versions can specify the age of crops (like Wheat) through this field.
 
 {% hint style="info" %}
 **Pro-tip:** Players may break blocks without affecting the quest by using a pickaxe with the Silk Touch enchantment. This feature can be disabled in [Options](../principiante/options.md).
