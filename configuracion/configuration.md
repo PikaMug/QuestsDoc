@@ -44,41 +44,41 @@ Este archivo contiene todas las configuraciones relacionadas con el rendimiento 
 | storage-data.password                         | texto           | La contraseña de inicio de sesión para almacenamiento opcional.                                                                                                           |
 | storage-data.pool-settings.max-pool-size      | número          | Configuración avanzada de HikariCP.                                                                                                                                       |
 | storage-data.pool-settings.min-idle           | número          | Configuración avanzada de HikariCP.                                                                                                                                       |
-| storage-data.pool-settings.max-lifetime       | número          | Advanced HikariCP setting.                                                                                                                                                |
-| storage-data.pool-settings.connection-timeout | número          | Advanced HikariCP setting.                                                                                                                                                |
-| storage-method.player-data                    | texto           | yaml = file storage, mysql = remote storage, custom = developer storage                                                                                                   |
-| top-limit                                     | número          | Maximum number of quests that can be displayed by /quests top \[number]                                                                                                   |
-| translate-names                               | verdadero/falso | Translate item/mob name to client's game language.                                                                                                                        |
-| translate-subcommands                         | verdadero/falso | Translate subcommands to server's plugin language.                                                                                                                        |
-| trial-save                                    | verdadero/falso | Allow saving while in Trial Mode.                                                                                                                                         |
-| update-check                                  | verdadero/falso | Whether to permit checking for plugin updates.                                                                                                                            |
+| storage-data.pool-settings.max-lifetime       | número          | Configuración avanzada de HikariCP.                                                                                                                                       |
+| storage-data.pool-settings.connection-timeout | número          | Configuración avanzada de HikariCP.                                                                                                                                       |
+| storage-method.player-data                    | texto           | yaml = almacenamiento de archivos, mysql = almacenamiento remoto, personalizado = almacenamiento para desarrolladores                                                     |
+| top-limit                                     | número          | Número máximo de misiones que puede mostrar /quests top \[número]                                                                                                         |
+| translate-names                               | verdadero/falso | Traduce el nombre del elemento/mob al idioma del juego del cliente.                                                                                                       |
+| translate-subcommands                         | verdadero/falso | Traducir subcomandos al idioma del complemento del servidor.                                                                                                              |
+| trial-save                                    | verdadero/falso | Permitir guardar mientras está en Modo de Prueba.                                                                                                                         |
+| update-check                                  | verdadero/falso | Ya sea para permitir la búsqueda de actualizaciones de complementos.                                                                                                      |
 
 ### actions.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+No se recomienda editar este archivo manualmente. No se brindará asistencia a aquellos que opten por no utilizar el editor del juego.
 {% endhint %}
 
-This file holds actions which execute certain tasks and effects. Except for the included examples, actions are created prior to use in a quest. This is best accomplished with the _/quests actions_ command.
+Este archivo contiene acciones que ejecutan ciertas tareas y efectos. Excepto por los ejemplos incluidos, las acciones se crean antes de usarlas en una misión. Esto se logra mejor con el comando _/quests actions_.
 
-> [Click here to view the default actions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
+> [Haga clic aquí para ver el archivo action.yml predeterminado.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/actions.yml)
 
 ### conditions.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+No se recomienda editar este archivo manualmente. No se brindará asistencia a aquellos que opten por no utilizar el editor del juego.
 {% endhint %}
 
-This file holds conditions which are checked during gameplay. Except for the included examples, conditions are created prior to use in a quest. This is best accomplished with the _/quests conditions_ command.
+Este archivo contiene condiciones que se verifican durante el juego. Excepto por los ejemplos incluidos, las condiciones se crean antes de su uso en una misión. Esto se logra mejor con el comando _/quests conditions_.
 
-> [Click here to view the default conditions.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
+> [Haga clic aquí para ver el archivo conditions.yml predeterminado.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/conditions.yml)
 
 ### quests.yml
 
 {% hint style="info" %}
-Manually editing this file is not advised. No support will be given to those whom choose not to use the in-game editor.
+No se recomienda editar este archivo manualmente. No se brindará asistencia a aquellos que opten por no utilizar el editor del juego.
 {% endhint %}
 
-This file contains all saved quests. A few example quests are included which you may delete at any time. This is best accomplished with the _/quests editor_ command.
+Este archivo contiene todas las misiones guardadas. Se incluyen algunas misiones de ejemplo que puedes eliminar en cualquier momento. Esto se logra mejor con el comando _/quests editor_.
 
-> [Click here to view the default quests.yml file.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
+> [Haga clic aquí para ver el archivo quests.yml predeterminado.](https://github.com/PikaMug/Quests/blob/main/core/src/main/resources/quests.yml)
