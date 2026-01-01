@@ -2,12 +2,12 @@
 icon: house
 ---
 
-# Home
+# 主页
 
-(Ad) _**Get 20% off QuestsGUI on**_ [_**Lectern**_](https://lectern.browsit.org/resources/)_**!**_
+(广告) _**在**_ [_**Lectern**_](https://lectern.browsit.org/resources/)_**购买 QuestsGUI 可享 20% 折扣！**_
 
-**Quests** is the easy-to-use, open-source server plugin for immersing visitors in challenges made by you! Players can take on multiple quests simultaneously, completing them for stellar rewards and unlockables. From placing blocks on mountain tops to slaying a hundred Skeletons on Halloween, the combinations are only limited by your imagination!
+**Quests** 是一款易于使用、开源的服务器插件，用于让玩家沉浸在您创建的挑战中！玩家可以同时接受多个任务，完成它们以获得丰厚的奖励和解锁内容。从在山顶放置方块，到在万圣节击杀一百个骷髅，组合可能性仅受您的想象力限制！
 
 {% embed url="https://www.youtube.com/watch?v=k5HR_vYX2Rw" %}
 
-This documentation strives to be relevant for Quests 5.0.0 and newer, but feel free to [contribute](https://pikamug.gitbook.io/quests/expert/doc-contributions). For help upgrading from older versions of Quests, see the [legacy documentation](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation).
+本文档力求适用于 Quests 5.0.0 及更高版本，但欢迎您[贡献内容](https://pikamug.gitbook.io/quests/expert/doc-contributions)。如果需要从旧版本 Quests 升级的帮助，请参阅[旧版文档](https://github.com/PikaMug/Quests/wiki/Ye-Ol'-Legacy-Documentation)。

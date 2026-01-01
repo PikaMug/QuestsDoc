@@ -1,35 +1,35 @@
-# Table of contents
+# 目录
 
-* [Home](README.md)
+* [首页](README.md)
 
-## Setup
+## 设置
 
-* [Commands & Permissions](setup/commands-and-permissions.md)
-* [Configuration](setup/configuration.md)
-* [Quest Editor](setup/quests-editor.md)
+* [命令与权限](setup/commands-and-permissions.md)
+* [配置](setup/configuration.md)
+* [任务编辑器](setup/quests-editor.md)
 
-## Beginner
+## 入门
 
-* [Dependencies](beginner/dependencies.md)
-* [Options](beginner/options.md)
-* [Planner](beginner/planner.md)
-* [Requirements](beginner/requirements.md)
-* [Rewards](beginner/rewards.md)
+* [依赖](beginner/dependencies.md)
+* [选项](beginner/options.md)
+* [规划器](beginner/planner.md)
+* [要求](beginner/requirements.md)
+* [奖励](beginner/rewards.md)
 
-## Casual
+## 进阶
 
-* [Action Editor](casual/action-editor.md)
-* [Bridge Plugins](casual/bridge-plugins.md)
-* [Modules](casual/modules.md)
-* [Translations](casual/translations.md)
+* [动作编辑器](casual/action-editor.md)
+* [桥接插件](casual/bridge-plugins.md)
+* [模块](casual/modules.md)
+* [翻译](casual/translations.md)
 
-## Expert
+## 专家
 
-* [Condition Editor](expert/condition-editor.md)
-* [Storage](expert/storage.md)
-* [Doc Contributions](expert/doc-contributions.md)
+* [条件编辑器](expert/condition-editor.md)
+* [存储](expert/storage.md)
+* [文档贡献](expert/doc-contributions.md)
 
-## Master
+## 大师
 
-* [Custom Quest API](master/custom-quest-api.md)
-* [Plugin Compilation](master/plugin-compilation.md)
+* [自定义任务API](master/custom-quest-api.md)
+* [插件编译](master/plugin-compilation.md)

@@ -1,64 +1,64 @@
-# Planner
+# 计划器
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Planner' selection. This sub-menu contains controls for when your quest should be available, based on real time:
+在您熟悉了[任务编辑器](../setup/quests-editor.md)之后，您可能会好奇“编辑计划器”这个选项。这个子菜单包含控制任务何时可用（基于现实时间）的设置：
 
 ![](../.gitbook/assets/planner.png)
 
 <details>
 
-<summary>Expand to see the breakdown.</summary>
+<summary>展开查看详细说明。</summary>
 
-1. Time the quest should become available
-2. Time the quest should cease to be available
-3. Length until quest is available again
-4. Length to wait after completing quest
-5. If true, players can take quest immediately after repeat cycle ends
-6. Finish working on your quest planner
+1. 任务开始可用的时间
+2. 任务停止可用的时间
+3. 任务再次可用前的间隔时长
+4. 完成任务后需要等待的时长
+5. 如果为 true，玩家可以在重复周期结束后立即接取任务
+6. 完成任务计划器的编辑
 
 </details>
 
-To better understand these selections, examples are provided below.
+为了更好地理解这些选项，下面提供了示例。
 
-**Daily Quest**
+**每日任务**
 
-In the real world, most businesses are only open during peak shopping hours. Similarly, you may wish to only have your quest available at certain times each day. The following is how such a quest might appear in quests.yml:
+在现实世界中，大多数商家只在高峰购物时段营业。同样，您可能希望任务每天只在特定时间段内可用。以下是此类任务在 quests.yml 中的示例配置：
 
 ```
 custom1:
     name: OnceDaily
     ...
     planner:
-      start: 11:0:2020:9:0:0:SystemV/EST5  # Month is zero-based; 0 = January
-      end: 11:0:2020:17:0:0:SystemV/EST5  # Month is zero-based; 0 = January
+      start: 11:0:2020:9:0:0:SystemV/EST5  # 月份从零开始计数；0 = 一月
+      end: 11:0:2020:17:0:0:SystemV/EST5  # 月份从零开始计数；0 = 一月
       repeat: 86400
       cooldown: 32400
       override: true
 ```
 
-The **start date** is set to January 11, 2020 at 9:00 AM EST. The **end date** is set to January 11, 2020 at 5:00 PM EST. This means that the quest will only be available for eight hours.
+**开始日期**设置为 2020 年 1 月 11 日 东部标准时间上午 9:00。**结束日期**设置为 2020 年 1 月 11 日 东部标准时间下午 5:00。这意味着任务每天只在 8 小时内可用。
 
-Since we want players to be able to take the quest every day, the **repeat cycle** is set to 86400 seconds (24 hours). This wait time is based on the start date, so the quest will next become available on January 12, 2020, then again on the 13th, and so on. Just like the original duration, it will still only be available between 9:00 AM and 5:00 PM daily.
+由于我们希望玩家每天都能接取任务，因此将**重复周期**设置为 86400 秒（24 小时）。此等待时间基于开始日期，因此任务将在 2020 年 1 月 12 日再次可用，然后是 13 日，依此类推。与最初的时段相同，每天仅在上午 9:00 至下午 5:00 之间可用。
 
-Lastly, we set a **player cooldown** of 32400 seconds (9 hours) because we do not want the player to take our quest a second time if they complete it before 5:00 PM. This ensures even the fastest players won't be able to take the quest again until the next day. If you want players to be able to take the quest at 9:00 AM the next day regardless of whether their cooldown has expired, you may set the **ignore cooldown after repeat** override to _true_.
+最后，我们设置**玩家冷却**为 32400 秒（9 小时），因为如果玩家在下午 5:00 前完成任务，我们不希望他们再次接取。这确保即使是最快的玩家也无法在第二天之前再次接取。如果您希望玩家无论冷却是否结束，都能在第二天上午 9:00 接取任务，可以将**重复后忽略冷却**的 override 设置为 _true_。
 
-**New Years' Celebration**
+**新年庆典**
 
-Let's create a quest for a New Years' party. Please observe the following example as it would appear in quests.yml:
+让我们创建一个新年派对任务。请查看以下在 quests.yml 中的示例：
 
 ```
 custom1:
     name: PrepareForNewYears
     ...
     planner:
-      start: 31:11:2020:23:0:0:SystemV/EST5  # Month is zero-based; 0 = January
-      end: 1:0:2021:0:0:0:SystemV/EST5  # Month is zero-based; 0 = January
+      start: 31:11:2020:23:0:0:SystemV/EST5  # 月份从零开始计数；0 = 一月
+      end: 1:0:2021:0:0:0:SystemV/EST5  # 月份从零开始计数；0 = 一月
       repeat: 31536000
       cooldown: 3600
       override: false
 ```
 
-The **start date** is set to December 31, 2020 at 11:00 PM EST. The **end date** is set to January 1, 2021 at midnight. This means that the quest will only be available for one hour.
+**开始日期**设置为 2020 年 12 月 31 日 东部标准时间晚上 11:00。**结束日期**设置为 2021 年 1 月 1 日 午夜。这意味着任务仅在 1 小时内可用。
 
-Since we want to celebrate _every year_, the **repeat cycle** is set to 31536000 seconds (one calendar year). This wait time is based on the start date, so the quest will next become available on December 31, 2021, then again on the 31st of 2022, and so on. It will only be available for one hour, just like the original duration.
+由于我们希望_每年_都庆祝，因此将**重复周期**设置为 31536000 秒（一个日历年）。此等待时间基于开始日期，因此任务将在 2021 年 12 月 31 日再次可用，然后是 2022 年 12 月 31 日，依此类推。仅在 1 小时内可用，与最初时段相同。
 
-Lastly, we set a **player cooldown** of 3600 seconds (one hour) because we do not want the player to take our quest a second time if they complete it within one hour. This ensures even the quickest players won't be able to take the quest again until next year.
+最后，我们设置**玩家冷却**为 3600 秒（1 小时），因为如果玩家在 1 小时内完成任务，我们不希望他们再次接取。这确保即使是最快的玩家也无法在明年之前再次接取任务。

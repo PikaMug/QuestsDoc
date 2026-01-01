@@ -1,29 +1,29 @@
-# Plugin Compilation
+# 插件编译
 
 {% hint style="info" %}
-**Alert:** This information is intended for developers. Learn how to use Java first!
+**注意：** 此信息面向开发者。请先学习 Java 基础知识！
 {% endhint %}
 
-### Set up an IDE
+### 设置 IDE
 
-If you would like to [contribute a Pull Request](https://github.com/PikaMug/Quests/pulls) without the use of Github's online tools, or would just like to change some aspects of the plugin for yourself, the best way to do so is to compile the plugin locally on your own machine.
+如果您希望[提交 Pull Request](https://github.com/PikaMug/Quests/pulls) 而不想使用 GitHub 的在线工具，或者只是想为自己修改插件的某些部分，最好的方式是在本地机器上编译插件。
 
-Although this can be accomplished in several programs, we recommend [IntelliJ IDEA](https://www.jetbrains.com/idea/). A basic understanding of Apache Maven is suggested.
+虽然可以使用多种程序完成此操作，但我们推荐使用 [IntelliJ IDEA](https://www.jetbrains.com/idea/)。建议对 Apache Maven 有基本了解。
 
-### Download the source code
+### 下载源码
 
-With your machine raring to go, let's download the Quests source. If you intend on submitting a Pull Request, we recommend [creating a fork](https://guides.github.com/activities/forking/) so that you can request that your changes be merged into this repository. Otherwise, if you only want to compile locally with your own edits, copy this link:
+准备好您的机器后，我们来下载 Quests 源码。如果您打算提交 Pull Request，推荐先[创建 fork](https://guides.github.com/activities/forking/)，这样您就可以请求将更改合并到主仓库中。如果只是想在本地编译并进行个人修改，请复制以下链接：
 
 `https://github.com/PikaMug/Quests.git`
 
-Open IntelliJ. If you are currently in a project, go to `File -> Close Project`. At the Welcome to IntelliJ IDEA screen, click the Get from VCS button. Paste the URL from above and click Clone. Give the project some time to load, then explore the Project persepctive in the left taskbar.
+打开 IntelliJ IDEA。如果当前正在某个项目中，请转到 `File -> Close Project`。在欢迎界面点击 **Get from VCS** 按钮。粘贴上面的 URL，然后点击 **Clone**。给项目一些时间加载完成，随后在左侧任务栏中探索项目视图。
 
-### Sharing edits
+### 分享修改
 
-Once you've made the changes you desire, you're ready to either package it or upload it to your forked repository.
+完成所需的更改后，您可以选择将其打包为 jar 文件，或上传到您 fork 的仓库中。
 
-**To compile Quests into a jar** for use in a Spigot/Paper server, open the Maven perspective in the right taskbar and expand `quests (root)`. Select the `package` option. Any remaining dependencies will be downloaded and (on Windows) you will end up with a finished JAR file in `C:\Users\YourAccount\IdeaProjects\Quests\dist\target`.
+**编译 Quests 为 jar 文件**，以便在 Spigot/Paper 服务器中使用：在右侧任务栏打开 Maven 视图，展开 `quests (root)`。选择 `package` 选项。剩余的依赖项将会自动下载，（在 Windows 系统上）最终完成的 JAR 文件将位于 `C:\Users\YourAccount\IdeaProjects\Quests\dist\target`。
 
-**To upload the changes** for future use in a Pull Request, open the Commit perspective in the left taskbar. Make sure all files you wish to trasmit are checked, then give your commit a short description. Once you're completely sure you're ready to share your changes with the world, select the `Commit and Push...` button and follow the prompts.
+**上传更改**，以便后续用于 Pull Request：在左侧任务栏打开 Commit 视图。确保所有您想要提交的文件都被勾选，然后为本次提交填写一个简短的描述。当您完全确定要与大家分享更改时，选择 `Commit and Push...` 按钮并按照提示操作。
 
-Visit your forked repository on Github and select the `New pull request` button to ask that the new commit(s) be merged into the master Quests repository. Follow the directions on-screen. Thank you for contributing to Quests!
+访问您在 GitHub 上的 fork 仓库，点击 `New pull request` 按钮，请求将新提交合并到主 Quests 仓库。按照页面提示操作。感谢您为 Quests 做出贡献！

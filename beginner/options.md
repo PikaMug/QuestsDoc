@@ -1,41 +1,41 @@
-# Options
+# 选项
 
-Once you've familiarized yourself with the [Quest Editor](../setup/quests-editor.md), you may be wondering about the 'Edit Options' selection. These are controls which apply _per-quest_, and are different than the settings in [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml) which apply to _all_ quests.
+在您熟悉了[任务编辑器](../setup/quests-editor.md)之后，您可能会好奇“编辑选项”这个选择。这些是**每个任务单独应用**的控制选项，与 [config.yml](https://pikamug.gitbook.io/quests/setup/configuration#config.yml) 中适用于**所有任务**的设置不同。
 
 ![](../.gitbook/assets/options.png)
 
-### General
+### 常规
 
-| # | Choice                               | Description                                              |
+| # | 选项                                 | 描述                                                     |
 | - | ------------------------------------ | -------------------------------------------------------- |
-| 1 | Allow commands during quest          | Whether players may use commands after taking quest      |
-| 2 | Allow quitting during quest          | Whether players may quit quest after accepting it        |
-| 3 | Ignore blocks broken with Silk Touch | Whether break-block objectives count Silk Touch          |
-| 4 | Ignore blocks replaced once broken   | Whether placing blocks decrements break-block objectives |
+| 1 | 允许在任务进行中使用命令             | 玩家接取任务后是否允许使用命令                           |
+| 2 | 允许在任务进行中放弃任务             | 玩家接受任务后是否允许放弃任务                           |
+| 3 | 忽略精准采集破坏的方块               | 破坏方块目标是否计入精准采集破坏的方块                   |
+| 4 | 忽略破坏后立即替换的方块             | 放置方块是否会减少破坏方块目标的进度                     |
 
-### Multiplayer
+### 多玩家
 
-| # | Choice                         | Description                                                                                                 |
-| - | ------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| 1 | Set provider via Unite         | Set integration with party plugin via [Unite](dependencies.md#unite)                                        |
-| 2 | Use Parties plugin             | Toggle built-in integration with [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) |
-| 3 | Level of progress sharing      | How quest progress is distributed, see below                                                                |
-| 4 | Share with the same quest only | Whether players must have same quest to share progress                                                      |
-| 5 | Maximum radial distance        | Distance between players for shared progress to count                                                       |
-| 6 | Include offline players        | Whether to count shared progress for offline friends                                                        |
+| # | 选项                         | 描述                                                                                                 |
+| - | ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1 | 通过 Unite 设置提供者        | 通过 [Unite](dependencies.md#unite) 设置与队伍插件的集成                                              |
+| 2 | 使用 Parties 插件            | 切换与 [Parties](https://pikamug.gitbook.io/quests/beginner/dependencies#parties) 的内置集成         |
+| 3 | 进度共享级别                 | 任务进度如何在队伍成员间分配，详见下文                                                                |
+| 4 | 仅与相同任务的玩家共享       | 玩家是否必须拥有相同任务才能共享进度                                                                 |
+| 5 | 最大径向距离                 | 玩家之间距离在此范围内时共享进度才生效                                                               |
+| 6 | 包括离线玩家                 | 是否为离线的队伍成员计入共享进度                                                                     |
 
-For level of progress sharing, the different values perform as follows:
+关于进度共享级别，不同值的表现如下：
 
-1. Everything (default): constantly share progress. If one player breaks a block, all players break a block.
-2. Objectives: if one player completes an objective, all members advance to the next objective.
-3. Stages: if one player completes a stage, all members advance to the next stage.
-4. Quests: similar to older versions' functionality. All members finish when one completes a quest.
+1. 一切（默认）：持续共享进度。如果一名玩家破坏了一个方块，所有玩家都算破坏了一个方块。
+2. 目标：如果一名玩家完成了一个目标，所有成员都推进到下一个目标。
+3. 阶段：如果一名玩家完成了一个阶段，所有成员都推进到下一个阶段。
+4. 任务：类似于旧版本的功能。当一名玩家完成任务时，所有成员都完成任务。
 
-### Server (Global)
+### 服务器（全局）
 
-| # | Choice                            | Description                                                                                                   |
-| - | --------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1 | Give quest globally at login      | Whether to force players to participate upon login                                                            |
-| 2 | Allow stacking with global quests | Whether players may participate while engaged in other global quests                                          |
-| 3 | Inform players on quest start     | Whether players are to be notified of participation at login                                                  |
-| 4 | Override 'max-quests' setting     | Whether this quest may ignore the 'max-quests' [configuration](../setup/configuration.md) setting for players |
+| # | 选项                             | 描述                                                                                                   |
+| - | -------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 1 | 登录时全局强制给予任务           | 是否在玩家登录时强制让他们参与该任务                                                                   |
+| 2 | 允许与其他全局任务叠加           | 玩家是否可以在参与其他全局任务的同时参与此任务                                                         |
+| 3 | 在任务开始时通知玩家             | 是否在玩家登录时通知他们已参与任务                                                                     |
+| 4 | 覆盖“最大任务数”设置             | 该任务是否可以忽略玩家的“最大任务数”[配置](../setup/configuration.md)设置                              |

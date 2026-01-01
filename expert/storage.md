@@ -1,31 +1,33 @@
-# Storage
+# 插件编译
 
-You may elect to change your storage option through the `storage-method` setting of [the Quests configuration file](https://pikamug.gitbook.io/quests/setup/configuration#config.yml). The available choices are described below. If you should wish to change your storage method later without losing data, first use [QuestsConverter](https://github.com/PikaMug/QuestsConverter).
+{% hint style="info" %}
+**提示：** 本信息面向开发者。请先学习如何使用 Java！
+{% endhint %}
 
-### YAML
+### 设置 IDE
 
-This is the default selection which will save player data to separated .yml files under the _/Quests/data_ folder. It is recommended for beginner and casual users as it works right "out of the box" with no additional setup required.
+如果您想在不使用 GitHub 在线工具的情况下[提交 Pull Request](https://github.com/PikaMug/Quests/pulls)，或者只是想为自己修改插件的某些部分，最好的方法是在本地机器上编译插件。
 
-### MySQL
+虽然可以使用多种程序完成此操作，但我们推荐使用 [IntelliJ IDEA](https://www.jetbrains.com/idea/)。建议对 Apache Maven 有基本的了解。
 
-This will save player data to a local or remote MySQL database that you have configured ahead of time. Table and login settings may be specified via the `storage-data` settings. An example of such configuration might look like:
+### 下载源代码
 
-```
-storage-data:
-  address: localhost
-  database: minecraft
-  username: root
-  password: myComplexPassword
-  table_prefix: quests_
-  pool-settings:
-    max-pool-size: 10
-    min-idle: 10
-    max-lifetime: 1800000
-    connection-timeout: 5000
-```
+在您的机器准备就绪后，我们来下载 Quests 的源代码。如果您打算提交 Pull Request，建议先[创建一份 fork](https://guides.github.com/activities/forking/)，这样您可以将自己的修改请求合并到主仓库中。如果您只是想在本地编译并应用自己的修改，可以直接复制以下链接：
 
-Note that HikariCP has been shaded internally to maximize connection speed on largely-populated servers.
+`https://github.com/PikaMug/Quests.git`
 
-### Custom
+打开 IntelliJ IDEA。如果您当前正在打开一个项目，请前往 `File -> Close Project`。在 IntelliJ IDEA 欢迎界面，点击 **Get from VCS** 按钮。将上面的 URL 粘贴进去，然后点击 **Clone**。等待项目加载完成，然后在左侧任务栏中查看 Project 视图。
 
-A developer may opt to employ a custom storage option. See [here](https://github.com/PikaMug/Quests/tree/main/api/src/main/java/me/pikamug/quests/storage/implementation/custom).
+### 分享修改
+
+在您完成想要的修改后，就可以选择打包插件，或者将修改上传到您的 fork 仓库。
+
+**将 Quests 编译成 jar 文件**（用于 Spigot/Paper 服务器）：  
+在右侧任务栏打开 Maven 视图，展开 `quests (root)`，然后选择 `package` 选项。剩余的依赖项会自动下载完成，编译成功后（在 Windows 系统下），您会在以下路径找到生成的 JAR 文件：
+
+`C:\Users\您的用户名\IdeaProjects\Quests\dist\target`
+
+**上传修改**（用于后续提交 Pull Request）：  
+在左侧任务栏打开 Commit 视图。确保您想要提交的所有文件都已被勾选，然后为本次提交写一个简短的描述。确认一切无误后，点击 **Commit and Push...** 按钮，并按照提示完成操作。
+
+访问您在 GitHub 上的 fork 仓库，点击 **New pull request** 按钮，请求将您的提交合并到 Quests 主仓库中。按照屏幕上的指引操作即可。感谢您为 Quests 做出贡献！
