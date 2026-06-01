@@ -4,13 +4,13 @@ Similar to how all quest stages have objectives, they can also perform actions. 
 
 To make an action, run **/quests actions** in-game (or from the console, with limited features). You will be greeted with the following:
 
-![](../.gitbook/assets/action\_editor.png)
+![](../.gitbook/assets/action_editor.png)
 
 Enter '1' in chat so the plugin may prompt you to enter a name for your action. This can be any alphanumeric sequence, which means letters and numbers are OK, but no special characters or symbols! Don't worry, you can change it later if you're unsure.
 
 After you've chosen a valid name, this screen will appear:
 
-![](../.gitbook/assets/action\_main.png)
+![](../.gitbook/assets/action_main.png)
 
 <details>
 
@@ -21,9 +21,9 @@ After you've chosen a valid name, this screen will appear:
 3. Set time to fail quest and whether to cancel the quest timer
 4. Set effects or set explosion locations
 5. Set storm or thunder in a particular world, or set lightning strike locations
-6. Action to spawn mobs
+6. Set entities to spawn
 7. Run a [Denizen](https://pikamug.gitbook.io/quests/beginner/dependencies#denizen) script
-8. Action to fail the quest
+8. Immediately fail the quest, ignoring any Fail Actions
 9. Finish working on your action
 10. Discard all work on your action
 
@@ -31,7 +31,7 @@ After you've chosen a valid name, this screen will appear:
 
 For now, enter '5' for the Weather menu, then '2' to set up an action which will force thunder across a world for a while.
 
-![](../.gitbook/assets/action\_thunder.png)
+![](../.gitbook/assets/action_thunder.png)
 
 Input '1' to select one of your Minecraft server's worlds by name. They will be listed for your convenience, but you can only select one! You may create a second action later if you wish to deal out thunder across multiple worlds.
 
@@ -39,7 +39,7 @@ Once that's done, enter '2' to set a duration of time in seconds. This is how lo
 
 Nice job! Unlike the [Quest Editor](../setup/quests-editor.md), there is no need to reload the plugin. Exit the Action Editor and then create or edit a quest in the Quests Editor. Go to the 'Edit Stages' menu and, after setting at least one objective, select option 9 to run the action before, during, or after the stage:
 
-![](../.gitbook/assets/action\_quest.png)
+![](../.gitbook/assets/action_quest.png)
 
 <details>
 
