@@ -33,9 +33,9 @@ Pour le niveau de partage des progrès, les différentes valeurs fonctionnent co
 
 ### Serveur (Global)
 
-| # | Choix                                             | Description                                                                                                   |
-| - | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1 | Donner une quête globalement lors de la connexion | Faut-il forcer les joueurs à participer lors de la connexion                                                  |
-| 2 | Autoriser le cumul avec les quêtes globales       | Si les joueurs peuvent participer tout en étant engagés dans d'autres quêtes mondiales                        |
-| 3 | Informer les joueurs du début de la quête         | Les joueurs doivent-ils être informés de leur participation lors de la connexion ?                            |
-| 4 | Remplacer le paramètre « max-quests »             | Si cette quête peut ignorer le paramètre de [configuration](broken-reference) « max-quêtes » pour les joueurs |
+| # | Choix                                             | Description                                                                                                                                                          |
+| - | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | Donner une quête globalement lors de la connexion | Faut-il forcer les joueurs à participer lors de la connexion                                                                                                         |
+| 2 | Autoriser le cumul avec les quêtes globales       | Si les joueurs peuvent participer tout en étant engagés dans d'autres quêtes mondiales                                                                               |
+| 3 | Informer les joueurs du début de la quête         | Les joueurs doivent-ils être informés de leur participation lors de la connexion ?                                                                                   |
+| 4 | Remplacer le paramètre « max-quests »             | Si cette quête peut ignorer le paramètre de [configuration](https://app.gitbook.com/s/-M_hTdFI_hfF1DiPLgCr-2616415808/configuration) « max-quêtes » pour les joueurs |
