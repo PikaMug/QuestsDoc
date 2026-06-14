@@ -1,8 +1,8 @@
-# Rewards
+# Recompensas
 
 Once you've familiarized yourself with the [Quest Editor](../configuracion/quests-editor.md), you may be wondering about the 'Edit Rewards' selection. This sub-menu contains prizes your player would receive upon completing the quest:
 
-![](../.gitbook/assets/rewards.png)
+<img src="../.gitbook/assets/rewards.png" alt="" width="563">
 
 <details>
 
